@@ -2,7 +2,7 @@
 import axios from 'axios';
 
 import * as actionTypes from '../constants/productsConstants';
-const URL = 'http://localhost:8000';
+const URL = 'https://shopnest-2gb2.onrender.com';
 
 
 

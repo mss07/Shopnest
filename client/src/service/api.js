@@ -1,7 +1,6 @@
 import axios from 'axios';
 
-const URL = 'http://localhost:8000';
-
+const URL = 'https://shopnest-2gb2.onrender.com';
 export const authenticatesignup = async (data) => {
     try {
         const response = await axios.post(`${URL}/signup`, data);
