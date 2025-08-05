@@ -26,7 +26,7 @@ const PASSWORD= process.env.DB_PASSWORD;
 
 
 Connection(USERNAME,PASSWORD);
-app.listen(PORT, ()=> console.log('server is running ${PORT}'));
+app.listen(PORT, ()=> console.log(`server is running ${PORT}`));
 
 defaultData();
 
