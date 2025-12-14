@@ -1,0 +1,1144 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="com.ecommerce.api.runners.CucumberTestRunner" time="8.601" tests="7" errors="0" skipped="0" failures="4">
+  <properties>
+    <property name="base.url" value="http://localhost:8000"/>
+    <property name="cucumber.publish.quiet" value="true"/>
+    <property name="java.specification.version" value="24"/>
+    <property name="sun.cpu.isalist" value="amd64"/>
+    <property name="sun.jnu.encoding" value="Cp1252"/>
+    <property name="java.class.path" value="C:\Users\SIC\Desktop\Automation Of Shopnest\Shopnest\target\test-classes;C:\Users\SIC\Desktop\Automation Of Shopnest\Shopnest\target\classes;C:\Users\SIC\.m2\repository\io\cucumber\cucumber-java\7.14.0\cucumber-java-7.14.0.jar;C:\Users\SIC\.m2\repository\io\cucumber\cucumber-core\7.14.0\cucumber-core-7.14.0.jar;C:\Users\SIC\.m2\repository\io\cucumber\cucumber-gherkin\7.14.0\cucumber-gherkin-7.14.0.jar;C:\Users\SIC\.m2\repository\io\cucumber\cucumber-gherkin-messages\7.14.0\cucumber-gherkin-messages-7.14.0.jar;C:\Users\SIC\.m2\repository\io\cucumber\gherkin\26.2.0\gherkin-26.2.0.jar;C:\Users\SIC\.m2\repository\io\cucumber\messages\22.0.0\messages-22.0.0.jar;C:\Users\SIC\.m2\repository\io\cucumber\tag-expressions\5.0.6\tag-expressions-5.0.6.jar;C:\Users\SIC\.m2\repository\io\cucumber\cucumber-expressions\16.1.2\cucumber-expressions-16.1.2.jar;C:\Users\SIC\.m2\repository\io\cucumber\datatable\7.14.0\datatable-7.14.0.jar;C:\Users\SIC\.m2\repository\io\cucumber\cucumber-plugin\7.14.0\cucumber-plugin-7.14.0.jar;C:\Users\SIC\.m2\repository\io\cucumber\docstring\7.14.0\docstring-7.14.0.jar;C:\Users\SIC\.m2\repository\io\cucumber\html-formatter\20.4.0\html-formatter-20.4.0.jar;C:\Users\SIC\.m2\repository\io\cucumber\junit-xml-formatter\0.2.0\junit-xml-formatter-0.2.0.jar;C:\Users\SIC\.m2\repository\io\cucumber\ci-environment\9.2.0\ci-environment-9.2.0.jar;C:\Users\SIC\.m2\repository\org\apiguardian\apiguardian-api\1.1.2\apiguardian-api-1.1.2.jar;C:\Users\SIC\.m2\repository\io\cucumber\cucumber-testng\7.14.0\cucumber-testng-7.14.0.jar;C:\Users\SIC\.m2\repository\io\cucumber\cucumber-picocontainer\7.14.0\cucumber-picocontainer-7.14.0.jar;C:\Users\SIC\.m2\repository\org\picocontainer\picocontainer\2.15\picocontainer-2.15.jar;C:\Users\SIC\.m2\repository\io\rest-assured\rest-assured\5.3.2\rest-assured-5.3.2.jar;C:\Users\SIC\.m2\repository\org\apache\groovy\groovy\4.0.11\groovy-4.0.11.jar;C:\Users\SIC\.m2\repository\org\apache\groovy\groovy-xml\4.0.11\groovy-xml-4.0.11.jar;C:\Users\SIC\.m2\repository\org\apache\httpcomponents\httpclient\4.5.13\httpclient-4.5.13.jar;C:\Users\SIC\.m2\repository\org\apache\httpcomponents\httpcore\4.4.13\httpcore-4.4.13.jar;C:\Users\SIC\.m2\repository\commons-logging\commons-logging\1.2\commons-logging-1.2.jar;C:\Users\SIC\.m2\repository\commons-codec\commons-codec\1.11\commons-codec-1.11.jar;C:\Users\SIC\.m2\repository\org\apache\httpcomponents\httpmime\4.5.13\httpmime-4.5.13.jar;C:\Users\SIC\.m2\repository\org\hamcrest\hamcrest\2.2\hamcrest-2.2.jar;C:\Users\SIC\.m2\repository\org\ccil\cowan\tagsoup\tagsoup\1.2.1\tagsoup-1.2.1.jar;C:\Users\SIC\.m2\repository\io\rest-assured\json-path\5.3.2\json-path-5.3.2.jar;C:\Users\SIC\.m2\repository\org\apache\groovy\groovy-json\4.0.11\groovy-json-4.0.11.jar;C:\Users\SIC\.m2\repository\io\rest-assured\rest-assured-common\5.3.2\rest-assured-common-5.3.2.jar;C:\Users\SIC\.m2\repository\io\rest-assured\xml-path\5.3.2\xml-path-5.3.2.jar;C:\Users\SIC\.m2\repository\io\rest-assured\json-schema-validator\5.3.2\json-schema-validator-5.3.2.jar;C:\Users\SIC\.m2\repository\com\github\java-json-tools\json-schema-validator\2.2.14\json-schema-validator-2.2.14.jar;C:\Users\SIC\.m2\repository\com\github\java-json-tools\jackson-coreutils-equivalence\1.0\jackson-coreutils-equivalence-1.0.jar;C:\Users\SIC\.m2\repository\com\github\java-json-tools\jackson-coreutils\2.0\jackson-coreutils-2.0.jar;C:\Users\SIC\.m2\repository\com\github\java-json-tools\msg-simple\1.2\msg-simple-1.2.jar;C:\Users\SIC\.m2\repository\com\github\java-json-tools\btf\1.3\btf-1.3.jar;C:\Users\SIC\.m2\repository\com\github\java-json-tools\json-schema-core\1.2.14\json-schema-core-1.2.14.jar;C:\Users\SIC\.m2\repository\com\github\java-json-tools\uri-template\0.10\uri-template-0.10.jar;C:\Users\SIC\.m2\repository\org\mozilla\rhino\1.7.7.2\rhino-1.7.7.2.jar;C:\Users\SIC\.m2\repository\com\sun\mail\mailapi\1.6.2\mailapi-1.6.2.jar;C:\Users\SIC\.m2\repository\com\googlecode\libphonenumber\libphonenumber\8.11.1\libphonenumber-8.11.1.jar;C:\Users\SIC\.m2\repository\com\google\code\findbugs\jsr305\3.0.2\jsr305-3.0.2.jar;C:\Users\SIC\.m2\repository\net\sf\jopt-simple\jopt-simple\5.0.4\jopt-simple-5.0.4.jar;C:\Users\SIC\.m2\repository\com\google\guava\guava\32.0.1-jre\guava-32.0.1-jre.jar;C:\Users\SIC\.m2\repository\com\google\guava\failureaccess\1.0.1\failureaccess-1.0.1.jar;C:\Users\SIC\.m2\repository\com\google\guava\listenablefuture\9999.0-empty-to-avoid-conflict-with-guava\listenablefuture-9999.0-empty-to-avoid-conflict-with-guava.jar;C:\Users\SIC\.m2\repository\org\checkerframework\checker-qual\3.33.0\checker-qual-3.33.0.jar;C:\Users\SIC\.m2\repository\com\google\errorprone\error_prone_annotations\2.18.0\error_prone_annotations-2.18.0.jar;C:\Users\SIC\.m2\repository\com\google\j2objc\j2objc-annotations\2.8\j2objc-annotations-2.8.jar;C:\Users\SIC\.m2\repository\org\testng\testng\7.8.0\testng-7.8.0.jar;C:\Users\SIC\.m2\repository\com\beust\jcommander\1.82\jcommander-1.82.jar;C:\Users\SIC\.m2\repository\org\webjars\jquery\3.6.1\jquery-3.6.1.jar;C:\Users\SIC\.m2\repository\com\fasterxml\jackson\core\jackson-databind\2.15.2\jackson-databind-2.15.2.jar;C:\Users\SIC\.m2\repository\com\fasterxml\jackson\core\jackson-annotations\2.15.2\jackson-annotations-2.15.2.jar;C:\Users\SIC\.m2\repository\com\fasterxml\jackson\core\jackson-core\2.15.2\jackson-core-2.15.2.jar;C:\Users\SIC\.m2\repository\org\slf4j\slf4j-api\2.0.7\slf4j-api-2.0.7.jar;C:\Users\SIC\.m2\repository\ch\qos\logback\logback-classic\1.4.11\logback-classic-1.4.11.jar;C:\Users\SIC\.m2\repository\ch\qos\logback\logback-core\1.4.11\logback-core-1.4.11.jar;C:\Users\SIC\.m2\repository\net\masterthought\cucumber-reporting\5.7.6\cucumber-reporting-5.7.6.jar;C:\Users\SIC\.m2\repository\com\fasterxml\jackson\datatype\jackson-datatype-jsr310\2.13.2\jackson-datatype-jsr310-2.13.2.jar;C:\Users\SIC\.m2\repository\org\apache\velocity\velocity-engine-core\2.3\velocity-engine-core-2.3.jar;C:\Users\SIC\.m2\repository\joda-time\joda-time\2.12.2\joda-time-2.12.2.jar;C:\Users\SIC\.m2\repository\org\apache\commons\commons-lang3\3.12.0\commons-lang3-3.12.0.jar;C:\Users\SIC\.m2\repository\commons-io\commons-io\2.7\commons-io-2.7.jar;C:\Users\SIC\.m2\repository\org\codehaus\plexus\plexus-utils\3.5.1\plexus-utils-3.5.1.jar;C:\Users\SIC\.m2\repository\org\jsoup\jsoup\1.16.1\jsoup-1.16.1.jar;C:\Users\SIC\.m2\repository\com\googlecode\owasp-java-html-sanitizer\owasp-java-html-sanitizer\20220608.1\owasp-java-html-sanitizer-20220608.1.jar;C:\Users\SIC\.m2\repository\commons-configuration\commons-configuration\1.10\commons-configuration-1.10.jar;C:\Users\SIC\.m2\repository\commons-lang\commons-lang\2.6\commons-lang-2.6.jar;C:\Users\SIC\.m2\repository\tech\grasshopper\extentreports-cucumber7-adapter\1.14.0\extentreports-cucumber7-adapter-1.14.0.jar;C:\Users\SIC\.m2\repository\com\aventstack\extentreports\5.1.0\extentreports-5.1.0.jar;C:\Users\SIC\.m2\repository\io\reactivex\rxjava3\rxjava\3.1.6\rxjava-3.1.6.jar;C:\Users\SIC\.m2\repository\org\reactivestreams\reactive-streams\1.0.4\reactive-streams-1.0.4.jar;C:\Users\SIC\.m2\repository\org\freemarker\freemarker\2.3.32\freemarker-2.3.32.jar;C:\Users\SIC\.m2\repository\org\projectlombok\lombok\1.18.26\lombok-1.18.26.jar;C:\Users\SIC\.m2\repository\com\google\code\gson\gson\2.10.1\gson-2.10.1.jar;C:\Users\SIC\.m2\repository\tech\grasshopper\extent-pdf-report\2.12.0\extent-pdf-report-2.12.0.jar;C:\Users\SIC\.m2\repository\tech\grasshopper\cucumber-pdf-report\2.14.0\cucumber-pdf-report-2.14.0.jar;C:\Users\SIC\.m2\repository\org\apache\pdfbox\pdfbox\2.0.26\pdfbox-2.0.26.jar;C:\Users\SIC\.m2\repository\org\apache\pdfbox\fontbox\2.0.26\fontbox-2.0.26.jar;C:\Users\SIC\.m2\repository\org\knowm\xchart\xchart\3.8.0\xchart-3.8.0.jar;C:\Users\SIC\.m2\repository\de\erichseifert\vectorgraphics2d\VectorGraphics2D\0.13\VectorGraphics2D-0.13.jar;C:\Users\SIC\.m2\repository\de\rototor\pdfbox\graphics2d\0.30\graphics2d-0.30.jar;C:\Users\SIC\.m2\repository\com\madgag\animated-gif-lib\1.4\animated-gif-lib-1.4.jar;C:\Users\SIC\.m2\repository\org\yaml\snakeyaml\2.0\snakeyaml-2.0.jar;C:\Users\SIC\.m2\repository\tech\grasshopper\table-layout\1.5.1\table-layout-1.5.1.jar;C:\Users\SIC\.m2\repository\tech\grasshopper\rest-assured-cucumber-pdf-report\1.5.0\rest-assured-cucumber-pdf-report-1.5.0.jar;C:\Users\SIC\.m2\repository\com\aventstack\klov-reporter\5.1.0\klov-reporter-5.1.0.jar;C:\Users\SIC\.m2\repository\org\mongodb\mongodb-driver\3.6.4\mongodb-driver-3.6.4.jar;C:\Users\SIC\.m2\repository\org\mongodb\mongodb-driver-core\3.6.4\mongodb-driver-core-3.6.4.jar;C:\Users\SIC\.m2\repository\org\mongodb\bson\3.6.4\bson-3.6.4.jar;C:\Users\SIC\.m2\repository\tech\grasshopper\htmlextentreporter\1.1.0\htmlextentreporter-1.1.0.jar;C:\Users\SIC\.m2\repository\tech\grasshopper\extent-excel-report\1.4.0\extent-excel-report-1.4.0.jar;C:\Users\SIC\.m2\repository\org\apache\poi\poi\5.2.3\poi-5.2.3.jar;C:\Users\SIC\.m2\repository\org\apache\commons\commons-collections4\4.4\commons-collections4-4.4.jar;C:\Users\SIC\.m2\repository\org\apache\commons\commons-math3\3.6.1\commons-math3-3.6.1.jar;C:\Users\SIC\.m2\repository\com\zaxxer\SparseBitSet\1.2\SparseBitSet-1.2.jar;C:\Users\SIC\.m2\repository\org\apache\logging\log4j\log4j-api\2.18.0\log4j-api-2.18.0.jar;C:\Users\SIC\.m2\repository\org\apache\poi\poi-ooxml\5.2.3\poi-ooxml-5.2.3.jar;C:\Users\SIC\.m2\repository\org\apache\poi\poi-ooxml-lite\5.2.3\poi-ooxml-lite-5.2.3.jar;C:\Users\SIC\.m2\repository\org\apache\xmlbeans\xmlbeans\5.1.1\xmlbeans-5.1.1.jar;C:\Users\SIC\.m2\repository\org\apache\commons\commons-compress\1.21\commons-compress-1.21.jar;C:\Users\SIC\.m2\repository\com\github\virtuald\curvesapi\1.07\curvesapi-1.07.jar;"/>
+    <property name="java.vm.vendor" value="Oracle Corporation"/>
+    <property name="cucumber.junit-platform.naming-strategy" value="long"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="user.variant" value=""/>
+    <property name="java.vendor.url" value="https://java.oracle.com/"/>
+    <property name="user.timezone" value="Asia/Calcutta"/>
+    <property name="os.name" value="Windows 10"/>
+    <property name="java.vm.specification.version" value="24"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="user.country" value="IN"/>
+    <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk-24\bin"/>
+    <property name="sun.java.command" value="C:\Users\SIC\AppData\Local\Temp\surefire2719978640732014419\surefirebooter-20251214232628518_3.jar C:\Users\SIC\AppData\Local\Temp\surefire2719978640732014419 2025-12-14T23-26-28_221-jvmRun1 surefire-20251214232628518_1tmp surefire_0-20251214232628518_2tmp"/>
+    <property name="jdk.debug" value="release"/>
+    <property name="surefire.test.class.path" value="C:\Users\SIC\Desktop\Automation Of Shopnest\Shopnest\target\test-classes;C:\Users\SIC\Desktop\Automation Of Shopnest\Shopnest\target\classes;C:\Users\SIC\.m2\repository\io\cucumber\cucumber-java\7.14.0\cucumber-java-7.14.0.jar;C:\Users\SIC\.m2\repository\io\cucumber\cucumber-core\7.14.0\cucumber-core-7.14.0.jar;C:\Users\SIC\.m2\repository\io\cucumber\cucumber-gherkin\7.14.0\cucumber-gherkin-7.14.0.jar;C:\Users\SIC\.m2\repository\io\cucumber\cucumber-gherkin-messages\7.14.0\cucumber-gherkin-messages-7.14.0.jar;C:\Users\SIC\.m2\repository\io\cucumber\gherkin\26.2.0\gherkin-26.2.0.jar;C:\Users\SIC\.m2\repository\io\cucumber\messages\22.0.0\messages-22.0.0.jar;C:\Users\SIC\.m2\repository\io\cucumber\tag-expressions\5.0.6\tag-expressions-5.0.6.jar;C:\Users\SIC\.m2\repository\io\cucumber\cucumber-expressions\16.1.2\cucumber-expressions-16.1.2.jar;C:\Users\SIC\.m2\repository\io\cucumber\datatable\7.14.0\datatable-7.14.0.jar;C:\Users\SIC\.m2\repository\io\cucumber\cucumber-plugin\7.14.0\cucumber-plugin-7.14.0.jar;C:\Users\SIC\.m2\repository\io\cucumber\docstring\7.14.0\docstring-7.14.0.jar;C:\Users\SIC\.m2\repository\io\cucumber\html-formatter\20.4.0\html-formatter-20.4.0.jar;C:\Users\SIC\.m2\repository\io\cucumber\junit-xml-formatter\0.2.0\junit-xml-formatter-0.2.0.jar;C:\Users\SIC\.m2\repository\io\cucumber\ci-environment\9.2.0\ci-environment-9.2.0.jar;C:\Users\SIC\.m2\repository\org\apiguardian\apiguardian-api\1.1.2\apiguardian-api-1.1.2.jar;C:\Users\SIC\.m2\repository\io\cucumber\cucumber-testng\7.14.0\cucumber-testng-7.14.0.jar;C:\Users\SIC\.m2\repository\io\cucumber\cucumber-picocontainer\7.14.0\cucumber-picocontainer-7.14.0.jar;C:\Users\SIC\.m2\repository\org\picocontainer\picocontainer\2.15\picocontainer-2.15.jar;C:\Users\SIC\.m2\repository\io\rest-assured\rest-assured\5.3.2\rest-assured-5.3.2.jar;C:\Users\SIC\.m2\repository\org\apache\groovy\groovy\4.0.11\groovy-4.0.11.jar;C:\Users\SIC\.m2\repository\org\apache\groovy\groovy-xml\4.0.11\groovy-xml-4.0.11.jar;C:\Users\SIC\.m2\repository\org\apache\httpcomponents\httpclient\4.5.13\httpclient-4.5.13.jar;C:\Users\SIC\.m2\repository\org\apache\httpcomponents\httpcore\4.4.13\httpcore-4.4.13.jar;C:\Users\SIC\.m2\repository\commons-logging\commons-logging\1.2\commons-logging-1.2.jar;C:\Users\SIC\.m2\repository\commons-codec\commons-codec\1.11\commons-codec-1.11.jar;C:\Users\SIC\.m2\repository\org\apache\httpcomponents\httpmime\4.5.13\httpmime-4.5.13.jar;C:\Users\SIC\.m2\repository\org\hamcrest\hamcrest\2.2\hamcrest-2.2.jar;C:\Users\SIC\.m2\repository\org\ccil\cowan\tagsoup\tagsoup\1.2.1\tagsoup-1.2.1.jar;C:\Users\SIC\.m2\repository\io\rest-assured\json-path\5.3.2\json-path-5.3.2.jar;C:\Users\SIC\.m2\repository\org\apache\groovy\groovy-json\4.0.11\groovy-json-4.0.11.jar;C:\Users\SIC\.m2\repository\io\rest-assured\rest-assured-common\5.3.2\rest-assured-common-5.3.2.jar;C:\Users\SIC\.m2\repository\io\rest-assured\xml-path\5.3.2\xml-path-5.3.2.jar;C:\Users\SIC\.m2\repository\io\rest-assured\json-schema-validator\5.3.2\json-schema-validator-5.3.2.jar;C:\Users\SIC\.m2\repository\com\github\java-json-tools\json-schema-validator\2.2.14\json-schema-validator-2.2.14.jar;C:\Users\SIC\.m2\repository\com\github\java-json-tools\jackson-coreutils-equivalence\1.0\jackson-coreutils-equivalence-1.0.jar;C:\Users\SIC\.m2\repository\com\github\java-json-tools\jackson-coreutils\2.0\jackson-coreutils-2.0.jar;C:\Users\SIC\.m2\repository\com\github\java-json-tools\msg-simple\1.2\msg-simple-1.2.jar;C:\Users\SIC\.m2\repository\com\github\java-json-tools\btf\1.3\btf-1.3.jar;C:\Users\SIC\.m2\repository\com\github\java-json-tools\json-schema-core\1.2.14\json-schema-core-1.2.14.jar;C:\Users\SIC\.m2\repository\com\github\java-json-tools\uri-template\0.10\uri-template-0.10.jar;C:\Users\SIC\.m2\repository\org\mozilla\rhino\1.7.7.2\rhino-1.7.7.2.jar;C:\Users\SIC\.m2\repository\com\sun\mail\mailapi\1.6.2\mailapi-1.6.2.jar;C:\Users\SIC\.m2\repository\com\googlecode\libphonenumber\libphonenumber\8.11.1\libphonenumber-8.11.1.jar;C:\Users\SIC\.m2\repository\com\google\code\findbugs\jsr305\3.0.2\jsr305-3.0.2.jar;C:\Users\SIC\.m2\repository\net\sf\jopt-simple\jopt-simple\5.0.4\jopt-simple-5.0.4.jar;C:\Users\SIC\.m2\repository\com\google\guava\guava\32.0.1-jre\guava-32.0.1-jre.jar;C:\Users\SIC\.m2\repository\com\google\guava\failureaccess\1.0.1\failureaccess-1.0.1.jar;C:\Users\SIC\.m2\repository\com\google\guava\listenablefuture\9999.0-empty-to-avoid-conflict-with-guava\listenablefuture-9999.0-empty-to-avoid-conflict-with-guava.jar;C:\Users\SIC\.m2\repository\org\checkerframework\checker-qual\3.33.0\checker-qual-3.33.0.jar;C:\Users\SIC\.m2\repository\com\google\errorprone\error_prone_annotations\2.18.0\error_prone_annotations-2.18.0.jar;C:\Users\SIC\.m2\repository\com\google\j2objc\j2objc-annotations\2.8\j2objc-annotations-2.8.jar;C:\Users\SIC\.m2\repository\org\testng\testng\7.8.0\testng-7.8.0.jar;C:\Users\SIC\.m2\repository\com\beust\jcommander\1.82\jcommander-1.82.jar;C:\Users\SIC\.m2\repository\org\webjars\jquery\3.6.1\jquery-3.6.1.jar;C:\Users\SIC\.m2\repository\com\fasterxml\jackson\core\jackson-databind\2.15.2\jackson-databind-2.15.2.jar;C:\Users\SIC\.m2\repository\com\fasterxml\jackson\core\jackson-annotations\2.15.2\jackson-annotations-2.15.2.jar;C:\Users\SIC\.m2\repository\com\fasterxml\jackson\core\jackson-core\2.15.2\jackson-core-2.15.2.jar;C:\Users\SIC\.m2\repository\org\slf4j\slf4j-api\2.0.7\slf4j-api-2.0.7.jar;C:\Users\SIC\.m2\repository\ch\qos\logback\logback-classic\1.4.11\logback-classic-1.4.11.jar;C:\Users\SIC\.m2\repository\ch\qos\logback\logback-core\1.4.11\logback-core-1.4.11.jar;C:\Users\SIC\.m2\repository\net\masterthought\cucumber-reporting\5.7.6\cucumber-reporting-5.7.6.jar;C:\Users\SIC\.m2\repository\com\fasterxml\jackson\datatype\jackson-datatype-jsr310\2.13.2\jackson-datatype-jsr310-2.13.2.jar;C:\Users\SIC\.m2\repository\org\apache\velocity\velocity-engine-core\2.3\velocity-engine-core-2.3.jar;C:\Users\SIC\.m2\repository\joda-time\joda-time\2.12.2\joda-time-2.12.2.jar;C:\Users\SIC\.m2\repository\org\apache\commons\commons-lang3\3.12.0\commons-lang3-3.12.0.jar;C:\Users\SIC\.m2\repository\commons-io\commons-io\2.7\commons-io-2.7.jar;C:\Users\SIC\.m2\repository\org\codehaus\plexus\plexus-utils\3.5.1\plexus-utils-3.5.1.jar;C:\Users\SIC\.m2\repository\org\jsoup\jsoup\1.16.1\jsoup-1.16.1.jar;C:\Users\SIC\.m2\repository\com\googlecode\owasp-java-html-sanitizer\owasp-java-html-sanitizer\20220608.1\owasp-java-html-sanitizer-20220608.1.jar;C:\Users\SIC\.m2\repository\commons-configuration\commons-configuration\1.10\commons-configuration-1.10.jar;C:\Users\SIC\.m2\repository\commons-lang\commons-lang\2.6\commons-lang-2.6.jar;C:\Users\SIC\.m2\repository\tech\grasshopper\extentreports-cucumber7-adapter\1.14.0\extentreports-cucumber7-adapter-1.14.0.jar;C:\Users\SIC\.m2\repository\com\aventstack\extentreports\5.1.0\extentreports-5.1.0.jar;C:\Users\SIC\.m2\repository\io\reactivex\rxjava3\rxjava\3.1.6\rxjava-3.1.6.jar;C:\Users\SIC\.m2\repository\org\reactivestreams\reactive-streams\1.0.4\reactive-streams-1.0.4.jar;C:\Users\SIC\.m2\repository\org\freemarker\freemarker\2.3.32\freemarker-2.3.32.jar;C:\Users\SIC\.m2\repository\org\projectlombok\lombok\1.18.26\lombok-1.18.26.jar;C:\Users\SIC\.m2\repository\com\google\code\gson\gson\2.10.1\gson-2.10.1.jar;C:\Users\SIC\.m2\repository\tech\grasshopper\extent-pdf-report\2.12.0\extent-pdf-report-2.12.0.jar;C:\Users\SIC\.m2\repository\tech\grasshopper\cucumber-pdf-report\2.14.0\cucumber-pdf-report-2.14.0.jar;C:\Users\SIC\.m2\repository\org\apache\pdfbox\pdfbox\2.0.26\pdfbox-2.0.26.jar;C:\Users\SIC\.m2\repository\org\apache\pdfbox\fontbox\2.0.26\fontbox-2.0.26.jar;C:\Users\SIC\.m2\repository\org\knowm\xchart\xchart\3.8.0\xchart-3.8.0.jar;C:\Users\SIC\.m2\repository\de\erichseifert\vectorgraphics2d\VectorGraphics2D\0.13\VectorGraphics2D-0.13.jar;C:\Users\SIC\.m2\repository\de\rototor\pdfbox\graphics2d\0.30\graphics2d-0.30.jar;C:\Users\SIC\.m2\repository\com\madgag\animated-gif-lib\1.4\animated-gif-lib-1.4.jar;C:\Users\SIC\.m2\repository\org\yaml\snakeyaml\2.0\snakeyaml-2.0.jar;C:\Users\SIC\.m2\repository\tech\grasshopper\table-layout\1.5.1\table-layout-1.5.1.jar;C:\Users\SIC\.m2\repository\tech\grasshopper\rest-assured-cucumber-pdf-report\1.5.0\rest-assured-cucumber-pdf-report-1.5.0.jar;C:\Users\SIC\.m2\repository\com\aventstack\klov-reporter\5.1.0\klov-reporter-5.1.0.jar;C:\Users\SIC\.m2\repository\org\mongodb\mongodb-driver\3.6.4\mongodb-driver-3.6.4.jar;C:\Users\SIC\.m2\repository\org\mongodb\mongodb-driver-core\3.6.4\mongodb-driver-core-3.6.4.jar;C:\Users\SIC\.m2\repository\org\mongodb\bson\3.6.4\bson-3.6.4.jar;C:\Users\SIC\.m2\repository\tech\grasshopper\htmlextentreporter\1.1.0\htmlextentreporter-1.1.0.jar;C:\Users\SIC\.m2\repository\tech\grasshopper\extent-excel-report\1.4.0\extent-excel-report-1.4.0.jar;C:\Users\SIC\.m2\repository\org\apache\poi\poi\5.2.3\poi-5.2.3.jar;C:\Users\SIC\.m2\repository\org\apache\commons\commons-collections4\4.4\commons-collections4-4.4.jar;C:\Users\SIC\.m2\repository\org\apache\commons\commons-math3\3.6.1\commons-math3-3.6.1.jar;C:\Users\SIC\.m2\repository\com\zaxxer\SparseBitSet\1.2\SparseBitSet-1.2.jar;C:\Users\SIC\.m2\repository\org\apache\logging\log4j\log4j-api\2.18.0\log4j-api-2.18.0.jar;C:\Users\SIC\.m2\repository\org\apache\poi\poi-ooxml\5.2.3\poi-ooxml-5.2.3.jar;C:\Users\SIC\.m2\repository\org\apache\poi\poi-ooxml-lite\5.2.3\poi-ooxml-lite-5.2.3.jar;C:\Users\SIC\.m2\repository\org\apache\xmlbeans\xmlbeans\5.1.1\xmlbeans-5.1.1.jar;C:\Users\SIC\.m2\repository\org\apache\commons\commons-compress\1.21\commons-compress-1.21.jar;C:\Users\SIC\.m2\repository\com\github\virtuald\curvesapi\1.07\curvesapi-1.07.jar;"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="user.home" value="C:\Users\SIC"/>
+    <property name="user.language" value="en"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.version.date" value="2025-03-18"/>
+    <property name="java.home" value="C:\Program Files\Java\jdk-24"/>
+    <property name="file.separator" value="\"/>
+    <property name="basedir" value="C:\Users\SIC\Desktop\Automation Of Shopnest\Shopnest"/>
+    <property name="java.vm.compressedOopsMode" value="32-bit"/>
+    <property name="line.separator" value="&#10;"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="surefire.real.class.path" value="C:\Users\SIC\AppData\Local\Temp\surefire2719978640732014419\surefirebooter-20251214232628518_3.jar"/>
+    <property name="user.script" value=""/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="java.runtime.version" value="24+36-3646"/>
+    <property name="user.name" value="SIC"/>
+    <property name="stdout.encoding" value="Cp1252"/>
+    <property name="path.separator" value=";"/>
+    <property name="os.version" value="10.0"/>
+    <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
+    <property name="file.encoding" value="UTF-8"/>
+    <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM"/>
+    <property name="localRepository" value="C:\Users\SIC\.m2\repository"/>
+    <property name="java.vendor.url.bug" value="https://bugreport.java.com/bugreport/"/>
+    <property name="java.io.tmpdir" value="C:\Users\SIC\AppData\Local\Temp\"/>
+    <property name="java.version" value="24"/>
+    <property name="user.dir" value="C:\Users\SIC\Desktop\Automation Of Shopnest\Shopnest"/>
+    <property name="os.arch" value="amd64"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="sun.os.patch.level" value=""/>
+    <property name="native.encoding" value="Cp1252"/>
+    <property name="environment" value="dev"/>
+    <property name="java.library.path" value="C:\Program Files\Java\jdk-24\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\Program Files\Common Files\Oracle\Java\javapath;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\MinGW\bin;C:\Program Files\nodejs;C:\Program Files\Git\cmd;C:\Program Files\Git\bin;C:\Program Files\Java\jdk-24\bin;C:\apache-maven-3.9.9\apache-maven-3.9.9\bin;C:\Program Files\cursor\resources\app\bin;C:\Users\SIC\AppData\Local\Microsoft\WindowsApps;C:\Users\SIC\AppData\Local\Programs\Microsoft VS Code\bin;C:\Program Files\heroku\bin;C:\Users\SIC\AppData\Local\GitHubDesktop\bin;C:\Users\SIC\AppData\Local\Programs\Kiro\bin;."/>
+    <property name="java.vm.info" value="mixed mode, sharing"/>
+    <property name="stderr.encoding" value="Cp1252"/>
+    <property name="java.vendor" value="Oracle Corporation"/>
+    <property name="java.vm.version" value="24+36-3646"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
+    <property name="java.class.version" value="68.0"/>
+  </properties>
+  <testcase name="runScenario[&quot;Get product by invalid ID returns error&quot;, &quot;Product Catalog API&quot;](1)" classname="com.ecommerce.api.runners.CucumberTestRunner" time="3.823">
+    <failure message="Expected status code 404 but got 200 expected [404] but found [200]" type="java.lang.AssertionError"><![CDATA[java.lang.AssertionError: Expected status code 404 but got 200 expected [404] but found [200]
+	at org.testng.Assert.fail(Assert.java:111)
+	at org.testng.Assert.failNotEquals(Assert.java:1578)
+	at org.testng.Assert.assertEqualsImpl(Assert.java:150)
+	at org.testng.Assert.assertEquals(Assert.java:132)
+	at org.testng.Assert.assertEquals(Assert.java:1419)
+	at org.testng.Assert.assertEquals(Assert.java:1383)
+	at com.ecommerce.api.stepdefinitions.CommonSteps.theResponseStatusCodeShouldBe(CommonSteps.java:55)
+	at ✽.the response status code should be 404(file:///C:/Users/SIC/Desktop/Automation%20Of%20Shopnest/Shopnest/src/test/resources/features/product_catalog.feature:31)
+]]></failure>
+    <system-out><![CDATA[23:26:29,773 |-INFO in ch.qos.logback.classic.LoggerContext[default] - This is logback-classic version 1.4.11
+23:26:29,780 |-INFO in ch.qos.logback.classic.util.ContextInitializer@3023df74 - No custom configurators were discovered as a service.
+23:26:29,780 |-INFO in ch.qos.logback.classic.util.ContextInitializer@3023df74 - Trying to configure with ch.qos.logback.classic.joran.SerializedModelConfigurator
+23:26:29,784 |-INFO in ch.qos.logback.classic.util.ContextInitializer@3023df74 - Constructed configurator of type class ch.qos.logback.classic.joran.SerializedModelConfigurator
+23:26:29,789 |-INFO in ch.qos.logback.classic.LoggerContext[default] - Could NOT find resource [logback-test.scmo]
+23:26:29,790 |-INFO in ch.qos.logback.classic.LoggerContext[default] - Could NOT find resource [logback.scmo]
+23:26:29,798 |-INFO in ch.qos.logback.classic.util.ContextInitializer@3023df74 - ch.qos.logback.classic.joran.SerializedModelConfigurator.configure() call lasted 8 milliseconds. ExecutionStatus=INVOKE_NEXT_IF_ANY
+23:26:29,798 |-INFO in ch.qos.logback.classic.util.ContextInitializer@3023df74 - Trying to configure with ch.qos.logback.classic.util.DefaultJoranConfigurator
+23:26:29,805 |-INFO in ch.qos.logback.classic.util.ContextInitializer@3023df74 - Constructed configurator of type class ch.qos.logback.classic.util.DefaultJoranConfigurator
+23:26:29,809 |-INFO in ch.qos.logback.classic.LoggerContext[default] - Found resource [logback-test.xml] at [file:/C:/Users/SIC/Desktop/Automation%20Of%20Shopnest/Shopnest/target/test-classes/logback-test.xml]
+23:26:30,256 |-INFO in ch.qos.logback.core.model.processor.AppenderModelHandler - Processing appender named [CONSOLE]
+23:26:30,256 |-INFO in ch.qos.logback.core.model.processor.AppenderModelHandler - About to instantiate appender of type [ch.qos.logback.core.ConsoleAppender]
+23:26:30,268 |-INFO in ch.qos.logback.core.model.processor.ImplicitModelHandler - Assuming default type [ch.qos.logback.classic.encoder.PatternLayoutEncoder] for [encoder] property
+23:26:30,323 |-INFO in ch.qos.logback.core.model.processor.AppenderModelHandler - Processing appender named [FILE]
+23:26:30,323 |-INFO in ch.qos.logback.core.model.processor.AppenderModelHandler - About to instantiate appender of type [ch.qos.logback.core.rolling.RollingFileAppender]
+23:26:30,361 |-INFO in c.q.l.core.rolling.TimeBasedRollingPolicy@825936265 - No compression will be used
+23:26:30,362 |-INFO in c.q.l.core.rolling.TimeBasedRollingPolicy@825936265 - Will use the pattern target/logs/api-tests.%d{yyyy-MM-dd}.%i.log for the active file
+23:26:30,365 |-INFO in ch.qos.logback.core.rolling.SizeAndTimeBasedFNATP@4562e04d - The date pattern is 'yyyy-MM-dd' from file name pattern 'target/logs/api-tests.%d{yyyy-MM-dd}.%i.log'.
+23:26:30,366 |-INFO in ch.qos.logback.core.rolling.SizeAndTimeBasedFNATP@4562e04d - Roll-over at midnight.
+23:26:30,369 |-INFO in ch.qos.logback.core.rolling.SizeAndTimeBasedFNATP@4562e04d - Setting initial period to 2025-12-14T17:56:30.368Z
+23:26:30,369 |-WARN in ch.qos.logback.core.rolling.SizeAndTimeBasedFNATP@4562e04d - SizeAndTimeBasedFNATP is deprecated. Use SizeAndTimeBasedRollingPolicy instead
+23:26:30,369 |-WARN in ch.qos.logback.core.rolling.SizeAndTimeBasedFNATP@4562e04d - For more information see http://logback.qos.ch/manual/appenders.html#SizeAndTimeBasedRollingPolicy
+23:26:30,372 |-INFO in ch.qos.logback.core.model.processor.ImplicitModelHandler - Assuming default type [ch.qos.logback.classic.encoder.PatternLayoutEncoder] for [encoder] property
+23:26:30,376 |-INFO in ch.qos.logback.core.rolling.RollingFileAppender[FILE] - Active log file name: target/logs/api-tests.log
+23:26:30,376 |-INFO in ch.qos.logback.core.rolling.RollingFileAppender[FILE] - File property is set to [target/logs/api-tests.log]
+23:26:30,378 |-INFO in ch.qos.logback.core.model.processor.AppenderModelHandler - Processing appender named [HTTP_LOG]
+23:26:30,378 |-INFO in ch.qos.logback.core.model.processor.AppenderModelHandler - About to instantiate appender of type [ch.qos.logback.core.rolling.RollingFileAppender]
+23:26:30,379 |-INFO in c.q.l.core.rolling.TimeBasedRollingPolicy@711327356 - No compression will be used
+23:26:30,379 |-INFO in c.q.l.core.rolling.TimeBasedRollingPolicy@711327356 - Will use the pattern target/logs/http-interactions.%d{yyyy-MM-dd}.%i.log for the active file
+23:26:30,380 |-INFO in ch.qos.logback.core.rolling.SizeAndTimeBasedFNATP@4135c3b - The date pattern is 'yyyy-MM-dd' from file name pattern 'target/logs/http-interactions.%d{yyyy-MM-dd}.%i.log'.
+23:26:30,380 |-INFO in ch.qos.logback.core.rolling.SizeAndTimeBasedFNATP@4135c3b - Roll-over at midnight.
+23:26:30,381 |-INFO in ch.qos.logback.core.rolling.SizeAndTimeBasedFNATP@4135c3b - Setting initial period to 2025-12-14T17:56:30.380Z
+23:26:30,381 |-WARN in ch.qos.logback.core.rolling.SizeAndTimeBasedFNATP@4135c3b - SizeAndTimeBasedFNATP is deprecated. Use SizeAndTimeBasedRollingPolicy instead
+23:26:30,381 |-WARN in ch.qos.logback.core.rolling.SizeAndTimeBasedFNATP@4135c3b - For more information see http://logback.qos.ch/manual/appenders.html#SizeAndTimeBasedRollingPolicy
+23:26:30,384 |-INFO in ch.qos.logback.core.model.processor.ImplicitModelHandler - Assuming default type [ch.qos.logback.classic.encoder.PatternLayoutEncoder] for [encoder] property
+23:26:30,385 |-INFO in ch.qos.logback.core.rolling.RollingFileAppender[HTTP_LOG] - Active log file name: target/logs/http-interactions.log
+23:26:30,385 |-INFO in ch.qos.logback.core.rolling.RollingFileAppender[HTTP_LOG] - File property is set to [target/logs/http-interactions.log]
+23:26:30,386 |-INFO in ch.qos.logback.core.model.processor.AppenderModelHandler - Processing appender named [METRICS_LOG]
+23:26:30,386 |-INFO in ch.qos.logback.core.model.processor.AppenderModelHandler - About to instantiate appender of type [ch.qos.logback.core.rolling.RollingFileAppender]
+23:26:30,387 |-INFO in c.q.l.core.rolling.TimeBasedRollingPolicy@1661123505 - No compression will be used
+23:26:30,387 |-INFO in c.q.l.core.rolling.TimeBasedRollingPolicy@1661123505 - Will use the pattern target/logs/performance-metrics.%d{yyyy-MM-dd}.%i.log for the active file
+23:26:30,388 |-INFO in ch.qos.logback.core.rolling.SizeAndTimeBasedFNATP@31304f14 - The date pattern is 'yyyy-MM-dd' from file name pattern 'target/logs/performance-metrics.%d{yyyy-MM-dd}.%i.log'.
+23:26:30,388 |-INFO in ch.qos.logback.core.rolling.SizeAndTimeBasedFNATP@31304f14 - Roll-over at midnight.
+23:26:30,388 |-INFO in ch.qos.logback.core.rolling.SizeAndTimeBasedFNATP@31304f14 - Setting initial period to 2025-12-14T17:56:30.388Z
+23:26:30,389 |-WARN in ch.qos.logback.core.rolling.SizeAndTimeBasedFNATP@31304f14 - SizeAndTimeBasedFNATP is deprecated. Use SizeAndTimeBasedRollingPolicy instead
+23:26:30,389 |-WARN in ch.qos.logback.core.rolling.SizeAndTimeBasedFNATP@31304f14 - For more information see http://logback.qos.ch/manual/appenders.html#SizeAndTimeBasedRollingPolicy
+23:26:30,389 |-INFO in ch.qos.logback.core.model.processor.ImplicitModelHandler - Assuming default type [ch.qos.logback.classic.encoder.PatternLayoutEncoder] for [encoder] property
+23:26:30,390 |-INFO in ch.qos.logback.core.rolling.RollingFileAppender[METRICS_LOG] - Active log file name: target/logs/performance-metrics.log
+23:26:30,390 |-INFO in ch.qos.logback.core.rolling.RollingFileAppender[METRICS_LOG] - File property is set to [target/logs/performance-metrics.log]
+23:26:30,391 |-INFO in ch.qos.logback.core.model.processor.AppenderModelHandler - Processing appender named [ERROR_LOG]
+23:26:30,391 |-INFO in ch.qos.logback.core.model.processor.AppenderModelHandler - About to instantiate appender of type [ch.qos.logback.core.rolling.RollingFileAppender]
+23:26:30,394 |-INFO in c.q.l.core.rolling.TimeBasedRollingPolicy@883151184 - No compression will be used
+23:26:30,395 |-INFO in c.q.l.core.rolling.TimeBasedRollingPolicy@883151184 - Will use the pattern target/logs/api-errors.%d{yyyy-MM-dd}.%i.log for the active file
+23:26:30,395 |-INFO in ch.qos.logback.core.rolling.SizeAndTimeBasedFNATP@2a4fb17b - The date pattern is 'yyyy-MM-dd' from file name pattern 'target/logs/api-errors.%d{yyyy-MM-dd}.%i.log'.
+23:26:30,395 |-INFO in ch.qos.logback.core.rolling.SizeAndTimeBasedFNATP@2a4fb17b - Roll-over at midnight.
+23:26:30,396 |-INFO in ch.qos.logback.core.rolling.SizeAndTimeBasedFNATP@2a4fb17b - Setting initial period to 2025-12-14T17:56:30.395Z
+23:26:30,396 |-WARN in ch.qos.logback.core.rolling.SizeAndTimeBasedFNATP@2a4fb17b - SizeAndTimeBasedFNATP is deprecated. Use SizeAndTimeBasedRollingPolicy instead
+23:26:30,396 |-WARN in ch.qos.logback.core.rolling.SizeAndTimeBasedFNATP@2a4fb17b - For more information see http://logback.qos.ch/manual/appenders.html#SizeAndTimeBasedRollingPolicy
+23:26:30,396 |-INFO in ch.qos.logback.core.model.processor.ImplicitModelHandler - Assuming default type [ch.qos.logback.classic.encoder.PatternLayoutEncoder] for [encoder] property
+23:26:30,397 |-INFO in ch.qos.logback.core.rolling.RollingFileAppender[ERROR_LOG] - Active log file name: target/logs/api-errors.log
+23:26:30,397 |-INFO in ch.qos.logback.core.rolling.RollingFileAppender[ERROR_LOG] - File property is set to [target/logs/api-errors.log]
+23:26:30,399 |-INFO in ch.qos.logback.classic.model.processor.LoggerModelHandler - Setting level of logger [HTTP_INTERACTIONS] to INFO
+23:26:30,402 |-INFO in ch.qos.logback.classic.model.processor.LoggerModelHandler - Setting additivity of logger [HTTP_INTERACTIONS] to false
+23:26:30,403 |-INFO in ch.qos.logback.core.model.processor.AppenderRefModelHandler - Attaching appender named [HTTP_LOG] to Logger[HTTP_INTERACTIONS]
+23:26:30,403 |-INFO in ch.qos.logback.core.model.processor.AppenderRefModelHandler - Attaching appender named [CONSOLE] to Logger[HTTP_INTERACTIONS]
+23:26:30,404 |-INFO in ch.qos.logback.classic.model.processor.LoggerModelHandler - Setting level of logger [API_ERRORS] to ERROR
+23:26:30,404 |-INFO in ch.qos.logback.classic.model.processor.LoggerModelHandler - Setting additivity of logger [API_ERRORS] to false
+23:26:30,404 |-INFO in ch.qos.logback.core.model.processor.AppenderRefModelHandler - Attaching appender named [ERROR_LOG] to Logger[API_ERRORS]
+23:26:30,404 |-INFO in ch.qos.logback.core.model.processor.AppenderRefModelHandler - Attaching appender named [CONSOLE] to Logger[API_ERRORS]
+23:26:30,404 |-INFO in ch.qos.logback.classic.model.processor.LoggerModelHandler - Setting level of logger [com.ecommerce.api.utils.PerformanceMetrics] to INFO
+23:26:30,404 |-INFO in ch.qos.logback.classic.model.processor.LoggerModelHandler - Setting additivity of logger [com.ecommerce.api.utils.PerformanceMetrics] to false
+23:26:30,404 |-INFO in ch.qos.logback.core.model.processor.AppenderRefModelHandler - Attaching appender named [METRICS_LOG] to Logger[com.ecommerce.api.utils.PerformanceMetrics]
+23:26:30,404 |-INFO in ch.qos.logback.core.model.processor.AppenderRefModelHandler - Attaching appender named [CONSOLE] to Logger[com.ecommerce.api.utils.PerformanceMetrics]
+23:26:30,404 |-INFO in ch.qos.logback.classic.model.processor.LoggerModelHandler - Setting level of logger [com.ecommerce.api.client] to DEBUG
+23:26:30,404 |-INFO in ch.qos.logback.classic.model.processor.LoggerModelHandler - Setting additivity of logger [com.ecommerce.api.client] to false
+23:26:30,404 |-INFO in ch.qos.logback.core.model.processor.AppenderRefModelHandler - Attaching appender named [HTTP_LOG] to Logger[com.ecommerce.api.client]
+23:26:30,404 |-INFO in ch.qos.logback.core.model.processor.AppenderRefModelHandler - Attaching appender named [CONSOLE] to Logger[com.ecommerce.api.client]
+23:26:30,404 |-INFO in ch.qos.logback.classic.model.processor.LoggerModelHandler - Setting level of logger [com.ecommerce.api.stepdefinitions] to DEBUG
+23:26:30,404 |-INFO in ch.qos.logback.classic.model.processor.LoggerModelHandler - Setting additivity of logger [com.ecommerce.api.stepdefinitions] to false
+23:26:30,404 |-INFO in ch.qos.logback.core.model.processor.AppenderRefModelHandler - Attaching appender named [FILE] to Logger[com.ecommerce.api.stepdefinitions]
+23:26:30,404 |-INFO in ch.qos.logback.core.model.processor.AppenderRefModelHandler - Attaching appender named [CONSOLE] to Logger[com.ecommerce.api.stepdefinitions]
+23:26:30,404 |-INFO in ch.qos.logback.classic.model.processor.LoggerModelHandler - Setting level of logger [io.restassured] to WARN
+23:26:30,404 |-INFO in ch.qos.logback.classic.model.processor.LoggerModelHandler - Setting additivity of logger [io.restassured] to false
+23:26:30,404 |-INFO in ch.qos.logback.core.model.processor.AppenderRefModelHandler - Attaching appender named [HTTP_LOG] to Logger[io.restassured]
+23:26:30,404 |-INFO in ch.qos.logback.classic.model.processor.LoggerModelHandler - Setting level of logger [io.cucumber] to INFO
+23:26:30,404 |-INFO in ch.qos.logback.classic.model.processor.LoggerModelHandler - Setting additivity of logger [io.cucumber] to false
+23:26:30,404 |-INFO in ch.qos.logback.core.model.processor.AppenderRefModelHandler - Attaching appender named [FILE] to Logger[io.cucumber]
+23:26:30,404 |-INFO in ch.qos.logback.core.model.processor.AppenderRefModelHandler - Attaching appender named [CONSOLE] to Logger[io.cucumber]
+23:26:30,405 |-INFO in ch.qos.logback.classic.model.processor.RootLoggerModelHandler - Setting level of ROOT logger to INFO
+23:26:30,405 |-INFO in ch.qos.logback.core.model.processor.AppenderRefModelHandler - Attaching appender named [CONSOLE] to Logger[ROOT]
+23:26:30,405 |-INFO in ch.qos.logback.core.model.processor.AppenderRefModelHandler - Attaching appender named [FILE] to Logger[ROOT]
+23:26:30,405 |-INFO in ch.qos.logback.core.model.processor.AppenderRefModelHandler - Attaching appender named [ERROR_LOG] to Logger[ROOT]
+23:26:30,405 |-INFO in ch.qos.logback.core.model.processor.DefaultProcessor@5c6648b0 - End of configuration.
+23:26:30,406 |-INFO in ch.qos.logback.classic.joran.JoranConfigurator@6f1de4c7 - Registering current configuration as safe fallback point
+23:26:30,406 |-INFO in ch.qos.logback.classic.util.ContextInitializer@3023df74 - ch.qos.logback.classic.util.DefaultJoranConfigurator.configure() call lasted 601 milliseconds. ExecutionStatus=DO_NOT_INVOKE_NEXT_IF_ANY
+
+2025-12-14 23:26:31.040 [main] INFO  [NO_ID] [NO_SCENARIO] c.e.api.config.ConfigurationManager - Successfully loaded configuration for environment: dev
+2025-12-14 23:26:31.044 [main] INFO  [NO_ID] [NO_SCENARIO] c.e.api.utils.LoggingConfiguration - HTTP logging level set to: DEBUG
+2025-12-14 23:26:31.044 [main] INFO  [NO_ID] [NO_SCENARIO] c.e.api.utils.LoggingConfiguration - Error logging level set to: DEBUG
+2025-12-14 23:26:31.045 [main] INFO  [NO_ID] [NO_SCENARIO] c.e.api.utils.LoggingConfiguration - Metrics logging level set to: DEBUG
+2025-12-14 23:26:31.045 [main] DEBUG [NO_ID] [NO_SCENARIO] c.e.api.utils.LoggingConfiguration - Set logger 'com.ecommerce.api.utils' to level 'DEBUG'
+2025-12-14 23:26:31.045 [main] INFO  [NO_ID] [NO_SCENARIO] c.e.api.utils.LoggingConfiguration - Verbose logging enabled - all loggers set to DEBUG
+2025-12-14 23:26:31.046 [main] INFO  [NO_ID] [NO_SCENARIO] c.e.api.utils.LoggingConfiguration - Logging configured for development environment
+2025-12-14 23:26:31.046 [main] INFO  [NO_ID] [NO_SCENARIO] c.e.api.utils.LoggingConfiguration - === Current Logging Configuration ===
+2025-12-14 23:26:31.046 [main] INFO  [NO_ID] [NO_SCENARIO] c.e.api.utils.LoggingConfiguration - HTTP Interactions: DEBUG
+2025-12-14 23:26:31.046 [main] INFO  [NO_ID] [NO_SCENARIO] c.e.api.utils.LoggingConfiguration - API Errors: DEBUG
+2025-12-14 23:26:31.046 [main] INFO  [NO_ID] [NO_SCENARIO] c.e.api.utils.LoggingConfiguration - Performance Metrics: DEBUG
+2025-12-14 23:26:31.046 [main] INFO  [NO_ID] [NO_SCENARIO] c.e.api.utils.LoggingConfiguration - API Client: DEBUG
+2025-12-14 23:26:31.046 [main] INFO  [NO_ID] [NO_SCENARIO] c.e.api.utils.LoggingConfiguration - Step Definitions: DEBUG
+2025-12-14 23:26:31.046 [main] INFO  [NO_ID] [NO_SCENARIO] c.e.api.utils.LoggingConfiguration - REST Assured: WARN
+2025-12-14 23:26:31.047 [main] INFO  [NO_ID] [NO_SCENARIO] c.e.api.utils.LoggingConfiguration - Cucumber: INFO
+2025-12-14 23:26:31.047 [main] INFO  [NO_ID] [NO_SCENARIO] c.e.api.utils.LoggingConfiguration - =====================================
+=== API Test Suite Configuration ===
+Environment: dev
+Base URL: http://localhost:8000
+Logging configured for: dev
+====================================
+2025-12-14 23:26:32.610 [TestNG-test=Surefire test-1] INFO  [NO_ID] [NO_SCENARIO] c.e.api.runners.TestSuiteHooks - === API Test Suite Starting ===
+2025-12-14 23:26:32.612 [TestNG-test=Surefire test-1] INFO  [NO_ID] [NO_SCENARIO] c.e.api.utils.PerformanceMetrics - Test suite execution started at: 2025-12-14T17:56:32.612343200Z
+2025-12-14 23:26:32.613 [TestNG-test=Surefire test-1] INFO  [NO_ID] [NO_SCENARIO] c.e.api.runners.TestSuiteHooks - Performance metrics collection initialized
+2025-12-14 23:26:32.613 [TestNG-test=Surefire test-1] INFO  [NO_ID] [NO_SCENARIO] c.e.api.runners.TestSuiteHooks - Test suite setup completed successfully
+
+@product-catalog @positive @smoke
+Scenario: Get all products successfully                                           # src/test/resources/features/product_catalog.feature:11
+
+@product-catalog @positive @smoke
+Scenario: Get product by valid ID successfully                               # src/test/resources/features/product_catalog.feature:20
+2025-12-14 23:26:33.600 [TestNG-PoolService-1] INFO  [NO_ID] [NO_SCENARIO] c.e.a.s.ProductApiSteps - Setting up ProductApiSteps for new scenario
+
+@product-catalog @negative @regression
+Scenario: Get product by invalid ID returns error                # src/test/resources/features/product_catalog.feature:29
+2025-12-14 23:26:33.602 [TestNG-PoolService-2] INFO  [NO_ID] [NO_SCENARIO] c.e.a.s.ProductApiSteps - Setting up ProductApiSteps for new scenario
+2025-12-14 23:26:33.605 [TestNG-PoolService-0] INFO  [NO_ID] [NO_SCENARIO] c.e.a.s.ProductApiSteps - Setting up ProductApiSteps for new scenario
+2025-12-14 23:26:34.260 [TestNG-PoolService-0] INFO  [NO_ID] [NO_SCENARIO] c.ecommerce.api.client.RestApiClient - REST Assured configured with base URI: http://localhost:8000
+2025-12-14 23:26:34.261 [TestNG-PoolService-0] INFO  [NO_ID] [NO_SCENARIO] c.e.api.utils.TestDataManager - TestDataManager initialized
+2025-12-14 23:26:34.260 [TestNG-PoolService-1] INFO  [NO_ID] [NO_SCENARIO] c.ecommerce.api.client.RestApiClient - REST Assured configured with base URI: http://localhost:8000
+2025-12-14 23:26:34.262 [TestNG-PoolService-0] DEBUG [NO_ID] [NO_SCENARIO] c.e.a.s.ProductApiSteps - ProductApiSteps setup completed for session: product_session_1765734994261
+2025-12-14 23:26:34.260 [TestNG-PoolService-2] INFO  [NO_ID] [NO_SCENARIO] c.ecommerce.api.client.RestApiClient - REST Assured configured with base URI: http://localhost:8000
+2025-12-14 23:26:34.262 [TestNG-PoolService-1] DEBUG [NO_ID] [NO_SCENARIO] c.e.a.s.ProductApiSteps - ProductApiSteps setup completed for session: product_session_1765734994262
+2025-12-14 23:26:34.262 [TestNG-PoolService-2] DEBUG [NO_ID] [NO_SCENARIO] c.e.a.s.ProductApiSteps - ProductApiSteps setup completed for session: product_session_1765734994262
+2025-12-14 23:26:34.270 [TestNG-PoolService-0] INFO  [NO_ID] [NO_SCENARIO] c.e.api.stepdefinitions.UserApiSteps - Setting up UserApiSteps for new scenario
+2025-12-14 23:26:34.270 [TestNG-PoolService-1] INFO  [NO_ID] [NO_SCENARIO] c.e.api.stepdefinitions.UserApiSteps - Setting up UserApiSteps for new scenario
+2025-12-14 23:26:34.270 [TestNG-PoolService-0] DEBUG [NO_ID] [NO_SCENARIO] c.e.api.stepdefinitions.UserApiSteps - UserApiSteps setup completed for session: session_1765734994270
+2025-12-14 23:26:34.270 [TestNG-PoolService-1] DEBUG [NO_ID] [NO_SCENARIO] c.e.api.stepdefinitions.UserApiSteps - UserApiSteps setup completed for session: session_1765734994270
+2025-12-14 23:26:34.272 [TestNG-PoolService-1] INFO  [NO_ID] [NO_SCENARIO] c.e.api.utils.TestIsolationManager - TestIsolationManager initialized
+2025-12-14 23:26:34.273 [TestNG-PoolService-2] INFO  [NO_ID] [NO_SCENARIO] c.e.api.stepdefinitions.UserApiSteps - Setting up UserApiSteps for new scenario
+2025-12-14 23:26:34.273 [TestNG-PoolService-2] DEBUG [NO_ID] [NO_SCENARIO] c.e.api.stepdefinitions.UserApiSteps - UserApiSteps setup completed for session: session_1765734994273
+2025-12-14 23:26:34.279 [TestNG-PoolService-2] INFO  [NO_ID] [NO_SCENARIO] com.ecommerce.api.runners.TestHooks - Executing REGRESSION TEST: Get product by invalid ID returns error
+
+    REGRESSION TEST - Comprehensive functionality validation
+
+2025-12-14 23:26:34.280 [TestNG-PoolService-0] INFO  [79b80eb1-c653-4c85-a245-7e1d92ee52a3] [Get all products successfully] HTTP_INTERACTIONS - 
+=== TEST SCENARIO START ===
+Scenario: Get all products successfully
+Description: Scenario execution with tags: [@product-catalog, @positive, @smoke]
+Correlation ID: 79b80eb1-c653-4c85-a245-7e1d92ee52a3
+==========================
+2025-12-14 23:26:34.280 [TestNG-PoolService-0] INFO  [79b80eb1-c653-4c85-a245-7e1d92ee52a3] [Get all products successfully] com.ecommerce.api.runners.TestHooks - Starting scenario: Get all products successfully with correlation ID: e5a1e5f1-b099-4af3-b2f9-5bdabd0f0824
+2025-12-14 23:26:34.279 [TestNG-PoolService-1] INFO  [6397481b-8851-4f1d-9f46-712d7e06847f] [Get product by valid ID successfully] HTTP_INTERACTIONS - 
+=== TEST SCENARIO START ===
+Scenario: Get product by valid ID successfully
+Description: Scenario execution with tags: [@product-catalog, @positive, @smoke]
+Correlation ID: 6397481b-8851-4f1d-9f46-712d7e06847f
+==========================
+2025-12-14 23:26:34.281 [TestNG-PoolService-1] INFO  [6397481b-8851-4f1d-9f46-712d7e06847f] [Get product by valid ID successfully] com.ecommerce.api.runners.TestHooks - Starting scenario: Get product by valid ID successfully with correlation ID: 6e04ac38-0820-4d65-b85d-26db625eda65
+2025-12-14 23:26:34.282 [TestNG-PoolService-2] INFO  [d39bfba4-84af-4d5c-9c66-41f8383ad84f] [Get product by invalid ID returns error] HTTP_INTERACTIONS - 
+=== TEST SCENARIO START ===
+Scenario: Get product by invalid ID returns error
+Description: Scenario execution with tags: [@product-catalog, @negative, @regression]
+Correlation ID: d39bfba4-84af-4d5c-9c66-41f8383ad84f
+==========================
+2025-12-14 23:26:34.282 [TestNG-PoolService-2] INFO  [d39bfba4-84af-4d5c-9c66-41f8383ad84f] [Get product by invalid ID returns error] com.ecommerce.api.runners.TestHooks - Starting scenario: Get product by invalid ID returns error with correlation ID: 2941a105-670f-4413-89d0-0fc898c92bb1
+2025-12-14 23:26:34.283 [TestNG-PoolService-0] DEBUG [79b80eb1-c653-4c85-a245-7e1d92ee52a3] [Get all products successfully] c.e.api.utils.TestIsolationManager - Started test session: d6e821fa-c3cb-4726-a51b-af97dab16f0e for test: Get all products successfully
+2025-12-14 23:26:34.283 [TestNG-PoolService-1] DEBUG [6397481b-8851-4f1d-9f46-712d7e06847f] [Get product by valid ID successfully] c.e.api.utils.TestIsolationManager - Started test session: df9bfeba-6321-40c2-98e9-7ac514d852d1 for test: Get product by valid ID successfully
+2025-12-14 23:26:34.283 [TestNG-PoolService-2] DEBUG [d39bfba4-84af-4d5c-9c66-41f8383ad84f] [Get product by invalid ID returns error] c.e.api.utils.TestIsolationManager - Started test session: d976b606-330e-409a-9b0b-d34482cbbe0f for test: Get product by invalid ID returns error
+2025-12-14 23:26:34.283 [TestNG-PoolService-0] INFO  [79b80eb1-c653-4c85-a245-7e1d92ee52a3] [Get all products successfully] com.ecommerce.api.runners.TestHooks - Scenario 'Get all products successfully' setup completed with session: d6e821fa-c3cb-4726-a51b-af97dab16f0e
+2025-12-14 23:26:34.283 [TestNG-PoolService-1] INFO  [6397481b-8851-4f1d-9f46-712d7e06847f] [Get product by valid ID successfully] com.ecommerce.api.runners.TestHooks - Scenario 'Get product by valid ID successfully' setup completed with session: df9bfeba-6321-40c2-98e9-7ac514d852d1
+2025-12-14 23:26:34.283 [TestNG-PoolService-2] INFO  [d39bfba4-84af-4d5c-9c66-41f8383ad84f] [Get product by invalid ID returns error] com.ecommerce.api.runners.TestHooks - Scenario 'Get product by invalid ID returns error' setup completed with session: d976b606-330e-409a-9b0b-d34482cbbe0f
+
+    Correlation ID: 6e04ac38-0820-4d65-b85d-26db625eda65
+
+
+    Correlation ID: e5a1e5f1-b099-4af3-b2f9-5bdabd0f0824
+
+
+    Correlation ID: 2941a105-670f-4413-89d0-0fc898c92bb1
+
+
+    Session ID: d6e821fa-c3cb-4726-a51b-af97dab16f0e
+
+
+    Session ID: d976b606-330e-409a-9b0b-d34482cbbe0f
+
+2025-12-14 23:26:34.290 [TestNG-PoolService-0] INFO  [79b80eb1-c653-4c85-a245-7e1d92ee52a3] [Get all products successfully] com.ecommerce.api.runners.TestHooks - Executing SMOKE TEST: Get all products successfully
+
+    SMOKE TEST - Critical functionality validation
+
+2025-12-14 23:26:34.294 [TestNG-PoolService-0] INFO  [79b80eb1-c653-4c85-a245-7e1d92ee52a3] [Get all products successfully] c.e.api.stepdefinitions.CommonSteps - API base URL configured: http://localhost:8000
+
+    Session ID: df9bfeba-6321-40c2-98e9-7ac514d852d1
+
+2025-12-14 23:26:34.289 [TestNG-PoolService-2] INFO  [d39bfba4-84af-4d5c-9c66-41f8383ad84f] [Get product by invalid ID returns error] c.e.api.stepdefinitions.CommonSteps - API base URL configured: http://localhost:8000
+2025-12-14 23:26:34.296 [TestNG-PoolService-1] INFO  [6397481b-8851-4f1d-9f46-712d7e06847f] [Get product by valid ID successfully] com.ecommerce.api.runners.TestHooks - Executing SMOKE TEST: Get product by valid ID successfully
+
+    SMOKE TEST - Critical functionality validation
+
+2025-12-14 23:26:34.298 [TestNG-PoolService-1] INFO  [6397481b-8851-4f1d-9f46-712d7e06847f] [Get product by valid ID successfully] c.e.api.stepdefinitions.CommonSteps - API base URL configured: http://localhost:8000
+  Given the API base URL is configured                                       # com.ecommerce.api.stepdefinitions.CommonSteps.theApiBaseUrlIsConfigured()
+2025-12-14 23:26:34.300 [TestNG-PoolService-1] INFO  [6397481b-8851-4f1d-9f46-712d7e06847f] [Get product by valid ID successfully] c.e.api.stepdefinitions.CommonSteps - Verifying test environment readiness
+  Given the API base URL is configured                           # com.ecommerce.api.stepdefinitions.CommonSteps.theApiBaseUrlIsConfigured()
+2025-12-14 23:26:34.300 [TestNG-PoolService-1] INFO  [6397481b-8851-4f1d-9f46-712d7e06847f] [Get product by valid ID successfully] c.e.api.stepdefinitions.CommonSteps - Test environment is ready for execution
+  Given the API base URL is configured                                            # com.ecommerce.api.stepdefinitions.CommonSteps.theApiBaseUrlIsConfigured()
+2025-12-14 23:26:34.301 [TestNG-PoolService-0] INFO  [79b80eb1-c653-4c85-a245-7e1d92ee52a3] [Get all products successfully] c.e.api.stepdefinitions.CommonSteps - Verifying test environment readiness
+2025-12-14 23:26:34.302 [TestNG-PoolService-0] INFO  [79b80eb1-c653-4c85-a245-7e1d92ee52a3] [Get all products successfully] c.e.api.stepdefinitions.CommonSteps - Test environment is ready for execution
+  And the test environment is ready                                               # com.ecommerce.api.stepdefinitions.CommonSteps.theTestEnvironmentIsReady()
+  And the test environment is ready                                          # com.ecommerce.api.stepdefinitions.CommonSteps.theTestEnvironmentIsReady()
+2025-12-14 23:26:34.303 [TestNG-PoolService-2] INFO  [d39bfba4-84af-4d5c-9c66-41f8383ad84f] [Get product by invalid ID returns error] c.e.api.stepdefinitions.CommonSteps - Verifying test environment readiness
+2025-12-14 23:26:34.303 [TestNG-PoolService-2] INFO  [d39bfba4-84af-4d5c-9c66-41f8383ad84f] [Get product by invalid ID returns error] c.e.api.stepdefinitions.CommonSteps - Test environment is ready for execution
+2025-12-14 23:26:34.304 [TestNG-PoolService-1] INFO  [6397481b-8851-4f1d-9f46-712d7e06847f] [Get product by valid ID successfully] HTTP_INTERACTIONS - 
+=== HTTP REQUEST ===
+Timestamp: 2025-12-14 23:26:34.304
+Correlation ID: 6397481b-8851-4f1d-9f46-712d7e06847f
+Method: GET
+Endpoint: /product/507f1f77bcf86cd799439011
+==================
+  And the test environment is ready                              # com.ecommerce.api.stepdefinitions.CommonSteps.theTestEnvironmentIsReady()
+2025-12-14 23:26:34.305 [TestNG-PoolService-0] INFO  [79b80eb1-c653-4c85-a245-7e1d92ee52a3] [Get all products successfully] c.e.a.s.ProductApiSteps - Sending GET request to endpoint: /products
+2025-12-14 23:26:34.306 [TestNG-PoolService-2] INFO  [d39bfba4-84af-4d5c-9c66-41f8383ad84f] [Get product by invalid ID returns error] c.e.a.s.ProductApiSteps - Sending GET request to endpoint: /product/invalid-product-id-123
+2025-12-14 23:26:34.306 [TestNG-PoolService-2] INFO  [d39bfba4-84af-4d5c-9c66-41f8383ad84f] [Get product by invalid ID returns error] HTTP_INTERACTIONS - 
+=== HTTP REQUEST ===
+Timestamp: 2025-12-14 23:26:34.306
+Correlation ID: d39bfba4-84af-4d5c-9c66-41f8383ad84f
+Method: GET
+Endpoint: /product/invalid-product-id-123
+==================
+2025-12-14 23:26:34.305 [TestNG-PoolService-0] INFO  [79b80eb1-c653-4c85-a245-7e1d92ee52a3] [Get all products successfully] HTTP_INTERACTIONS - 
+=== HTTP REQUEST ===
+Timestamp: 2025-12-14 23:26:34.305
+Correlation ID: 79b80eb1-c653-4c85-a245-7e1d92ee52a3
+Method: GET
+Endpoint: /products
+==================
+2025-12-14 23:26:36.054 [TestNG-PoolService-2] INFO  [d39bfba4-84af-4d5c-9c66-41f8383ad84f] [Get product by invalid ID returns error] HTTP_INTERACTIONS - 
+=== HTTP RESPONSE ===
+Timestamp: 2025-12-14 23:26:36.049
+Correlation ID: d39bfba4-84af-4d5c-9c66-41f8383ad84f
+Endpoint: /product/invalid-product-id-123
+Status Code: 200
+Status Line: HTTP/1.1 200 OK
+Response Time: 509ms
+Response Headers:
+  X-Powered-By: Express
+  Access-Control-Allow-Origin: *
+  Content-Type: application/json; charset=utf-8
+  Content-Length: 4
+  ETag: W/"4-K+iMpCQsduglOsYkdIUQZQMtaDM"
+  Date: Sun, 14 Dec 2025 17:56:35 GMT
+  Connection: keep-alive
+  Keep-Alive: timeout=5
+Response Body: null
+====================
+2025-12-14 23:26:36.053 [TestNG-PoolService-1] INFO  [6397481b-8851-4f1d-9f46-712d7e06847f] [Get product by valid ID successfully] HTTP_INTERACTIONS - 
+=== HTTP RESPONSE ===
+Timestamp: 2025-12-14 23:26:36.048
+Correlation ID: 6397481b-8851-4f1d-9f46-712d7e06847f
+Endpoint: /product/507f1f77bcf86cd799439011
+Status Code: 200
+Status Line: HTTP/1.1 200 OK
+Response Time: 506ms
+Response Headers:
+  X-Powered-By: Express
+  Access-Control-Allow-Origin: *
+  Content-Type: application/json; charset=utf-8
+  Content-Length: 4
+  ETag: W/"4-K+iMpCQsduglOsYkdIUQZQMtaDM"
+  Date: Sun, 14 Dec 2025 17:56:35 GMT
+  Connection: keep-alive
+  Keep-Alive: timeout=5
+Response Body: null
+====================
+2025-12-14 23:26:36.056 [TestNG-PoolService-0] INFO  [79b80eb1-c653-4c85-a245-7e1d92ee52a3] [Get all products successfully] HTTP_INTERACTIONS - 
+=== HTTP RESPONSE ===
+Timestamp: 2025-12-14 23:26:36.052
+Correlation ID: 79b80eb1-c653-4c85-a245-7e1d92ee52a3
+Endpoint: /products
+Status Code: 200
+Status Line: HTTP/1.1 200 OK
+Response Time: 507ms
+Response Headers:
+  X-Powered-By: Express
+  Access-Control-Allow-Origin: *
+  Content-Type: application/json; charset=utf-8
+  Content-Length: 6018
+  ETag: W/"1782-yW4I3QlI2nHkthHXmYhSTLH2wOM"
+  Date: Sun, 14 Dec 2025 17:56:35 GMT
+  Connection: keep-alive
+  Keep-Alive: timeout=5
+Response Body: [{"_id":"66f7b186b937ca7bcad6bcc1","id":"product4","url":"https://rukminim1.flixcart.com/image/300/300/kll7bm80/smartwatch/c/1/n/43-mo-sw-sense-500-android-ios-molife-original-imagyzyycnpujyjh.jpeg?q=70","title":{"shortTitle":"Smart Watches","longTitle":"Molife Sense 500 Smartwatch  (Black Strap, Freesize)"},"detailUrl":"https://rukminim1.flixcart.com/image/416/416/kll7bm80/smartwatch/c/1/n/43-mo-sw-sense-500-android-ios-molife-original-imagyzyycnpujyjh.jpeg?q=70","price":{"mrp":6999,"cost":4049,"discount":"42%"},"quantity":1,"description":"The Molife Sense 500, a brilliant smartwatch with a beautiful large display. Say hello to the infinity 1.7-inch display with 2.5D curved edges. Thanks to seamless Bluetooth 5.0 connectivity, you wont have to keep waiting. Bring a change to your outfit every day with changeable straps. A splash of color every day keeps the boredom away.","discount":"Grab Now","tagline":"Best Seller","__v":0},{"_id":"66f7b186b937ca7bcad6bcc2","id":"product5","url":"https://rukminim1.flixcart.com/image/416/416/k3uhhu80/hair-dryer/n/m/t/nova-2800-w-professional-nhp-8220-original-imafmvwfhmzsxdrw.jpeg?q=70","title":{"shortTitle":"Trimmers, Dryers & more","longTitle":"Nova Professional NHP 8220 Hair Dryer  (1800 W, Multicolor)"},"detailUrl":"https://rukminim1.flixcart.com/image/416/416/k3uhhu80/hair-dryer/n/m/t/nova-2800-w-professional-nhp-8220-original-imafmvwfhmzsxdrw.jpeg?q=70","price":{"mrp":1899,"cost":1124,"discount":"40%"},"quantity":1,"description":"","discount":"From ₹499","tagline":"Kubra, Nova & more","__v":0},{"_id":"66f7b186b937ca7bcad6bcc3","id":"product6","url":"https://rukminim1.flixcart.com/image/150/150/kk01pjk0/fan/d/d/l/tiktik-quiet-portable-table-fan-zigma-original-imafzg7ftzuckpad.jpeg?q=70","title":{"shortTitle":"Table Fans","longTitle":"Portable 300 mm Ultra High Speed 3 Blade Table Fan  (Black, Pack of 1)"},"detailUrl":"https://rukminim1.flixcart.com/image/416/416/kk01pjk0/fan/d/d/l/tiktik-quiet-portable-table-fan-zigma-original-imafzg7ftzuckpad.jpeg?q=70","price":{"mrp":2250,"cost":1199,"discount":"46%"},"quantity":1,"description":"Table Fan. Perfect size fan for use on a table, desk or in an RV. Whisper quiet, powerful airflow and reliable operation in a compact 6\" size. Two adjustable speeds to customize airflow: high or low settings. Tough break-resistant ABS plastic blades. ","discount":"Minimum 40% Off","tagline":"Top Selling","__v":0},{"_id":"66f7b186b937ca7bcad6bcbf","id":"product2","url":"https://rukminim1.flixcart.com/image/416/416/kl6wx3k0/sandwich-maker/8/r/d/sandwich-01-flipkart-smartbuy-original-imagydds4zthxt8z.jpeg?q=70","title":{"shortTitle":"Sandwich Makers","longTitle":"Flipkart SmartBuy Sandwich 01 Grill  (Black)"},"detailUrl":"https://rukminim1.flixcart.com/image/416/416/kl6wx3k0/sandwich-maker/8/r/d/sandwich-01-flipkart-smartbuy-original-imagydds4zthxt8z.jpeg?q=70","price":{"mrp":1499,"cost":899,"discount":"40%"},"quantity":1,"description":"This non-stick sandwich toaster .easy to use and very handy. Directly hold over flame to make tasty toasts and toasted sandwiches. Specially designed by keeping your needs in mind, the sandwich maker makes whatever youre doing simpler, smarter and better","discount":"From 99+5% Off","tagline":"Pestige, Nova & more","__v":0},{"_id":"66f7b186b937ca7bcad6bcc0","id":"product3","url":"https://rukminim1.flixcart.com/image/150/150/kohigsw0/resistance-tube/c/s/e/new-adjustable-single-resistance-tube-multicolor-na-ajro-deal-original-imag2xg88mhmwxz5.jpeg?q=70","title":{"shortTitle":"Fitness Gear","longTitle":"AJRO DEAL New Adjustable Single Resistance Tube (Multicolor) Resistance Tube  (Multicolor)"},"detailUrl":"https://rukminim1.flixcart.com/image/416/416/kohigsw0/resistance-tube/c/s/e/new-adjustable-single-resistance-tube-multicolor-na-ajro-deal-original-imag2xg88mhmwxz5.jpeg?q=70","price":{"mrp":499,"cost":166,"discount":"66%"},"quantity":1,"description":"This unique product can tone your back muscles, reduce belly fat, improve blood circulation and also improves your body posture. It increases the stamina, energy and vitality of the body. The elastic resistance of the rubber training rope can be used to train and exercise in whichever way you want, according to your physical needs.","discount":"Upto 70% Off","tagline":"Deal of the Day","__v":0},{"_id":"66f7b186b937ca7bcad6bcbe","id":"product1","url":"https://rukminim1.flixcart.com/image/150/150/kapoo7k0/electric-kettle/p/6/s/pigeon-favourite-original-imafs7xhj5uwgrh4.jpeg?q=70","title":{"shortTitle":"Home & Kitchen","longTitle":"Pigeon FAVOURITE Electric Kettle  (1.5 L, Silver, Black)"},"detailUrl":"https://rukminim1.flixcart.com/image/416/416/kapoo7k0/electric-kettle/p/6/s/pigeon-favourite-original-imafs7xhj5uwgrh4.jpeg?q=70","price":{"mrp":1195,"cost":625,"discount":"47%"},"quantity":1,"description":"This electric kettle from Pigeon will soon become a travelers best friend, a hostelite saviour and an answer to all the midnight cravings. With this handy appliance, you can boil water and use it to make instant noodles, packet soup, coffee and green tea.","discount":"Extra 10% Off","tagline":"Deal of the day","__v":0},{"_id":"66f7b186b937ca7bcad6bcc4","id":"product7","url":"https://rukminim1.flixcart.com/image/150/150/kcgk1ow0/headphone/n/u/a/235v2-fast-charging-boat-original-imaftk6us4af7bca.jpeg?q=70","title":{"shortTitle":"Headphones","longTitle":"boAt Rockerz 235v2 with ASAP charging Version 5.0 Bluetooth Headset "},"detailUrl":"https://rukminim1.flixcart.com/image/416/416/kcgk1ow0/headphone/n/u/a/235v2-fast-charging-boat-original-imaftk6us4af7bca.jpeg?q=70","price":{"mrp":2990,"cost":1199,"discount":"59%"},"quantity":1,"description":"Let music brighten up your mood anytime, anywhere with the boAt 235v2 Fast Charging Bluetooth Headset. This Bluetooth headset features a Call Vibration Alert, a Fast Charging Technology, and Easy Access Controls to listen to and manage your favorite music with ease.","discount":"Minimum 50% Off","tagline":"Grab Now!","__v":0}]
+====================
+2025-12-14 23:26:36.057 [TestNG-PoolService-0] DEBUG [79b80eb1-c653-4c85-a245-7e1d92ee52a3] [Get all products successfully] c.e.api.utils.PerformanceMetrics - Recorded API request metrics - Endpoint: /products, Response Time: 507ms, Success: true
+2025-12-14 23:26:36.058 [TestNG-PoolService-0] INFO  [79b80eb1-c653-4c85-a245-7e1d92ee52a3] [Get all products successfully] c.ecommerce.api.client.RestApiClient - GET request completed. Status: 200, Response time: 507ms
+2025-12-14 23:26:36.058 [TestNG-PoolService-0] INFO  [79b80eb1-c653-4c85-a245-7e1d92ee52a3] [Get all products successfully] c.e.a.s.ProductApiSteps - GET request completed. Status: 200, Response time: 507ms
+  When I send a GET request to "/products"                                        # com.ecommerce.api.stepdefinitions.ProductApiSteps.iSendAGetRequestTo(java.lang.String)
+2025-12-14 23:26:36.057 [TestNG-PoolService-2] DEBUG [d39bfba4-84af-4d5c-9c66-41f8383ad84f] [Get product by invalid ID returns error] c.e.api.utils.PerformanceMetrics - Recorded API request metrics - Endpoint: /product/invalid-product-id-123, Response Time: 509ms, Success: true
+2025-12-14 23:26:36.060 [TestNG-PoolService-0] INFO  [79b80eb1-c653-4c85-a245-7e1d92ee52a3] [Get all products successfully] c.e.api.stepdefinitions.CommonSteps - Validating response status code. Expected: 200, Actual: 200
+  Then the response status code should be 200                                     # com.ecommerce.api.stepdefinitions.CommonSteps.theResponseStatusCodeShouldBe(int)
+2025-12-14 23:26:36.060 [TestNG-PoolService-2] INFO  [d39bfba4-84af-4d5c-9c66-41f8383ad84f] [Get product by invalid ID returns error] c.ecommerce.api.client.RestApiClient - GET request completed. Status: 200, Response time: 509ms
+2025-12-14 23:26:36.065 [TestNG-PoolService-2] INFO  [d39bfba4-84af-4d5c-9c66-41f8383ad84f] [Get product by invalid ID returns error] c.e.a.s.ProductApiSteps - GET request completed. Status: 200, Response time: 509ms
+  When I send a GET request to "/product/invalid-product-id-123" # com.ecommerce.api.stepdefinitions.ProductApiSteps.iSendAGetRequestTo(java.lang.String)
+2025-12-14 23:26:36.066 [TestNG-PoolService-2] INFO  [d39bfba4-84af-4d5c-9c66-41f8383ad84f] [Get product by invalid ID returns error] c.e.api.stepdefinitions.CommonSteps - Validating response status code. Expected: 404, Actual: 200
+2025-12-14 23:26:36.056 [TestNG-PoolService-1] DEBUG [6397481b-8851-4f1d-9f46-712d7e06847f] [Get product by valid ID successfully] c.e.api.utils.PerformanceMetrics - Recorded API request metrics - Endpoint: /product/507f1f77bcf86cd799439011, Response Time: 506ms, Success: true
+2025-12-14 23:26:36.071 [TestNG-PoolService-1] INFO  [6397481b-8851-4f1d-9f46-712d7e06847f] [Get product by valid ID successfully] c.ecommerce.api.client.RestApiClient - GET request completed. Status: 200, Response time: 506ms
+2025-12-14 23:26:36.071 [TestNG-PoolService-1] DEBUG [6397481b-8851-4f1d-9f46-712d7e06847f] [Get product by valid ID successfully] c.e.a.s.ProductApiSteps - Verified product existence for ID '507f1f77bcf86cd799439011' with status: 200
+  Given a product exists with ID "507f1f77bcf86cd799439011"                  # com.ecommerce.api.stepdefinitions.ProductApiSteps.aProductExistsWithId(java.lang.String)
+  Then the response status code should be 404                    # com.ecommerce.api.stepdefinitions.CommonSteps.theResponseStatusCodeShouldBe(int)
+      java.lang.AssertionError: Expected status code 404 but got 200 expected [404] but found [200]
+	at org.testng.Assert.fail(Assert.java:111)
+	at org.testng.Assert.failNotEquals(Assert.java:1578)
+	at org.testng.Assert.assertEqualsImpl(Assert.java:150)
+	at org.testng.Assert.assertEquals(Assert.java:132)
+	at org.testng.Assert.assertEquals(Assert.java:1419)
+	at org.testng.Assert.assertEquals(Assert.java:1383)
+	at com.ecommerce.api.stepdefinitions.CommonSteps.theResponseStatusCodeShouldBe(CommonSteps.java:55)
+	at ✽.the response status code should be 404(file:///C:/Users/SIC/Desktop/Automation%20Of%20Shopnest/Shopnest/src/test/resources/features/product_catalog.feature:31)
+
+  And the response should contain appropriate HTTP error status  # com.ecommerce.api.stepdefinitions.ProductApiSteps.theResponseShouldContainAppropriateHttpErrorStatus()
+  And the response should contain error JSON message             # com.ecommerce.api.stepdefinitions.ProductApiSteps.theResponseShouldContainErrorJsonMessage()
+  And the error message should indicate product not found        # com.ecommerce.api.stepdefinitions.ProductApiSteps.theErrorMessageShouldIndicateProductNotFound()
+2025-12-14 23:26:36.087 [TestNG-PoolService-2] INFO  [d39bfba4-84af-4d5c-9c66-41f8383ad84f] [Get product by invalid ID returns error] com.ecommerce.api.runners.TestHooks - Completing scenario: Get product by invalid ID returns error - Status: FAILED - Duration: 1803ms
+2025-12-14 23:26:36.087 [TestNG-PoolService-2] INFO  [d39bfba4-84af-4d5c-9c66-41f8383ad84f] [Get product by invalid ID returns error] HTTP_INTERACTIONS - 
+=== TEST SCENARIO END ===
+Scenario: Get product by invalid ID returns error
+Status: FAILED
+Duration: 1803ms
+Correlation ID: d39bfba4-84af-4d5c-9c66-41f8383ad84f
+========================
+2025-12-14 23:26:36.087 [TestNG-PoolService-2] DEBUG [d39bfba4-84af-4d5c-9c66-41f8383ad84f] [Get product by invalid ID returns error] c.e.api.utils.PerformanceMetrics - Test failed: Get product by invalid ID returns error
+2025-12-14 23:26:36.087 [TestNG-PoolService-2] ERROR [d39bfba4-84af-4d5c-9c66-41f8383ad84f] [NO_SCENARIO] com.ecommerce.api.runners.TestHooks - Scenario 'Get product by invalid ID returns error' failed after 1803ms
+2025-12-14 23:26:36.088 [TestNG-PoolService-1] INFO  [6397481b-8851-4f1d-9f46-712d7e06847f] [Get product by valid ID successfully] c.e.a.s.ProductApiSteps - Sending GET request to endpoint: /product/507f1f77bcf86cd799439011
+2025-12-14 23:26:36.088 [TestNG-PoolService-1] INFO  [6397481b-8851-4f1d-9f46-712d7e06847f] [Get product by valid ID successfully] HTTP_INTERACTIONS - 
+=== HTTP REQUEST ===
+Timestamp: 2025-12-14 23:26:36.088
+Correlation ID: 6397481b-8851-4f1d-9f46-712d7e06847f
+Method: GET
+Endpoint: /product/507f1f77bcf86cd799439011
+==================
+
+    Scenario failed - Duration: 1803ms - Check logs for details
+
+
+    Failure status: FAILED
+
+2025-12-14 23:26:36.129 [TestNG-PoolService-2] INFO  [d39bfba4-84af-4d5c-9c66-41f8383ad84f] [NO_SCENARIO] c.e.api.utils.TestIsolationManager - Ended test session: d976b606-330e-409a-9b0b-d34482cbbe0f with cleanup result: CleanupResult{processed=0, cleaned=0, success=true}
+2025-12-14 23:26:36.130 [TestNG-PoolService-2] INFO  [d39bfba4-84af-4d5c-9c66-41f8383ad84f] [NO_SCENARIO] com.ecommerce.api.runners.TestHooks - Scenario 'Get product by invalid ID returns error' cleanup completed
+2025-12-14 23:26:36.132 [TestNG-PoolService-2] INFO  [NO_ID] [NO_SCENARIO] c.e.api.stepdefinitions.UserApiSteps - Cleaning up UserApiSteps for session: session_1765734994273
+2025-12-14 23:26:36.133 [TestNG-PoolService-2] DEBUG [NO_ID] [NO_SCENARIO] c.e.api.utils.TestDataManager - No test session found for cleanup: session_1765734994273
+2025-12-14 23:26:36.133 [TestNG-PoolService-2] DEBUG [NO_ID] [NO_SCENARIO] c.e.api.stepdefinitions.UserApiSteps - Cleaned up 0 test users for session: session_1765734994273
+2025-12-14 23:26:36.133 [TestNG-PoolService-2] DEBUG [NO_ID] [NO_SCENARIO] c.ecommerce.api.client.RestApiClient - REST API client state reset
+2025-12-14 23:26:36.133 [TestNG-PoolService-2] DEBUG [NO_ID] [NO_SCENARIO] c.e.api.stepdefinitions.UserApiSteps - UserApiSteps cleanup completed for session: session_1765734994273
+2025-12-14 23:26:36.135 [TestNG-PoolService-2] INFO  [NO_ID] [NO_SCENARIO] c.e.a.s.ProductApiSteps - Cleaning up ProductApiSteps for session: product_session_1765734994262
+2025-12-14 23:26:36.135 [TestNG-PoolService-2] DEBUG [NO_ID] [NO_SCENARIO] c.ecommerce.api.client.RestApiClient - REST API client state reset
+2025-12-14 23:26:36.135 [TestNG-PoolService-2] DEBUG [NO_ID] [NO_SCENARIO] c.e.a.s.ProductApiSteps - ProductApiSteps cleanup completed for session: product_session_1765734994262
+2025-12-14 23:26:36.147 [TestNG-PoolService-1] INFO  [6397481b-8851-4f1d-9f46-712d7e06847f] [Get product by valid ID successfully] HTTP_INTERACTIONS - 
+=== HTTP RESPONSE ===
+Timestamp: 2025-12-14 23:26:36.146
+Correlation ID: 6397481b-8851-4f1d-9f46-712d7e06847f
+Endpoint: /product/507f1f77bcf86cd799439011
+Status Code: 200
+Status Line: HTTP/1.1 200 OK
+Response Time: 38ms
+Response Headers:
+  X-Powered-By: Express
+  Access-Control-Allow-Origin: *
+  Content-Type: application/json; charset=utf-8
+  Content-Length: 4
+  ETag: W/"4-K+iMpCQsduglOsYkdIUQZQMtaDM"
+  Date: Sun, 14 Dec 2025 17:56:36 GMT
+  Connection: keep-alive
+  Keep-Alive: timeout=5
+Response Body: null
+====================
+2025-12-14 23:26:36.148 [TestNG-PoolService-1] DEBUG [6397481b-8851-4f1d-9f46-712d7e06847f] [Get product by valid ID successfully] c.e.api.utils.PerformanceMetrics - Recorded API request metrics - Endpoint: /product/507f1f77bcf86cd799439011, Response Time: 38ms, Success: true
+2025-12-14 23:26:36.148 [TestNG-PoolService-1] INFO  [6397481b-8851-4f1d-9f46-712d7e06847f] [Get product by valid ID successfully] c.ecommerce.api.client.RestApiClient - GET request completed. Status: 200, Response time: 38ms
+2025-12-14 23:26:36.148 [TestNG-PoolService-1] INFO  [6397481b-8851-4f1d-9f46-712d7e06847f] [Get product by valid ID successfully] c.e.a.s.ProductApiSteps - GET request completed. Status: 200, Response time: 38ms
+  When I send a GET request to "/product/507f1f77bcf86cd799439011"           # com.ecommerce.api.stepdefinitions.ProductApiSteps.iSendAGetRequestTo(java.lang.String)
+2025-12-14 23:26:36.149 [TestNG-PoolService-1] INFO  [6397481b-8851-4f1d-9f46-712d7e06847f] [Get product by valid ID successfully] c.e.api.stepdefinitions.CommonSteps - Validating response status code. Expected: 200, Actual: 200
+  Then the response status code should be 200                                # com.ecommerce.api.stepdefinitions.CommonSteps.theResponseStatusCodeShouldBe(int)
+]]></system-out>
+  </testcase>
+  <testcase name="runScenario[&quot;Get product by valid ID successfully&quot;, &quot;Product Catalog API&quot;](2)" classname="com.ecommerce.api.runners.CucumberTestRunner" time="0.074">
+    <failure message="Failed to parse the JSON document" type="io.restassured.path.json.exception.JsonPathException"><![CDATA[io.restassured.path.json.exception.JsonPathException: Failed to parse the JSON document
+	at io.restassured.path.json.JsonPath$ExceptionCatcher.invoke(JsonPath.java:1002)
+	at io.restassured.path.json.JsonPath$4.doParseWith(JsonPath.java:967)
+	at io.restassured.path.json.JsonPath$JsonParser.parseWith(JsonPath.java:1047)
+	at io.restassured.path.json.JsonPath.get(JsonPath.java:202)
+	at io.restassured.path.json.JsonPath.getMap(JsonPath.java:420)
+	at com.ecommerce.api.stepdefinitions.ProductApiSteps.theResponseShouldContainExactProductJsonDetailsMatchingTheId(ProductApiSteps.java:321)
+	at ✽.the response should contain exact product JSON details matching the ID(file:///C:/Users/SIC/Desktop/Automation%20Of%20Shopnest/Shopnest/src/test/resources/features/product_catalog.feature:24)
+Caused by: groovy.json.JsonException: A JSON payload should start with an openning curly brace '{' or an openning square bracket '['.
+Instead, 'null' was found on line: 1, column: 1
+	at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:62)
+	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:483)
+	at org.codehaus.groovy.reflection.CachedConstructor.invoke(CachedConstructor.java:73)
+	at org.codehaus.groovy.runtime.callsite.ConstructorSite$ConstructorSiteNoUnwrapNoCoerce.callConstructor(ConstructorSite.java:108)
+	at org.codehaus.groovy.runtime.callsite.CallSiteArray.defaultCallConstructor(CallSiteArray.java:57)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.callConstructor(AbstractCallSite.java:263)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.callConstructor(AbstractCallSite.java:277)
+	at io.restassured.internal.path.json.ConfigurableJsonSlurper.parse(ConfigurableJsonSlurper.groovy:114)
+	at io.restassured.internal.path.json.ConfigurableJsonSlurper$parse.callCurrent(Unknown Source)
+	at org.codehaus.groovy.runtime.callsite.CallSiteArray.defaultCallCurrent(CallSiteArray.java:49)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.callCurrent(AbstractCallSite.java:171)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.callCurrent(AbstractCallSite.java:185)
+	at io.restassured.internal.path.json.ConfigurableJsonSlurper.parseText(ConfigurableJsonSlurper.groovy:83)
+	at io.restassured.path.json.JsonPath$4$1.method(JsonPath.java:965)
+	at io.restassured.path.json.JsonPath$ExceptionCatcher.invoke(JsonPath.java:1000)
+	at io.restassured.path.json.JsonPath$4.doParseWith(JsonPath.java:967)
+	at io.restassured.path.json.JsonPath$JsonParser.parseWith(JsonPath.java:1047)
+	at io.restassured.path.json.JsonPath.get(JsonPath.java:202)
+	at io.restassured.path.json.JsonPath.getMap(JsonPath.java:420)
+	at com.ecommerce.api.stepdefinitions.ProductApiSteps.theResponseShouldContainExactProductJsonDetailsMatchingTheId(ProductApiSteps.java:321)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:565)
+	at io.cucumber.java.Invoker.doInvoke(Invoker.java:66)
+	at io.cucumber.java.Invoker.invoke(Invoker.java:24)
+	at io.cucumber.java.AbstractGlueDefinition.invokeMethod(AbstractGlueDefinition.java:47)
+	at io.cucumber.java.JavaStepDefinition.execute(JavaStepDefinition.java:29)
+	at io.cucumber.core.runner.CoreStepDefinition.execute(CoreStepDefinition.java:66)
+	at io.cucumber.core.runner.PickleStepDefinitionMatch.runStep(PickleStepDefinitionMatch.java:63)
+	at io.cucumber.core.runner.ExecutionMode$1.execute(ExecutionMode.java:10)
+	at io.cucumber.core.runner.TestStep.executeStep(TestStep.java:84)
+	at io.cucumber.core.runner.TestStep.run(TestStep.java:56)
+	at io.cucumber.core.runner.PickleStepTestStep.run(PickleStepTestStep.java:51)
+	at io.cucumber.core.runner.TestCase.run(TestCase.java:84)
+	at io.cucumber.core.runner.Runner.runPickle(Runner.java:75)
+	at io.cucumber.testng.TestNGCucumberRunner.lambda$runScenario$1(TestNGCucumberRunner.java:132)
+	at io.cucumber.core.runtime.CucumberExecutionContext.lambda$runTestCase$5(CucumberExecutionContext.java:137)
+	at io.cucumber.core.runtime.RethrowingThrowableCollector.executeAndThrow(RethrowingThrowableCollector.java:23)
+	at io.cucumber.core.runtime.CucumberExecutionContext.runTestCase(CucumberExecutionContext.java:137)
+	at io.cucumber.testng.TestNGCucumberRunner.runScenario(TestNGCucumberRunner.java:129)
+	at io.cucumber.testng.AbstractTestNGCucumberTests.runScenario(AbstractTestNGCucumberTests.java:35)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:565)
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:664)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:227)
+	at org.testng.internal.invokers.TestMethodWithDataProviderMethodWorker.call(TestMethodWithDataProviderMethodWorker.java:80)
+	at org.testng.internal.invokers.TestMethodWithDataProviderMethodWorker.call(TestMethodWithDataProviderMethodWorker.java:17)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:328)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:545)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:328)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1095)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:619)
+	at java.base/java.lang.Thread.run(Thread.java:1447)
+]]></failure>
+    <system-out><![CDATA[  And the response should contain exact product JSON details matching the ID # com.ecommerce.api.stepdefinitions.ProductApiSteps.theResponseShouldContainExactProductJsonDetailsMatchingTheId()
+      io.restassured.path.json.exception.JsonPathException: Failed to parse the JSON document
+	at io.restassured.path.json.JsonPath$ExceptionCatcher.invoke(JsonPath.java:1002)
+	at io.restassured.path.json.JsonPath$4.doParseWith(JsonPath.java:967)
+	at io.restassured.path.json.JsonPath$JsonParser.parseWith(JsonPath.java:1047)
+	at io.restassured.path.json.JsonPath.get(JsonPath.java:202)
+	at io.restassured.path.json.JsonPath.getMap(JsonPath.java:420)
+	at com.ecommerce.api.stepdefinitions.ProductApiSteps.theResponseShouldContainExactProductJsonDetailsMatchingTheId(ProductApiSteps.java:321)
+	at ✽.the response should contain exact product JSON details matching the ID(file:///C:/Users/SIC/Desktop/Automation%20Of%20Shopnest/Shopnest/src/test/resources/features/product_catalog.feature:24)
+Caused by: groovy.json.JsonException: A JSON payload should start with an openning curly brace '{' or an openning square bracket '['.
+Instead, 'null' was found on line: 1, column: 1
+	at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:62)
+	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:483)
+	at org.codehaus.groovy.reflection.CachedConstructor.invoke(CachedConstructor.java:73)
+	at org.codehaus.groovy.runtime.callsite.ConstructorSite$ConstructorSiteNoUnwrapNoCoerce.callConstructor(ConstructorSite.java:108)
+	at org.codehaus.groovy.runtime.callsite.CallSiteArray.defaultCallConstructor(CallSiteArray.java:57)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.callConstructor(AbstractCallSite.java:263)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.callConstructor(AbstractCallSite.java:277)
+	at io.restassured.internal.path.json.ConfigurableJsonSlurper.parse(ConfigurableJsonSlurper.groovy:114)
+	at io.restassured.internal.path.json.ConfigurableJsonSlurper$parse.callCurrent(Unknown Source)
+	at org.codehaus.groovy.runtime.callsite.CallSiteArray.defaultCallCurrent(CallSiteArray.java:49)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.callCurrent(AbstractCallSite.java:171)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.callCurrent(AbstractCallSite.java:185)
+	at io.restassured.internal.path.json.ConfigurableJsonSlurper.parseText(ConfigurableJsonSlurper.groovy:83)
+	at io.restassured.path.json.JsonPath$4$1.method(JsonPath.java:965)
+	at io.restassured.path.json.JsonPath$ExceptionCatcher.invoke(JsonPath.java:1000)
+	at io.restassured.path.json.JsonPath$4.doParseWith(JsonPath.java:967)
+	at io.restassured.path.json.JsonPath$JsonParser.parseWith(JsonPath.java:1047)
+	at io.restassured.path.json.JsonPath.get(JsonPath.java:202)
+	at io.restassured.path.json.JsonPath.getMap(JsonPath.java:420)
+	at com.ecommerce.api.stepdefinitions.ProductApiSteps.theResponseShouldContainExactProductJsonDetailsMatchingTheId(ProductApiSteps.java:321)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:565)
+	at io.cucumber.java.Invoker.doInvoke(Invoker.java:66)
+	at io.cucumber.java.Invoker.invoke(Invoker.java:24)
+	at io.cucumber.java.AbstractGlueDefinition.invokeMethod(AbstractGlueDefinition.java:47)
+	at io.cucumber.java.JavaStepDefinition.execute(JavaStepDefinition.java:29)
+	at io.cucumber.core.runner.CoreStepDefinition.execute(CoreStepDefinition.java:66)
+	at io.cucumber.core.runner.PickleStepDefinitionMatch.runStep(PickleStepDefinitionMatch.java:63)
+	at io.cucumber.core.runner.ExecutionMode$1.execute(ExecutionMode.java:10)
+	at io.cucumber.core.runner.TestStep.executeStep(TestStep.java:84)
+	at io.cucumber.core.runner.TestStep.run(TestStep.java:56)
+	at io.cucumber.core.runner.PickleStepTestStep.run(PickleStepTestStep.java:51)
+	at io.cucumber.core.runner.TestCase.run(TestCase.java:84)
+	at io.cucumber.core.runner.Runner.runPickle(Runner.java:75)
+	at io.cucumber.testng.TestNGCucumberRunner.lambda$runScenario$1(TestNGCucumberRunner.java:132)
+	at io.cucumber.core.runtime.CucumberExecutionContext.lambda$runTestCase$5(CucumberExecutionContext.java:137)
+	at io.cucumber.core.runtime.RethrowingThrowableCollector.executeAndThrow(RethrowingThrowableCollector.java:23)
+	at io.cucumber.core.runtime.CucumberExecutionContext.runTestCase(CucumberExecutionContext.java:137)
+	at io.cucumber.testng.TestNGCucumberRunner.runScenario(TestNGCucumberRunner.java:129)
+	at io.cucumber.testng.AbstractTestNGCucumberTests.runScenario(AbstractTestNGCucumberTests.java:35)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:565)
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:664)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:227)
+	at org.testng.internal.invokers.TestMethodWithDataProviderMethodWorker.call(TestMethodWithDataProviderMethodWorker.java:80)
+	at org.testng.internal.invokers.TestMethodWithDataProviderMethodWorker.call(TestMethodWithDataProviderMethodWorker.java:17)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:328)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:545)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:328)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1095)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:619)
+	at java.base/java.lang.Thread.run(Thread.java:1447)
+
+  And the response JSON should have proper structure and data types          # com.ecommerce.api.stepdefinitions.ProductApiSteps.theResponseJsonShouldHaveProperStructureAndDataTypes()
+  And the product data should be consistent with the products list           # com.ecommerce.api.stepdefinitions.ProductApiSteps.theProductDataShouldBeConsistentWithTheProductsList()
+2025-12-14 23:26:36.253 [TestNG-PoolService-1] INFO  [6397481b-8851-4f1d-9f46-712d7e06847f] [Get product by valid ID successfully] com.ecommerce.api.runners.TestHooks - Completing scenario: Get product by valid ID successfully - Status: FAILED - Duration: 1979ms
+2025-12-14 23:26:36.254 [TestNG-PoolService-1] INFO  [6397481b-8851-4f1d-9f46-712d7e06847f] [Get product by valid ID successfully] HTTP_INTERACTIONS - 
+=== TEST SCENARIO END ===
+Scenario: Get product by valid ID successfully
+Status: FAILED
+Duration: 1979ms
+Correlation ID: 6397481b-8851-4f1d-9f46-712d7e06847f
+========================
+2025-12-14 23:26:36.254 [TestNG-PoolService-1] DEBUG [6397481b-8851-4f1d-9f46-712d7e06847f] [Get product by valid ID successfully] c.e.api.utils.PerformanceMetrics - Test failed: Get product by valid ID successfully
+2025-12-14 23:26:36.254 [TestNG-PoolService-1] ERROR [6397481b-8851-4f1d-9f46-712d7e06847f] [NO_SCENARIO] com.ecommerce.api.runners.TestHooks - Scenario 'Get product by valid ID successfully' failed after 1979ms
+
+    Scenario failed - Duration: 1979ms - Check logs for details
+
+
+    Failure status: FAILED
+
+2025-12-14 23:26:36.255 [TestNG-PoolService-1] INFO  [6397481b-8851-4f1d-9f46-712d7e06847f] [NO_SCENARIO] c.e.api.utils.TestIsolationManager - Ended test session: df9bfeba-6321-40c2-98e9-7ac514d852d1 with cleanup result: CleanupResult{processed=0, cleaned=0, success=true}
+2025-12-14 23:26:36.255 [TestNG-PoolService-1] INFO  [6397481b-8851-4f1d-9f46-712d7e06847f] [NO_SCENARIO] com.ecommerce.api.runners.TestHooks - Scenario 'Get product by valid ID successfully' cleanup completed
+2025-12-14 23:26:36.256 [TestNG-PoolService-1] INFO  [NO_ID] [NO_SCENARIO] c.e.api.stepdefinitions.UserApiSteps - Cleaning up UserApiSteps for session: session_1765734994270
+2025-12-14 23:26:36.256 [TestNG-PoolService-1] DEBUG [NO_ID] [NO_SCENARIO] c.e.api.utils.TestDataManager - No test session found for cleanup: session_1765734994270
+2025-12-14 23:26:36.256 [TestNG-PoolService-1] DEBUG [NO_ID] [NO_SCENARIO] c.e.api.stepdefinitions.UserApiSteps - Cleaned up 0 test users for session: session_1765734994270
+2025-12-14 23:26:36.256 [TestNG-PoolService-1] DEBUG [NO_ID] [NO_SCENARIO] c.ecommerce.api.client.RestApiClient - REST API client state reset
+2025-12-14 23:26:36.256 [TestNG-PoolService-1] DEBUG [NO_ID] [NO_SCENARIO] c.e.api.stepdefinitions.UserApiSteps - UserApiSteps cleanup completed for session: session_1765734994270
+2025-12-14 23:26:36.257 [TestNG-PoolService-1] INFO  [NO_ID] [NO_SCENARIO] c.e.a.s.ProductApiSteps - Cleaning up ProductApiSteps for session: product_session_1765734994262
+2025-12-14 23:26:36.258 [TestNG-PoolService-1] DEBUG [NO_ID] [NO_SCENARIO] c.ecommerce.api.client.RestApiClient - REST API client state reset
+2025-12-14 23:26:36.258 [TestNG-PoolService-1] DEBUG [NO_ID] [NO_SCENARIO] c.e.a.s.ProductApiSteps - ProductApiSteps cleanup completed for session: product_session_1765734994262
+
+@user-registration @positive @smoke
+Scenario: Valid user registration with unique username            # src/test/resources/features/user_authentication.feature:11
+]]></system-out>
+  </testcase>
+  <testcase name="runScenario[&quot;Get all products successfully&quot;, &quot;Product Catalog API&quot;](3)" classname="com.ecommerce.api.runners.CucumberTestRunner" time="0.134">
+    <failure message="Product at index 0 missing required field: category expected [true] but found [false]" type="java.lang.AssertionError"><![CDATA[java.lang.AssertionError: Product at index 0 missing required field: category expected [true] but found [false]
+	at org.testng.Assert.fail(Assert.java:111)
+	at org.testng.Assert.failNotEquals(Assert.java:1578)
+	at org.testng.Assert.assertTrue(Assert.java:57)
+	at com.ecommerce.api.stepdefinitions.ProductApiSteps.theResponseShouldContainCompleteProductListWithAllRequiredFields(ProductApiSteps.java:279)
+	at ✽.the response should contain complete product list with all required fields(file:///C:/Users/SIC/Desktop/Automation%20Of%20Shopnest/Shopnest/src/test/resources/features/product_catalog.feature:15)
+]]></failure>
+    <system-out><![CDATA[2025-12-14 23:26:36.318 [TestNG-PoolService-2] INFO  [NO_ID] [NO_SCENARIO] c.e.a.s.ProductApiSteps - Setting up ProductApiSteps for new scenario
+2025-12-14 23:26:36.318 [TestNG-PoolService-2] DEBUG [NO_ID] [NO_SCENARIO] c.e.a.s.ProductApiSteps - ProductApiSteps setup completed for session: product_session_1765734996318
+2025-12-14 23:26:36.319 [TestNG-PoolService-2] INFO  [NO_ID] [NO_SCENARIO] c.e.api.stepdefinitions.UserApiSteps - Setting up UserApiSteps for new scenario
+2025-12-14 23:26:36.319 [TestNG-PoolService-2] DEBUG [NO_ID] [NO_SCENARIO] c.e.api.stepdefinitions.UserApiSteps - UserApiSteps setup completed for session: session_1765734996319
+2025-12-14 23:26:36.320 [TestNG-PoolService-2] INFO  [47c18c6f-b18d-4422-a7db-41567fb22ebe] [Valid user registration with unique username] HTTP_INTERACTIONS - 
+=== TEST SCENARIO START ===
+Scenario: Valid user registration with unique username
+Description: Scenario execution with tags: [@user-registration, @positive, @smoke]
+Correlation ID: 47c18c6f-b18d-4422-a7db-41567fb22ebe
+==========================
+2025-12-14 23:26:36.321 [TestNG-PoolService-2] INFO  [47c18c6f-b18d-4422-a7db-41567fb22ebe] [Valid user registration with unique username] com.ecommerce.api.runners.TestHooks - Starting scenario: Valid user registration with unique username with correlation ID: 57a9332b-9380-4ec5-8acb-4dbc0b60d519
+2025-12-14 23:26:36.321 [TestNG-PoolService-2] DEBUG [47c18c6f-b18d-4422-a7db-41567fb22ebe] [Valid user registration with unique username] c.e.api.utils.TestIsolationManager - Started test session: f7c91801-18b5-490f-a074-c9aca525d6de for test: Valid user registration with unique username
+2025-12-14 23:26:36.321 [TestNG-PoolService-2] INFO  [47c18c6f-b18d-4422-a7db-41567fb22ebe] [Valid user registration with unique username] com.ecommerce.api.runners.TestHooks - Scenario 'Valid user registration with unique username' setup completed with session: f7c91801-18b5-490f-a074-c9aca525d6de
+
+    Correlation ID: 57a9332b-9380-4ec5-8acb-4dbc0b60d519
+
+
+    Session ID: f7c91801-18b5-490f-a074-c9aca525d6de
+
+2025-12-14 23:26:36.323 [TestNG-PoolService-2] INFO  [47c18c6f-b18d-4422-a7db-41567fb22ebe] [Valid user registration with unique username] com.ecommerce.api.runners.TestHooks - Executing SMOKE TEST: Valid user registration with unique username
+
+    SMOKE TEST - Critical functionality validation
+
+2025-12-14 23:26:36.326 [TestNG-PoolService-2] INFO  [47c18c6f-b18d-4422-a7db-41567fb22ebe] [Valid user registration with unique username] c.e.api.stepdefinitions.CommonSteps - API base URL configured: http://localhost:8000
+  Given the API base URL is configured                            # com.ecommerce.api.stepdefinitions.CommonSteps.theApiBaseUrlIsConfigured()
+2025-12-14 23:26:36.327 [TestNG-PoolService-2] INFO  [47c18c6f-b18d-4422-a7db-41567fb22ebe] [Valid user registration with unique username] c.e.api.stepdefinitions.CommonSteps - Verifying test environment readiness
+2025-12-14 23:26:36.327 [TestNG-PoolService-2] INFO  [47c18c6f-b18d-4422-a7db-41567fb22ebe] [Valid user registration with unique username] c.e.api.stepdefinitions.CommonSteps - Test environment is ready for execution
+  And the test environment is ready                               # com.ecommerce.api.stepdefinitions.CommonSteps.theTestEnvironmentIsReady()
+2025-12-14 23:26:36.337 [TestNG-PoolService-2] DEBUG [47c18c6f-b18d-4422-a7db-41567fb22ebe] [Valid user registration with unique username] c.e.api.utils.TestDataManager - Created unique test user: test_user_1_996331 for session: session_1765734996319
+
+@user-registration @negative @regression
+Scenario: User registration with duplicate username                        # src/test/resources/features/user_authentication.feature:20
+2025-12-14 23:26:36.340 [TestNG-PoolService-1] INFO  [NO_ID] [NO_SCENARIO] c.e.a.s.ProductApiSteps - Setting up ProductApiSteps for new scenario
+2025-12-14 23:26:36.341 [TestNG-PoolService-1] DEBUG [NO_ID] [NO_SCENARIO] c.e.a.s.ProductApiSteps - ProductApiSteps setup completed for session: product_session_1765734996341
+2025-12-14 23:26:36.341 [TestNG-PoolService-1] INFO  [NO_ID] [NO_SCENARIO] c.e.api.stepdefinitions.UserApiSteps - Setting up UserApiSteps for new scenario
+2025-12-14 23:26:36.342 [TestNG-PoolService-1] DEBUG [NO_ID] [NO_SCENARIO] c.e.api.stepdefinitions.UserApiSteps - UserApiSteps setup completed for session: session_1765734996342
+2025-12-14 23:26:36.342 [TestNG-PoolService-1] INFO  [NO_ID] [NO_SCENARIO] com.ecommerce.api.runners.TestHooks - Executing REGRESSION TEST: User registration with duplicate username
+
+    REGRESSION TEST - Comprehensive functionality validation
+
+2025-12-14 23:26:36.343 [TestNG-PoolService-1] INFO  [1f546631-de88-4512-8096-6a1f628fd714] [User registration with duplicate username] HTTP_INTERACTIONS - 
+=== TEST SCENARIO START ===
+Scenario: User registration with duplicate username
+Description: Scenario execution with tags: [@user-registration, @negative, @regression]
+Correlation ID: 1f546631-de88-4512-8096-6a1f628fd714
+==========================
+2025-12-14 23:26:36.343 [TestNG-PoolService-1] INFO  [1f546631-de88-4512-8096-6a1f628fd714] [User registration with duplicate username] com.ecommerce.api.runners.TestHooks - Starting scenario: User registration with duplicate username with correlation ID: 527c692b-7ec4-4f47-9346-ebc6c224f9be
+2025-12-14 23:26:36.343 [TestNG-PoolService-1] DEBUG [1f546631-de88-4512-8096-6a1f628fd714] [User registration with duplicate username] c.e.api.utils.TestIsolationManager - Started test session: 4522d6b3-e389-40e4-8f76-4b744ced6096 for test: User registration with duplicate username
+2025-12-14 23:26:36.343 [TestNG-PoolService-1] INFO  [1f546631-de88-4512-8096-6a1f628fd714] [User registration with duplicate username] com.ecommerce.api.runners.TestHooks - Scenario 'User registration with duplicate username' setup completed with session: 4522d6b3-e389-40e4-8f76-4b744ced6096
+
+    Correlation ID: 527c692b-7ec4-4f47-9346-ebc6c224f9be
+
+
+    Session ID: 4522d6b3-e389-40e4-8f76-4b744ced6096
+
+2025-12-14 23:26:36.344 [TestNG-PoolService-1] INFO  [1f546631-de88-4512-8096-6a1f628fd714] [User registration with duplicate username] c.e.api.stepdefinitions.CommonSteps - API base URL configured: http://localhost:8000
+  Given the API base URL is configured                                     # com.ecommerce.api.stepdefinitions.CommonSteps.theApiBaseUrlIsConfigured()
+2025-12-14 23:26:36.345 [TestNG-PoolService-2] DEBUG [47c18c6f-b18d-4422-a7db-41567fb22ebe] [Valid user registration with unique username] c.e.api.stepdefinitions.UserApiSteps - Created valid test user: test_user_1_996331
+  Given I have valid user registration data                       # com.ecommerce.api.stepdefinitions.UserApiSteps.iHaveValidUserRegistrationData()
+2025-12-14 23:26:36.347 [TestNG-PoolService-1] INFO  [1f546631-de88-4512-8096-6a1f628fd714] [User registration with duplicate username] c.e.api.stepdefinitions.CommonSteps - Verifying test environment readiness
+2025-12-14 23:26:36.348 [TestNG-PoolService-1] INFO  [1f546631-de88-4512-8096-6a1f628fd714] [User registration with duplicate username] c.e.api.stepdefinitions.CommonSteps - Test environment is ready for execution
+  And the test environment is ready                                        # com.ecommerce.api.stepdefinitions.CommonSteps.theTestEnvironmentIsReady()
+2025-12-14 23:26:36.350 [TestNG-PoolService-1] DEBUG [1f546631-de88-4512-8096-6a1f628fd714] [User registration with duplicate username] c.e.api.utils.TestDataManager - Created test user with specific username: test_testuser123
+2025-12-14 23:26:36.449 [TestNG-PoolService-2] INFO  [47c18c6f-b18d-4422-a7db-41567fb22ebe] [Valid user registration with unique username] HTTP_INTERACTIONS - 
+=== HTTP REQUEST ===
+Timestamp: 2025-12-14 23:26:36.449
+Correlation ID: 47c18c6f-b18d-4422-a7db-41567fb22ebe
+Method: POST
+Endpoint: /signup
+Request Body: {"testId":"TEST_1765734996332_5849","createdTimestamp":1765734996332,"valid":true,"credentials":{"username":"test_user_1_996331","password":"[MASKED]"},"cleanupRequired":true,"username":"test_user_1_996331","password":"[MASKED]","email":"test_user_1_996331@qa-testing.com","phone":"+14183281129","firstname":"Richard","lastname":"Davis"}
+==================
+2025-12-14 23:26:36.451 [TestNG-PoolService-1] INFO  [1f546631-de88-4512-8096-6a1f628fd714] [User registration with duplicate username] HTTP_INTERACTIONS - 
+=== HTTP REQUEST ===
+Timestamp: 2025-12-14 23:26:36.451
+Correlation ID: 1f546631-de88-4512-8096-6a1f628fd714
+Method: POST
+Endpoint: /signup
+Request Body: {"testId":"TEST_1765734996350_8724","createdTimestamp":1765734996350,"valid":true,"credentials":{"username":"test_testuser123","password":"[MASKED]"},"cleanupRequired":true,"username":"test_testuser123","password":"[MASKED]","email":"test_testuser123@qa-testing.com","phone":"+17346127610","firstname":"Linda","lastname":"Smith"}
+==================
+2025-12-14 23:26:36.466 [TestNG-PoolService-0] DEBUG [79b80eb1-c653-4c85-a245-7e1d92ee52a3] [Get all products successfully] c.e.a.s.ProductApiSteps - Valid JSON array validation passed with 7 items
+  And the response should be a valid JSON array                                   # com.ecommerce.api.stepdefinitions.ProductApiSteps.theResponseShouldBeAValidJsonArray()
+  And the response should contain complete product list with all required fields  # com.ecommerce.api.stepdefinitions.ProductApiSteps.theResponseShouldContainCompleteProductListWithAllRequiredFields()
+      java.lang.AssertionError: Product at index 0 missing required field: category expected [true] but found [false]
+	at org.testng.Assert.fail(Assert.java:111)
+	at org.testng.Assert.failNotEquals(Assert.java:1578)
+	at org.testng.Assert.assertTrue(Assert.java:57)
+	at com.ecommerce.api.stepdefinitions.ProductApiSteps.theResponseShouldContainCompleteProductListWithAllRequiredFields(ProductApiSteps.java:279)
+	at ✽.the response should contain complete product list with all required fields(file:///C:/Users/SIC/Desktop/Automation%20Of%20Shopnest/Shopnest/src/test/resources/features/product_catalog.feature:15)
+
+  And the response should have proper HTTP headers and content-type               # com.ecommerce.api.stepdefinitions.CommonSteps.theResponseShouldHaveProperHttpHeadersAndContentType()
+  And each product should have id, title, description, price, and category fields # com.ecommerce.api.stepdefinitions.ProductApiSteps.eachProductShouldHaveIdTitleDescriptionPriceAndCategoryFields()
+2025-12-14 23:26:36.566 [TestNG-PoolService-0] INFO  [79b80eb1-c653-4c85-a245-7e1d92ee52a3] [Get all products successfully] com.ecommerce.api.runners.TestHooks - Completing scenario: Get all products successfully - Status: FAILED - Duration: 2293ms
+2025-12-14 23:26:36.567 [TestNG-PoolService-0] INFO  [79b80eb1-c653-4c85-a245-7e1d92ee52a3] [Get all products successfully] HTTP_INTERACTIONS - 
+=== TEST SCENARIO END ===
+Scenario: Get all products successfully
+Status: FAILED
+Duration: 2293ms
+Correlation ID: 79b80eb1-c653-4c85-a245-7e1d92ee52a3
+========================
+2025-12-14 23:26:36.567 [TestNG-PoolService-0] DEBUG [79b80eb1-c653-4c85-a245-7e1d92ee52a3] [Get all products successfully] c.e.api.utils.PerformanceMetrics - Test failed: Get all products successfully
+2025-12-14 23:26:36.567 [TestNG-PoolService-0] ERROR [79b80eb1-c653-4c85-a245-7e1d92ee52a3] [NO_SCENARIO] com.ecommerce.api.runners.TestHooks - Scenario 'Get all products successfully' failed after 2293ms
+
+    Scenario failed - Duration: 2293ms - Check logs for details
+
+
+    Failure status: FAILED
+
+2025-12-14 23:26:36.572 [TestNG-PoolService-0] INFO  [79b80eb1-c653-4c85-a245-7e1d92ee52a3] [NO_SCENARIO] c.e.api.utils.TestIsolationManager - Ended test session: d6e821fa-c3cb-4726-a51b-af97dab16f0e with cleanup result: CleanupResult{processed=0, cleaned=0, success=true}
+2025-12-14 23:26:36.574 [TestNG-PoolService-1] INFO  [1f546631-de88-4512-8096-6a1f628fd714] [User registration with duplicate username] HTTP_INTERACTIONS - 
+=== HTTP RESPONSE ===
+Timestamp: 2025-12-14 23:26:36.573
+Correlation ID: 1f546631-de88-4512-8096-6a1f628fd714
+Endpoint: /signup
+Status Code: 401
+Status Line: HTTP/1.1 401 Unauthorized
+Response Time: 101ms
+Response Headers:
+  X-Powered-By: Express
+  Access-Control-Allow-Origin: *
+  Content-Type: application/json; charset=utf-8
+  Content-Length: 36
+  ETag: W/"24-VWWwfQVGljYgYlmoY2EG0s/DuUY"
+  Date: Sun, 14 Dec 2025 17:56:36 GMT
+  Connection: keep-alive
+  Keep-Alive: timeout=5
+Response Body: {"message":"username already exist"}
+====================
+2025-12-14 23:26:36.574 [TestNG-PoolService-0] INFO  [79b80eb1-c653-4c85-a245-7e1d92ee52a3] [NO_SCENARIO] com.ecommerce.api.runners.TestHooks - Scenario 'Get all products successfully' cleanup completed
+2025-12-14 23:26:36.575 [TestNG-PoolService-1] DEBUG [1f546631-de88-4512-8096-6a1f628fd714] [User registration with duplicate username] c.e.api.utils.PerformanceMetrics - Recorded API request metrics - Endpoint: /signup, Response Time: 101ms, Success: false
+2025-12-14 23:26:36.575 [TestNG-PoolService-1] INFO  [1f546631-de88-4512-8096-6a1f628fd714] [User registration with duplicate username] c.ecommerce.api.client.RestApiClient - POST request completed. Status: 401, Response time: 101ms
+2025-12-14 23:26:36.575 [TestNG-PoolService-1] DEBUG [1f546631-de88-4512-8096-6a1f628fd714] [User registration with duplicate username] c.e.api.stepdefinitions.UserApiSteps - Pre-registered user 'testuser123' with status: 401
+  Given a user already exists with username "testuser123"                  # com.ecommerce.api.stepdefinitions.UserApiSteps.aUserAlreadyExistsWithUsername(java.lang.String)
+2025-12-14 23:26:36.576 [TestNG-PoolService-1] DEBUG [1f546631-de88-4512-8096-6a1f628fd714] [User registration with duplicate username] c.e.api.utils.TestDataManager - Created test user with specific username: test_testuser123
+2025-12-14 23:26:36.576 [TestNG-PoolService-0] INFO  [NO_ID] [NO_SCENARIO] c.e.api.stepdefinitions.UserApiSteps - Cleaning up UserApiSteps for session: session_1765734994270
+2025-12-14 23:26:36.576 [TestNG-PoolService-0] DEBUG [NO_ID] [NO_SCENARIO] c.e.api.utils.TestDataManager - No test session found for cleanup: session_1765734994270
+2025-12-14 23:26:36.576 [TestNG-PoolService-1] DEBUG [1f546631-de88-4512-8096-6a1f628fd714] [User registration with duplicate username] c.e.api.stepdefinitions.UserApiSteps - Created registration data with duplicate username: testuser123
+  And I have registration data with username "testuser123"                 # com.ecommerce.api.stepdefinitions.UserApiSteps.iHaveRegistrationDataWithUsername(java.lang.String)
+2025-12-14 23:26:36.581 [TestNG-PoolService-1] INFO  [1f546631-de88-4512-8096-6a1f628fd714] [User registration with duplicate username] HTTP_INTERACTIONS - 
+=== HTTP REQUEST ===
+Timestamp: 2025-12-14 23:26:36.581
+Correlation ID: 1f546631-de88-4512-8096-6a1f628fd714
+Method: POST
+Endpoint: /signup
+Request Body: {"testId":"TEST_1765734996576_2375","createdTimestamp":1765734996576,"valid":true,"credentials":{"username":"test_testuser123","password":"[MASKED]"},"cleanupRequired":true,"username":"test_testuser123","password":"[MASKED]","email":"test_testuser123@test-domain.net","phone":"+14928350242","firstname":"Linda","lastname":"Brown"}
+==================
+2025-12-14 23:26:36.583 [TestNG-PoolService-0] DEBUG [NO_ID] [NO_SCENARIO] c.e.api.stepdefinitions.UserApiSteps - Cleaned up 0 test users for session: session_1765734994270
+2025-12-14 23:26:36.583 [TestNG-PoolService-0] DEBUG [NO_ID] [NO_SCENARIO] c.ecommerce.api.client.RestApiClient - REST API client state reset
+2025-12-14 23:26:36.583 [TestNG-PoolService-0] DEBUG [NO_ID] [NO_SCENARIO] c.e.api.stepdefinitions.UserApiSteps - UserApiSteps cleanup completed for session: session_1765734994270
+2025-12-14 23:26:36.584 [TestNG-PoolService-0] INFO  [NO_ID] [NO_SCENARIO] c.e.a.s.ProductApiSteps - Cleaning up ProductApiSteps for session: product_session_1765734994261
+2025-12-14 23:26:36.585 [TestNG-PoolService-0] DEBUG [NO_ID] [NO_SCENARIO] c.ecommerce.api.client.RestApiClient - REST API client state reset
+2025-12-14 23:26:36.585 [TestNG-PoolService-0] DEBUG [NO_ID] [NO_SCENARIO] c.e.a.s.ProductApiSteps - ProductApiSteps cleanup completed for session: product_session_1765734994261
+]]></system-out>
+  </testcase>
+  <testcase name="runScenario[&quot;User registration with duplicate username&quot;, &quot;User Authentication API&quot;](4)" classname="com.ecommerce.api.runners.CucumberTestRunner" time="0.064">
+    <system-out><![CDATA[2025-12-14 23:26:36.601 [TestNG-PoolService-2] INFO  [47c18c6f-b18d-4422-a7db-41567fb22ebe] [Valid user registration with unique username] HTTP_INTERACTIONS - 
+=== HTTP RESPONSE ===
+Timestamp: 2025-12-14 23:26:36.601
+Correlation ID: 47c18c6f-b18d-4422-a7db-41567fb22ebe
+Endpoint: /signup
+Status Code: 200
+Status Line: HTTP/1.1 200 OK
+Response Time: 132ms
+Response Headers:
+  X-Powered-By: Express
+  Access-Control-Allow-Origin: *
+  Content-Type: application/json; charset=utf-8
+  Content-Length: 357
+  ETag: W/"165-Pd+vGpAHOcKynyD6L+8B1Y0KPLA"
+  Date: Sun, 14 Dec 2025 17:56:36 GMT
+  Connection: keep-alive
+  Keep-Alive: timeout=5
+Response Body: {"message":{"testId":"TEST_1765734996332_5849","createdTimestamp":1765734996332,"valid":true,"credentials":{"username":"test_user_1_996331","password":"[MASKED]"},"cleanupRequired":true,"username":"test_user_1_996331","password":"[MASKED]","email":"test_user_1_996331@qa-testing.com","phone":"+14183281129","firstname":"Richard","lastname":"Davis"}}
+====================
+2025-12-14 23:26:36.601 [TestNG-PoolService-2] DEBUG [47c18c6f-b18d-4422-a7db-41567fb22ebe] [Valid user registration with unique username] c.e.api.utils.PerformanceMetrics - Recorded API request metrics - Endpoint: /signup, Response Time: 132ms, Success: true
+2025-12-14 23:26:36.602 [TestNG-PoolService-2] INFO  [47c18c6f-b18d-4422-a7db-41567fb22ebe] [Valid user registration with unique username] c.ecommerce.api.client.RestApiClient - POST request completed. Status: 200, Response time: 132ms
+2025-12-14 23:26:36.602 [TestNG-PoolService-2] INFO  [47c18c6f-b18d-4422-a7db-41567fb22ebe] [Valid user registration with unique username] c.e.api.stepdefinitions.UserApiSteps - Sent POST request to /signup with user data. Status: 200
+  When I send a POST request to "/signup" with the user data      # com.ecommerce.api.stepdefinitions.UserApiSteps.iSendAPostRequestToWithTheUserData(java.lang.String)
+2025-12-14 23:26:36.602 [TestNG-PoolService-2] INFO  [47c18c6f-b18d-4422-a7db-41567fb22ebe] [Valid user registration with unique username] c.e.api.stepdefinitions.CommonSteps - Validating response status code. Expected: 200, Actual: 200
+  Then the response status code should be 200                     # com.ecommerce.api.stepdefinitions.CommonSteps.theResponseStatusCodeShouldBe(int)
+2025-12-14 23:26:36.603 [TestNG-PoolService-2] DEBUG [47c18c6f-b18d-4422-a7db-41567fb22ebe] [Valid user registration with unique username] c.e.api.stepdefinitions.UserApiSteps - Success message validation passed
+  And the response should contain success message                 # com.ecommerce.api.stepdefinitions.UserApiSteps.theResponseShouldContainSuccessMessage()
+2025-12-14 23:26:36.623 [TestNG-PoolService-1] INFO  [1f546631-de88-4512-8096-6a1f628fd714] [User registration with duplicate username] HTTP_INTERACTIONS - 
+=== HTTP RESPONSE ===
+Timestamp: 2025-12-14 23:26:36.623
+Correlation ID: 1f546631-de88-4512-8096-6a1f628fd714
+Endpoint: /signup
+Status Code: 401
+Status Line: HTTP/1.1 401 Unauthorized
+Response Time: 34ms
+Response Headers:
+  X-Powered-By: Express
+  Access-Control-Allow-Origin: *
+  Content-Type: application/json; charset=utf-8
+  Content-Length: 36
+  ETag: W/"24-VWWwfQVGljYgYlmoY2EG0s/DuUY"
+  Date: Sun, 14 Dec 2025 17:56:36 GMT
+  Connection: keep-alive
+  Keep-Alive: timeout=5
+Response Body: {"message":"username already exist"}
+====================
+2025-12-14 23:26:36.623 [TestNG-PoolService-1] DEBUG [1f546631-de88-4512-8096-6a1f628fd714] [User registration with duplicate username] c.e.api.utils.PerformanceMetrics - Recorded API request metrics - Endpoint: /signup, Response Time: 34ms, Success: false
+2025-12-14 23:26:36.623 [TestNG-PoolService-1] INFO  [1f546631-de88-4512-8096-6a1f628fd714] [User registration with duplicate username] c.ecommerce.api.client.RestApiClient - POST request completed. Status: 401, Response time: 34ms
+2025-12-14 23:26:36.623 [TestNG-PoolService-1] INFO  [1f546631-de88-4512-8096-6a1f628fd714] [User registration with duplicate username] c.e.api.stepdefinitions.UserApiSteps - Sent POST request to /signup with duplicate username data. Status: 401
+  When I send a POST request to "/signup" with the duplicate username data # com.ecommerce.api.stepdefinitions.UserApiSteps.iSendAPostRequestToWithTheDuplicateUsernameData(java.lang.String)
+2025-12-14 23:26:36.624 [TestNG-PoolService-1] INFO  [1f546631-de88-4512-8096-6a1f628fd714] [User registration with duplicate username] c.e.api.stepdefinitions.CommonSteps - Validating response status code. Expected: 401, Actual: 401
+  Then the response status code should be 401                              # com.ecommerce.api.stepdefinitions.CommonSteps.theResponseStatusCodeShouldBe(int)
+2025-12-14 23:26:36.625 [TestNG-PoolService-1] DEBUG [1f546631-de88-4512-8096-6a1f628fd714] [User registration with duplicate username] c.e.api.stepdefinitions.UserApiSteps - Duplicate username error message validation passed
+  And the response should contain error message about duplicate username   # com.ecommerce.api.stepdefinitions.UserApiSteps.theResponseShouldContainErrorMessageAboutDuplicateUsername()
+2025-12-14 23:26:36.626 [TestNG-PoolService-1] DEBUG [1f546631-de88-4512-8096-6a1f628fd714] [User registration with duplicate username] c.e.api.stepdefinitions.UserApiSteps - No new user creation validation passed
+  And no new user should be created                                        # com.ecommerce.api.stepdefinitions.UserApiSteps.noNewUserShouldBeCreated()
+2025-12-14 23:26:36.627 [TestNG-PoolService-1] INFO  [1f546631-de88-4512-8096-6a1f628fd714] [User registration with duplicate username] com.ecommerce.api.runners.TestHooks - Completing scenario: User registration with duplicate username - Status: PASSED - Duration: 284ms
+2025-12-14 23:26:36.627 [TestNG-PoolService-1] INFO  [1f546631-de88-4512-8096-6a1f628fd714] [User registration with duplicate username] HTTP_INTERACTIONS - 
+=== TEST SCENARIO END ===
+Scenario: User registration with duplicate username
+Status: PASSED
+Duration: 284ms
+Correlation ID: 1f546631-de88-4512-8096-6a1f628fd714
+========================
+2025-12-14 23:26:36.627 [TestNG-PoolService-1] DEBUG [1f546631-de88-4512-8096-6a1f628fd714] [User registration with duplicate username] c.e.api.utils.PerformanceMetrics - Test passed: User registration with duplicate username
+2025-12-14 23:26:36.627 [TestNG-PoolService-1] INFO  [1f546631-de88-4512-8096-6a1f628fd714] [NO_SCENARIO] com.ecommerce.api.runners.TestHooks - Scenario 'User registration with duplicate username' passed in 284ms
+
+    Scenario passed - Duration: 284ms
+
+2025-12-14 23:26:36.628 [TestNG-PoolService-1] INFO  [1f546631-de88-4512-8096-6a1f628fd714] [NO_SCENARIO] c.e.api.utils.TestIsolationManager - Ended test session: 4522d6b3-e389-40e4-8f76-4b744ced6096 with cleanup result: CleanupResult{processed=0, cleaned=0, success=true}
+2025-12-14 23:26:36.628 [TestNG-PoolService-1] INFO  [1f546631-de88-4512-8096-6a1f628fd714] [NO_SCENARIO] com.ecommerce.api.runners.TestHooks - Scenario 'User registration with duplicate username' cleanup completed
+2025-12-14 23:26:36.629 [TestNG-PoolService-1] INFO  [NO_ID] [NO_SCENARIO] c.e.api.stepdefinitions.UserApiSteps - Cleaning up UserApiSteps for session: session_1765734996342
+2025-12-14 23:26:36.629 [TestNG-PoolService-1] DEBUG [NO_ID] [NO_SCENARIO] c.e.api.utils.TestDataManager - No test session found for cleanup: session_1765734996342
+2025-12-14 23:26:36.629 [TestNG-PoolService-1] DEBUG [NO_ID] [NO_SCENARIO] c.e.api.stepdefinitions.UserApiSteps - Cleaned up 0 test users for session: session_1765734996342
+2025-12-14 23:26:36.629 [TestNG-PoolService-1] DEBUG [NO_ID] [NO_SCENARIO] c.ecommerce.api.client.RestApiClient - REST API client state reset
+2025-12-14 23:26:36.631 [TestNG-PoolService-1] DEBUG [NO_ID] [NO_SCENARIO] c.e.api.stepdefinitions.UserApiSteps - UserApiSteps cleanup completed for session: session_1765734996342
+2025-12-14 23:26:36.632 [TestNG-PoolService-1] INFO  [NO_ID] [NO_SCENARIO] c.e.a.s.ProductApiSteps - Cleaning up ProductApiSteps for session: product_session_1765734996341
+2025-12-14 23:26:36.634 [TestNG-PoolService-1] DEBUG [NO_ID] [NO_SCENARIO] c.ecommerce.api.client.RestApiClient - REST API client state reset
+2025-12-14 23:26:36.634 [TestNG-PoolService-1] DEBUG [NO_ID] [NO_SCENARIO] c.e.a.s.ProductApiSteps - ProductApiSteps cleanup completed for session: product_session_1765734996341
+]]></system-out>
+  </testcase>
+  <testcase name="runScenario[&quot;User login with invalid username&quot;, &quot;User Authentication API&quot;](5)" classname="com.ecommerce.api.runners.CucumberTestRunner" time="0.169">
+    <system-out><![CDATA[
+@user-login @positive @smoke
+Scenario: Valid user login with correct credentials                                       # src/test/resources/features/user_authentication.feature:52
+2025-12-14 23:26:36.652 [TestNG-PoolService-0] INFO  [NO_ID] [NO_SCENARIO] c.e.a.s.ProductApiSteps - Setting up ProductApiSteps for new scenario
+2025-12-14 23:26:36.653 [TestNG-PoolService-0] DEBUG [NO_ID] [NO_SCENARIO] c.e.a.s.ProductApiSteps - ProductApiSteps setup completed for session: product_session_1765734996652
+2025-12-14 23:26:36.653 [TestNG-PoolService-0] INFO  [NO_ID] [NO_SCENARIO] c.e.api.stepdefinitions.UserApiSteps - Setting up UserApiSteps for new scenario
+2025-12-14 23:26:36.653 [TestNG-PoolService-0] DEBUG [NO_ID] [NO_SCENARIO] c.e.api.stepdefinitions.UserApiSteps - UserApiSteps setup completed for session: session_1765734996653
+2025-12-14 23:26:36.654 [TestNG-PoolService-0] INFO  [4187a3e6-3839-4277-b856-4136d7555f91] [Valid user login with correct credentials] HTTP_INTERACTIONS - 
+=== TEST SCENARIO START ===
+Scenario: Valid user login with correct credentials
+Description: Scenario execution with tags: [@user-login, @positive, @smoke]
+Correlation ID: 4187a3e6-3839-4277-b856-4136d7555f91
+==========================
+2025-12-14 23:26:36.654 [TestNG-PoolService-0] INFO  [4187a3e6-3839-4277-b856-4136d7555f91] [Valid user login with correct credentials] com.ecommerce.api.runners.TestHooks - Starting scenario: Valid user login with correct credentials with correlation ID: 8b66cd7a-a714-492b-bc4a-8a27481179d0
+2025-12-14 23:26:36.654 [TestNG-PoolService-0] DEBUG [4187a3e6-3839-4277-b856-4136d7555f91] [Valid user login with correct credentials] c.e.api.utils.TestIsolationManager - Started test session: 1b30c616-719f-4eba-a7dd-9229d17b0023 for test: Valid user login with correct credentials
+2025-12-14 23:26:36.655 [TestNG-PoolService-0] INFO  [4187a3e6-3839-4277-b856-4136d7555f91] [Valid user login with correct credentials] com.ecommerce.api.runners.TestHooks - Scenario 'Valid user login with correct credentials' setup completed with session: 1b30c616-719f-4eba-a7dd-9229d17b0023
+
+    Correlation ID: 8b66cd7a-a714-492b-bc4a-8a27481179d0
+
+
+    Session ID: 1b30c616-719f-4eba-a7dd-9229d17b0023
+
+2025-12-14 23:26:36.655 [TestNG-PoolService-0] INFO  [4187a3e6-3839-4277-b856-4136d7555f91] [Valid user login with correct credentials] com.ecommerce.api.runners.TestHooks - Executing SMOKE TEST: Valid user login with correct credentials
+
+    SMOKE TEST - Critical functionality validation
+
+2025-12-14 23:26:36.656 [TestNG-PoolService-0] INFO  [4187a3e6-3839-4277-b856-4136d7555f91] [Valid user login with correct credentials] c.e.api.stepdefinitions.CommonSteps - API base URL configured: http://localhost:8000
+  Given the API base URL is configured                                                    # com.ecommerce.api.stepdefinitions.CommonSteps.theApiBaseUrlIsConfigured()
+2025-12-14 23:26:36.692 [TestNG-PoolService-0] INFO  [4187a3e6-3839-4277-b856-4136d7555f91] [Valid user login with correct credentials] c.e.api.stepdefinitions.CommonSteps - Verifying test environment readiness
+
+@user-login @negative @regression
+Scenario: User login with invalid username                                                  # src/test/resources/features/user_authentication.feature:61
+2025-12-14 23:26:36.702 [TestNG-PoolService-1] INFO  [NO_ID] [NO_SCENARIO] c.e.a.s.ProductApiSteps - Setting up ProductApiSteps for new scenario
+2025-12-14 23:26:36.705 [TestNG-PoolService-1] DEBUG [NO_ID] [NO_SCENARIO] c.e.a.s.ProductApiSteps - ProductApiSteps setup completed for session: product_session_1765734996705
+2025-12-14 23:26:36.705 [TestNG-PoolService-0] INFO  [4187a3e6-3839-4277-b856-4136d7555f91] [Valid user login with correct credentials] c.e.api.stepdefinitions.CommonSteps - Test environment is ready for execution
+  And the test environment is ready                                                       # com.ecommerce.api.stepdefinitions.CommonSteps.theTestEnvironmentIsReady()
+2025-12-14 23:26:36.706 [TestNG-PoolService-1] INFO  [NO_ID] [NO_SCENARIO] c.e.api.stepdefinitions.UserApiSteps - Setting up UserApiSteps for new scenario
+2025-12-14 23:26:36.706 [TestNG-PoolService-1] DEBUG [NO_ID] [NO_SCENARIO] c.e.api.stepdefinitions.UserApiSteps - UserApiSteps setup completed for session: session_1765734996706
+2025-12-14 23:26:36.707 [TestNG-PoolService-1] INFO  [NO_ID] [NO_SCENARIO] com.ecommerce.api.runners.TestHooks - Executing REGRESSION TEST: User login with invalid username
+
+    REGRESSION TEST - Comprehensive functionality validation
+
+2025-12-14 23:26:36.708 [TestNG-PoolService-1] INFO  [6cf35ddd-7abf-446b-8878-ebdadaa11f04] [User login with invalid username] HTTP_INTERACTIONS - 
+=== TEST SCENARIO START ===
+Scenario: User login with invalid username
+Description: Scenario execution with tags: [@user-login, @negative, @regression]
+Correlation ID: 6cf35ddd-7abf-446b-8878-ebdadaa11f04
+==========================
+2025-12-14 23:26:36.708 [TestNG-PoolService-1] INFO  [6cf35ddd-7abf-446b-8878-ebdadaa11f04] [User login with invalid username] com.ecommerce.api.runners.TestHooks - Starting scenario: User login with invalid username with correlation ID: 36230632-13e5-4d71-b4e8-5e44eff0877c
+2025-12-14 23:26:36.708 [TestNG-PoolService-1] DEBUG [6cf35ddd-7abf-446b-8878-ebdadaa11f04] [User login with invalid username] c.e.api.utils.TestIsolationManager - Started test session: 95f84061-3cd4-48cc-b00b-1de493ec6a35 for test: User login with invalid username
+2025-12-14 23:26:36.708 [TestNG-PoolService-1] INFO  [6cf35ddd-7abf-446b-8878-ebdadaa11f04] [User login with invalid username] com.ecommerce.api.runners.TestHooks - Scenario 'User login with invalid username' setup completed with session: 95f84061-3cd4-48cc-b00b-1de493ec6a35
+
+    Correlation ID: 36230632-13e5-4d71-b4e8-5e44eff0877c
+
+
+    Session ID: 95f84061-3cd4-48cc-b00b-1de493ec6a35
+
+2025-12-14 23:26:36.709 [TestNG-PoolService-1] INFO  [6cf35ddd-7abf-446b-8878-ebdadaa11f04] [User login with invalid username] c.e.api.stepdefinitions.CommonSteps - API base URL configured: http://localhost:8000
+  Given the API base URL is configured                                                      # com.ecommerce.api.stepdefinitions.CommonSteps.theApiBaseUrlIsConfigured()
+2025-12-14 23:26:36.710 [TestNG-PoolService-1] INFO  [6cf35ddd-7abf-446b-8878-ebdadaa11f04] [User login with invalid username] c.e.api.stepdefinitions.CommonSteps - Verifying test environment readiness
+2025-12-14 23:26:36.710 [TestNG-PoolService-1] INFO  [6cf35ddd-7abf-446b-8878-ebdadaa11f04] [User login with invalid username] c.e.api.stepdefinitions.CommonSteps - Test environment is ready for execution
+  And the test environment is ready                                                         # com.ecommerce.api.stepdefinitions.CommonSteps.theTestEnvironmentIsReady()
+2025-12-14 23:26:36.715 [TestNG-PoolService-0] INFO  [4187a3e6-3839-4277-b856-4136d7555f91] [Valid user login with correct credentials] HTTP_INTERACTIONS - 
+=== HTTP REQUEST ===
+Timestamp: 2025-12-14 23:26:36.715
+Correlation ID: 4187a3e6-3839-4277-b856-4136d7555f91
+Method: POST
+Endpoint: /signup
+Request Body: {"testId":null,"createdTimestamp":1765734996708,"valid":true,"credentials":{"username":"validuser","password":"[MASKED]"},"cleanupRequired":true,"username":"validuser","password":"[MASKED]","email":"validuser@test.com","phone":"+1234567890","firstname":"Test","lastname":"User"}
+==================
+2025-12-14 23:26:36.716 [TestNG-PoolService-1] DEBUG [6cf35ddd-7abf-446b-8878-ebdadaa11f04] [User login with invalid username] c.e.api.stepdefinitions.UserApiSteps - Created login credentials with username: nonexistentuser and password: [PROTECTED]
+  Given I have login credentials with username "nonexistentuser" and password "anypassword" # com.ecommerce.api.stepdefinitions.UserApiSteps.iHaveLoginCredentialsWithUsernameAndPassword(java.lang.String,java.lang.String)
+2025-12-14 23:26:36.720 [TestNG-PoolService-1] INFO  [6cf35ddd-7abf-446b-8878-ebdadaa11f04] [User login with invalid username] HTTP_INTERACTIONS - 
+=== HTTP REQUEST ===
+Timestamp: 2025-12-14 23:26:36.720
+Correlation ID: 6cf35ddd-7abf-446b-8878-ebdadaa11f04
+Method: POST
+Endpoint: /login
+Request Body: {"username":"nonexistentuser","password":"[MASKED]"}
+==================
+2025-12-14 23:26:36.768 [TestNG-PoolService-1] INFO  [6cf35ddd-7abf-446b-8878-ebdadaa11f04] [User login with invalid username] HTTP_INTERACTIONS - 
+=== HTTP RESPONSE ===
+Timestamp: 2025-12-14 23:26:36.767
+Correlation ID: 6cf35ddd-7abf-446b-8878-ebdadaa11f04
+Endpoint: /login
+Status Code: 401
+Status Line: HTTP/1.1 401 Unauthorized
+Response Time: 37ms
+Response Headers:
+  X-Powered-By: Express
+  Access-Control-Allow-Origin: *
+  Content-Type: application/json; charset=utf-8
+  Content-Length: 15
+  ETag: W/"f-qSSex0YZLhOKTCtuK+UY/7nNpFY"
+  Date: Sun, 14 Dec 2025 17:56:36 GMT
+  Connection: keep-alive
+  Keep-Alive: timeout=5
+Response Body: "invalid login"
+====================
+2025-12-14 23:26:36.768 [TestNG-PoolService-1] DEBUG [6cf35ddd-7abf-446b-8878-ebdadaa11f04] [User login with invalid username] c.e.api.utils.PerformanceMetrics - Recorded API request metrics - Endpoint: /login, Response Time: 37ms, Success: false
+2025-12-14 23:26:36.768 [TestNG-PoolService-1] INFO  [6cf35ddd-7abf-446b-8878-ebdadaa11f04] [User login with invalid username] c.ecommerce.api.client.RestApiClient - POST request completed. Status: 401, Response time: 37ms
+2025-12-14 23:26:36.768 [TestNG-PoolService-1] INFO  [6cf35ddd-7abf-446b-8878-ebdadaa11f04] [User login with invalid username] c.e.api.stepdefinitions.UserApiSteps - Sent POST request to /login with invalid username. Status: 401
+  When I send a POST request to "/login" with the invalid username                          # com.ecommerce.api.stepdefinitions.UserApiSteps.iSendAPostRequestToWithTheInvalidUsername(java.lang.String)
+2025-12-14 23:26:36.769 [TestNG-PoolService-1] INFO  [6cf35ddd-7abf-446b-8878-ebdadaa11f04] [User login with invalid username] c.e.api.stepdefinitions.CommonSteps - Validating response status code. Expected: 401, Actual: 401
+2025-12-14 23:26:36.769 [TestNG-PoolService-0] INFO  [4187a3e6-3839-4277-b856-4136d7555f91] [Valid user login with correct credentials] HTTP_INTERACTIONS - 
+=== HTTP RESPONSE ===
+Timestamp: 2025-12-14 23:26:36.769
+Correlation ID: 4187a3e6-3839-4277-b856-4136d7555f91
+Endpoint: /signup
+Status Code: 401
+Status Line: HTTP/1.1 401 Unauthorized
+Response Time: 35ms
+Response Headers:
+  X-Powered-By: Express
+  Access-Control-Allow-Origin: *
+  Content-Type: application/json; charset=utf-8
+  Content-Length: 36
+  ETag: W/"24-VWWwfQVGljYgYlmoY2EG0s/DuUY"
+  Date: Sun, 14 Dec 2025 17:56:36 GMT
+  Connection: keep-alive
+  Keep-Alive: timeout=5
+Response Body: {"message":"username already exist"}
+====================
+  Then the response status code should be 401                                               # com.ecommerce.api.stepdefinitions.CommonSteps.theResponseStatusCodeShouldBe(int)
+2025-12-14 23:26:36.769 [TestNG-PoolService-0] DEBUG [4187a3e6-3839-4277-b856-4136d7555f91] [Valid user login with correct credentials] c.e.api.utils.PerformanceMetrics - Recorded API request metrics - Endpoint: /signup, Response Time: 35ms, Success: false
+2025-12-14 23:26:36.769 [TestNG-PoolService-0] INFO  [4187a3e6-3839-4277-b856-4136d7555f91] [Valid user login with correct credentials] c.ecommerce.api.client.RestApiClient - POST request completed. Status: 401, Response time: 35ms
+2025-12-14 23:26:36.769 [TestNG-PoolService-0] DEBUG [4187a3e6-3839-4277-b856-4136d7555f91] [Valid user login with correct credentials] c.e.api.stepdefinitions.UserApiSteps - Pre-registered user 'validuser' for login testing with status: 401
+  Given a user exists with username "validuser" and password "validpass123"               # com.ecommerce.api.stepdefinitions.UserApiSteps.aUserExistsWithUsernameAndPassword(java.lang.String,java.lang.String)
+2025-12-14 23:26:36.770 [TestNG-PoolService-1] DEBUG [6cf35ddd-7abf-446b-8878-ebdadaa11f04] [User login with invalid username] c.e.api.stepdefinitions.UserApiSteps - Invalid credentials error message validation passed
+2025-12-14 23:26:36.770 [TestNG-PoolService-0] DEBUG [4187a3e6-3839-4277-b856-4136d7555f91] [Valid user login with correct credentials] c.e.api.stepdefinitions.UserApiSteps - Created valid login credentials for username: validuser
+  And the response should contain error message about invalid credentials                   # com.ecommerce.api.stepdefinitions.UserApiSteps.theResponseShouldContainErrorMessageAboutInvalidCredentials()
+  And I have valid login credentials for username "validuser" and password "validpass123" # com.ecommerce.api.stepdefinitions.UserApiSteps.iHaveValidLoginCredentialsForUsernameAndPassword(java.lang.String,java.lang.String)
+2025-12-14 23:26:36.771 [TestNG-PoolService-1] DEBUG [6cf35ddd-7abf-446b-8878-ebdadaa11f04] [User login with invalid username] c.e.api.stepdefinitions.UserApiSteps - No authentication token validation passed
+  And no authentication token should be provided                                            # com.ecommerce.api.stepdefinitions.UserApiSteps.noAuthenticationTokenShouldBeProvided()
+2025-12-14 23:26:36.772 [TestNG-PoolService-1] INFO  [6cf35ddd-7abf-446b-8878-ebdadaa11f04] [User login with invalid username] com.ecommerce.api.runners.TestHooks - Completing scenario: User login with invalid username - Status: PASSED - Duration: 63ms
+2025-12-14 23:26:36.772 [TestNG-PoolService-1] INFO  [6cf35ddd-7abf-446b-8878-ebdadaa11f04] [User login with invalid username] HTTP_INTERACTIONS - 
+=== TEST SCENARIO END ===
+Scenario: User login with invalid username
+Status: PASSED
+Duration: 63ms
+Correlation ID: 6cf35ddd-7abf-446b-8878-ebdadaa11f04
+========================
+2025-12-14 23:26:36.772 [TestNG-PoolService-1] DEBUG [6cf35ddd-7abf-446b-8878-ebdadaa11f04] [User login with invalid username] c.e.api.utils.PerformanceMetrics - Test passed: User login with invalid username
+2025-12-14 23:26:36.772 [TestNG-PoolService-1] INFO  [6cf35ddd-7abf-446b-8878-ebdadaa11f04] [NO_SCENARIO] com.ecommerce.api.runners.TestHooks - Scenario 'User login with invalid username' passed in 63ms
+
+    Scenario passed - Duration: 63ms
+
+2025-12-14 23:26:36.772 [TestNG-PoolService-1] INFO  [6cf35ddd-7abf-446b-8878-ebdadaa11f04] [NO_SCENARIO] c.e.api.utils.TestIsolationManager - Ended test session: 95f84061-3cd4-48cc-b00b-1de493ec6a35 with cleanup result: CleanupResult{processed=0, cleaned=0, success=true}
+2025-12-14 23:26:36.772 [TestNG-PoolService-1] INFO  [6cf35ddd-7abf-446b-8878-ebdadaa11f04] [NO_SCENARIO] com.ecommerce.api.runners.TestHooks - Scenario 'User login with invalid username' cleanup completed
+2025-12-14 23:26:36.772 [TestNG-PoolService-0] INFO  [4187a3e6-3839-4277-b856-4136d7555f91] [Valid user login with correct credentials] HTTP_INTERACTIONS - 
+=== HTTP REQUEST ===
+Timestamp: 2025-12-14 23:26:36.772
+Correlation ID: 4187a3e6-3839-4277-b856-4136d7555f91
+Method: POST
+Endpoint: /login
+Request Body: {"username":"validuser","password":"[MASKED]"}
+==================
+2025-12-14 23:26:36.773 [TestNG-PoolService-1] INFO  [NO_ID] [NO_SCENARIO] c.e.api.stepdefinitions.UserApiSteps - Cleaning up UserApiSteps for session: session_1765734996706
+2025-12-14 23:26:36.774 [TestNG-PoolService-1] DEBUG [NO_ID] [NO_SCENARIO] c.e.api.utils.TestDataManager - No test session found for cleanup: session_1765734996706
+2025-12-14 23:26:36.774 [TestNG-PoolService-1] DEBUG [NO_ID] [NO_SCENARIO] c.e.api.stepdefinitions.UserApiSteps - Cleaned up 0 test users for session: session_1765734996706
+2025-12-14 23:26:36.774 [TestNG-PoolService-1] DEBUG [NO_ID] [NO_SCENARIO] c.ecommerce.api.client.RestApiClient - REST API client state reset
+2025-12-14 23:26:36.774 [TestNG-PoolService-1] DEBUG [NO_ID] [NO_SCENARIO] c.e.api.stepdefinitions.UserApiSteps - UserApiSteps cleanup completed for session: session_1765734996706
+2025-12-14 23:26:36.775 [TestNG-PoolService-1] INFO  [NO_ID] [NO_SCENARIO] c.e.a.s.ProductApiSteps - Cleaning up ProductApiSteps for session: product_session_1765734996705
+2025-12-14 23:26:36.775 [TestNG-PoolService-1] DEBUG [NO_ID] [NO_SCENARIO] c.ecommerce.api.client.RestApiClient - REST API client state reset
+2025-12-14 23:26:36.775 [TestNG-PoolService-1] DEBUG [NO_ID] [NO_SCENARIO] c.e.a.s.ProductApiSteps - ProductApiSteps cleanup completed for session: product_session_1765734996705
+]]></system-out>
+  </testcase>
+  <testcase name="runScenario[&quot;Valid user login with correct credentials&quot;, &quot;User Authentication API&quot;](6)" classname="com.ecommerce.api.runners.CucumberTestRunner" time="0.237">
+    <failure message="Response does not contain authentication data: {&quot;data&quot;:{&quot;_id&quot;:&quot;693ef718c69e3985e576c207&quot;,&quot;firstname&quot;:&quot;Test&quot;,&quot;lastname&quot;:&quot;User&quot;,&quot;username&quot;:&quot;validuser&quot;,&quot;email&quot;:&quot;validuser@test.com&quot;,&quot;password&quot;:&quot;validpass123&quot;,&quot;phone&quot;:&quot;+1234567890&quot;,&quot;__v&quot;:0}} expected [true] but found [false]" type="java.lang.AssertionError"><![CDATA[java.lang.AssertionError: Response does not contain authentication data: {"data":{"_id":"693ef718c69e3985e576c207","firstname":"Test","lastname":"User","username":"validuser","email":"validuser@test.com","password":"validpass123","phone":"+1234567890","__v":0}} expected [true] but found [false]
+	at org.testng.Assert.fail(Assert.java:111)
+	at org.testng.Assert.failNotEquals(Assert.java:1578)
+	at org.testng.Assert.assertTrue(Assert.java:57)
+	at com.ecommerce.api.stepdefinitions.UserApiSteps.theResponseShouldIncludeAuthenticationTokenOrSessionData(UserApiSteps.java:439)
+	at ✽.the response should include authentication token or session data(file:///C:/Users/SIC/Desktop/Automation%20Of%20Shopnest/Shopnest/src/test/resources/features/user_authentication.feature:58)
+]]></failure>
+    <system-out><![CDATA[2025-12-14 23:26:36.817 [TestNG-PoolService-0] INFO  [4187a3e6-3839-4277-b856-4136d7555f91] [Valid user login with correct credentials] HTTP_INTERACTIONS - 
+=== HTTP RESPONSE ===
+Timestamp: 2025-12-14 23:26:36.817
+Correlation ID: 4187a3e6-3839-4277-b856-4136d7555f91
+Endpoint: /login
+Status Code: 200
+Status Line: HTTP/1.1 200 OK
+Response Time: 33ms
+Response Headers:
+  X-Powered-By: Express
+  Access-Control-Allow-Origin: *
+  Content-Type: application/json; charset=utf-8
+  Content-Length: 188
+  ETag: W/"bc-lum/9hW5Il9Z1/zA/t4p+ONtwYQ"
+  Date: Sun, 14 Dec 2025 17:56:36 GMT
+  Connection: keep-alive
+  Keep-Alive: timeout=5
+Response Body: {"data":{"_id":"693ef718c69e3985e576c207","firstname":"Test","lastname":"User","username":"validuser","email":"validuser@test.com","password":"[MASKED]","phone":"+1234567890","__v":0}}
+====================
+2025-12-14 23:26:36.817 [TestNG-PoolService-0] DEBUG [4187a3e6-3839-4277-b856-4136d7555f91] [Valid user login with correct credentials] c.e.api.utils.PerformanceMetrics - Recorded API request metrics - Endpoint: /login, Response Time: 33ms, Success: true
+2025-12-14 23:26:36.818 [TestNG-PoolService-0] INFO  [4187a3e6-3839-4277-b856-4136d7555f91] [Valid user login with correct credentials] c.ecommerce.api.client.RestApiClient - POST request completed. Status: 200, Response time: 33ms
+2025-12-14 23:26:36.818 [TestNG-PoolService-0] INFO  [4187a3e6-3839-4277-b856-4136d7555f91] [Valid user login with correct credentials] c.e.api.stepdefinitions.UserApiSteps - Sent POST request to /login with valid credentials. Status: 200
+  When I send a POST request to "/login" with the valid credentials                       # com.ecommerce.api.stepdefinitions.UserApiSteps.iSendAPostRequestToWithTheValidCredentials(java.lang.String)
+2025-12-14 23:26:36.819 [TestNG-PoolService-0] INFO  [4187a3e6-3839-4277-b856-4136d7555f91] [Valid user login with correct credentials] c.e.api.stepdefinitions.CommonSteps - Validating response status code. Expected: 200, Actual: 200
+  Then the response status code should be 200                                             # com.ecommerce.api.stepdefinitions.CommonSteps.theResponseStatusCodeShouldBe(int)
+2025-12-14 23:26:36.820 [TestNG-PoolService-0] DEBUG [4187a3e6-3839-4277-b856-4136d7555f91] [Valid user login with correct credentials] c.e.api.stepdefinitions.UserApiSteps - User data JSON validation passed
+  And the response should contain user data JSON                                          # com.ecommerce.api.stepdefinitions.UserApiSteps.theResponseShouldContainUserDataJson()
+  And the response should include authentication token or session data                    # com.ecommerce.api.stepdefinitions.UserApiSteps.theResponseShouldIncludeAuthenticationTokenOrSessionData()
+      java.lang.AssertionError: Response does not contain authentication data: {"data":{"_id":"693ef718c69e3985e576c207","firstname":"Test","lastname":"User","username":"validuser","email":"validuser@test.com","password":"validpass123","phone":"+1234567890","__v":0}} expected [true] but found [false]
+	at org.testng.Assert.fail(Assert.java:111)
+	at org.testng.Assert.failNotEquals(Assert.java:1578)
+	at org.testng.Assert.assertTrue(Assert.java:57)
+	at com.ecommerce.api.stepdefinitions.UserApiSteps.theResponseShouldIncludeAuthenticationTokenOrSessionData(UserApiSteps.java:439)
+	at ✽.the response should include authentication token or session data(file:///C:/Users/SIC/Desktop/Automation%20Of%20Shopnest/Shopnest/src/test/resources/features/user_authentication.feature:58)
+
+2025-12-14 23:26:36.822 [TestNG-PoolService-0] INFO  [4187a3e6-3839-4277-b856-4136d7555f91] [Valid user login with correct credentials] com.ecommerce.api.runners.TestHooks - Completing scenario: Valid user login with correct credentials - Status: FAILED - Duration: 167ms
+2025-12-14 23:26:36.822 [TestNG-PoolService-0] INFO  [4187a3e6-3839-4277-b856-4136d7555f91] [Valid user login with correct credentials] HTTP_INTERACTIONS - 
+=== TEST SCENARIO END ===
+Scenario: Valid user login with correct credentials
+Status: FAILED
+Duration: 167ms
+Correlation ID: 4187a3e6-3839-4277-b856-4136d7555f91
+========================
+2025-12-14 23:26:36.822 [TestNG-PoolService-0] DEBUG [4187a3e6-3839-4277-b856-4136d7555f91] [Valid user login with correct credentials] c.e.api.utils.PerformanceMetrics - Test failed: Valid user login with correct credentials
+2025-12-14 23:26:36.822 [TestNG-PoolService-0] ERROR [4187a3e6-3839-4277-b856-4136d7555f91] [NO_SCENARIO] com.ecommerce.api.runners.TestHooks - Scenario 'Valid user login with correct credentials' failed after 167ms
+
+    Scenario failed - Duration: 167ms - Check logs for details
+
+
+    Failure status: FAILED
+
+2025-12-14 23:26:36.823 [TestNG-PoolService-0] INFO  [4187a3e6-3839-4277-b856-4136d7555f91] [NO_SCENARIO] c.e.api.utils.TestIsolationManager - Ended test session: 1b30c616-719f-4eba-a7dd-9229d17b0023 with cleanup result: CleanupResult{processed=0, cleaned=0, success=true}
+2025-12-14 23:26:36.823 [TestNG-PoolService-0] INFO  [4187a3e6-3839-4277-b856-4136d7555f91] [NO_SCENARIO] com.ecommerce.api.runners.TestHooks - Scenario 'Valid user login with correct credentials' cleanup completed
+2025-12-14 23:26:36.823 [TestNG-PoolService-0] INFO  [NO_ID] [NO_SCENARIO] c.e.api.stepdefinitions.UserApiSteps - Cleaning up UserApiSteps for session: session_1765734996653
+2025-12-14 23:26:36.824 [TestNG-PoolService-0] DEBUG [NO_ID] [NO_SCENARIO] c.e.api.utils.TestDataManager - No test session found for cleanup: session_1765734996653
+2025-12-14 23:26:36.824 [TestNG-PoolService-0] DEBUG [NO_ID] [NO_SCENARIO] c.e.api.stepdefinitions.UserApiSteps - Cleaned up 0 test users for session: session_1765734996653
+2025-12-14 23:26:36.824 [TestNG-PoolService-0] DEBUG [NO_ID] [NO_SCENARIO] c.ecommerce.api.client.RestApiClient - REST API client state reset
+2025-12-14 23:26:36.824 [TestNG-PoolService-0] DEBUG [NO_ID] [NO_SCENARIO] c.e.api.stepdefinitions.UserApiSteps - UserApiSteps cleanup completed for session: session_1765734996653
+2025-12-14 23:26:36.824 [TestNG-PoolService-0] INFO  [NO_ID] [NO_SCENARIO] c.e.a.s.ProductApiSteps - Cleaning up ProductApiSteps for session: product_session_1765734996652
+2025-12-14 23:26:36.824 [TestNG-PoolService-0] DEBUG [NO_ID] [NO_SCENARIO] c.ecommerce.api.client.RestApiClient - REST API client state reset
+2025-12-14 23:26:36.824 [TestNG-PoolService-0] DEBUG [NO_ID] [NO_SCENARIO] c.e.a.s.ProductApiSteps - ProductApiSteps cleanup completed for session: product_session_1765734996652
+]]></system-out>
+  </testcase>
+  <testcase name="runScenario[&quot;Valid user registration with unique username&quot;, &quot;User Authentication API&quot;](7)" classname="com.ecommerce.api.runners.CucumberTestRunner" time="0.472">
+    <system-out><![CDATA[2025-12-14 23:26:37.462 [TestNG-PoolService-2] INFO  [47c18c6f-b18d-4422-a7db-41567fb22ebe] [Valid user registration with unique username] HTTP_INTERACTIONS - Validation FAILED - Type: JSON Path: username, Expected: test_user_1_996331, Actual: null, Correlation ID: 47c18c6f-b18d-4422-a7db-41567fb22ebe
+2025-12-14 23:26:37.462 [TestNG-PoolService-2] ERROR [47c18c6f-b18d-4422-a7db-41567fb22ebe] [Valid user registration with unique username] c.ecommerce.api.client.RestApiClient - JSON validation failed for path 'username'. Expected: test_user_1_996331, Actual: null
+2025-12-14 23:26:37.463 [TestNG-PoolService-2] DEBUG [47c18c6f-b18d-4422-a7db-41567fb22ebe] [Valid user registration with unique username] c.e.api.stepdefinitions.UserApiSteps - User data structure validation passed
+  And the response should contain user data with proper structure # com.ecommerce.api.stepdefinitions.UserApiSteps.theResponseShouldContainUserDataWithProperStructure()
+2025-12-14 23:26:37.470 [TestNG-PoolService-2] DEBUG [47c18c6f-b18d-4422-a7db-41567fb22ebe] [Valid user registration with unique username] c.e.api.stepdefinitions.UserApiSteps - User creation validation passed
+  And the user should be created successfully                     # com.ecommerce.api.stepdefinitions.UserApiSteps.theUserShouldBeCreatedSuccessfully()
+2025-12-14 23:26:37.471 [TestNG-PoolService-2] INFO  [47c18c6f-b18d-4422-a7db-41567fb22ebe] [Valid user registration with unique username] com.ecommerce.api.runners.TestHooks - Completing scenario: Valid user registration with unique username - Status: PASSED - Duration: 1151ms
+2025-12-14 23:26:37.471 [TestNG-PoolService-2] INFO  [47c18c6f-b18d-4422-a7db-41567fb22ebe] [Valid user registration with unique username] HTTP_INTERACTIONS - 
+=== TEST SCENARIO END ===
+Scenario: Valid user registration with unique username
+Status: PASSED
+Duration: 1151ms
+Correlation ID: 47c18c6f-b18d-4422-a7db-41567fb22ebe
+========================
+2025-12-14 23:26:37.471 [TestNG-PoolService-2] DEBUG [47c18c6f-b18d-4422-a7db-41567fb22ebe] [Valid user registration with unique username] c.e.api.utils.PerformanceMetrics - Test passed: Valid user registration with unique username
+2025-12-14 23:26:37.471 [TestNG-PoolService-2] INFO  [47c18c6f-b18d-4422-a7db-41567fb22ebe] [NO_SCENARIO] com.ecommerce.api.runners.TestHooks - Scenario 'Valid user registration with unique username' passed in 1151ms
+
+    Scenario passed - Duration: 1151ms
+
+2025-12-14 23:26:37.471 [TestNG-PoolService-2] INFO  [47c18c6f-b18d-4422-a7db-41567fb22ebe] [NO_SCENARIO] c.e.api.utils.TestIsolationManager - Ended test session: f7c91801-18b5-490f-a074-c9aca525d6de with cleanup result: CleanupResult{processed=0, cleaned=0, success=true}
+2025-12-14 23:26:37.471 [TestNG-PoolService-2] INFO  [47c18c6f-b18d-4422-a7db-41567fb22ebe] [NO_SCENARIO] com.ecommerce.api.runners.TestHooks - Scenario 'Valid user registration with unique username' cleanup completed
+2025-12-14 23:26:37.472 [TestNG-PoolService-2] INFO  [NO_ID] [NO_SCENARIO] c.e.api.stepdefinitions.UserApiSteps - Cleaning up UserApiSteps for session: session_1765734996319
+2025-12-14 23:26:37.472 [TestNG-PoolService-2] INFO  [NO_ID] [NO_SCENARIO] c.e.api.utils.TestDataManager - Cleaned up 1 test users for session: session_1765734996319
+2025-12-14 23:26:37.472 [TestNG-PoolService-2] DEBUG [NO_ID] [NO_SCENARIO] c.e.api.stepdefinitions.UserApiSteps - Cleaned up 1 test users for session: session_1765734996319
+2025-12-14 23:26:37.472 [TestNG-PoolService-2] DEBUG [NO_ID] [NO_SCENARIO] c.ecommerce.api.client.RestApiClient - REST API client state reset
+2025-12-14 23:26:37.472 [TestNG-PoolService-2] DEBUG [NO_ID] [NO_SCENARIO] c.e.api.stepdefinitions.UserApiSteps - UserApiSteps cleanup completed for session: session_1765734996319
+2025-12-14 23:26:37.473 [TestNG-PoolService-2] INFO  [NO_ID] [NO_SCENARIO] c.e.a.s.ProductApiSteps - Cleaning up ProductApiSteps for session: product_session_1765734996318
+2025-12-14 23:26:37.473 [TestNG-PoolService-2] DEBUG [NO_ID] [NO_SCENARIO] c.ecommerce.api.client.RestApiClient - REST API client state reset
+2025-12-14 23:26:37.473 [TestNG-PoolService-2] DEBUG [NO_ID] [NO_SCENARIO] c.e.a.s.ProductApiSteps - ProductApiSteps cleanup completed for session: product_session_1765734996318
+]]></system-out>
+  </testcase>
+</testsuite>

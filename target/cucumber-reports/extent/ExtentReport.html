@@ -1,0 +1,1531 @@
+
+
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+<title>API Test Results</title>
+<link rel="apple-touch-icon" href="https://cdn.jsdelivr.net/gh/extent-framework/extent-github-cdn@b00a2d0486596e73dd7326beacf352c639623a0e/commons/img/logo.png">
+<link rel="shortcut icon" href="https://cdn.jsdelivr.net/gh/extent-framework/extent-github-cdn@b00a2d0486596e73dd7326beacf352c639623a0e/commons/img/logo.png">
+<link href="https://cdn.jsdelivr.net/gh/extent-framework/extent-github-cdn@d6562a79075e061305ccfdb82f01e5e195e2d307/spark/css/spark-style.css" rel="stylesheet" />
+<link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
+<script src="https://cdn.jsdelivr.net/gh/extent-framework/extent-github-cdn@7cc78ce/spark/js/jsontree.js"></script>
+<style type="text/css">
+.test-name { font-weight: bold; }
+.step-details { margin-left: 20px; }
+</style></head><body class="spa bdd-report standard">
+  <div class="app">
+    <div class="layout">
+<div class="header navbar">
+<div class="vheader">
+<div class="nav-logo">
+<a href="#">
+<div class="logo" style="background-image: url('https://cdn.jsdelivr.net/gh/extent-framework/extent-github-cdn@b00a2d0486596e73dd7326beacf352c639623a0e/commons/img/logo.png')"></div>
+</a>
+</div>
+<ul class="nav-left">
+<li class="search-box">
+<a class="search-toggle" href="#">
+<i class="search-icon fa fa-search"></i>
+<i class="search-icon-close fa fa-close"></i>
+</a>
+</li>
+<li class="search-input"><input id="search-tests" class="form-control" type="text" placeholder="Search..."></li>
+</ul>
+<ul class="nav-right">
+<li class="m-r-10">
+<a href="#"><span class="badge badge-primary">E-commerce API Automation Test Report</span></a>
+</li>
+<li class="m-r-10">
+<a href="#"><span class="badge badge-primary">Dec 14, 2025 23:26:31</span></a>
+</li>
+</ul>
+</div>
+</div><div class="side-nav">
+<div class="side-nav-inner">
+<ul class="side-nav-menu">
+<li class="nav-item dropdown" onclick="toggleView('dashboard-view')">
+<a id="nav-dashboard" class="dropdown-toggle" href="#">
+<span class="ico"><i class="fa fa-bar-chart"></i></span>
+</a>
+</li>
+<li class="nav-item dropdown" onclick="toggleView('test-view')">
+<a id="nav-test" class="dropdown-toggle" href="#">
+<span class="ico"><i class="fa fa-list"></i></span>
+</a>
+</li>
+<li class="nav-item dropdown" onclick="toggleView('category-view')">
+<a id="nav-category" class="dropdown-toggle" href="#">
+<span class="ico"><i class="fa fa-tag"></i></span>
+</a>
+</li>
+<li class="nav-item dropdown" onclick="toggleView('exception-view')">
+<a id="nav-exception" class="dropdown-toggle" href="#">
+<span class="ico"><i class="fa fa-bug"></i></span>
+</a>
+</li>
+</ul>
+</div>
+</div>      <div class="vcontainer">
+        <div class="main-content">
+<div class="container-fluid p-4 view dashboard-view">
+<div class="row">
+<div class="col-md-3">
+<div class="card"><div class="card-body">
+<p class="m-b-0">Started</p>
+<h3>Dec 14, 2025 23:26:31</h3>
+</div></div>
+</div>
+<div class="col-md-3">
+<div class="card"><div class="card-body">
+<p class="m-b-0">Ended</p>
+<h3>Dec 14, 2025 23:26:37</h3>
+</div></div>
+</div>
+<div class="col-md-3">
+<div class="card"><div class="card-body">
+<p class="m-b-0 text-pass">Features Passed</p>
+<h3>0</h3>
+</div></div>
+</div>
+<div class="col-md-3">
+<div class="card"><div class="card-body">
+<p class="m-b-0 text-fail">Features Failed</p>
+<h3>2</h3>
+</div></div>
+</div>
+</div>
+<div class="row">
+<div class="col-md-4">
+<div class="card">
+<div class="card-header">
+<h6 class="card-title">Features</h6>
+</div>
+<div class="card-body">
+<div class="">
+<canvas id='parent-analysis' width='115' height='90'></canvas>
+</div>
+</div>
+<div class="card-footer">
+<div><small data-tooltip='0%'>
+<b>0</b> features passed
+</small>
+</div>
+<div>
+<small data-tooltip='100%'><b>2</b> features failed,
+<b>0</b> skipped, <b data-tooltip='0%'>0</b> others
+</small>
+</div>
+</div>
+</div>
+</div>
+<div class="col-md-4">
+<div class="card">
+<div class="card-header">
+<h6 class="card-title">Scenarios</h6>
+</div>
+<div class="card-body">
+<div class="">
+<canvas id='child-analysis' width='115' height='90'></canvas>
+</div>
+</div>
+<div class="card-footer">
+<div><small data-tooltip='42%'><b>3</b> scenarios passed</small></div>
+<div>
+<small data-tooltip='57%'><b>4</b> scenarios failed,
+<b>0</b> skipped, <b data-tooltip='%'>0</b> others
+</small>
+</div>
+</div>
+</div>
+</div>
+<div class="col-md-4">
+<div class="card">
+<div class="card-header">
+<h6 class="card-title">Steps</h6>
+</div>
+<div class="card-body">
+<div class="">
+<canvas id='grandchild-analysis' width='115' height='90'></canvas>
+</div>
+</div>
+<div class="card-footer">
+<div><small data-tooltip='85%'><b>64</b> steps passed</small></div>
+<div>
+<small data-tooltip='5%'><b>4</b> steps failed,
+<b>7</b> skipped, <b data-tooltip='%'>0</b> others
+</small>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="row"><div class="col-md-12">
+<div class="card"><div class="card-header"><p>Timeline</p></div>
+<div class="card-body pt-0"><div>
+<canvas id="timeline" height="120"></canvas>
+</div></div>
+</div>
+</div></div>
+<script>
+var timeline = {
+"Product Catalog API":3.017,"User Authentication API":1.156
+};
+</script>
+<div class="row">
+<div class="col-lg-6 col-md-12 category-container">
+<div class="card">
+<div class="card-header"><p>Tags</p></div>
+<div class="card-body pb-0 pt-0"><table class="table table-sm table-bordered">
+<thead><tr class="bg-gray"><th>Name</th><th>Passed</th><th>Failed</th><th>Skipped</th><th>Others</th><th>Passed %</th></tr></thead><tbody>
+<tr>
+<td>@negative</td>
+<td>2</td>
+<td>1</td>
+<td>0</td>
+<td>0</td>
+<td>66.667%</td>
+</tr>
+<tr>
+<td>@user-registration</td>
+<td>2</td>
+<td>0</td>
+<td>0</td>
+<td>0</td>
+<td>100%</td>
+</tr>
+<tr>
+<td>@positive</td>
+<td>1</td>
+<td>3</td>
+<td>0</td>
+<td>0</td>
+<td>25%</td>
+</tr>
+<tr>
+<td>@user-login</td>
+<td>1</td>
+<td>1</td>
+<td>0</td>
+<td>0</td>
+<td>50%</td>
+</tr>
+<tr>
+<td>@product-catalog</td>
+<td>0</td>
+<td>3</td>
+<td>0</td>
+<td>0</td>
+<td>0%</td>
+</tr>
+<tr>
+<td>@smoke</td>
+<td>1</td>
+<td>3</td>
+<td>0</td>
+<td>0</td>
+<td>25%</td>
+</tr>
+<tr>
+<td>@regression</td>
+<td>2</td>
+<td>1</td>
+<td>0</td>
+<td>0</td>
+<td>66.667%</td>
+</tr>
+</tbody>
+</table></div>
+</div>
+</div>
+<div class="col-lg-6 col-md-12 sysenv-container">
+<div class="card">
+<div class="card-header"><p>System/Environment</p></div>
+<div class="card-body pb-0 pt-0"><table class="table table-sm table-bordered">
+<thead><tr class="bg-gray"><th>Name</th><th>Value</th></tr></thead>
+<tbody>
+<tr>
+<td>AppName</td>
+<td>E-commerce API Testing Framework</td>
+</tr>
+<tr>
+<td>user</td>
+<td>Test Automation</td>
+</tr>
+<tr>
+<td>build</td>
+<td>1.0.0</td>
+</tr>
+<tr>
+<td>os</td>
+<td>Windows</td>
+</tr>
+</tbody>
+</table></div>
+</div>
+</div>
+</div>
+</div>
+<script>
+var statusGroup = {
+parentCount: 5,
+passParent: 0,
+failParent: 2,
+warningParent: 0,
+skipParent: 0,
+childCount: 5,
+passChild: 3,
+failChild: 4,
+warningChild: 0,
+skipChild: 0,
+infoChild: 0,
+grandChildCount: 5,
+passGrandChild: 64,
+failGrandChild: 4,
+warningGrandChild: 0,
+skipGrandChild: 7,
+infoGrandChild: 0,
+eventsCount: 5,
+};
+</script><div class="test-wrapper row view test-view">
+  <div class="test-list">
+    <div class="test-list-tools">
+<ul class="tools pull-left">
+<li><a href="#"><span class="font-size-14">Tests</span></a></li>
+</ul>
+<ul class="tools text-right">
+<li class="dropdown">
+<a href="#" class="dropdown-toggle" data-toggle="dropdown"><i class="fa fa-exclamation-circle"></i></a>
+<ul id="status-toggle" class="dropdown-menu dropdown-md p-v-0">
+<a class="dropdown-item" status="fail" href="#"><span>Fail</span><span class="status danger"></span></a>
+<div class="dropdown-divider"></div>
+<a status="clear" class="dropdown-item" href="#"><span>Clear</span><span class="pull-right"><i class="fa fa-close"></i></span></a>
+</ul>
+</li>
+<li class="dropdown">
+<a href="#" class="dropdown-toggle" data-toggle="dropdown"><i class="fa fa-tag"></i></a>
+<ul id="tag-toggle" class="dropdown-menu dropdown-md p-v-0">
+<a class="dropdown-item" href="#">@negative</a><a class="dropdown-item" href="#">@user-registration</a><a class="dropdown-item" href="#">@positive</a><a class="dropdown-item" href="#">@user-login</a><a class="dropdown-item" href="#">@product-catalog</a><a class="dropdown-item" href="#">@smoke</a><a class="dropdown-item" href="#">@regression</a>
+</ul>
+</li>
+</ul>
+</div>    <div class="test-list-wrapper scrollable">
+      <ul class="test-list-item">
+        <li class="test-item"  status="fail" test-id="1"
+          author=""
+          tag=""
+          device="">
+          <div class="test-detail">
+            <p class="name">Product Catalog API</p>
+            <p class="text-sm">
+              <span>11:26:33 pm</span> / <span>00:00:03:017</span>
+              <span class="badge fail-bg log float-right">Fail</span>
+            </p>
+          </div>
+          <div class="test-contents d-none">
+<div class="detail-head">
+<div class="p-v-10">
+<div class="info">
+<h5 class="test-status text-fail">Product Catalog API</h5>
+<span class='badge badge-success'>12.14.2025 11:26:33 pm</span>
+<span class='badge badge-danger'>12.14.2025 11:26:36 pm</span>
+<span class='badge badge-default'>00:00:03:017</span>
+&middot; <span class='uri-anchor badge badge-default'>#test-id=1</span>
+<span class='badge badge-default pointer float-right ml-1 et'><i class="fa fa-chevron-down"></i></span>
+<span class='badge badge-default pointer float-right ct'><i class="fa fa-chevron-up"></i></span>
+</div>
+<div class="m-t-10 m-l-5"> As a QA engineer
+I want to test product catalog REST APIs comprehensively
+So that I can verify product data retrieval and JSON response integrity</div>
+</div>
+</div>
+<div class="accordion mt-4">
+  <div class="card">
+    <div class="card-header" role="tab">
+      <div class="card-title">
+        <div class="node" id="2"><span class="badge log fail-bg mr-2">Fail</span>Get all products successfully</div>
+      </div>
+    </div>
+        <div class="">
+          <div class="card-body">
+              <div class="step pass-bg" title="BEFORE">
+                <span>com.ecommerce.api.runners.TestHooks.beforeScenario(io.cucumber.java.Scenario)</span>
+      <div>Correlation ID: e5a1e5f1-b099-4af3-b2f9-5bdabd0f0824
+      </div>
+      <div>Session ID: d6e821fa-c3cb-4726-a51b-af97dab16f0e
+      </div>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="BEFORE">
+                <span>com.ecommerce.api.runners.TestHooks.beforeSmokeTest(io.cucumber.java.Scenario)</span>
+      <div>SMOKE TEST - Critical functionality validation
+      </div>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="com.ecommerce.api.stepdefinitions.CommonSteps.theApiBaseUrlIsConfigured()">
+                <span>Given the API base URL is configured</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="com.ecommerce.api.stepdefinitions.CommonSteps.theTestEnvironmentIsReady()">
+                <span>And the test environment is ready</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="com.ecommerce.api.stepdefinitions.ProductApiSteps.iSendAGetRequestTo(java.lang.String)">
+                <span>When I send a GET request to "/products"</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="com.ecommerce.api.stepdefinitions.CommonSteps.theResponseStatusCodeShouldBe(int)">
+                <span>Then the response status code should be 200</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="com.ecommerce.api.stepdefinitions.ProductApiSteps.theResponseShouldBeAValidJsonArray()">
+                <span>And the response should be a valid JSON array</span>
+      <div>
+      </div>
+              </div>
+              <div class="step fail-bg" title="com.ecommerce.api.stepdefinitions.ProductApiSteps.theResponseShouldContainCompleteProductListWithAllRequiredFields()">
+                <span>And the response should contain complete product list with all required fields</span>
+      <div>
+        <textarea disabled class="code-block">java.lang.AssertionError: Product at index 0 missing required field: category expected [true] but found [false]
+	at org.testng.Assert.fail(Assert.java:111)
+	at org.testng.Assert.failNotEquals(Assert.java:1578)
+	at org.testng.Assert.assertTrue(Assert.java:57)
+	at com.ecommerce.api.stepdefinitions.ProductApiSteps.theResponseShouldContainCompleteProductListWithAllRequiredFields(ProductApiSteps.java:279)
+	at ✽.the response should contain complete product list with all required fields(file:///C:/Users/SIC/Desktop/Automation%20Of%20Shopnest/Shopnest/src/test/resources/features/product_catalog.feature:15)
+</textarea>
+      
+      </div>
+              </div>
+              <div class="step skip-bg" title="com.ecommerce.api.stepdefinitions.CommonSteps.theResponseShouldHaveProperHttpHeadersAndContentType()">
+                <span>And the response should have proper HTTP headers and content-type</span>
+      <div>Step skipped
+      </div>
+              </div>
+              <div class="step skip-bg" title="com.ecommerce.api.stepdefinitions.ProductApiSteps.eachProductShouldHaveIdTitleDescriptionPriceAndCategoryFields()">
+                <span>And each product should have id, title, description, price, and category fields</span>
+      <div>Step skipped
+      </div>
+              </div>
+              <div class="step pass-bg" title="AFTER">
+                <span>com.ecommerce.api.runners.TestHooks.afterScenario(io.cucumber.java.Scenario)</span>
+      <div>Scenario failed - Duration: 2293ms - Check logs for details
+      </div>
+      <div>Failure status: FAILED
+      </div>
+      <div>
+      </div>
+              </div>
+          </div>
+        </div>
+  </div>
+  <div class="card">
+    <div class="card-header" role="tab">
+      <div class="card-title">
+        <div class="node" id="3"><span class="badge log fail-bg mr-2">Fail</span>Get product by valid ID successfully</div>
+      </div>
+    </div>
+        <div class="">
+          <div class="card-body">
+              <div class="step pass-bg" title="BEFORE">
+                <span>com.ecommerce.api.runners.TestHooks.beforeScenario(io.cucumber.java.Scenario)</span>
+      <div>Correlation ID: 6e04ac38-0820-4d65-b85d-26db625eda65
+      </div>
+      <div>Session ID: df9bfeba-6321-40c2-98e9-7ac514d852d1
+      </div>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="BEFORE">
+                <span>com.ecommerce.api.runners.TestHooks.beforeSmokeTest(io.cucumber.java.Scenario)</span>
+      <div>SMOKE TEST - Critical functionality validation
+      </div>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="com.ecommerce.api.stepdefinitions.CommonSteps.theApiBaseUrlIsConfigured()">
+                <span>Given the API base URL is configured</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="com.ecommerce.api.stepdefinitions.CommonSteps.theTestEnvironmentIsReady()">
+                <span>And the test environment is ready</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="com.ecommerce.api.stepdefinitions.ProductApiSteps.aProductExistsWithId(java.lang.String)">
+                <span>Given a product exists with ID "507f1f77bcf86cd799439011"</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="com.ecommerce.api.stepdefinitions.ProductApiSteps.iSendAGetRequestTo(java.lang.String)">
+                <span>When I send a GET request to "/product/507f1f77bcf86cd799439011"</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="com.ecommerce.api.stepdefinitions.CommonSteps.theResponseStatusCodeShouldBe(int)">
+                <span>Then the response status code should be 200</span>
+      <div>
+      </div>
+              </div>
+              <div class="step fail-bg" title="com.ecommerce.api.stepdefinitions.ProductApiSteps.theResponseShouldContainExactProductJsonDetailsMatchingTheId()">
+                <span>And the response should contain exact product JSON details matching the ID</span>
+      <div>
+        <textarea disabled class="code-block">io.restassured.path.json.exception.JsonPathException: Failed to parse the JSON document
+	at io.restassured.path.json.JsonPath$ExceptionCatcher.invoke(JsonPath.java:1002)
+	at io.restassured.path.json.JsonPath$4.doParseWith(JsonPath.java:967)
+	at io.restassured.path.json.JsonPath$JsonParser.parseWith(JsonPath.java:1047)
+	at io.restassured.path.json.JsonPath.get(JsonPath.java:202)
+	at io.restassured.path.json.JsonPath.getMap(JsonPath.java:420)
+	at com.ecommerce.api.stepdefinitions.ProductApiSteps.theResponseShouldContainExactProductJsonDetailsMatchingTheId(ProductApiSteps.java:321)
+	at ✽.the response should contain exact product JSON details matching the ID(file:///C:/Users/SIC/Desktop/Automation%20Of%20Shopnest/Shopnest/src/test/resources/features/product_catalog.feature:24)
+Caused by: groovy.json.JsonException: A JSON payload should start with an openning curly brace '{' or an openning square bracket '['.
+Instead, 'null' was found on line: 1, column: 1
+	at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:62)
+	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:483)
+	at org.codehaus.groovy.reflection.CachedConstructor.invoke(CachedConstructor.java:73)
+	at org.codehaus.groovy.runtime.callsite.ConstructorSite$ConstructorSiteNoUnwrapNoCoerce.callConstructor(ConstructorSite.java:108)
+	at org.codehaus.groovy.runtime.callsite.CallSiteArray.defaultCallConstructor(CallSiteArray.java:57)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.callConstructor(AbstractCallSite.java:263)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.callConstructor(AbstractCallSite.java:277)
+	at io.restassured.internal.path.json.ConfigurableJsonSlurper.parse(ConfigurableJsonSlurper.groovy:114)
+	at io.restassured.internal.path.json.ConfigurableJsonSlurper$parse.callCurrent(Unknown Source)
+	at org.codehaus.groovy.runtime.callsite.CallSiteArray.defaultCallCurrent(CallSiteArray.java:49)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.callCurrent(AbstractCallSite.java:171)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.callCurrent(AbstractCallSite.java:185)
+	at io.restassured.internal.path.json.ConfigurableJsonSlurper.parseText(ConfigurableJsonSlurper.groovy:83)
+	at io.restassured.path.json.JsonPath$4$1.method(JsonPath.java:965)
+	at io.restassured.path.json.JsonPath$ExceptionCatcher.invoke(JsonPath.java:1000)
+	at io.restassured.path.json.JsonPath$4.doParseWith(JsonPath.java:967)
+	at io.restassured.path.json.JsonPath$JsonParser.parseWith(JsonPath.java:1047)
+	at io.restassured.path.json.JsonPath.get(JsonPath.java:202)
+	at io.restassured.path.json.JsonPath.getMap(JsonPath.java:420)
+	at com.ecommerce.api.stepdefinitions.ProductApiSteps.theResponseShouldContainExactProductJsonDetailsMatchingTheId(ProductApiSteps.java:321)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:565)
+	at io.cucumber.java.Invoker.doInvoke(Invoker.java:66)
+	at io.cucumber.java.Invoker.invoke(Invoker.java:24)
+	at io.cucumber.java.AbstractGlueDefinition.invokeMethod(AbstractGlueDefinition.java:47)
+	at io.cucumber.java.JavaStepDefinition.execute(JavaStepDefinition.java:29)
+	at io.cucumber.core.runner.CoreStepDefinition.execute(CoreStepDefinition.java:66)
+	at io.cucumber.core.runner.PickleStepDefinitionMatch.runStep(PickleStepDefinitionMatch.java:63)
+	at io.cucumber.core.runner.ExecutionMode$1.execute(ExecutionMode.java:10)
+	at io.cucumber.core.runner.TestStep.executeStep(TestStep.java:84)
+	at io.cucumber.core.runner.TestStep.run(TestStep.java:56)
+	at io.cucumber.core.runner.PickleStepTestStep.run(PickleStepTestStep.java:51)
+	at io.cucumber.core.runner.TestCase.run(TestCase.java:84)
+	at io.cucumber.core.runner.Runner.runPickle(Runner.java:75)
+	at io.cucumber.testng.TestNGCucumberRunner.lambda$runScenario$1(TestNGCucumberRunner.java:132)
+	at io.cucumber.core.runtime.CucumberExecutionContext.lambda$runTestCase$5(CucumberExecutionContext.java:137)
+	at io.cucumber.core.runtime.RethrowingThrowableCollector.executeAndThrow(RethrowingThrowableCollector.java:23)
+	at io.cucumber.core.runtime.CucumberExecutionContext.runTestCase(CucumberExecutionContext.java:137)
+	at io.cucumber.testng.TestNGCucumberRunner.runScenario(TestNGCucumberRunner.java:129)
+	at io.cucumber.testng.AbstractTestNGCucumberTests.runScenario(AbstractTestNGCucumberTests.java:35)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:565)
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:664)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:227)
+	at org.testng.internal.invokers.TestMethodWithDataProviderMethodWorker.call(TestMethodWithDataProviderMethodWorker.java:80)
+	at org.testng.internal.invokers.TestMethodWithDataProviderMethodWorker.call(TestMethodWithDataProviderMethodWorker.java:17)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:328)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:545)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:328)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1095)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:619)
+	at java.base/java.lang.Thread.run(Thread.java:1447)
+</textarea>
+      
+      </div>
+              </div>
+              <div class="step skip-bg" title="com.ecommerce.api.stepdefinitions.ProductApiSteps.theResponseJsonShouldHaveProperStructureAndDataTypes()">
+                <span>And the response JSON should have proper structure and data types</span>
+      <div>Step skipped
+      </div>
+              </div>
+              <div class="step skip-bg" title="com.ecommerce.api.stepdefinitions.ProductApiSteps.theProductDataShouldBeConsistentWithTheProductsList()">
+                <span>And the product data should be consistent with the products list</span>
+      <div>Step skipped
+      </div>
+              </div>
+              <div class="step pass-bg" title="AFTER">
+                <span>com.ecommerce.api.runners.TestHooks.afterScenario(io.cucumber.java.Scenario)</span>
+      <div>Scenario failed - Duration: 1979ms - Check logs for details
+      </div>
+      <div>Failure status: FAILED
+      </div>
+      <div>
+      </div>
+              </div>
+          </div>
+        </div>
+  </div>
+  <div class="card">
+    <div class="card-header" role="tab">
+      <div class="card-title">
+        <div class="node" id="5"><span class="badge log fail-bg mr-2">Fail</span>Get product by invalid ID returns error</div>
+      </div>
+    </div>
+        <div class="">
+          <div class="card-body">
+              <div class="step pass-bg" title="BEFORE">
+                <span>com.ecommerce.api.runners.TestHooks.beforeRegressionTest(io.cucumber.java.Scenario)</span>
+      <div>REGRESSION TEST - Comprehensive functionality validation
+      </div>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="BEFORE">
+                <span>com.ecommerce.api.runners.TestHooks.beforeScenario(io.cucumber.java.Scenario)</span>
+      <div>Correlation ID: 2941a105-670f-4413-89d0-0fc898c92bb1
+      </div>
+      <div>Session ID: d976b606-330e-409a-9b0b-d34482cbbe0f
+      </div>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="com.ecommerce.api.stepdefinitions.CommonSteps.theApiBaseUrlIsConfigured()">
+                <span>Given the API base URL is configured</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="com.ecommerce.api.stepdefinitions.CommonSteps.theTestEnvironmentIsReady()">
+                <span>And the test environment is ready</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="com.ecommerce.api.stepdefinitions.ProductApiSteps.iSendAGetRequestTo(java.lang.String)">
+                <span>When I send a GET request to "/product/invalid-product-id-123"</span>
+      <div>
+      </div>
+              </div>
+              <div class="step fail-bg" title="com.ecommerce.api.stepdefinitions.CommonSteps.theResponseStatusCodeShouldBe(int)">
+                <span>Then the response status code should be 404</span>
+      <div>
+        <textarea disabled class="code-block">java.lang.AssertionError: Expected status code 404 but got 200 expected [404] but found [200]
+	at org.testng.Assert.fail(Assert.java:111)
+	at org.testng.Assert.failNotEquals(Assert.java:1578)
+	at org.testng.Assert.assertEqualsImpl(Assert.java:150)
+	at org.testng.Assert.assertEquals(Assert.java:132)
+	at org.testng.Assert.assertEquals(Assert.java:1419)
+	at org.testng.Assert.assertEquals(Assert.java:1383)
+	at com.ecommerce.api.stepdefinitions.CommonSteps.theResponseStatusCodeShouldBe(CommonSteps.java:55)
+	at ✽.the response status code should be 404(file:///C:/Users/SIC/Desktop/Automation%20Of%20Shopnest/Shopnest/src/test/resources/features/product_catalog.feature:31)
+</textarea>
+      
+      </div>
+              </div>
+              <div class="step skip-bg" title="com.ecommerce.api.stepdefinitions.ProductApiSteps.theResponseShouldContainAppropriateHttpErrorStatus()">
+                <span>And the response should contain appropriate HTTP error status</span>
+      <div>Step skipped
+      </div>
+              </div>
+              <div class="step skip-bg" title="com.ecommerce.api.stepdefinitions.ProductApiSteps.theResponseShouldContainErrorJsonMessage()">
+                <span>And the response should contain error JSON message</span>
+      <div>Step skipped
+      </div>
+              </div>
+              <div class="step skip-bg" title="com.ecommerce.api.stepdefinitions.ProductApiSteps.theErrorMessageShouldIndicateProductNotFound()">
+                <span>And the error message should indicate product not found</span>
+      <div>Step skipped
+      </div>
+              </div>
+              <div class="step pass-bg" title="AFTER">
+                <span>com.ecommerce.api.runners.TestHooks.afterScenario(io.cucumber.java.Scenario)</span>
+      <div>Scenario failed - Duration: 1803ms - Check logs for details
+      </div>
+      <div>Failure status: FAILED
+      </div>
+      <div>
+      </div>
+              </div>
+          </div>
+        </div>
+  </div>
+</div>
+          </div>
+        </li>
+        <li class="test-item"  status="fail" test-id="43"
+          author=""
+          tag=""
+          device="">
+          <div class="test-detail">
+            <p class="name">User Authentication API</p>
+            <p class="text-sm">
+              <span>11:26:36 pm</span> / <span>00:00:01:156</span>
+              <span class="badge fail-bg log float-right">Fail</span>
+            </p>
+          </div>
+          <div class="test-contents d-none">
+<div class="detail-head">
+<div class="p-v-10">
+<div class="info">
+<h5 class="test-status text-fail">User Authentication API</h5>
+<span class='badge badge-success'>12.14.2025 11:26:36 pm</span>
+<span class='badge badge-danger'>12.14.2025 11:26:37 pm</span>
+<span class='badge badge-default'>00:00:01:156</span>
+&middot; <span class='uri-anchor badge badge-default'>#test-id=43</span>
+<span class='badge badge-default pointer float-right ml-1 et'><i class="fa fa-chevron-down"></i></span>
+<span class='badge badge-default pointer float-right ct'><i class="fa fa-chevron-up"></i></span>
+</div>
+<div class="m-t-10 m-l-5"> As a QA engineer
+I want to validate user authentication and registration REST APIs
+So that I can ensure user management HTTP endpoints work correctly</div>
+</div>
+</div>
+<div class="accordion mt-4">
+  <div class="card">
+    <div class="card-header" role="tab">
+      <div class="card-title">
+        <div class="node" id="44"><span class="badge log pass-bg mr-2">Pass</span>Valid user registration with unique username</div>
+      </div>
+    </div>
+        <div class="collapse">
+          <div class="card-body">
+              <div class="step pass-bg" title="BEFORE">
+                <span>com.ecommerce.api.runners.TestHooks.beforeScenario(io.cucumber.java.Scenario)</span>
+      <div>Correlation ID: 57a9332b-9380-4ec5-8acb-4dbc0b60d519
+      </div>
+      <div>Session ID: f7c91801-18b5-490f-a074-c9aca525d6de
+      </div>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="BEFORE">
+                <span>com.ecommerce.api.runners.TestHooks.beforeSmokeTest(io.cucumber.java.Scenario)</span>
+      <div>SMOKE TEST - Critical functionality validation
+      </div>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="com.ecommerce.api.stepdefinitions.CommonSteps.theApiBaseUrlIsConfigured()">
+                <span>Given the API base URL is configured</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="com.ecommerce.api.stepdefinitions.CommonSteps.theTestEnvironmentIsReady()">
+                <span>And the test environment is ready</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="com.ecommerce.api.stepdefinitions.UserApiSteps.iHaveValidUserRegistrationData()">
+                <span>Given I have valid user registration data</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="com.ecommerce.api.stepdefinitions.UserApiSteps.iSendAPostRequestToWithTheUserData(java.lang.String)">
+                <span>When I send a POST request to "/signup" with the user data</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="com.ecommerce.api.stepdefinitions.CommonSteps.theResponseStatusCodeShouldBe(int)">
+                <span>Then the response status code should be 200</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="com.ecommerce.api.stepdefinitions.UserApiSteps.theResponseShouldContainSuccessMessage()">
+                <span>And the response should contain success message</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="com.ecommerce.api.stepdefinitions.UserApiSteps.theResponseShouldContainUserDataWithProperStructure()">
+                <span>And the response should contain user data with proper structure</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="com.ecommerce.api.stepdefinitions.UserApiSteps.theUserShouldBeCreatedSuccessfully()">
+                <span>And the user should be created successfully</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="AFTER">
+                <span>com.ecommerce.api.runners.TestHooks.afterScenario(io.cucumber.java.Scenario)</span>
+      <div>Scenario passed - Duration: 1151ms
+      </div>
+      <div>
+      </div>
+              </div>
+          </div>
+        </div>
+  </div>
+  <div class="card">
+    <div class="card-header" role="tab">
+      <div class="card-title">
+        <div class="node" id="52"><span class="badge log pass-bg mr-2">Pass</span>User registration with duplicate username</div>
+      </div>
+    </div>
+        <div class="collapse">
+          <div class="card-body">
+              <div class="step pass-bg" title="BEFORE">
+                <span>com.ecommerce.api.runners.TestHooks.beforeRegressionTest(io.cucumber.java.Scenario)</span>
+      <div>REGRESSION TEST - Comprehensive functionality validation
+      </div>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="BEFORE">
+                <span>com.ecommerce.api.runners.TestHooks.beforeScenario(io.cucumber.java.Scenario)</span>
+      <div>Correlation ID: 527c692b-7ec4-4f47-9346-ebc6c224f9be
+      </div>
+      <div>Session ID: 4522d6b3-e389-40e4-8f76-4b744ced6096
+      </div>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="com.ecommerce.api.stepdefinitions.CommonSteps.theApiBaseUrlIsConfigured()">
+                <span>Given the API base URL is configured</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="com.ecommerce.api.stepdefinitions.CommonSteps.theTestEnvironmentIsReady()">
+                <span>And the test environment is ready</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="com.ecommerce.api.stepdefinitions.UserApiSteps.aUserAlreadyExistsWithUsername(java.lang.String)">
+                <span>Given a user already exists with username "testuser123"</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="com.ecommerce.api.stepdefinitions.UserApiSteps.iHaveRegistrationDataWithUsername(java.lang.String)">
+                <span>And I have registration data with username "testuser123"</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="com.ecommerce.api.stepdefinitions.UserApiSteps.iSendAPostRequestToWithTheDuplicateUsernameData(java.lang.String)">
+                <span>When I send a POST request to "/signup" with the duplicate username data</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="com.ecommerce.api.stepdefinitions.CommonSteps.theResponseStatusCodeShouldBe(int)">
+                <span>Then the response status code should be 401</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="com.ecommerce.api.stepdefinitions.UserApiSteps.theResponseShouldContainErrorMessageAboutDuplicateUsername()">
+                <span>And the response should contain error message about duplicate username</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="com.ecommerce.api.stepdefinitions.UserApiSteps.noNewUserShouldBeCreated()">
+                <span>And no new user should be created</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="AFTER">
+                <span>com.ecommerce.api.runners.TestHooks.afterScenario(io.cucumber.java.Scenario)</span>
+      <div>Scenario passed - Duration: 284ms
+      </div>
+      <div>
+      </div>
+              </div>
+          </div>
+        </div>
+  </div>
+  <div class="card">
+    <div class="card-header" role="tab">
+      <div class="card-title">
+        <div class="node" id="78"><span class="badge log fail-bg mr-2">Fail</span>Valid user login with correct credentials</div>
+      </div>
+    </div>
+        <div class="">
+          <div class="card-body">
+              <div class="step pass-bg" title="BEFORE">
+                <span>com.ecommerce.api.runners.TestHooks.beforeScenario(io.cucumber.java.Scenario)</span>
+      <div>Correlation ID: 8b66cd7a-a714-492b-bc4a-8a27481179d0
+      </div>
+      <div>Session ID: 1b30c616-719f-4eba-a7dd-9229d17b0023
+      </div>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="BEFORE">
+                <span>com.ecommerce.api.runners.TestHooks.beforeSmokeTest(io.cucumber.java.Scenario)</span>
+      <div>SMOKE TEST - Critical functionality validation
+      </div>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="com.ecommerce.api.stepdefinitions.CommonSteps.theApiBaseUrlIsConfigured()">
+                <span>Given the API base URL is configured</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="com.ecommerce.api.stepdefinitions.CommonSteps.theTestEnvironmentIsReady()">
+                <span>And the test environment is ready</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="com.ecommerce.api.stepdefinitions.UserApiSteps.aUserExistsWithUsernameAndPassword(java.lang.String,java.lang.String)">
+                <span>Given a user exists with username "validuser" and password "validpass123"</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="com.ecommerce.api.stepdefinitions.UserApiSteps.iHaveValidLoginCredentialsForUsernameAndPassword(java.lang.String,java.lang.String)">
+                <span>And I have valid login credentials for username "validuser" and password "validpass123"</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="com.ecommerce.api.stepdefinitions.UserApiSteps.iSendAPostRequestToWithTheValidCredentials(java.lang.String)">
+                <span>When I send a POST request to "/login" with the valid credentials</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="com.ecommerce.api.stepdefinitions.CommonSteps.theResponseStatusCodeShouldBe(int)">
+                <span>Then the response status code should be 200</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="com.ecommerce.api.stepdefinitions.UserApiSteps.theResponseShouldContainUserDataJson()">
+                <span>And the response should contain user data JSON</span>
+      <div>
+      </div>
+              </div>
+              <div class="step fail-bg" title="com.ecommerce.api.stepdefinitions.UserApiSteps.theResponseShouldIncludeAuthenticationTokenOrSessionData()">
+                <span>And the response should include authentication token or session data</span>
+      <div>
+        <textarea disabled class="code-block">java.lang.AssertionError: Response does not contain authentication data: {"data":{"_id":"693ef718c69e3985e576c207","firstname":"Test","lastname":"User","username":"validuser","email":"validuser@test.com","password":"validpass123","phone":"+1234567890","__v":0}} expected [true] but found [false]
+	at org.testng.Assert.fail(Assert.java:111)
+	at org.testng.Assert.failNotEquals(Assert.java:1578)
+	at org.testng.Assert.assertTrue(Assert.java:57)
+	at com.ecommerce.api.stepdefinitions.UserApiSteps.theResponseShouldIncludeAuthenticationTokenOrSessionData(UserApiSteps.java:439)
+	at ✽.the response should include authentication token or session data(file:///C:/Users/SIC/Desktop/Automation%20Of%20Shopnest/Shopnest/src/test/resources/features/user_authentication.feature:58)
+</textarea>
+      
+      </div>
+              </div>
+              <div class="step pass-bg" title="AFTER">
+                <span>com.ecommerce.api.runners.TestHooks.afterScenario(io.cucumber.java.Scenario)</span>
+      <div>Scenario failed - Duration: 167ms - Check logs for details
+      </div>
+      <div>Failure status: FAILED
+      </div>
+      <div>
+      </div>
+              </div>
+          </div>
+        </div>
+  </div>
+  <div class="card">
+    <div class="card-header" role="tab">
+      <div class="card-title">
+        <div class="node" id="85"><span class="badge log pass-bg mr-2">Pass</span>User login with invalid username</div>
+      </div>
+    </div>
+        <div class="collapse">
+          <div class="card-body">
+              <div class="step pass-bg" title="BEFORE">
+                <span>com.ecommerce.api.runners.TestHooks.beforeRegressionTest(io.cucumber.java.Scenario)</span>
+      <div>REGRESSION TEST - Comprehensive functionality validation
+      </div>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="BEFORE">
+                <span>com.ecommerce.api.runners.TestHooks.beforeScenario(io.cucumber.java.Scenario)</span>
+      <div>Correlation ID: 36230632-13e5-4d71-b4e8-5e44eff0877c
+      </div>
+      <div>Session ID: 95f84061-3cd4-48cc-b00b-1de493ec6a35
+      </div>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="com.ecommerce.api.stepdefinitions.CommonSteps.theApiBaseUrlIsConfigured()">
+                <span>Given the API base URL is configured</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="com.ecommerce.api.stepdefinitions.CommonSteps.theTestEnvironmentIsReady()">
+                <span>And the test environment is ready</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="com.ecommerce.api.stepdefinitions.UserApiSteps.iHaveLoginCredentialsWithUsernameAndPassword(java.lang.String,java.lang.String)">
+                <span>Given I have login credentials with username "nonexistentuser" and password "anypassword"</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="com.ecommerce.api.stepdefinitions.UserApiSteps.iSendAPostRequestToWithTheInvalidUsername(java.lang.String)">
+                <span>When I send a POST request to "/login" with the invalid username</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="com.ecommerce.api.stepdefinitions.CommonSteps.theResponseStatusCodeShouldBe(int)">
+                <span>Then the response status code should be 401</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="com.ecommerce.api.stepdefinitions.UserApiSteps.theResponseShouldContainErrorMessageAboutInvalidCredentials()">
+                <span>And the response should contain error message about invalid credentials</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="com.ecommerce.api.stepdefinitions.UserApiSteps.noAuthenticationTokenShouldBeProvided()">
+                <span>And no authentication token should be provided</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="AFTER">
+                <span>com.ecommerce.api.runners.TestHooks.afterScenario(io.cucumber.java.Scenario)</span>
+      <div>Scenario passed - Duration: 63ms
+      </div>
+      <div>
+      </div>
+              </div>
+          </div>
+        </div>
+  </div>
+</div>
+          </div>
+        </li>
+      </ul>
+    </div>
+  </div>
+<div class="test-content scrollable">
+<div class="test-content-tools">
+<ul><li><a class="back-to-test" href="#"><i class="fa fa-arrow-left"></i></a></li></ul>
+</div>
+<div class="test-content-detail"><div class="detail-body"></div></div>
+</div></div>
+<div class="test-wrapper row view category-view attributes-view">
+<div class="test-list">
+<div class="test-list-tools">
+<ul class="tools pull-left"><li><a href=""><span class="font-size-14">Category</span></a></li></ul>
+<ul class="tools text-right"><li><a href="#"><span class="badge badge-primary">7</span></a></li></ul>
+</div>
+<div class="test-list-wrapper scrollable">
+<ul class="test-list-item">
+<li class="test-item">
+<div class="test-detail">
+<span class="meta">
+<span class='badge log pass-bg'>2</span>
+<span class='badge log badge-danger'>1</span>
+</span>
+<p class="name">@negative</p>
+<p class="duration text-sm">3 tests</p>
+</div>
+<div class="test-contents d-none">
+<div class="info">
+<h4>@negative</h4>
+<span status="pass" class='badge log pass-bg'>2 passed</span>
+<span status="fail" class='badge log badge-danger'>1 failed</span>
+</div>
+<table class='table table-sm mt-4'>
+<thead>
+<tr>
+<th class="status-col">Status</th>
+<th class="timestamp-col">Timestamp</th>
+<th>TestName</th>
+</tr>
+</thead>
+<tbody>
+<tr class="tag-test-status" status="fail">
+<td><span class="badge log fail-bg">Fail</span></td>
+<td>23:26:33 pm</td>
+<td>
+<a href="#" class="linked" test-id='1' id='5'>Get product by invalid ID returns error</a>
+<div class="">
+<span class="badge badge-default">Product Catalog API.Get product by invalid ID returns error</span>
+</div>
+</td>
+</tr>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>23:26:36 pm</td>
+<td>
+<a href="#" class="linked" test-id='43' id='52'>User registration with duplicate username</a>
+<div class="">
+<span class="badge badge-default">User Authentication API.User registration with duplicate username</span>
+</div>
+</td>
+</tr>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>23:26:36 pm</td>
+<td>
+<a href="#" class="linked" test-id='43' id='85'>User login with invalid username</a>
+<div class="">
+<span class="badge badge-default">User Authentication API.User login with invalid username</span>
+</div>
+</td>
+</tr>
+</tbody>
+</table>
+</div>
+</li>
+<li class="test-item">
+<div class="test-detail">
+<span class="meta">
+<span class='badge log pass-bg'>2</span>
+</span>
+<p class="name">@user-registration</p>
+<p class="duration text-sm">2 tests</p>
+</div>
+<div class="test-contents d-none">
+<div class="info">
+<h4>@user-registration</h4>
+<span status="pass" class='badge log pass-bg'>2 passed</span>
+</div>
+<table class='table table-sm mt-4'>
+<thead>
+<tr>
+<th class="status-col">Status</th>
+<th class="timestamp-col">Timestamp</th>
+<th>TestName</th>
+</tr>
+</thead>
+<tbody>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>23:26:36 pm</td>
+<td>
+<a href="#" class="linked" test-id='43' id='44'>Valid user registration with unique username</a>
+<div class="">
+<span class="badge badge-default">User Authentication API.Valid user registration with unique username</span>
+</div>
+</td>
+</tr>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>23:26:36 pm</td>
+<td>
+<a href="#" class="linked" test-id='43' id='52'>User registration with duplicate username</a>
+<div class="">
+<span class="badge badge-default">User Authentication API.User registration with duplicate username</span>
+</div>
+</td>
+</tr>
+</tbody>
+</table>
+</div>
+</li>
+<li class="test-item">
+<div class="test-detail">
+<span class="meta">
+<span class='badge log pass-bg'>1</span>
+<span class='badge log badge-danger'>3</span>
+</span>
+<p class="name">@positive</p>
+<p class="duration text-sm">4 tests</p>
+</div>
+<div class="test-contents d-none">
+<div class="info">
+<h4>@positive</h4>
+<span status="pass" class='badge log pass-bg'>1 passed</span>
+<span status="fail" class='badge log badge-danger'>3 failed</span>
+</div>
+<table class='table table-sm mt-4'>
+<thead>
+<tr>
+<th class="status-col">Status</th>
+<th class="timestamp-col">Timestamp</th>
+<th>TestName</th>
+</tr>
+</thead>
+<tbody>
+<tr class="tag-test-status" status="fail">
+<td><span class="badge log fail-bg">Fail</span></td>
+<td>23:26:33 pm</td>
+<td>
+<a href="#" class="linked" test-id='1' id='2'>Get all products successfully</a>
+<div class="">
+<span class="badge badge-default">Product Catalog API.Get all products successfully</span>
+</div>
+</td>
+</tr>
+<tr class="tag-test-status" status="fail">
+<td><span class="badge log fail-bg">Fail</span></td>
+<td>23:26:33 pm</td>
+<td>
+<a href="#" class="linked" test-id='1' id='3'>Get product by valid ID successfully</a>
+<div class="">
+<span class="badge badge-default">Product Catalog API.Get product by valid ID successfully</span>
+</div>
+</td>
+</tr>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>23:26:36 pm</td>
+<td>
+<a href="#" class="linked" test-id='43' id='44'>Valid user registration with unique username</a>
+<div class="">
+<span class="badge badge-default">User Authentication API.Valid user registration with unique username</span>
+</div>
+</td>
+</tr>
+<tr class="tag-test-status" status="fail">
+<td><span class="badge log fail-bg">Fail</span></td>
+<td>23:26:36 pm</td>
+<td>
+<a href="#" class="linked" test-id='43' id='78'>Valid user login with correct credentials</a>
+<div class="">
+<span class="badge badge-default">User Authentication API.Valid user login with correct credentials</span>
+</div>
+</td>
+</tr>
+</tbody>
+</table>
+</div>
+</li>
+<li class="test-item">
+<div class="test-detail">
+<span class="meta">
+<span class='badge log pass-bg'>1</span>
+<span class='badge log badge-danger'>1</span>
+</span>
+<p class="name">@user-login</p>
+<p class="duration text-sm">2 tests</p>
+</div>
+<div class="test-contents d-none">
+<div class="info">
+<h4>@user-login</h4>
+<span status="pass" class='badge log pass-bg'>1 passed</span>
+<span status="fail" class='badge log badge-danger'>1 failed</span>
+</div>
+<table class='table table-sm mt-4'>
+<thead>
+<tr>
+<th class="status-col">Status</th>
+<th class="timestamp-col">Timestamp</th>
+<th>TestName</th>
+</tr>
+</thead>
+<tbody>
+<tr class="tag-test-status" status="fail">
+<td><span class="badge log fail-bg">Fail</span></td>
+<td>23:26:36 pm</td>
+<td>
+<a href="#" class="linked" test-id='43' id='78'>Valid user login with correct credentials</a>
+<div class="">
+<span class="badge badge-default">User Authentication API.Valid user login with correct credentials</span>
+</div>
+</td>
+</tr>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>23:26:36 pm</td>
+<td>
+<a href="#" class="linked" test-id='43' id='85'>User login with invalid username</a>
+<div class="">
+<span class="badge badge-default">User Authentication API.User login with invalid username</span>
+</div>
+</td>
+</tr>
+</tbody>
+</table>
+</div>
+</li>
+<li class="test-item">
+<div class="test-detail">
+<span class="meta">
+<span class='badge log badge-danger'>3</span>
+</span>
+<p class="name">@product-catalog</p>
+<p class="duration text-sm">3 tests</p>
+</div>
+<div class="test-contents d-none">
+<div class="info">
+<h4>@product-catalog</h4>
+<span status="fail" class='badge log badge-danger'>3 failed</span>
+</div>
+<table class='table table-sm mt-4'>
+<thead>
+<tr>
+<th class="status-col">Status</th>
+<th class="timestamp-col">Timestamp</th>
+<th>TestName</th>
+</tr>
+</thead>
+<tbody>
+<tr class="tag-test-status" status="fail">
+<td><span class="badge log fail-bg">Fail</span></td>
+<td>23:26:33 pm</td>
+<td>
+<a href="#" class="linked" test-id='1' id='2'>Get all products successfully</a>
+<div class="">
+<span class="badge badge-default">Product Catalog API.Get all products successfully</span>
+</div>
+</td>
+</tr>
+<tr class="tag-test-status" status="fail">
+<td><span class="badge log fail-bg">Fail</span></td>
+<td>23:26:33 pm</td>
+<td>
+<a href="#" class="linked" test-id='1' id='3'>Get product by valid ID successfully</a>
+<div class="">
+<span class="badge badge-default">Product Catalog API.Get product by valid ID successfully</span>
+</div>
+</td>
+</tr>
+<tr class="tag-test-status" status="fail">
+<td><span class="badge log fail-bg">Fail</span></td>
+<td>23:26:33 pm</td>
+<td>
+<a href="#" class="linked" test-id='1' id='5'>Get product by invalid ID returns error</a>
+<div class="">
+<span class="badge badge-default">Product Catalog API.Get product by invalid ID returns error</span>
+</div>
+</td>
+</tr>
+</tbody>
+</table>
+</div>
+</li>
+<li class="test-item">
+<div class="test-detail">
+<span class="meta">
+<span class='badge log pass-bg'>1</span>
+<span class='badge log badge-danger'>3</span>
+</span>
+<p class="name">@smoke</p>
+<p class="duration text-sm">4 tests</p>
+</div>
+<div class="test-contents d-none">
+<div class="info">
+<h4>@smoke</h4>
+<span status="pass" class='badge log pass-bg'>1 passed</span>
+<span status="fail" class='badge log badge-danger'>3 failed</span>
+</div>
+<table class='table table-sm mt-4'>
+<thead>
+<tr>
+<th class="status-col">Status</th>
+<th class="timestamp-col">Timestamp</th>
+<th>TestName</th>
+</tr>
+</thead>
+<tbody>
+<tr class="tag-test-status" status="fail">
+<td><span class="badge log fail-bg">Fail</span></td>
+<td>23:26:33 pm</td>
+<td>
+<a href="#" class="linked" test-id='1' id='2'>Get all products successfully</a>
+<div class="">
+<span class="badge badge-default">Product Catalog API.Get all products successfully</span>
+</div>
+</td>
+</tr>
+<tr class="tag-test-status" status="fail">
+<td><span class="badge log fail-bg">Fail</span></td>
+<td>23:26:33 pm</td>
+<td>
+<a href="#" class="linked" test-id='1' id='3'>Get product by valid ID successfully</a>
+<div class="">
+<span class="badge badge-default">Product Catalog API.Get product by valid ID successfully</span>
+</div>
+</td>
+</tr>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>23:26:36 pm</td>
+<td>
+<a href="#" class="linked" test-id='43' id='44'>Valid user registration with unique username</a>
+<div class="">
+<span class="badge badge-default">User Authentication API.Valid user registration with unique username</span>
+</div>
+</td>
+</tr>
+<tr class="tag-test-status" status="fail">
+<td><span class="badge log fail-bg">Fail</span></td>
+<td>23:26:36 pm</td>
+<td>
+<a href="#" class="linked" test-id='43' id='78'>Valid user login with correct credentials</a>
+<div class="">
+<span class="badge badge-default">User Authentication API.Valid user login with correct credentials</span>
+</div>
+</td>
+</tr>
+</tbody>
+</table>
+</div>
+</li>
+<li class="test-item">
+<div class="test-detail">
+<span class="meta">
+<span class='badge log pass-bg'>2</span>
+<span class='badge log badge-danger'>1</span>
+</span>
+<p class="name">@regression</p>
+<p class="duration text-sm">3 tests</p>
+</div>
+<div class="test-contents d-none">
+<div class="info">
+<h4>@regression</h4>
+<span status="pass" class='badge log pass-bg'>2 passed</span>
+<span status="fail" class='badge log badge-danger'>1 failed</span>
+</div>
+<table class='table table-sm mt-4'>
+<thead>
+<tr>
+<th class="status-col">Status</th>
+<th class="timestamp-col">Timestamp</th>
+<th>TestName</th>
+</tr>
+</thead>
+<tbody>
+<tr class="tag-test-status" status="fail">
+<td><span class="badge log fail-bg">Fail</span></td>
+<td>23:26:33 pm</td>
+<td>
+<a href="#" class="linked" test-id='1' id='5'>Get product by invalid ID returns error</a>
+<div class="">
+<span class="badge badge-default">Product Catalog API.Get product by invalid ID returns error</span>
+</div>
+</td>
+</tr>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>23:26:36 pm</td>
+<td>
+<a href="#" class="linked" test-id='43' id='52'>User registration with duplicate username</a>
+<div class="">
+<span class="badge badge-default">User Authentication API.User registration with duplicate username</span>
+</div>
+</td>
+</tr>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>23:26:36 pm</td>
+<td>
+<a href="#" class="linked" test-id='43' id='85'>User login with invalid username</a>
+<div class="">
+<span class="badge badge-default">User Authentication API.User login with invalid username</span>
+</div>
+</td>
+</tr>
+</tbody>
+</table>
+</div>
+</li>
+</ul>
+</div>
+</div>
+<div class="test-content scrollable">
+<div class="test-content-detail">
+<div class="detail-body"></div>
+</div>
+</div>
+</div><div class="test-wrapper row view exception-view attributes-view">
+<div class="test-list">
+<div class="test-list-tools">
+<ul class="tools pull-left"><li><a href=""><span class="font-size-14">Exception</span></a></li></ul>
+<ul class="tools text-right"><li><a href="#"><span class="badge badge-primary">2</span></a></li></ul>
+</div>
+<div class="test-list-wrapper scrollable">
+<ul class="test-list-item">
+<li class="test-item">
+<div class="test-detail">
+<span class="meta">
+<span class='badge log badge-danger'>3</span>
+</span>
+<p class="name">java.lang.AssertionError</p>
+<p class="duration text-sm">3 tests</p>
+</div>
+<div class="test-contents d-none">
+<div class="info">
+<h4>java.lang.AssertionError</h4>
+<span status="fail" class='badge log badge-danger'>3 failed</span>
+</div>
+<table class='table table-sm mt-4'>
+<thead>
+<tr>
+<th class="status-col">Status</th>
+<th class="timestamp-col">Timestamp</th>
+<th>TestName</th>
+</tr>
+</thead>
+<tbody>
+<tr class="tag-test-status" status="fail">
+<td><span class="badge log fail-bg">Fail</span></td>
+<td>23:26:36 pm</td>
+<td>
+<a href="#" class="linked" test-id='1' id='28'>Then the response status code should be 404</a>
+<div class="">
+<span class="badge badge-default">Product Catalog API.Get product by invalid ID returns error.Then the response status code should be 404</span>
+</div>
+</td>
+</tr>
+<tr class="tag-test-status" status="fail">
+<td><span class="badge log fail-bg">Fail</span></td>
+<td>23:26:36 pm</td>
+<td>
+<a href="#" class="linked" test-id='1' id='61'>And the response should contain complete product list with all required fields</a>
+<div class="">
+<span class="badge badge-default">Product Catalog API.Get all products successfully.And the response should contain complete product list with all required fields</span>
+</div>
+</td>
+</tr>
+<tr class="tag-test-status" status="fail">
+<td><span class="badge log fail-bg">Fail</span></td>
+<td>23:26:36 pm</td>
+<td>
+<a href="#" class="linked" test-id='43' id='105'>And the response should include authentication token or session data</a>
+<div class="">
+<span class="badge badge-default">User Authentication API.Valid user login with correct credentials.And the response should include authentication token or session data</span>
+</div>
+</td>
+</tr>
+</tbody>
+</table>
+</div>
+</li>
+<li class="test-item">
+<div class="test-detail">
+<span class="meta">
+<span class='badge log badge-danger'>1</span>
+</span>
+<p class="name">io.restassured.path.json.exception.JsonPathException</p>
+<p class="duration text-sm">1 tests</p>
+</div>
+<div class="test-contents d-none">
+<div class="info">
+<h4>io.restassured.path.json.exception.JsonPathException</h4>
+<span status="fail" class='badge log badge-danger'>1 failed</span>
+</div>
+<table class='table table-sm mt-4'>
+<thead>
+<tr>
+<th class="status-col">Status</th>
+<th class="timestamp-col">Timestamp</th>
+<th>TestName</th>
+</tr>
+</thead>
+<tbody>
+<tr class="tag-test-status" status="fail">
+<td><span class="badge log fail-bg">Fail</span></td>
+<td>23:26:36 pm</td>
+<td>
+<a href="#" class="linked" test-id='1' id='37'>And the response should contain exact product JSON details matching the ID</a>
+<div class="">
+<span class="badge badge-default">Product Catalog API.Get product by valid ID successfully.And the response should contain exact product JSON details matching the ID</span>
+</div>
+</td>
+</tr>
+</tbody>
+</table>
+</div>
+</li>
+</ul>
+</div>
+</div>
+<div class="test-content scrollable">
+<div class="test-content-detail">
+<div class="detail-body"></div>
+</div>
+</div>
+</div>        </div>
+      </div>
+    </div>
+  </div>
+<script src="https://cdn.jsdelivr.net/gh/extent-framework/extent-github-cdn@d6562a79075e061305ccfdb82f01e5e195e2d307/spark/js/spark-script.js"></script>
+<script type="text/javascript">
+            // Custom JavaScript for report enhancements
+        </script></body>
+</html>

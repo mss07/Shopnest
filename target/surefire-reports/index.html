@@ -1,0 +1,1038 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+  <meta charset='utf-8'>
+  <title>TestNG reports</title>
+
+    <link type="text/css" href="testng-reports1.css" rel="stylesheet" id="ultra" />
+    <link type="text/css" href="testng-reports.css" rel="stylesheet" id="retro" disabled="false"/>
+    <script type="text/javascript" src="jquery-3.6.0.min.js"></script>
+    <script type="text/javascript" src="testng-reports.js"></script>
+    <script type="text/javascript" src="https://www.google.com/jsapi"></script>
+    <script type='text/javascript'>
+      google.load('visualization', '1', {packages:['table']});
+      google.setOnLoadCallback(drawTable);
+      var suiteTableInitFunctions = new Array();
+      var suiteTableData = new Array();
+    </script>
+    <!--
+      <script type="text/javascript" src="jquery-ui/js/jquery-ui-1.8.16.custom.min.js"></script>
+     -->
+  </head>
+
+  <body>    <div class="top-banner-root">
+      <span class="top-banner-title-font">Test results</span>
+      <button id="button" class="button">Switch Retro Theme</button> <!-- button -->
+      <br/>
+      <span class="top-banner-font-1">1 suite, 2 failed tests</span>
+    </div> <!-- top-banner-root -->
+    <div class="navigator-root">
+      <div class="navigator-suite-header">
+        <span>All suites</span>
+        <a href="#" title="Collapse/expand all the suites" class="collapse-all-link">
+          <img src="collapseall.gif" class="collapse-all-icon">
+          </img> <!-- collapse-all-icon -->
+        </a> <!-- collapse-all-link -->
+      </div> <!-- navigator-suite-header -->
+      <div class="suite">
+        <div class="rounded-window">
+          <div class="suite-header light-rounded-window-top">
+            <a href="#" panel-name="suite-Surefire_suite" class="navigator-link">
+              <span class="suite-name border-failed">Surefire suite</span>
+            </a> <!-- navigator-link -->
+          </div> <!-- suite-header light-rounded-window-top -->
+          <div class="navigator-suite-content">
+            <div class="suite-section-title">
+              <span>Info</span>
+            </div> <!-- suite-section-title -->
+            <div class="suite-section-content">
+              <ul>
+                <li>
+                  <a href="#" panel-name="test-xml-Surefire_suite" class="navigator-link ">
+                    <span>[unset file name]</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="testlist-Surefire_suite" class="navigator-link ">
+                    <span class="test-stats">1 test</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="group-Surefire_suite" class="navigator-link ">
+                    <span>0 groups</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="times-Surefire_suite" class="navigator-link ">
+                    <span>Times</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="reporter-Surefire_suite" class="navigator-link ">
+                    <span>Reporter output</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="ignored-methods-Surefire_suite" class="navigator-link ">
+                    <span>Ignored methods</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="chronological-Surefire_suite" class="navigator-link ">
+                    <span>Chronological view</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+              </ul>
+            </div> <!-- suite-section-content -->
+            <div class="result-section">
+              <div class="suite-section-title">
+                <span>Results</span>
+              </div> <!-- suite-section-title -->
+              <div class="suite-section-content">
+                <ul>
+                  <li>
+                    <span class="method-stats">32 methods, 2 failed,   30 passed</span>
+                  </li>
+                  <li>
+                    <span class="method-list-title failed">Failed methods</span>
+                    <span class="show-or-hide-methods failed">
+                      <a href="#" panel-name="suite-Surefire_suite" class="hide-methods failed suite-Surefire_suite"> (hide)</a> <!-- hide-methods failed suite-Surefire_suite -->
+                      <a href="#" panel-name="suite-Surefire_suite" class="show-methods failed suite-Surefire_suite"> (show)</a> <!-- show-methods failed suite-Surefire_suite -->
+                    </span>
+                    <div class="method-list-content failed suite-Surefire_suite">
+                      <span>
+                        <img src="failed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Surefire_suite" title="com.ecommerce.api.utils.TestDataManagerTest" class="method navigator-link" hash-for-method="testTestDataStatistics">testTestDataStatistics</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="failed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Surefire_suite" title="com.ecommerce.api.utils.TestDataManagerTest" class="method navigator-link" hash-for-method="testTestSessionManagement">testTestSessionManagement</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content failed suite-Surefire_suite -->
+                  </li>
+                  <li>
+                    <span class="method-list-title passed">Passed methods</span>
+                    <span class="show-or-hide-methods passed">
+                      <a href="#" panel-name="suite-Surefire_suite" class="hide-methods passed suite-Surefire_suite"> (hide)</a> <!-- hide-methods passed suite-Surefire_suite -->
+                      <a href="#" panel-name="suite-Surefire_suite" class="show-methods passed suite-Surefire_suite"> (show)</a> <!-- show-methods passed suite-Surefire_suite -->
+                    </span>
+                    <div class="method-list-content passed suite-Surefire_suite">
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Surefire_suite" title="com.ecommerce.api.config.ConfigurationManagerTest" class="method navigator-link" hash-for-method="testApiEndpoints">testApiEndpoints</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Surefire_suite" title="com.ecommerce.api.client.RestApiClientTest" class="method navigator-link" hash-for-method="testClientInitialization">testClientInitialization</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Surefire_suite" title="com.ecommerce.api.config.ConfigurationManagerTest" class="method navigator-link" hash-for-method="testConfigurationHelper">testConfigurationHelper</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Surefire_suite" title="com.ecommerce.api.config.ConfigurationManagerTest" class="method navigator-link" hash-for-method="testConvenienceMethods">testConvenienceMethods</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Surefire_suite" title="com.ecommerce.api.utils.TestDataManagerTest" class="method navigator-link" hash-for-method="testCreateMultipleUniqueUsers">testCreateMultipleUniqueUsers</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Surefire_suite" title="com.ecommerce.api.utils.TestDataManagerTest" class="method navigator-link" hash-for-method="testCreateTestUserWithSpecificUsername">testCreateTestUserWithSpecificUsername</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Surefire_suite" title="com.ecommerce.api.utils.TestDataManagerTest" class="method navigator-link" hash-for-method="testCreateUniqueTestUser">testCreateUniqueTestUser</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Surefire_suite" title="com.ecommerce.api.config.ConfigurationManagerTest" class="method navigator-link" hash-for-method="testDefaultEnvironmentLoading">testDefaultEnvironmentLoading</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Surefire_suite" title="com.ecommerce.api.config.ConfigurationManagerTest" class="method navigator-link" hash-for-method="testEnvironmentValidation">testEnvironmentValidation</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Surefire_suite" title="com.ecommerce.api.client.RestApiClientTest" class="method navigator-link" hash-for-method="testExtractResponseDataWithTypeWithoutResponse">testExtractResponseDataWithTypeWithoutResponse</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Surefire_suite" title="com.ecommerce.api.client.RestApiClientTest" class="method navigator-link" hash-for-method="testExtractResponseDataWithoutResponse">testExtractResponseDataWithoutResponse</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Surefire_suite" title="com.ecommerce.api.client.RestApiClientTest" class="method navigator-link" hash-for-method="testGetErrorDetailsWithoutResponse">testGetErrorDetailsWithoutResponse</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Surefire_suite" title="com.ecommerce.api.client.RestApiClientTest" class="method navigator-link" hash-for-method="testGetLastResponseInitiallyNull">testGetLastResponseInitiallyNull</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Surefire_suite" title="com.ecommerce.api.client.RestApiClientTest" class="method navigator-link" hash-for-method="testGetResponseBodyAsWithoutResponse">testGetResponseBodyAsWithoutResponse</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Surefire_suite" title="com.ecommerce.api.client.RestApiClientTest" class="method navigator-link" hash-for-method="testGetResponseBodyWithoutResponse">testGetResponseBodyWithoutResponse</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Surefire_suite" title="com.ecommerce.api.utils.TestDataManagerTest" class="method navigator-link" hash-for-method="testGetValidAndInvalidCredentials">testGetValidAndInvalidCredentials</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Surefire_suite" title="com.ecommerce.api.config.ConfigurationManagerTest" class="method navigator-link" hash-for-method="testInvalidEnvironment">testInvalidEnvironment</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Surefire_suite" title="com.ecommerce.api.client.RestApiClientTest" class="method navigator-link" hash-for-method="testIsResponseSuccessfulWithoutResponse">testIsResponseSuccessfulWithoutResponse</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Surefire_suite" title="com.ecommerce.api.config.ConfigurationManagerTest" class="method navigator-link" hash-for-method="testPropertyAccess">testPropertyAccess</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Surefire_suite" title="com.ecommerce.api.config.ConfigurationManagerTest" class="method navigator-link" hash-for-method="testPropertyWithDefaultValue">testPropertyWithDefaultValue</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Surefire_suite" title="com.ecommerce.api.client.RestApiClientTest" class="method navigator-link" hash-for-method="testResetFunctionality">testResetFunctionality</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Surefire_suite" title="com.ecommerce.api.config.ConfigurationManagerTest" class="method navigator-link" hash-for-method="testSingletonInstance">testSingletonInstance</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Surefire_suite" title="com.ecommerce.api.utils.TestDataManagerTest" class="method navigator-link" hash-for-method="testTestUserValidation">testTestUserValidation</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Surefire_suite" title="com.ecommerce.api.utils.TestDataManagerTest" class="method navigator-link" hash-for-method="testUserCleanup">testUserCleanup</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Surefire_suite" title="com.ecommerce.api.utils.TestDataManagerTest" class="method navigator-link" hash-for-method="testUserCopyMethods">testUserCopyMethods</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Surefire_suite" title="com.ecommerce.api.utils.TestDataManagerTest" class="method navigator-link" hash-for-method="testUserCredentialsCreation">testUserCredentialsCreation</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Surefire_suite" title="com.ecommerce.api.client.RestApiClientTest" class="method navigator-link" hash-for-method="testValidateContentTypeWithoutResponse">testValidateContentTypeWithoutResponse</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Surefire_suite" title="com.ecommerce.api.client.RestApiClientTest" class="method navigator-link" hash-for-method="testValidateJsonResponseWithoutResponse">testValidateJsonResponseWithoutResponse</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Surefire_suite" title="com.ecommerce.api.client.RestApiClientTest" class="method navigator-link" hash-for-method="testValidateResponseTimeWithoutResponse">testValidateResponseTimeWithoutResponse</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Surefire_suite" title="com.ecommerce.api.client.RestApiClientTest" class="method navigator-link" hash-for-method="testValidateStatusCodeWithoutResponse">testValidateStatusCodeWithoutResponse</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content passed suite-Surefire_suite -->
+                  </li>
+                </ul>
+              </div> <!-- suite-section-content -->
+            </div> <!-- result-section -->
+          </div> <!-- navigator-suite-content -->
+        </div> <!-- rounded-window -->
+      </div> <!-- suite -->
+    </div> <!-- navigator-root -->
+    <div class="wrapper">
+      <div class="main-panel-root">
+        <div panel-name="suite-Surefire_suite" class="panel Surefire_suite">
+          <div class="suite-Surefire_suite-class-failed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="failed.png"/>
+              <span class="class-name">com.ecommerce.api.utils.TestDataManagerTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="testTestDataStatistics">
+                  </a> <!-- testTestDataStatistics -->
+                  <span class="method-name">testTestDataStatistics</span>
+                  <div class="stack-trace">java.lang.AssertionError: Should have correct total user count expected [5] but found [3]
+	at com.ecommerce.api.utils.TestDataManagerTest.testTestDataStatistics(TestDataManagerTest.java:156)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1095)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:619)
+	at java.base/java.lang.Thread.run(Thread.java:1447)
+... Removed 16 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testTestSessionManagement">
+                  </a> <!-- testTestSessionManagement -->
+                  <span class="method-name">testTestSessionManagement</span>
+                  <div class="stack-trace">java.lang.AssertionError: Should retrieve correct number of users for session expected [3] but found [0]
+	at com.ecommerce.api.utils.TestDataManagerTest.testTestSessionManagement(TestDataManagerTest.java:118)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1095)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:619)
+	at java.base/java.lang.Thread.run(Thread.java:1447)
+... Removed 16 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Surefire_suite-class-failed -->
+          <div class="suite-Surefire_suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.ecommerce.api.config.ConfigurationManagerTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="testApiEndpoints">
+                  </a> <!-- testApiEndpoints -->
+                  <span class="method-name">testApiEndpoints</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testConfigurationHelper">
+                  </a> <!-- testConfigurationHelper -->
+                  <span class="method-name">testConfigurationHelper</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testConvenienceMethods">
+                  </a> <!-- testConvenienceMethods -->
+                  <span class="method-name">testConvenienceMethods</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testDefaultEnvironmentLoading">
+                  </a> <!-- testDefaultEnvironmentLoading -->
+                  <span class="method-name">testDefaultEnvironmentLoading</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testEnvironmentValidation">
+                  </a> <!-- testEnvironmentValidation -->
+                  <span class="method-name">testEnvironmentValidation</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testInvalidEnvironment">
+                  </a> <!-- testInvalidEnvironment -->
+                  <span class="method-name">testInvalidEnvironment</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testPropertyAccess">
+                  </a> <!-- testPropertyAccess -->
+                  <span class="method-name">testPropertyAccess</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testPropertyWithDefaultValue">
+                  </a> <!-- testPropertyWithDefaultValue -->
+                  <span class="method-name">testPropertyWithDefaultValue</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testSingletonInstance">
+                  </a> <!-- testSingletonInstance -->
+                  <span class="method-name">testSingletonInstance</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Surefire_suite-class-passed -->
+          <div class="suite-Surefire_suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.ecommerce.api.utils.TestDataManagerTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="testCreateMultipleUniqueUsers">
+                  </a> <!-- testCreateMultipleUniqueUsers -->
+                  <span class="method-name">testCreateMultipleUniqueUsers</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testCreateTestUserWithSpecificUsername">
+                  </a> <!-- testCreateTestUserWithSpecificUsername -->
+                  <span class="method-name">testCreateTestUserWithSpecificUsername</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testCreateUniqueTestUser">
+                  </a> <!-- testCreateUniqueTestUser -->
+                  <span class="method-name">testCreateUniqueTestUser</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testGetValidAndInvalidCredentials">
+                  </a> <!-- testGetValidAndInvalidCredentials -->
+                  <span class="method-name">testGetValidAndInvalidCredentials</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testTestUserValidation">
+                  </a> <!-- testTestUserValidation -->
+                  <span class="method-name">testTestUserValidation</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testUserCleanup">
+                  </a> <!-- testUserCleanup -->
+                  <span class="method-name">testUserCleanup</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testUserCopyMethods">
+                  </a> <!-- testUserCopyMethods -->
+                  <span class="method-name">testUserCopyMethods</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testUserCredentialsCreation">
+                  </a> <!-- testUserCredentialsCreation -->
+                  <span class="method-name">testUserCredentialsCreation</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Surefire_suite-class-passed -->
+          <div class="suite-Surefire_suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.ecommerce.api.client.RestApiClientTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="testClientInitialization">
+                  </a> <!-- testClientInitialization -->
+                  <span class="method-name">testClientInitialization</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testExtractResponseDataWithTypeWithoutResponse">
+                  </a> <!-- testExtractResponseDataWithTypeWithoutResponse -->
+                  <span class="method-name">testExtractResponseDataWithTypeWithoutResponse</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testExtractResponseDataWithoutResponse">
+                  </a> <!-- testExtractResponseDataWithoutResponse -->
+                  <span class="method-name">testExtractResponseDataWithoutResponse</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testGetErrorDetailsWithoutResponse">
+                  </a> <!-- testGetErrorDetailsWithoutResponse -->
+                  <span class="method-name">testGetErrorDetailsWithoutResponse</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testGetLastResponseInitiallyNull">
+                  </a> <!-- testGetLastResponseInitiallyNull -->
+                  <span class="method-name">testGetLastResponseInitiallyNull</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testGetResponseBodyAsWithoutResponse">
+                  </a> <!-- testGetResponseBodyAsWithoutResponse -->
+                  <span class="method-name">testGetResponseBodyAsWithoutResponse</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testGetResponseBodyWithoutResponse">
+                  </a> <!-- testGetResponseBodyWithoutResponse -->
+                  <span class="method-name">testGetResponseBodyWithoutResponse</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testIsResponseSuccessfulWithoutResponse">
+                  </a> <!-- testIsResponseSuccessfulWithoutResponse -->
+                  <span class="method-name">testIsResponseSuccessfulWithoutResponse</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testResetFunctionality">
+                  </a> <!-- testResetFunctionality -->
+                  <span class="method-name">testResetFunctionality</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testValidateContentTypeWithoutResponse">
+                  </a> <!-- testValidateContentTypeWithoutResponse -->
+                  <span class="method-name">testValidateContentTypeWithoutResponse</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testValidateJsonResponseWithoutResponse">
+                  </a> <!-- testValidateJsonResponseWithoutResponse -->
+                  <span class="method-name">testValidateJsonResponseWithoutResponse</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testValidateResponseTimeWithoutResponse">
+                  </a> <!-- testValidateResponseTimeWithoutResponse -->
+                  <span class="method-name">testValidateResponseTimeWithoutResponse</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testValidateStatusCodeWithoutResponse">
+                  </a> <!-- testValidateStatusCodeWithoutResponse -->
+                  <span class="method-name">testValidateStatusCodeWithoutResponse</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Surefire_suite-class-passed -->
+        </div> <!-- panel Surefire_suite -->
+        <div panel-name="test-xml-Surefire_suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <pre>
+&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;
+&lt;!DOCTYPE suite SYSTEM &quot;https://testng.org/testng-1.0.dtd&quot;&gt;
+&lt;suite thread-count=&quot;3&quot; parallel=&quot;methods&quot; data-provider-thread-count=&quot;3&quot; name=&quot;Surefire suite&quot; verbose=&quot;0&quot;&gt;
+  &lt;test thread-count=&quot;3&quot; parallel=&quot;methods&quot; name=&quot;Surefire test&quot; verbose=&quot;0&quot;&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;com.ecommerce.api.client.RestApiClientTest&quot;/&gt;
+      &lt;class name=&quot;com.ecommerce.api.config.ConfigurationManagerTest&quot;/&gt;
+      &lt;class name=&quot;com.ecommerce.api.utils.TestDataManagerTest&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- Surefire test --&gt;
+&lt;/suite&gt; &lt;!-- Surefire suite --&gt;
+            </pre>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="testlist-Surefire_suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Tests for Surefire suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <ul>
+              <li>
+                <span class="test-name">Surefire test (3 classes)</span>
+              </li>
+            </ul>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="group-Surefire_suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Groups for Surefire suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="times-Surefire_suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Times for Surefire suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="times-div">
+              <script type="text/javascript">
+suiteTableInitFunctions.push('tableData_Surefire_suite');
+function tableData_Surefire_suite() {
+var data = new google.visualization.DataTable();
+data.addColumn('number', 'Number');
+data.addColumn('string', 'Method');
+data.addColumn('string', 'Class');
+data.addColumn('number', 'Time (ms)');
+data.addRows(32);
+data.setCell(0, 0, 0)
+data.setCell(0, 1, 'testTestSessionManagement')
+data.setCell(0, 2, 'com.ecommerce.api.utils.TestDataManagerTest')
+data.setCell(0, 3, 32);
+data.setCell(1, 0, 1)
+data.setCell(1, 1, 'testValidateResponseTimeWithoutResponse')
+data.setCell(1, 2, 'com.ecommerce.api.client.RestApiClientTest')
+data.setCell(1, 3, 29);
+data.setCell(2, 0, 2)
+data.setCell(2, 1, 'testCreateTestUserWithSpecificUsername')
+data.setCell(2, 2, 'com.ecommerce.api.utils.TestDataManagerTest')
+data.setCell(2, 3, 26);
+data.setCell(3, 0, 3)
+data.setCell(3, 1, 'testTestDataStatistics')
+data.setCell(3, 2, 'com.ecommerce.api.utils.TestDataManagerTest')
+data.setCell(3, 3, 18);
+data.setCell(4, 0, 4)
+data.setCell(4, 1, 'testEnvironmentValidation')
+data.setCell(4, 2, 'com.ecommerce.api.config.ConfigurationManagerTest')
+data.setCell(4, 3, 13);
+data.setCell(5, 0, 5)
+data.setCell(5, 1, 'testExtractResponseDataWithTypeWithoutResponse')
+data.setCell(5, 2, 'com.ecommerce.api.client.RestApiClientTest')
+data.setCell(5, 3, 13);
+data.setCell(6, 0, 6)
+data.setCell(6, 1, 'testExtractResponseDataWithoutResponse')
+data.setCell(6, 2, 'com.ecommerce.api.client.RestApiClientTest')
+data.setCell(6, 3, 13);
+data.setCell(7, 0, 7)
+data.setCell(7, 1, 'testCreateMultipleUniqueUsers')
+data.setCell(7, 2, 'com.ecommerce.api.utils.TestDataManagerTest')
+data.setCell(7, 3, 12);
+data.setCell(8, 0, 8)
+data.setCell(8, 1, 'testCreateUniqueTestUser')
+data.setCell(8, 2, 'com.ecommerce.api.utils.TestDataManagerTest')
+data.setCell(8, 3, 12);
+data.setCell(9, 0, 9)
+data.setCell(9, 1, 'testClientInitialization')
+data.setCell(9, 2, 'com.ecommerce.api.client.RestApiClientTest')
+data.setCell(9, 3, 12);
+data.setCell(10, 0, 10)
+data.setCell(10, 1, 'testGetValidAndInvalidCredentials')
+data.setCell(10, 2, 'com.ecommerce.api.utils.TestDataManagerTest')
+data.setCell(10, 3, 6);
+data.setCell(11, 0, 11)
+data.setCell(11, 1, 'testUserCleanup')
+data.setCell(11, 2, 'com.ecommerce.api.utils.TestDataManagerTest')
+data.setCell(11, 3, 5);
+data.setCell(12, 0, 12)
+data.setCell(12, 1, 'testIsResponseSuccessfulWithoutResponse')
+data.setCell(12, 2, 'com.ecommerce.api.client.RestApiClientTest')
+data.setCell(12, 3, 4);
+data.setCell(13, 0, 13)
+data.setCell(13, 1, 'testTestUserValidation')
+data.setCell(13, 2, 'com.ecommerce.api.utils.TestDataManagerTest')
+data.setCell(13, 3, 4);
+data.setCell(14, 0, 14)
+data.setCell(14, 1, 'testGetResponseBodyAsWithoutResponse')
+data.setCell(14, 2, 'com.ecommerce.api.client.RestApiClientTest')
+data.setCell(14, 3, 3);
+data.setCell(15, 0, 15)
+data.setCell(15, 1, 'testValidateContentTypeWithoutResponse')
+data.setCell(15, 2, 'com.ecommerce.api.client.RestApiClientTest')
+data.setCell(15, 3, 3);
+data.setCell(16, 0, 16)
+data.setCell(16, 1, 'testValidateStatusCodeWithoutResponse')
+data.setCell(16, 2, 'com.ecommerce.api.client.RestApiClientTest')
+data.setCell(16, 3, 2);
+data.setCell(17, 0, 17)
+data.setCell(17, 1, 'testConfigurationHelper')
+data.setCell(17, 2, 'com.ecommerce.api.config.ConfigurationManagerTest')
+data.setCell(17, 3, 2);
+data.setCell(18, 0, 18)
+data.setCell(18, 1, 'testResetFunctionality')
+data.setCell(18, 2, 'com.ecommerce.api.client.RestApiClientTest')
+data.setCell(18, 3, 2);
+data.setCell(19, 0, 19)
+data.setCell(19, 1, 'testApiEndpoints')
+data.setCell(19, 2, 'com.ecommerce.api.config.ConfigurationManagerTest')
+data.setCell(19, 3, 1);
+data.setCell(20, 0, 20)
+data.setCell(20, 1, 'testGetLastResponseInitiallyNull')
+data.setCell(20, 2, 'com.ecommerce.api.client.RestApiClientTest')
+data.setCell(20, 3, 1);
+data.setCell(21, 0, 21)
+data.setCell(21, 1, 'testSingletonInstance')
+data.setCell(21, 2, 'com.ecommerce.api.config.ConfigurationManagerTest')
+data.setCell(21, 3, 1);
+data.setCell(22, 0, 22)
+data.setCell(22, 1, 'testInvalidEnvironment')
+data.setCell(22, 2, 'com.ecommerce.api.config.ConfigurationManagerTest')
+data.setCell(22, 3, 1);
+data.setCell(23, 0, 23)
+data.setCell(23, 1, 'testDefaultEnvironmentLoading')
+data.setCell(23, 2, 'com.ecommerce.api.config.ConfigurationManagerTest')
+data.setCell(23, 3, 1);
+data.setCell(24, 0, 24)
+data.setCell(24, 1, 'testGetErrorDetailsWithoutResponse')
+data.setCell(24, 2, 'com.ecommerce.api.client.RestApiClientTest')
+data.setCell(24, 3, 1);
+data.setCell(25, 0, 25)
+data.setCell(25, 1, 'testPropertyWithDefaultValue')
+data.setCell(25, 2, 'com.ecommerce.api.config.ConfigurationManagerTest')
+data.setCell(25, 3, 1);
+data.setCell(26, 0, 26)
+data.setCell(26, 1, 'testGetResponseBodyWithoutResponse')
+data.setCell(26, 2, 'com.ecommerce.api.client.RestApiClientTest')
+data.setCell(26, 3, 1);
+data.setCell(27, 0, 27)
+data.setCell(27, 1, 'testConvenienceMethods')
+data.setCell(27, 2, 'com.ecommerce.api.config.ConfigurationManagerTest')
+data.setCell(27, 3, 1);
+data.setCell(28, 0, 28)
+data.setCell(28, 1, 'testValidateJsonResponseWithoutResponse')
+data.setCell(28, 2, 'com.ecommerce.api.client.RestApiClientTest')
+data.setCell(28, 3, 1);
+data.setCell(29, 0, 29)
+data.setCell(29, 1, 'testPropertyAccess')
+data.setCell(29, 2, 'com.ecommerce.api.config.ConfigurationManagerTest')
+data.setCell(29, 3, 1);
+data.setCell(30, 0, 30)
+data.setCell(30, 1, 'testUserCopyMethods')
+data.setCell(30, 2, 'com.ecommerce.api.utils.TestDataManagerTest')
+data.setCell(30, 3, 1);
+data.setCell(31, 0, 31)
+data.setCell(31, 1, 'testUserCredentialsCreation')
+data.setCell(31, 2, 'com.ecommerce.api.utils.TestDataManagerTest')
+data.setCell(31, 3, 0);
+window.suiteTableData['Surefire_suite']= { tableData: data, tableDiv: 'times-div-Surefire_suite'}
+return data;
+}
+              </script>
+              <span class="suite-total-time">Total running time: 223 ms</span>
+              <div id="times-div-Surefire_suite">
+              </div> <!-- times-div-Surefire_suite -->
+            </div> <!-- times-div -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="reporter-Surefire_suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Reporter output for Surefire suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="ignored-methods-Surefire_suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">0 ignored methods</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="chronological-Surefire_suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Methods in chronological order</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.ecommerce.api.client.RestApiClientTest</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">0 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="test-method">
+                <span class="method-name">testExtractResponseDataWithTypeWithoutResponse</span>
+                <span class="method-start">664 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">testExtractResponseDataWithoutResponse</span>
+                <span class="method-start">664 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">testClientInitialization</span>
+                <span class="method-start">665 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">testGetLastResponseInitiallyNull</span>
+                <span class="method-start">681 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">testGetResponseBodyAsWithoutResponse</span>
+                <span class="method-start">681 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">testGetResponseBodyWithoutResponse</span>
+                <span class="method-start">682 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">testGetErrorDetailsWithoutResponse</span>
+                <span class="method-start">683 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">testIsResponseSuccessfulWithoutResponse</span>
+                <span class="method-start">684 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">testResetFunctionality</span>
+                <span class="method-start">685 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">testValidateContentTypeWithoutResponse</span>
+                <span class="method-start">686 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">testValidateJsonResponseWithoutResponse</span>
+                <span class="method-start">688 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">testValidateResponseTimeWithoutResponse</span>
+                <span class="method-start">692 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.ecommerce.api.config.ConfigurationManagerTest</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">693 ms</span>
+              </div> <!-- configuration-method before -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.ecommerce.api.client.RestApiClientTest</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">testValidateStatusCodeWithoutResponse</span>
+                <span class="method-start">693 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.ecommerce.api.config.ConfigurationManagerTest</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">testApiEndpoints</span>
+                <span class="method-start">696 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">testConfigurationHelper</span>
+                <span class="method-start">697 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">697 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">698 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">testConvenienceMethods</span>
+                <span class="method-start">699 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">700 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">testDefaultEnvironmentLoading</span>
+                <span class="method-start">700 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">701 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">702 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">testInvalidEnvironment</span>
+                <span class="method-start">702 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">testEnvironmentValidation</span>
+                <span class="method-start">702 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">705 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">testPropertyAccess</span>
+                <span class="method-start">705 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">711 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">testPropertyWithDefaultValue</span>
+                <span class="method-start">712 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">testSingletonInstance</span>
+                <span class="method-start">714 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">714 ms</span>
+              </div> <!-- configuration-method before -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.ecommerce.api.utils.TestDataManagerTest</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">716 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">717 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">723 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">testCreateTestUserWithSpecificUsername</span>
+                <span class="method-start">725 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">testCreateUniqueTestUser</span>
+                <span class="method-start">727 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">testCreateMultipleUniqueUsers</span>
+                <span class="method-start">732 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">739 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">744 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">744 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">testTestDataStatistics</span>
+                <span class="method-start">746 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">746 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">testGetValidAndInvalidCredentials</span>
+                <span class="method-start">747 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">754 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">755 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">testTestSessionManagement</span>
+                <span class="method-start">755 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">771 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">773 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">testTestUserValidation</span>
+                <span class="method-start">781 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">785 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">788 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">testUserCleanup</span>
+                <span class="method-start">788 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">789 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">793 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">794 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="test-method">
+                <span class="method-name">testUserCopyMethods</span>
+                <span class="method-start">794 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">797 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">797 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">798 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="test-method">
+                <span class="method-name">testUserCredentialsCreation</span>
+                <span class="method-start">798 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">805 ms</span>
+              </div> <!-- configuration-method after -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+      </div> <!-- main-panel-root -->
+    </div> <!-- wrapper -->
+  </body>
+<script type="text/javascript" src="testng-reports2.js"></script>
+</html>

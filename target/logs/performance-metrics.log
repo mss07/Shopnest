@@ -1,0 +1,29 @@
+2025-12-14 23:26:32.612 [TestNG-test=Surefire test-1] INFO  [NO_ID] c.e.api.utils.PerformanceMetrics - Test suite execution started at: 2025-12-14T17:56:32.612343200Z
+2025-12-14 23:26:36.057 [TestNG-PoolService-0] DEBUG [79b80eb1-c653-4c85-a245-7e1d92ee52a3] c.e.api.utils.PerformanceMetrics - Recorded API request metrics - Endpoint: /products, Response Time: 507ms, Success: true
+2025-12-14 23:26:36.057 [TestNG-PoolService-2] DEBUG [d39bfba4-84af-4d5c-9c66-41f8383ad84f] c.e.api.utils.PerformanceMetrics - Recorded API request metrics - Endpoint: /product/invalid-product-id-123, Response Time: 509ms, Success: true
+2025-12-14 23:26:36.056 [TestNG-PoolService-1] DEBUG [6397481b-8851-4f1d-9f46-712d7e06847f] c.e.api.utils.PerformanceMetrics - Recorded API request metrics - Endpoint: /product/507f1f77bcf86cd799439011, Response Time: 506ms, Success: true
+2025-12-14 23:26:36.087 [TestNG-PoolService-2] DEBUG [d39bfba4-84af-4d5c-9c66-41f8383ad84f] c.e.api.utils.PerformanceMetrics - Test failed: Get product by invalid ID returns error
+2025-12-14 23:26:36.148 [TestNG-PoolService-1] DEBUG [6397481b-8851-4f1d-9f46-712d7e06847f] c.e.api.utils.PerformanceMetrics - Recorded API request metrics - Endpoint: /product/507f1f77bcf86cd799439011, Response Time: 38ms, Success: true
+2025-12-14 23:26:36.254 [TestNG-PoolService-1] DEBUG [6397481b-8851-4f1d-9f46-712d7e06847f] c.e.api.utils.PerformanceMetrics - Test failed: Get product by valid ID successfully
+2025-12-14 23:26:36.567 [TestNG-PoolService-0] DEBUG [79b80eb1-c653-4c85-a245-7e1d92ee52a3] c.e.api.utils.PerformanceMetrics - Test failed: Get all products successfully
+2025-12-14 23:26:36.575 [TestNG-PoolService-1] DEBUG [1f546631-de88-4512-8096-6a1f628fd714] c.e.api.utils.PerformanceMetrics - Recorded API request metrics - Endpoint: /signup, Response Time: 101ms, Success: false
+2025-12-14 23:26:36.601 [TestNG-PoolService-2] DEBUG [47c18c6f-b18d-4422-a7db-41567fb22ebe] c.e.api.utils.PerformanceMetrics - Recorded API request metrics - Endpoint: /signup, Response Time: 132ms, Success: true
+2025-12-14 23:26:36.623 [TestNG-PoolService-1] DEBUG [1f546631-de88-4512-8096-6a1f628fd714] c.e.api.utils.PerformanceMetrics - Recorded API request metrics - Endpoint: /signup, Response Time: 34ms, Success: false
+2025-12-14 23:26:36.627 [TestNG-PoolService-1] DEBUG [1f546631-de88-4512-8096-6a1f628fd714] c.e.api.utils.PerformanceMetrics - Test passed: User registration with duplicate username
+2025-12-14 23:26:36.768 [TestNG-PoolService-1] DEBUG [6cf35ddd-7abf-446b-8878-ebdadaa11f04] c.e.api.utils.PerformanceMetrics - Recorded API request metrics - Endpoint: /login, Response Time: 37ms, Success: false
+2025-12-14 23:26:36.769 [TestNG-PoolService-0] DEBUG [4187a3e6-3839-4277-b856-4136d7555f91] c.e.api.utils.PerformanceMetrics - Recorded API request metrics - Endpoint: /signup, Response Time: 35ms, Success: false
+2025-12-14 23:26:36.772 [TestNG-PoolService-1] DEBUG [6cf35ddd-7abf-446b-8878-ebdadaa11f04] c.e.api.utils.PerformanceMetrics - Test passed: User login with invalid username
+2025-12-14 23:26:36.817 [TestNG-PoolService-0] DEBUG [4187a3e6-3839-4277-b856-4136d7555f91] c.e.api.utils.PerformanceMetrics - Recorded API request metrics - Endpoint: /login, Response Time: 33ms, Success: true
+2025-12-14 23:26:36.822 [TestNG-PoolService-0] DEBUG [4187a3e6-3839-4277-b856-4136d7555f91] c.e.api.utils.PerformanceMetrics - Test failed: Valid user login with correct credentials
+2025-12-14 23:26:37.471 [TestNG-PoolService-2] DEBUG [47c18c6f-b18d-4422-a7db-41567fb22ebe] c.e.api.utils.PerformanceMetrics - Test passed: Valid user registration with unique username
+2025-12-14 23:26:37.483 [TestNG-test=Surefire test-1] INFO  [NO_ID] c.e.api.utils.PerformanceMetrics - Test suite execution completed at: 2025-12-14T17:56:37.483176100Z, Total duration: 4870ms
+2025-12-14 23:26:37.483 [TestNG-test=Surefire test-1] INFO  [NO_ID] c.e.api.utils.PerformanceMetrics - === Test Suite Execution Summary ===
+2025-12-14 23:26:37.484 [TestNG-test=Surefire test-1] INFO  [NO_ID] c.e.api.utils.PerformanceMetrics - Total Tests: 7 | Passed: 3 | Failed: 4 | Pass Rate: 42.86% | Execution Time: 4870ms
+2025-12-14 23:26:37.484 [TestNG-test=Surefire test-1] INFO  [NO_ID] c.e.api.utils.PerformanceMetrics - === API Performance Metrics Summary ===
+2025-12-14 23:26:37.484 [TestNG-test=Surefire test-1] INFO  [NO_ID] c.e.api.utils.PerformanceMetrics - Endpoint: /product/{id}f1f77bcf86cd799439011 | Requests: 2 | Avg Response: {:.2f}ms | Error Rate: {:.2f}% | Min: 272.0ms | Max: 0.0ms
+2025-12-14 23:26:37.485 [TestNG-test=Surefire test-1] INFO  [NO_ID] c.e.api.utils.PerformanceMetrics - Endpoint: /product/invalid-product-id-123 | Requests: 1 | Avg Response: {:.2f}ms | Error Rate: {:.2f}% | Min: 509.0ms | Max: 0.0ms
+2025-12-14 23:26:37.485 [TestNG-test=Surefire test-1] INFO  [NO_ID] c.e.api.utils.PerformanceMetrics - Endpoint: /login | Requests: 2 | Avg Response: {:.2f}ms | Error Rate: {:.2f}% | Min: 35.0ms | Max: 50.0ms
+2025-12-14 23:26:37.485 [TestNG-test=Surefire test-1] INFO  [NO_ID] c.e.api.utils.PerformanceMetrics - Endpoint: /signup | Requests: 4 | Avg Response: {:.2f}ms | Error Rate: {:.2f}% | Min: 75.5ms | Max: 75.0ms
+2025-12-14 23:26:37.485 [TestNG-test=Surefire test-1] INFO  [NO_ID] c.e.api.utils.PerformanceMetrics - Endpoint: /products | Requests: 1 | Avg Response: {:.2f}ms | Error Rate: {:.2f}% | Min: 507.0ms | Max: 0.0ms
+2025-12-14 23:26:37.485 [TestNG-test=Surefire test-1] INFO  [NO_ID] c.e.api.utils.PerformanceMetrics - === Test Suite Execution Summary ===
+2025-12-14 23:26:37.485 [TestNG-test=Surefire test-1] INFO  [NO_ID] c.e.api.utils.PerformanceMetrics - Total Tests: 7 | Passed: 3 | Failed: 4 | Pass Rate: 42.86% | Execution Time: 4870ms

@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<extentreports>
+    <configuration>
+        <!-- Report theme: standard, dark -->
+        <theme>standard</theme>
+        
+        <!-- Document encoding -->
+        <encoding>UTF-8</encoding>
+        
+        <!-- Protocol for script and stylesheets -->
+        <protocol>https</protocol>
+        
+        <!-- Title of the report -->
+        <reportName>E-commerce API Automation Test Report</reportName>
+        
+        <!-- Name of the document -->
+        <documentTitle>API Test Results</documentTitle>
+        
+        <!-- Timestamp format -->
+        <timeStampFormat>MMM dd, yyyy HH:mm:ss</timeStampFormat>
+        
+        <!-- Custom CSS -->
+        <css>
+            .test-name { font-weight: bold; }
+            .step-details { margin-left: 20px; }
+        </css>
+        
+        <!-- Custom JavaScript -->
+        <js>
+            // Custom JavaScript for report enhancements
+        </js>
+    </configuration>
+</extentreports>

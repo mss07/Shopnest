@@ -1,0 +1,262 @@
+2025-12-14 23:26:31.040 [main] INFO  [NO_ID] [NO_SCENARIO] c.e.api.config.ConfigurationManager - Successfully loaded configuration for environment: dev
+2025-12-14 23:26:31.044 [main] INFO  [NO_ID] [NO_SCENARIO] c.e.api.utils.LoggingConfiguration - HTTP logging level set to: DEBUG
+2025-12-14 23:26:31.044 [main] INFO  [NO_ID] [NO_SCENARIO] c.e.api.utils.LoggingConfiguration - Error logging level set to: DEBUG
+2025-12-14 23:26:31.045 [main] INFO  [NO_ID] [NO_SCENARIO] c.e.api.utils.LoggingConfiguration - Metrics logging level set to: DEBUG
+2025-12-14 23:26:31.045 [main] DEBUG [NO_ID] [NO_SCENARIO] c.e.api.utils.LoggingConfiguration - Set logger 'com.ecommerce.api.utils' to level 'DEBUG'
+2025-12-14 23:26:31.045 [main] INFO  [NO_ID] [NO_SCENARIO] c.e.api.utils.LoggingConfiguration - Verbose logging enabled - all loggers set to DEBUG
+2025-12-14 23:26:31.046 [main] INFO  [NO_ID] [NO_SCENARIO] c.e.api.utils.LoggingConfiguration - Logging configured for development environment
+2025-12-14 23:26:31.046 [main] INFO  [NO_ID] [NO_SCENARIO] c.e.api.utils.LoggingConfiguration - === Current Logging Configuration ===
+2025-12-14 23:26:31.046 [main] INFO  [NO_ID] [NO_SCENARIO] c.e.api.utils.LoggingConfiguration - HTTP Interactions: DEBUG
+2025-12-14 23:26:31.046 [main] INFO  [NO_ID] [NO_SCENARIO] c.e.api.utils.LoggingConfiguration - API Errors: DEBUG
+2025-12-14 23:26:31.046 [main] INFO  [NO_ID] [NO_SCENARIO] c.e.api.utils.LoggingConfiguration - Performance Metrics: DEBUG
+2025-12-14 23:26:31.046 [main] INFO  [NO_ID] [NO_SCENARIO] c.e.api.utils.LoggingConfiguration - API Client: DEBUG
+2025-12-14 23:26:31.046 [main] INFO  [NO_ID] [NO_SCENARIO] c.e.api.utils.LoggingConfiguration - Step Definitions: DEBUG
+2025-12-14 23:26:31.046 [main] INFO  [NO_ID] [NO_SCENARIO] c.e.api.utils.LoggingConfiguration - REST Assured: WARN
+2025-12-14 23:26:31.047 [main] INFO  [NO_ID] [NO_SCENARIO] c.e.api.utils.LoggingConfiguration - Cucumber: INFO
+2025-12-14 23:26:31.047 [main] INFO  [NO_ID] [NO_SCENARIO] c.e.api.utils.LoggingConfiguration - =====================================
+2025-12-14 23:26:32.610 [TestNG-test=Surefire test-1] INFO  [NO_ID] [NO_SCENARIO] c.e.api.runners.TestSuiteHooks - === API Test Suite Starting ===
+2025-12-14 23:26:32.613 [TestNG-test=Surefire test-1] INFO  [NO_ID] [NO_SCENARIO] c.e.api.runners.TestSuiteHooks - Performance metrics collection initialized
+2025-12-14 23:26:32.613 [TestNG-test=Surefire test-1] INFO  [NO_ID] [NO_SCENARIO] c.e.api.runners.TestSuiteHooks - Test suite setup completed successfully
+2025-12-14 23:26:33.600 [TestNG-PoolService-1] INFO  [NO_ID] [NO_SCENARIO] c.e.a.s.ProductApiSteps - Setting up ProductApiSteps for new scenario
+2025-12-14 23:26:33.602 [TestNG-PoolService-2] INFO  [NO_ID] [NO_SCENARIO] c.e.a.s.ProductApiSteps - Setting up ProductApiSteps for new scenario
+2025-12-14 23:26:33.605 [TestNG-PoolService-0] INFO  [NO_ID] [NO_SCENARIO] c.e.a.s.ProductApiSteps - Setting up ProductApiSteps for new scenario
+2025-12-14 23:26:34.261 [TestNG-PoolService-0] INFO  [NO_ID] [NO_SCENARIO] c.e.api.utils.TestDataManager - TestDataManager initialized
+2025-12-14 23:26:34.262 [TestNG-PoolService-0] DEBUG [NO_ID] [NO_SCENARIO] c.e.a.s.ProductApiSteps - ProductApiSteps setup completed for session: product_session_1765734994261
+2025-12-14 23:26:34.262 [TestNG-PoolService-1] DEBUG [NO_ID] [NO_SCENARIO] c.e.a.s.ProductApiSteps - ProductApiSteps setup completed for session: product_session_1765734994262
+2025-12-14 23:26:34.262 [TestNG-PoolService-2] DEBUG [NO_ID] [NO_SCENARIO] c.e.a.s.ProductApiSteps - ProductApiSteps setup completed for session: product_session_1765734994262
+2025-12-14 23:26:34.270 [TestNG-PoolService-0] INFO  [NO_ID] [NO_SCENARIO] c.e.api.stepdefinitions.UserApiSteps - Setting up UserApiSteps for new scenario
+2025-12-14 23:26:34.270 [TestNG-PoolService-1] INFO  [NO_ID] [NO_SCENARIO] c.e.api.stepdefinitions.UserApiSteps - Setting up UserApiSteps for new scenario
+2025-12-14 23:26:34.270 [TestNG-PoolService-0] DEBUG [NO_ID] [NO_SCENARIO] c.e.api.stepdefinitions.UserApiSteps - UserApiSteps setup completed for session: session_1765734994270
+2025-12-14 23:26:34.270 [TestNG-PoolService-1] DEBUG [NO_ID] [NO_SCENARIO] c.e.api.stepdefinitions.UserApiSteps - UserApiSteps setup completed for session: session_1765734994270
+2025-12-14 23:26:34.272 [TestNG-PoolService-1] INFO  [NO_ID] [NO_SCENARIO] c.e.api.utils.TestIsolationManager - TestIsolationManager initialized
+2025-12-14 23:26:34.273 [TestNG-PoolService-2] INFO  [NO_ID] [NO_SCENARIO] c.e.api.stepdefinitions.UserApiSteps - Setting up UserApiSteps for new scenario
+2025-12-14 23:26:34.273 [TestNG-PoolService-2] DEBUG [NO_ID] [NO_SCENARIO] c.e.api.stepdefinitions.UserApiSteps - UserApiSteps setup completed for session: session_1765734994273
+2025-12-14 23:26:34.279 [TestNG-PoolService-2] INFO  [NO_ID] [NO_SCENARIO] com.ecommerce.api.runners.TestHooks - Executing REGRESSION TEST: Get product by invalid ID returns error
+2025-12-14 23:26:34.280 [TestNG-PoolService-0] INFO  [79b80eb1-c653-4c85-a245-7e1d92ee52a3] [Get all products successfully] com.ecommerce.api.runners.TestHooks - Starting scenario: Get all products successfully with correlation ID: e5a1e5f1-b099-4af3-b2f9-5bdabd0f0824
+2025-12-14 23:26:34.281 [TestNG-PoolService-1] INFO  [6397481b-8851-4f1d-9f46-712d7e06847f] [Get product by valid ID successfully] com.ecommerce.api.runners.TestHooks - Starting scenario: Get product by valid ID successfully with correlation ID: 6e04ac38-0820-4d65-b85d-26db625eda65
+2025-12-14 23:26:34.282 [TestNG-PoolService-2] INFO  [d39bfba4-84af-4d5c-9c66-41f8383ad84f] [Get product by invalid ID returns error] com.ecommerce.api.runners.TestHooks - Starting scenario: Get product by invalid ID returns error with correlation ID: 2941a105-670f-4413-89d0-0fc898c92bb1
+2025-12-14 23:26:34.283 [TestNG-PoolService-0] DEBUG [79b80eb1-c653-4c85-a245-7e1d92ee52a3] [Get all products successfully] c.e.api.utils.TestIsolationManager - Started test session: d6e821fa-c3cb-4726-a51b-af97dab16f0e for test: Get all products successfully
+2025-12-14 23:26:34.283 [TestNG-PoolService-1] DEBUG [6397481b-8851-4f1d-9f46-712d7e06847f] [Get product by valid ID successfully] c.e.api.utils.TestIsolationManager - Started test session: df9bfeba-6321-40c2-98e9-7ac514d852d1 for test: Get product by valid ID successfully
+2025-12-14 23:26:34.283 [TestNG-PoolService-2] DEBUG [d39bfba4-84af-4d5c-9c66-41f8383ad84f] [Get product by invalid ID returns error] c.e.api.utils.TestIsolationManager - Started test session: d976b606-330e-409a-9b0b-d34482cbbe0f for test: Get product by invalid ID returns error
+2025-12-14 23:26:34.283 [TestNG-PoolService-0] INFO  [79b80eb1-c653-4c85-a245-7e1d92ee52a3] [Get all products successfully] com.ecommerce.api.runners.TestHooks - Scenario 'Get all products successfully' setup completed with session: d6e821fa-c3cb-4726-a51b-af97dab16f0e
+2025-12-14 23:26:34.283 [TestNG-PoolService-1] INFO  [6397481b-8851-4f1d-9f46-712d7e06847f] [Get product by valid ID successfully] com.ecommerce.api.runners.TestHooks - Scenario 'Get product by valid ID successfully' setup completed with session: df9bfeba-6321-40c2-98e9-7ac514d852d1
+2025-12-14 23:26:34.283 [TestNG-PoolService-2] INFO  [d39bfba4-84af-4d5c-9c66-41f8383ad84f] [Get product by invalid ID returns error] com.ecommerce.api.runners.TestHooks - Scenario 'Get product by invalid ID returns error' setup completed with session: d976b606-330e-409a-9b0b-d34482cbbe0f
+2025-12-14 23:26:34.290 [TestNG-PoolService-0] INFO  [79b80eb1-c653-4c85-a245-7e1d92ee52a3] [Get all products successfully] com.ecommerce.api.runners.TestHooks - Executing SMOKE TEST: Get all products successfully
+2025-12-14 23:26:34.294 [TestNG-PoolService-0] INFO  [79b80eb1-c653-4c85-a245-7e1d92ee52a3] [Get all products successfully] c.e.api.stepdefinitions.CommonSteps - API base URL configured: http://localhost:8000
+2025-12-14 23:26:34.289 [TestNG-PoolService-2] INFO  [d39bfba4-84af-4d5c-9c66-41f8383ad84f] [Get product by invalid ID returns error] c.e.api.stepdefinitions.CommonSteps - API base URL configured: http://localhost:8000
+2025-12-14 23:26:34.296 [TestNG-PoolService-1] INFO  [6397481b-8851-4f1d-9f46-712d7e06847f] [Get product by valid ID successfully] com.ecommerce.api.runners.TestHooks - Executing SMOKE TEST: Get product by valid ID successfully
+2025-12-14 23:26:34.298 [TestNG-PoolService-1] INFO  [6397481b-8851-4f1d-9f46-712d7e06847f] [Get product by valid ID successfully] c.e.api.stepdefinitions.CommonSteps - API base URL configured: http://localhost:8000
+2025-12-14 23:26:34.300 [TestNG-PoolService-1] INFO  [6397481b-8851-4f1d-9f46-712d7e06847f] [Get product by valid ID successfully] c.e.api.stepdefinitions.CommonSteps - Verifying test environment readiness
+2025-12-14 23:26:34.300 [TestNG-PoolService-1] INFO  [6397481b-8851-4f1d-9f46-712d7e06847f] [Get product by valid ID successfully] c.e.api.stepdefinitions.CommonSteps - Test environment is ready for execution
+2025-12-14 23:26:34.301 [TestNG-PoolService-0] INFO  [79b80eb1-c653-4c85-a245-7e1d92ee52a3] [Get all products successfully] c.e.api.stepdefinitions.CommonSteps - Verifying test environment readiness
+2025-12-14 23:26:34.302 [TestNG-PoolService-0] INFO  [79b80eb1-c653-4c85-a245-7e1d92ee52a3] [Get all products successfully] c.e.api.stepdefinitions.CommonSteps - Test environment is ready for execution
+2025-12-14 23:26:34.303 [TestNG-PoolService-2] INFO  [d39bfba4-84af-4d5c-9c66-41f8383ad84f] [Get product by invalid ID returns error] c.e.api.stepdefinitions.CommonSteps - Verifying test environment readiness
+2025-12-14 23:26:34.303 [TestNG-PoolService-2] INFO  [d39bfba4-84af-4d5c-9c66-41f8383ad84f] [Get product by invalid ID returns error] c.e.api.stepdefinitions.CommonSteps - Test environment is ready for execution
+2025-12-14 23:26:34.305 [TestNG-PoolService-0] INFO  [79b80eb1-c653-4c85-a245-7e1d92ee52a3] [Get all products successfully] c.e.a.s.ProductApiSteps - Sending GET request to endpoint: /products
+2025-12-14 23:26:34.306 [TestNG-PoolService-2] INFO  [d39bfba4-84af-4d5c-9c66-41f8383ad84f] [Get product by invalid ID returns error] c.e.a.s.ProductApiSteps - Sending GET request to endpoint: /product/invalid-product-id-123
+2025-12-14 23:26:36.058 [TestNG-PoolService-0] INFO  [79b80eb1-c653-4c85-a245-7e1d92ee52a3] [Get all products successfully] c.e.a.s.ProductApiSteps - GET request completed. Status: 200, Response time: 507ms
+2025-12-14 23:26:36.060 [TestNG-PoolService-0] INFO  [79b80eb1-c653-4c85-a245-7e1d92ee52a3] [Get all products successfully] c.e.api.stepdefinitions.CommonSteps - Validating response status code. Expected: 200, Actual: 200
+2025-12-14 23:26:36.065 [TestNG-PoolService-2] INFO  [d39bfba4-84af-4d5c-9c66-41f8383ad84f] [Get product by invalid ID returns error] c.e.a.s.ProductApiSteps - GET request completed. Status: 200, Response time: 509ms
+2025-12-14 23:26:36.066 [TestNG-PoolService-2] INFO  [d39bfba4-84af-4d5c-9c66-41f8383ad84f] [Get product by invalid ID returns error] c.e.api.stepdefinitions.CommonSteps - Validating response status code. Expected: 404, Actual: 200
+2025-12-14 23:26:36.071 [TestNG-PoolService-1] DEBUG [6397481b-8851-4f1d-9f46-712d7e06847f] [Get product by valid ID successfully] c.e.a.s.ProductApiSteps - Verified product existence for ID '507f1f77bcf86cd799439011' with status: 200
+2025-12-14 23:26:36.087 [TestNG-PoolService-2] INFO  [d39bfba4-84af-4d5c-9c66-41f8383ad84f] [Get product by invalid ID returns error] com.ecommerce.api.runners.TestHooks - Completing scenario: Get product by invalid ID returns error - Status: FAILED - Duration: 1803ms
+2025-12-14 23:26:36.087 [TestNG-PoolService-2] ERROR [d39bfba4-84af-4d5c-9c66-41f8383ad84f] [NO_SCENARIO] com.ecommerce.api.runners.TestHooks - Scenario 'Get product by invalid ID returns error' failed after 1803ms
+2025-12-14 23:26:36.088 [TestNG-PoolService-1] INFO  [6397481b-8851-4f1d-9f46-712d7e06847f] [Get product by valid ID successfully] c.e.a.s.ProductApiSteps - Sending GET request to endpoint: /product/507f1f77bcf86cd799439011
+2025-12-14 23:26:36.129 [TestNG-PoolService-2] INFO  [d39bfba4-84af-4d5c-9c66-41f8383ad84f] [NO_SCENARIO] c.e.api.utils.TestIsolationManager - Ended test session: d976b606-330e-409a-9b0b-d34482cbbe0f with cleanup result: CleanupResult{processed=0, cleaned=0, success=true}
+2025-12-14 23:26:36.130 [TestNG-PoolService-2] INFO  [d39bfba4-84af-4d5c-9c66-41f8383ad84f] [NO_SCENARIO] com.ecommerce.api.runners.TestHooks - Scenario 'Get product by invalid ID returns error' cleanup completed
+2025-12-14 23:26:36.132 [TestNG-PoolService-2] INFO  [NO_ID] [NO_SCENARIO] c.e.api.stepdefinitions.UserApiSteps - Cleaning up UserApiSteps for session: session_1765734994273
+2025-12-14 23:26:36.133 [TestNG-PoolService-2] DEBUG [NO_ID] [NO_SCENARIO] c.e.api.utils.TestDataManager - No test session found for cleanup: session_1765734994273
+2025-12-14 23:26:36.133 [TestNG-PoolService-2] DEBUG [NO_ID] [NO_SCENARIO] c.e.api.stepdefinitions.UserApiSteps - Cleaned up 0 test users for session: session_1765734994273
+2025-12-14 23:26:36.133 [TestNG-PoolService-2] DEBUG [NO_ID] [NO_SCENARIO] c.e.api.stepdefinitions.UserApiSteps - UserApiSteps cleanup completed for session: session_1765734994273
+2025-12-14 23:26:36.135 [TestNG-PoolService-2] INFO  [NO_ID] [NO_SCENARIO] c.e.a.s.ProductApiSteps - Cleaning up ProductApiSteps for session: product_session_1765734994262
+2025-12-14 23:26:36.135 [TestNG-PoolService-2] DEBUG [NO_ID] [NO_SCENARIO] c.e.a.s.ProductApiSteps - ProductApiSteps cleanup completed for session: product_session_1765734994262
+2025-12-14 23:26:36.148 [TestNG-PoolService-1] INFO  [6397481b-8851-4f1d-9f46-712d7e06847f] [Get product by valid ID successfully] c.e.a.s.ProductApiSteps - GET request completed. Status: 200, Response time: 38ms
+2025-12-14 23:26:36.149 [TestNG-PoolService-1] INFO  [6397481b-8851-4f1d-9f46-712d7e06847f] [Get product by valid ID successfully] c.e.api.stepdefinitions.CommonSteps - Validating response status code. Expected: 200, Actual: 200
+2025-12-14 23:26:36.253 [TestNG-PoolService-1] INFO  [6397481b-8851-4f1d-9f46-712d7e06847f] [Get product by valid ID successfully] com.ecommerce.api.runners.TestHooks - Completing scenario: Get product by valid ID successfully - Status: FAILED - Duration: 1979ms
+2025-12-14 23:26:36.254 [TestNG-PoolService-1] ERROR [6397481b-8851-4f1d-9f46-712d7e06847f] [NO_SCENARIO] com.ecommerce.api.runners.TestHooks - Scenario 'Get product by valid ID successfully' failed after 1979ms
+2025-12-14 23:26:36.255 [TestNG-PoolService-1] INFO  [6397481b-8851-4f1d-9f46-712d7e06847f] [NO_SCENARIO] c.e.api.utils.TestIsolationManager - Ended test session: df9bfeba-6321-40c2-98e9-7ac514d852d1 with cleanup result: CleanupResult{processed=0, cleaned=0, success=true}
+2025-12-14 23:26:36.255 [TestNG-PoolService-1] INFO  [6397481b-8851-4f1d-9f46-712d7e06847f] [NO_SCENARIO] com.ecommerce.api.runners.TestHooks - Scenario 'Get product by valid ID successfully' cleanup completed
+2025-12-14 23:26:36.256 [TestNG-PoolService-1] INFO  [NO_ID] [NO_SCENARIO] c.e.api.stepdefinitions.UserApiSteps - Cleaning up UserApiSteps for session: session_1765734994270
+2025-12-14 23:26:36.256 [TestNG-PoolService-1] DEBUG [NO_ID] [NO_SCENARIO] c.e.api.utils.TestDataManager - No test session found for cleanup: session_1765734994270
+2025-12-14 23:26:36.256 [TestNG-PoolService-1] DEBUG [NO_ID] [NO_SCENARIO] c.e.api.stepdefinitions.UserApiSteps - Cleaned up 0 test users for session: session_1765734994270
+2025-12-14 23:26:36.256 [TestNG-PoolService-1] DEBUG [NO_ID] [NO_SCENARIO] c.e.api.stepdefinitions.UserApiSteps - UserApiSteps cleanup completed for session: session_1765734994270
+2025-12-14 23:26:36.257 [TestNG-PoolService-1] INFO  [NO_ID] [NO_SCENARIO] c.e.a.s.ProductApiSteps - Cleaning up ProductApiSteps for session: product_session_1765734994262
+2025-12-14 23:26:36.258 [TestNG-PoolService-1] DEBUG [NO_ID] [NO_SCENARIO] c.e.a.s.ProductApiSteps - ProductApiSteps cleanup completed for session: product_session_1765734994262
+2025-12-14 23:26:36.318 [TestNG-PoolService-2] INFO  [NO_ID] [NO_SCENARIO] c.e.a.s.ProductApiSteps - Setting up ProductApiSteps for new scenario
+2025-12-14 23:26:36.318 [TestNG-PoolService-2] DEBUG [NO_ID] [NO_SCENARIO] c.e.a.s.ProductApiSteps - ProductApiSteps setup completed for session: product_session_1765734996318
+2025-12-14 23:26:36.319 [TestNG-PoolService-2] INFO  [NO_ID] [NO_SCENARIO] c.e.api.stepdefinitions.UserApiSteps - Setting up UserApiSteps for new scenario
+2025-12-14 23:26:36.319 [TestNG-PoolService-2] DEBUG [NO_ID] [NO_SCENARIO] c.e.api.stepdefinitions.UserApiSteps - UserApiSteps setup completed for session: session_1765734996319
+2025-12-14 23:26:36.321 [TestNG-PoolService-2] INFO  [47c18c6f-b18d-4422-a7db-41567fb22ebe] [Valid user registration with unique username] com.ecommerce.api.runners.TestHooks - Starting scenario: Valid user registration with unique username with correlation ID: 57a9332b-9380-4ec5-8acb-4dbc0b60d519
+2025-12-14 23:26:36.321 [TestNG-PoolService-2] DEBUG [47c18c6f-b18d-4422-a7db-41567fb22ebe] [Valid user registration with unique username] c.e.api.utils.TestIsolationManager - Started test session: f7c91801-18b5-490f-a074-c9aca525d6de for test: Valid user registration with unique username
+2025-12-14 23:26:36.321 [TestNG-PoolService-2] INFO  [47c18c6f-b18d-4422-a7db-41567fb22ebe] [Valid user registration with unique username] com.ecommerce.api.runners.TestHooks - Scenario 'Valid user registration with unique username' setup completed with session: f7c91801-18b5-490f-a074-c9aca525d6de
+2025-12-14 23:26:36.323 [TestNG-PoolService-2] INFO  [47c18c6f-b18d-4422-a7db-41567fb22ebe] [Valid user registration with unique username] com.ecommerce.api.runners.TestHooks - Executing SMOKE TEST: Valid user registration with unique username
+2025-12-14 23:26:36.326 [TestNG-PoolService-2] INFO  [47c18c6f-b18d-4422-a7db-41567fb22ebe] [Valid user registration with unique username] c.e.api.stepdefinitions.CommonSteps - API base URL configured: http://localhost:8000
+2025-12-14 23:26:36.327 [TestNG-PoolService-2] INFO  [47c18c6f-b18d-4422-a7db-41567fb22ebe] [Valid user registration with unique username] c.e.api.stepdefinitions.CommonSteps - Verifying test environment readiness
+2025-12-14 23:26:36.327 [TestNG-PoolService-2] INFO  [47c18c6f-b18d-4422-a7db-41567fb22ebe] [Valid user registration with unique username] c.e.api.stepdefinitions.CommonSteps - Test environment is ready for execution
+2025-12-14 23:26:36.340 [TestNG-PoolService-1] INFO  [NO_ID] [NO_SCENARIO] c.e.a.s.ProductApiSteps - Setting up ProductApiSteps for new scenario
+2025-12-14 23:26:36.341 [TestNG-PoolService-1] DEBUG [NO_ID] [NO_SCENARIO] c.e.a.s.ProductApiSteps - ProductApiSteps setup completed for session: product_session_1765734996341
+2025-12-14 23:26:36.337 [TestNG-PoolService-2] DEBUG [47c18c6f-b18d-4422-a7db-41567fb22ebe] [Valid user registration with unique username] c.e.api.utils.TestDataManager - Created unique test user: test_user_1_996331 for session: session_1765734996319
+2025-12-14 23:26:36.341 [TestNG-PoolService-1] INFO  [NO_ID] [NO_SCENARIO] c.e.api.stepdefinitions.UserApiSteps - Setting up UserApiSteps for new scenario
+2025-12-14 23:26:36.342 [TestNG-PoolService-1] DEBUG [NO_ID] [NO_SCENARIO] c.e.api.stepdefinitions.UserApiSteps - UserApiSteps setup completed for session: session_1765734996342
+2025-12-14 23:26:36.342 [TestNG-PoolService-1] INFO  [NO_ID] [NO_SCENARIO] com.ecommerce.api.runners.TestHooks - Executing REGRESSION TEST: User registration with duplicate username
+2025-12-14 23:26:36.343 [TestNG-PoolService-1] INFO  [1f546631-de88-4512-8096-6a1f628fd714] [User registration with duplicate username] com.ecommerce.api.runners.TestHooks - Starting scenario: User registration with duplicate username with correlation ID: 527c692b-7ec4-4f47-9346-ebc6c224f9be
+2025-12-14 23:26:36.343 [TestNG-PoolService-1] DEBUG [1f546631-de88-4512-8096-6a1f628fd714] [User registration with duplicate username] c.e.api.utils.TestIsolationManager - Started test session: 4522d6b3-e389-40e4-8f76-4b744ced6096 for test: User registration with duplicate username
+2025-12-14 23:26:36.343 [TestNG-PoolService-1] INFO  [1f546631-de88-4512-8096-6a1f628fd714] [User registration with duplicate username] com.ecommerce.api.runners.TestHooks - Scenario 'User registration with duplicate username' setup completed with session: 4522d6b3-e389-40e4-8f76-4b744ced6096
+2025-12-14 23:26:36.344 [TestNG-PoolService-1] INFO  [1f546631-de88-4512-8096-6a1f628fd714] [User registration with duplicate username] c.e.api.stepdefinitions.CommonSteps - API base URL configured: http://localhost:8000
+2025-12-14 23:26:36.345 [TestNG-PoolService-2] DEBUG [47c18c6f-b18d-4422-a7db-41567fb22ebe] [Valid user registration with unique username] c.e.api.stepdefinitions.UserApiSteps - Created valid test user: test_user_1_996331
+2025-12-14 23:26:36.347 [TestNG-PoolService-1] INFO  [1f546631-de88-4512-8096-6a1f628fd714] [User registration with duplicate username] c.e.api.stepdefinitions.CommonSteps - Verifying test environment readiness
+2025-12-14 23:26:36.348 [TestNG-PoolService-1] INFO  [1f546631-de88-4512-8096-6a1f628fd714] [User registration with duplicate username] c.e.api.stepdefinitions.CommonSteps - Test environment is ready for execution
+2025-12-14 23:26:36.350 [TestNG-PoolService-1] DEBUG [1f546631-de88-4512-8096-6a1f628fd714] [User registration with duplicate username] c.e.api.utils.TestDataManager - Created test user with specific username: test_testuser123
+2025-12-14 23:26:36.466 [TestNG-PoolService-0] DEBUG [79b80eb1-c653-4c85-a245-7e1d92ee52a3] [Get all products successfully] c.e.a.s.ProductApiSteps - Valid JSON array validation passed with 7 items
+2025-12-14 23:26:36.566 [TestNG-PoolService-0] INFO  [79b80eb1-c653-4c85-a245-7e1d92ee52a3] [Get all products successfully] com.ecommerce.api.runners.TestHooks - Completing scenario: Get all products successfully - Status: FAILED - Duration: 2293ms
+2025-12-14 23:26:36.567 [TestNG-PoolService-0] ERROR [79b80eb1-c653-4c85-a245-7e1d92ee52a3] [NO_SCENARIO] com.ecommerce.api.runners.TestHooks - Scenario 'Get all products successfully' failed after 2293ms
+2025-12-14 23:26:36.572 [TestNG-PoolService-0] INFO  [79b80eb1-c653-4c85-a245-7e1d92ee52a3] [NO_SCENARIO] c.e.api.utils.TestIsolationManager - Ended test session: d6e821fa-c3cb-4726-a51b-af97dab16f0e with cleanup result: CleanupResult{processed=0, cleaned=0, success=true}
+2025-12-14 23:26:36.574 [TestNG-PoolService-0] INFO  [79b80eb1-c653-4c85-a245-7e1d92ee52a3] [NO_SCENARIO] com.ecommerce.api.runners.TestHooks - Scenario 'Get all products successfully' cleanup completed
+2025-12-14 23:26:36.575 [TestNG-PoolService-1] DEBUG [1f546631-de88-4512-8096-6a1f628fd714] [User registration with duplicate username] c.e.api.stepdefinitions.UserApiSteps - Pre-registered user 'testuser123' with status: 401
+2025-12-14 23:26:36.576 [TestNG-PoolService-0] INFO  [NO_ID] [NO_SCENARIO] c.e.api.stepdefinitions.UserApiSteps - Cleaning up UserApiSteps for session: session_1765734994270
+2025-12-14 23:26:36.576 [TestNG-PoolService-1] DEBUG [1f546631-de88-4512-8096-6a1f628fd714] [User registration with duplicate username] c.e.api.utils.TestDataManager - Created test user with specific username: test_testuser123
+2025-12-14 23:26:36.576 [TestNG-PoolService-1] DEBUG [1f546631-de88-4512-8096-6a1f628fd714] [User registration with duplicate username] c.e.api.stepdefinitions.UserApiSteps - Created registration data with duplicate username: testuser123
+2025-12-14 23:26:36.576 [TestNG-PoolService-0] DEBUG [NO_ID] [NO_SCENARIO] c.e.api.utils.TestDataManager - No test session found for cleanup: session_1765734994270
+2025-12-14 23:26:36.583 [TestNG-PoolService-0] DEBUG [NO_ID] [NO_SCENARIO] c.e.api.stepdefinitions.UserApiSteps - Cleaned up 0 test users for session: session_1765734994270
+2025-12-14 23:26:36.583 [TestNG-PoolService-0] DEBUG [NO_ID] [NO_SCENARIO] c.e.api.stepdefinitions.UserApiSteps - UserApiSteps cleanup completed for session: session_1765734994270
+2025-12-14 23:26:36.584 [TestNG-PoolService-0] INFO  [NO_ID] [NO_SCENARIO] c.e.a.s.ProductApiSteps - Cleaning up ProductApiSteps for session: product_session_1765734994261
+2025-12-14 23:26:36.585 [TestNG-PoolService-0] DEBUG [NO_ID] [NO_SCENARIO] c.e.a.s.ProductApiSteps - ProductApiSteps cleanup completed for session: product_session_1765734994261
+2025-12-14 23:26:36.602 [TestNG-PoolService-2] INFO  [47c18c6f-b18d-4422-a7db-41567fb22ebe] [Valid user registration with unique username] c.e.api.stepdefinitions.UserApiSteps - Sent POST request to /signup with user data. Status: 200
+2025-12-14 23:26:36.602 [TestNG-PoolService-2] INFO  [47c18c6f-b18d-4422-a7db-41567fb22ebe] [Valid user registration with unique username] c.e.api.stepdefinitions.CommonSteps - Validating response status code. Expected: 200, Actual: 200
+2025-12-14 23:26:36.603 [TestNG-PoolService-2] DEBUG [47c18c6f-b18d-4422-a7db-41567fb22ebe] [Valid user registration with unique username] c.e.api.stepdefinitions.UserApiSteps - Success message validation passed
+2025-12-14 23:26:36.623 [TestNG-PoolService-1] INFO  [1f546631-de88-4512-8096-6a1f628fd714] [User registration with duplicate username] c.e.api.stepdefinitions.UserApiSteps - Sent POST request to /signup with duplicate username data. Status: 401
+2025-12-14 23:26:36.624 [TestNG-PoolService-1] INFO  [1f546631-de88-4512-8096-6a1f628fd714] [User registration with duplicate username] c.e.api.stepdefinitions.CommonSteps - Validating response status code. Expected: 401, Actual: 401
+2025-12-14 23:26:36.625 [TestNG-PoolService-1] DEBUG [1f546631-de88-4512-8096-6a1f628fd714] [User registration with duplicate username] c.e.api.stepdefinitions.UserApiSteps - Duplicate username error message validation passed
+2025-12-14 23:26:36.626 [TestNG-PoolService-1] DEBUG [1f546631-de88-4512-8096-6a1f628fd714] [User registration with duplicate username] c.e.api.stepdefinitions.UserApiSteps - No new user creation validation passed
+2025-12-14 23:26:36.627 [TestNG-PoolService-1] INFO  [1f546631-de88-4512-8096-6a1f628fd714] [User registration with duplicate username] com.ecommerce.api.runners.TestHooks - Completing scenario: User registration with duplicate username - Status: PASSED - Duration: 284ms
+2025-12-14 23:26:36.627 [TestNG-PoolService-1] INFO  [1f546631-de88-4512-8096-6a1f628fd714] [NO_SCENARIO] com.ecommerce.api.runners.TestHooks - Scenario 'User registration with duplicate username' passed in 284ms
+2025-12-14 23:26:36.628 [TestNG-PoolService-1] INFO  [1f546631-de88-4512-8096-6a1f628fd714] [NO_SCENARIO] c.e.api.utils.TestIsolationManager - Ended test session: 4522d6b3-e389-40e4-8f76-4b744ced6096 with cleanup result: CleanupResult{processed=0, cleaned=0, success=true}
+2025-12-14 23:26:36.628 [TestNG-PoolService-1] INFO  [1f546631-de88-4512-8096-6a1f628fd714] [NO_SCENARIO] com.ecommerce.api.runners.TestHooks - Scenario 'User registration with duplicate username' cleanup completed
+2025-12-14 23:26:36.629 [TestNG-PoolService-1] INFO  [NO_ID] [NO_SCENARIO] c.e.api.stepdefinitions.UserApiSteps - Cleaning up UserApiSteps for session: session_1765734996342
+2025-12-14 23:26:36.629 [TestNG-PoolService-1] DEBUG [NO_ID] [NO_SCENARIO] c.e.api.utils.TestDataManager - No test session found for cleanup: session_1765734996342
+2025-12-14 23:26:36.629 [TestNG-PoolService-1] DEBUG [NO_ID] [NO_SCENARIO] c.e.api.stepdefinitions.UserApiSteps - Cleaned up 0 test users for session: session_1765734996342
+2025-12-14 23:26:36.631 [TestNG-PoolService-1] DEBUG [NO_ID] [NO_SCENARIO] c.e.api.stepdefinitions.UserApiSteps - UserApiSteps cleanup completed for session: session_1765734996342
+2025-12-14 23:26:36.632 [TestNG-PoolService-1] INFO  [NO_ID] [NO_SCENARIO] c.e.a.s.ProductApiSteps - Cleaning up ProductApiSteps for session: product_session_1765734996341
+2025-12-14 23:26:36.634 [TestNG-PoolService-1] DEBUG [NO_ID] [NO_SCENARIO] c.e.a.s.ProductApiSteps - ProductApiSteps cleanup completed for session: product_session_1765734996341
+2025-12-14 23:26:36.652 [TestNG-PoolService-0] INFO  [NO_ID] [NO_SCENARIO] c.e.a.s.ProductApiSteps - Setting up ProductApiSteps for new scenario
+2025-12-14 23:26:36.653 [TestNG-PoolService-0] DEBUG [NO_ID] [NO_SCENARIO] c.e.a.s.ProductApiSteps - ProductApiSteps setup completed for session: product_session_1765734996652
+2025-12-14 23:26:36.653 [TestNG-PoolService-0] INFO  [NO_ID] [NO_SCENARIO] c.e.api.stepdefinitions.UserApiSteps - Setting up UserApiSteps for new scenario
+2025-12-14 23:26:36.653 [TestNG-PoolService-0] DEBUG [NO_ID] [NO_SCENARIO] c.e.api.stepdefinitions.UserApiSteps - UserApiSteps setup completed for session: session_1765734996653
+2025-12-14 23:26:36.654 [TestNG-PoolService-0] INFO  [4187a3e6-3839-4277-b856-4136d7555f91] [Valid user login with correct credentials] com.ecommerce.api.runners.TestHooks - Starting scenario: Valid user login with correct credentials with correlation ID: 8b66cd7a-a714-492b-bc4a-8a27481179d0
+2025-12-14 23:26:36.654 [TestNG-PoolService-0] DEBUG [4187a3e6-3839-4277-b856-4136d7555f91] [Valid user login with correct credentials] c.e.api.utils.TestIsolationManager - Started test session: 1b30c616-719f-4eba-a7dd-9229d17b0023 for test: Valid user login with correct credentials
+2025-12-14 23:26:36.655 [TestNG-PoolService-0] INFO  [4187a3e6-3839-4277-b856-4136d7555f91] [Valid user login with correct credentials] com.ecommerce.api.runners.TestHooks - Scenario 'Valid user login with correct credentials' setup completed with session: 1b30c616-719f-4eba-a7dd-9229d17b0023
+2025-12-14 23:26:36.655 [TestNG-PoolService-0] INFO  [4187a3e6-3839-4277-b856-4136d7555f91] [Valid user login with correct credentials] com.ecommerce.api.runners.TestHooks - Executing SMOKE TEST: Valid user login with correct credentials
+2025-12-14 23:26:36.656 [TestNG-PoolService-0] INFO  [4187a3e6-3839-4277-b856-4136d7555f91] [Valid user login with correct credentials] c.e.api.stepdefinitions.CommonSteps - API base URL configured: http://localhost:8000
+2025-12-14 23:26:36.692 [TestNG-PoolService-0] INFO  [4187a3e6-3839-4277-b856-4136d7555f91] [Valid user login with correct credentials] c.e.api.stepdefinitions.CommonSteps - Verifying test environment readiness
+2025-12-14 23:26:36.702 [TestNG-PoolService-1] INFO  [NO_ID] [NO_SCENARIO] c.e.a.s.ProductApiSteps - Setting up ProductApiSteps for new scenario
+2025-12-14 23:26:36.705 [TestNG-PoolService-1] DEBUG [NO_ID] [NO_SCENARIO] c.e.a.s.ProductApiSteps - ProductApiSteps setup completed for session: product_session_1765734996705
+2025-12-14 23:26:36.705 [TestNG-PoolService-0] INFO  [4187a3e6-3839-4277-b856-4136d7555f91] [Valid user login with correct credentials] c.e.api.stepdefinitions.CommonSteps - Test environment is ready for execution
+2025-12-14 23:26:36.706 [TestNG-PoolService-1] INFO  [NO_ID] [NO_SCENARIO] c.e.api.stepdefinitions.UserApiSteps - Setting up UserApiSteps for new scenario
+2025-12-14 23:26:36.706 [TestNG-PoolService-1] DEBUG [NO_ID] [NO_SCENARIO] c.e.api.stepdefinitions.UserApiSteps - UserApiSteps setup completed for session: session_1765734996706
+2025-12-14 23:26:36.707 [TestNG-PoolService-1] INFO  [NO_ID] [NO_SCENARIO] com.ecommerce.api.runners.TestHooks - Executing REGRESSION TEST: User login with invalid username
+2025-12-14 23:26:36.708 [TestNG-PoolService-1] INFO  [6cf35ddd-7abf-446b-8878-ebdadaa11f04] [User login with invalid username] com.ecommerce.api.runners.TestHooks - Starting scenario: User login with invalid username with correlation ID: 36230632-13e5-4d71-b4e8-5e44eff0877c
+2025-12-14 23:26:36.708 [TestNG-PoolService-1] DEBUG [6cf35ddd-7abf-446b-8878-ebdadaa11f04] [User login with invalid username] c.e.api.utils.TestIsolationManager - Started test session: 95f84061-3cd4-48cc-b00b-1de493ec6a35 for test: User login with invalid username
+2025-12-14 23:26:36.708 [TestNG-PoolService-1] INFO  [6cf35ddd-7abf-446b-8878-ebdadaa11f04] [User login with invalid username] com.ecommerce.api.runners.TestHooks - Scenario 'User login with invalid username' setup completed with session: 95f84061-3cd4-48cc-b00b-1de493ec6a35
+2025-12-14 23:26:36.709 [TestNG-PoolService-1] INFO  [6cf35ddd-7abf-446b-8878-ebdadaa11f04] [User login with invalid username] c.e.api.stepdefinitions.CommonSteps - API base URL configured: http://localhost:8000
+2025-12-14 23:26:36.710 [TestNG-PoolService-1] INFO  [6cf35ddd-7abf-446b-8878-ebdadaa11f04] [User login with invalid username] c.e.api.stepdefinitions.CommonSteps - Verifying test environment readiness
+2025-12-14 23:26:36.710 [TestNG-PoolService-1] INFO  [6cf35ddd-7abf-446b-8878-ebdadaa11f04] [User login with invalid username] c.e.api.stepdefinitions.CommonSteps - Test environment is ready for execution
+2025-12-14 23:26:36.716 [TestNG-PoolService-1] DEBUG [6cf35ddd-7abf-446b-8878-ebdadaa11f04] [User login with invalid username] c.e.api.stepdefinitions.UserApiSteps - Created login credentials with username: nonexistentuser and password: [PROTECTED]
+2025-12-14 23:26:36.768 [TestNG-PoolService-1] INFO  [6cf35ddd-7abf-446b-8878-ebdadaa11f04] [User login with invalid username] c.e.api.stepdefinitions.UserApiSteps - Sent POST request to /login with invalid username. Status: 401
+2025-12-14 23:26:36.769 [TestNG-PoolService-1] INFO  [6cf35ddd-7abf-446b-8878-ebdadaa11f04] [User login with invalid username] c.e.api.stepdefinitions.CommonSteps - Validating response status code. Expected: 401, Actual: 401
+2025-12-14 23:26:36.769 [TestNG-PoolService-0] DEBUG [4187a3e6-3839-4277-b856-4136d7555f91] [Valid user login with correct credentials] c.e.api.stepdefinitions.UserApiSteps - Pre-registered user 'validuser' for login testing with status: 401
+2025-12-14 23:26:36.770 [TestNG-PoolService-1] DEBUG [6cf35ddd-7abf-446b-8878-ebdadaa11f04] [User login with invalid username] c.e.api.stepdefinitions.UserApiSteps - Invalid credentials error message validation passed
+2025-12-14 23:26:36.770 [TestNG-PoolService-0] DEBUG [4187a3e6-3839-4277-b856-4136d7555f91] [Valid user login with correct credentials] c.e.api.stepdefinitions.UserApiSteps - Created valid login credentials for username: validuser
+2025-12-14 23:26:36.771 [TestNG-PoolService-1] DEBUG [6cf35ddd-7abf-446b-8878-ebdadaa11f04] [User login with invalid username] c.e.api.stepdefinitions.UserApiSteps - No authentication token validation passed
+2025-12-14 23:26:36.772 [TestNG-PoolService-1] INFO  [6cf35ddd-7abf-446b-8878-ebdadaa11f04] [User login with invalid username] com.ecommerce.api.runners.TestHooks - Completing scenario: User login with invalid username - Status: PASSED - Duration: 63ms
+2025-12-14 23:26:36.772 [TestNG-PoolService-1] INFO  [6cf35ddd-7abf-446b-8878-ebdadaa11f04] [NO_SCENARIO] com.ecommerce.api.runners.TestHooks - Scenario 'User login with invalid username' passed in 63ms
+2025-12-14 23:26:36.772 [TestNG-PoolService-1] INFO  [6cf35ddd-7abf-446b-8878-ebdadaa11f04] [NO_SCENARIO] c.e.api.utils.TestIsolationManager - Ended test session: 95f84061-3cd4-48cc-b00b-1de493ec6a35 with cleanup result: CleanupResult{processed=0, cleaned=0, success=true}
+2025-12-14 23:26:36.772 [TestNG-PoolService-1] INFO  [6cf35ddd-7abf-446b-8878-ebdadaa11f04] [NO_SCENARIO] com.ecommerce.api.runners.TestHooks - Scenario 'User login with invalid username' cleanup completed
+2025-12-14 23:26:36.773 [TestNG-PoolService-1] INFO  [NO_ID] [NO_SCENARIO] c.e.api.stepdefinitions.UserApiSteps - Cleaning up UserApiSteps for session: session_1765734996706
+2025-12-14 23:26:36.774 [TestNG-PoolService-1] DEBUG [NO_ID] [NO_SCENARIO] c.e.api.utils.TestDataManager - No test session found for cleanup: session_1765734996706
+2025-12-14 23:26:36.774 [TestNG-PoolService-1] DEBUG [NO_ID] [NO_SCENARIO] c.e.api.stepdefinitions.UserApiSteps - Cleaned up 0 test users for session: session_1765734996706
+2025-12-14 23:26:36.774 [TestNG-PoolService-1] DEBUG [NO_ID] [NO_SCENARIO] c.e.api.stepdefinitions.UserApiSteps - UserApiSteps cleanup completed for session: session_1765734996706
+2025-12-14 23:26:36.775 [TestNG-PoolService-1] INFO  [NO_ID] [NO_SCENARIO] c.e.a.s.ProductApiSteps - Cleaning up ProductApiSteps for session: product_session_1765734996705
+2025-12-14 23:26:36.775 [TestNG-PoolService-1] DEBUG [NO_ID] [NO_SCENARIO] c.e.a.s.ProductApiSteps - ProductApiSteps cleanup completed for session: product_session_1765734996705
+2025-12-14 23:26:36.818 [TestNG-PoolService-0] INFO  [4187a3e6-3839-4277-b856-4136d7555f91] [Valid user login with correct credentials] c.e.api.stepdefinitions.UserApiSteps - Sent POST request to /login with valid credentials. Status: 200
+2025-12-14 23:26:36.819 [TestNG-PoolService-0] INFO  [4187a3e6-3839-4277-b856-4136d7555f91] [Valid user login with correct credentials] c.e.api.stepdefinitions.CommonSteps - Validating response status code. Expected: 200, Actual: 200
+2025-12-14 23:26:36.820 [TestNG-PoolService-0] DEBUG [4187a3e6-3839-4277-b856-4136d7555f91] [Valid user login with correct credentials] c.e.api.stepdefinitions.UserApiSteps - User data JSON validation passed
+2025-12-14 23:26:36.822 [TestNG-PoolService-0] INFO  [4187a3e6-3839-4277-b856-4136d7555f91] [Valid user login with correct credentials] com.ecommerce.api.runners.TestHooks - Completing scenario: Valid user login with correct credentials - Status: FAILED - Duration: 167ms
+2025-12-14 23:26:36.822 [TestNG-PoolService-0] ERROR [4187a3e6-3839-4277-b856-4136d7555f91] [NO_SCENARIO] com.ecommerce.api.runners.TestHooks - Scenario 'Valid user login with correct credentials' failed after 167ms
+2025-12-14 23:26:36.823 [TestNG-PoolService-0] INFO  [4187a3e6-3839-4277-b856-4136d7555f91] [NO_SCENARIO] c.e.api.utils.TestIsolationManager - Ended test session: 1b30c616-719f-4eba-a7dd-9229d17b0023 with cleanup result: CleanupResult{processed=0, cleaned=0, success=true}
+2025-12-14 23:26:36.823 [TestNG-PoolService-0] INFO  [4187a3e6-3839-4277-b856-4136d7555f91] [NO_SCENARIO] com.ecommerce.api.runners.TestHooks - Scenario 'Valid user login with correct credentials' cleanup completed
+2025-12-14 23:26:36.823 [TestNG-PoolService-0] INFO  [NO_ID] [NO_SCENARIO] c.e.api.stepdefinitions.UserApiSteps - Cleaning up UserApiSteps for session: session_1765734996653
+2025-12-14 23:26:36.824 [TestNG-PoolService-0] DEBUG [NO_ID] [NO_SCENARIO] c.e.api.utils.TestDataManager - No test session found for cleanup: session_1765734996653
+2025-12-14 23:26:36.824 [TestNG-PoolService-0] DEBUG [NO_ID] [NO_SCENARIO] c.e.api.stepdefinitions.UserApiSteps - Cleaned up 0 test users for session: session_1765734996653
+2025-12-14 23:26:36.824 [TestNG-PoolService-0] DEBUG [NO_ID] [NO_SCENARIO] c.e.api.stepdefinitions.UserApiSteps - UserApiSteps cleanup completed for session: session_1765734996653
+2025-12-14 23:26:36.824 [TestNG-PoolService-0] INFO  [NO_ID] [NO_SCENARIO] c.e.a.s.ProductApiSteps - Cleaning up ProductApiSteps for session: product_session_1765734996652
+2025-12-14 23:26:36.824 [TestNG-PoolService-0] DEBUG [NO_ID] [NO_SCENARIO] c.e.a.s.ProductApiSteps - ProductApiSteps cleanup completed for session: product_session_1765734996652
+2025-12-14 23:26:37.463 [TestNG-PoolService-2] DEBUG [47c18c6f-b18d-4422-a7db-41567fb22ebe] [Valid user registration with unique username] c.e.api.stepdefinitions.UserApiSteps - User data structure validation passed
+2025-12-14 23:26:37.470 [TestNG-PoolService-2] DEBUG [47c18c6f-b18d-4422-a7db-41567fb22ebe] [Valid user registration with unique username] c.e.api.stepdefinitions.UserApiSteps - User creation validation passed
+2025-12-14 23:26:37.471 [TestNG-PoolService-2] INFO  [47c18c6f-b18d-4422-a7db-41567fb22ebe] [Valid user registration with unique username] com.ecommerce.api.runners.TestHooks - Completing scenario: Valid user registration with unique username - Status: PASSED - Duration: 1151ms
+2025-12-14 23:26:37.471 [TestNG-PoolService-2] INFO  [47c18c6f-b18d-4422-a7db-41567fb22ebe] [NO_SCENARIO] com.ecommerce.api.runners.TestHooks - Scenario 'Valid user registration with unique username' passed in 1151ms
+2025-12-14 23:26:37.471 [TestNG-PoolService-2] INFO  [47c18c6f-b18d-4422-a7db-41567fb22ebe] [NO_SCENARIO] c.e.api.utils.TestIsolationManager - Ended test session: f7c91801-18b5-490f-a074-c9aca525d6de with cleanup result: CleanupResult{processed=0, cleaned=0, success=true}
+2025-12-14 23:26:37.471 [TestNG-PoolService-2] INFO  [47c18c6f-b18d-4422-a7db-41567fb22ebe] [NO_SCENARIO] com.ecommerce.api.runners.TestHooks - Scenario 'Valid user registration with unique username' cleanup completed
+2025-12-14 23:26:37.472 [TestNG-PoolService-2] INFO  [NO_ID] [NO_SCENARIO] c.e.api.stepdefinitions.UserApiSteps - Cleaning up UserApiSteps for session: session_1765734996319
+2025-12-14 23:26:37.472 [TestNG-PoolService-2] INFO  [NO_ID] [NO_SCENARIO] c.e.api.utils.TestDataManager - Cleaned up 1 test users for session: session_1765734996319
+2025-12-14 23:26:37.472 [TestNG-PoolService-2] DEBUG [NO_ID] [NO_SCENARIO] c.e.api.stepdefinitions.UserApiSteps - Cleaned up 1 test users for session: session_1765734996319
+2025-12-14 23:26:37.472 [TestNG-PoolService-2] DEBUG [NO_ID] [NO_SCENARIO] c.e.api.stepdefinitions.UserApiSteps - UserApiSteps cleanup completed for session: session_1765734996319
+2025-12-14 23:26:37.473 [TestNG-PoolService-2] INFO  [NO_ID] [NO_SCENARIO] c.e.a.s.ProductApiSteps - Cleaning up ProductApiSteps for session: product_session_1765734996318
+2025-12-14 23:26:37.473 [TestNG-PoolService-2] DEBUG [NO_ID] [NO_SCENARIO] c.e.a.s.ProductApiSteps - ProductApiSteps cleanup completed for session: product_session_1765734996318
+2025-12-14 23:26:37.482 [TestNG-test=Surefire test-1] INFO  [NO_ID] [NO_SCENARIO] c.e.api.runners.TestSuiteHooks - === API Test Suite Completing ===
+2025-12-14 23:26:37.486 [TestNG-test=Surefire test-1] INFO  [NO_ID] [NO_SCENARIO] c.e.api.runners.TestSuiteHooks - Test suite completed successfully
+2025-12-14 23:26:37.486 [TestNG-test=Surefire test-1] INFO  [NO_ID] [NO_SCENARIO] c.e.api.runners.TestSuiteHooks - Performance metrics and reports generated
+2025-12-14 23:26:37.486 [TestNG-test=Surefire test-1] INFO  [NO_ID] [NO_SCENARIO] c.e.api.runners.TestSuiteHooks - === API Test Suite Finished ===
+2025-12-14 23:27:03.893 [TestNG-test=Surefire test-1] INFO  [NO_ID] [NO_SCENARIO] c.e.api.config.ConfigurationManager - Successfully loaded configuration for environment: dev
+2025-12-14 23:27:04.578 [TestNG-test=Surefire test-3] INFO  [NO_ID] [NO_SCENARIO] c.e.api.config.ConfigurationManager - Successfully loaded configuration for environment: test
+2025-12-14 23:27:04.579 [TestNG-test=Surefire test-3] INFO  [NO_ID] [NO_SCENARIO] c.e.api.config.ConfigurationManager - Environment changed to: test
+2025-12-14 23:27:04.581 [TestNG-test=Surefire test-3] INFO  [NO_ID] [NO_SCENARIO] c.e.api.config.ConfigurationManager - Successfully loaded configuration for environment: staging
+2025-12-14 23:27:04.581 [TestNG-test=Surefire test-3] INFO  [NO_ID] [NO_SCENARIO] c.e.api.config.ConfigurationManager - Environment changed to: staging
+2025-12-14 23:27:04.588 [TestNG-test=Surefire test-3] INFO  [NO_ID] [NO_SCENARIO] c.e.api.config.ConfigurationManager - Successfully loaded configuration for environment: dev
+2025-12-14 23:27:04.590 [TestNG-test=Surefire test-3] INFO  [NO_ID] [NO_SCENARIO] c.e.api.config.ConfigurationManager - Environment changed to: dev
+2025-12-14 23:27:04.594 [TestNG-test=Surefire test-3] INFO  [NO_ID] [NO_SCENARIO] c.e.api.utils.TestDataManager - TestDataManager initialized
+2025-12-14 23:27:04.596 [TestNG-test=Surefire test-3] INFO  [NO_ID] [NO_SCENARIO] c.e.api.utils.TestIsolationManager - TestIsolationManager initialized
+2025-12-14 23:27:04.598 [TestNG-test=Surefire test-2] INFO  [NO_ID] [NO_SCENARIO] c.e.api.utils.TestDataManager - Cleaned up all test data. Total users removed: 0
+2025-12-14 23:27:04.598 [TestNG-test=Surefire test-1] INFO  [NO_ID] [NO_SCENARIO] c.e.api.utils.TestDataManager - Cleaned up all test data. Total users removed: 0
+2025-12-14 23:27:04.606 [TestNG-test=Surefire test-3] INFO  [NO_ID] [NO_SCENARIO] c.e.api.utils.TestDataManager - Cleaned up all test data. Total users removed: 0
+2025-12-14 23:27:04.615 [TestNG-test=Surefire test-1] INFO  [NO_ID] [NO_SCENARIO] c.e.api.utils.TestDataManager - Cleaned up all test data. Total users removed: 6
+2025-12-14 23:27:04.615 [TestNG-test=Surefire test-3] INFO  [NO_ID] [NO_SCENARIO] c.e.api.utils.TestDataManager - Created 5 test users for session: null
+2025-12-14 23:27:04.615 [TestNG-test=Surefire test-1] WARN  [NO_ID] [NO_SCENARIO] c.e.api.utils.TestIsolationManager - Performing force cleanup of all active sessions
+2025-12-14 23:27:04.617 [TestNG-test=Surefire test-1] INFO  [NO_ID] [NO_SCENARIO] c.e.api.utils.TestIsolationManager - Force cleanup completed. Total resources cleaned: 0
+2025-12-14 23:27:04.620 [TestNG-test=Surefire test-3] INFO  [NO_ID] [NO_SCENARIO] c.e.api.utils.TestDataManager - Cleaned up all test data. Total users removed: 0
+2025-12-14 23:27:04.620 [TestNG-test=Surefire test-3] WARN  [NO_ID] [NO_SCENARIO] c.e.api.utils.TestIsolationManager - Performing force cleanup of all active sessions
+2025-12-14 23:27:04.620 [TestNG-test=Surefire test-3] INFO  [NO_ID] [NO_SCENARIO] c.e.api.utils.TestIsolationManager - Force cleanup completed. Total resources cleaned: 0
+2025-12-14 23:27:04.620 [TestNG-test=Surefire test-1] INFO  [NO_ID] [NO_SCENARIO] c.e.api.utils.TestDataManager - Cleaned up all test data. Total users removed: 0
+2025-12-14 23:27:04.621 [TestNG-test=Surefire test-3] INFO  [NO_ID] [NO_SCENARIO] c.e.api.utils.TestDataManager - Cleaned up all test data. Total users removed: 0
+2025-12-14 23:27:04.624 [TestNG-test=Surefire test-3] INFO  [NO_ID] [NO_SCENARIO] c.e.api.utils.TestDataManager - Created 3 test users for session: null
+2025-12-14 23:27:04.629 [TestNG-test=Surefire test-1] INFO  [NO_ID] [NO_SCENARIO] c.e.api.utils.TestDataManager - Cleaned up all test data. Total users removed: 6
+2025-12-14 23:27:04.629 [TestNG-test=Surefire test-1] WARN  [NO_ID] [NO_SCENARIO] c.e.api.utils.TestIsolationManager - Performing force cleanup of all active sessions
+2025-12-14 23:27:04.629 [TestNG-test=Surefire test-1] INFO  [NO_ID] [NO_SCENARIO] c.e.api.utils.TestIsolationManager - Force cleanup completed. Total resources cleaned: 0
+2025-12-14 23:27:04.630 [TestNG-test=Surefire test-1] INFO  [NO_ID] [NO_SCENARIO] c.e.api.utils.TestDataManager - Cleaned up all test data. Total users removed: 0
+2025-12-14 23:27:04.631 [TestNG-test=Surefire test-3] INFO  [NO_ID] [NO_SCENARIO] c.e.api.utils.TestDataManager - Created 2 test users for session: session1
+2025-12-14 23:27:04.636 [TestNG-test=Surefire test-1] INFO  [NO_ID] [NO_SCENARIO] c.e.api.utils.TestDataManager - Created 3 test users for session: test_session_1
+2025-12-14 23:27:04.647 [TestNG-test=Surefire test-3] INFO  [NO_ID] [NO_SCENARIO] c.e.api.utils.TestDataManager - Cleaned up all test data. Total users removed: 4
+2025-12-14 23:27:04.647 [TestNG-test=Surefire test-3] WARN  [NO_ID] [NO_SCENARIO] c.e.api.utils.TestIsolationManager - Performing force cleanup of all active sessions
+2025-12-14 23:27:04.647 [TestNG-test=Surefire test-3] INFO  [NO_ID] [NO_SCENARIO] c.e.api.utils.TestIsolationManager - Force cleanup completed. Total resources cleaned: 0
+2025-12-14 23:27:04.648 [TestNG-test=Surefire test-3] INFO  [NO_ID] [NO_SCENARIO] c.e.api.utils.TestDataManager - Cleaned up all test data. Total users removed: 0
+2025-12-14 23:27:04.659 [TestNG-test=Surefire test-3] WARN  [NO_ID] [NO_SCENARIO] com.ecommerce.api.models.TestUser - Test user validation failed for username: . Errors: Username is required; Password is required; Email format is invalid
+2025-12-14 23:27:04.661 [TestNG-test=Surefire test-3] INFO  [NO_ID] [NO_SCENARIO] c.e.api.utils.TestDataManager - Cleaned up all test data. Total users removed: 1
+2025-12-14 23:27:04.661 [TestNG-test=Surefire test-3] WARN  [NO_ID] [NO_SCENARIO] c.e.api.utils.TestIsolationManager - Performing force cleanup of all active sessions
+2025-12-14 23:27:04.661 [TestNG-test=Surefire test-3] INFO  [NO_ID] [NO_SCENARIO] c.e.api.utils.TestIsolationManager - Force cleanup completed. Total resources cleaned: 0
+2025-12-14 23:27:04.663 [TestNG-test=Surefire test-3] INFO  [NO_ID] [NO_SCENARIO] c.e.api.utils.TestDataManager - Cleaned up all test data. Total users removed: 0
+2025-12-14 23:27:04.664 [TestNG-test=Surefire test-1] INFO  [NO_ID] [NO_SCENARIO] c.e.api.utils.TestDataManager - Cleaned up all test data. Total users removed: 0
+2025-12-14 23:27:04.664 [TestNG-test=Surefire test-1] WARN  [NO_ID] [NO_SCENARIO] c.e.api.utils.TestIsolationManager - Performing force cleanup of all active sessions
+2025-12-14 23:27:04.664 [TestNG-test=Surefire test-1] INFO  [NO_ID] [NO_SCENARIO] c.e.api.utils.TestIsolationManager - Force cleanup completed. Total resources cleaned: 0
+2025-12-14 23:27:04.668 [TestNG-test=Surefire test-1] INFO  [NO_ID] [NO_SCENARIO] c.e.api.utils.TestDataManager - Cleaned up all test data. Total users removed: 0
+2025-12-14 23:27:04.669 [TestNG-test=Surefire test-3] INFO  [NO_ID] [NO_SCENARIO] c.e.api.utils.TestDataManager - Cleaned up all test data. Total users removed: 0
+2025-12-14 23:27:04.669 [TestNG-test=Surefire test-3] WARN  [NO_ID] [NO_SCENARIO] c.e.api.utils.TestIsolationManager - Performing force cleanup of all active sessions
+2025-12-14 23:27:04.670 [TestNG-test=Surefire test-3] INFO  [NO_ID] [NO_SCENARIO] c.e.api.utils.TestIsolationManager - Force cleanup completed. Total resources cleaned: 0
+2025-12-14 23:27:04.672 [TestNG-test=Surefire test-1] INFO  [NO_ID] [NO_SCENARIO] c.e.api.utils.TestDataManager - Cleaned up all test data. Total users removed: 1
+2025-12-14 23:27:04.672 [TestNG-test=Surefire test-1] WARN  [NO_ID] [NO_SCENARIO] c.e.api.utils.TestIsolationManager - Performing force cleanup of all active sessions
+2025-12-14 23:27:04.672 [TestNG-test=Surefire test-1] INFO  [NO_ID] [NO_SCENARIO] c.e.api.utils.TestIsolationManager - Force cleanup completed. Total resources cleaned: 0
+2025-12-14 23:27:04.673 [TestNG-test=Surefire test-3] INFO  [NO_ID] [NO_SCENARIO] c.e.api.utils.TestDataManager - Cleaned up all test data. Total users removed: 0
+2025-12-14 23:27:04.673 [TestNG-test=Surefire test-2] INFO  [NO_ID] [NO_SCENARIO] c.e.api.utils.TestDataManager - Cleaned up all test data. Total users removed: 0
+2025-12-14 23:27:04.673 [TestNG-test=Surefire test-2] WARN  [NO_ID] [NO_SCENARIO] c.e.api.utils.TestIsolationManager - Performing force cleanup of all active sessions
+2025-12-14 23:27:04.674 [TestNG-test=Surefire test-2] INFO  [NO_ID] [NO_SCENARIO] c.e.api.utils.TestIsolationManager - Force cleanup completed. Total resources cleaned: 0
+2025-12-14 23:27:04.681 [TestNG-test=Surefire test-3] INFO  [NO_ID] [NO_SCENARIO] c.e.api.utils.TestDataManager - Cleaned up all test data. Total users removed: 1
+2025-12-14 23:27:04.681 [TestNG-test=Surefire test-3] WARN  [NO_ID] [NO_SCENARIO] c.e.api.utils.TestIsolationManager - Performing force cleanup of all active sessions
+2025-12-14 23:27:04.681 [TestNG-test=Surefire test-3] INFO  [NO_ID] [NO_SCENARIO] c.e.api.utils.TestIsolationManager - Force cleanup completed. Total resources cleaned: 0

@@ -1,0 +1,347 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="32" passed="30" failed="2" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2025-12-14T23:27:03 IST" name="Surefire suite" finished-at="2025-12-14T23:27:04 IST" duration-ms="844">
+    <groups>
+    </groups>
+    <test started-at="2025-12-14T23:27:03 IST" name="Surefire test" finished-at="2025-12-14T23:27:04 IST" duration-ms="844">
+      <class name="com.ecommerce.api.config.ConfigurationManagerTest">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.ecommerce.api.config.ConfigurationManagerTest@4082ba93]" started-at="2025-12-14T23:27:04 IST" name="setUp" finished-at="2025-12-14T23:27:04 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="testApiEndpoints()[pri:0, instance:com.ecommerce.api.config.ConfigurationManagerTest@4082ba93]" started-at="2025-12-14T23:27:04 IST" name="testApiEndpoints" finished-at="2025-12-14T23:27:04 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testApiEndpoints -->
+        <test-method signature="testConfigurationHelper()[pri:0, instance:com.ecommerce.api.config.ConfigurationManagerTest@4082ba93]" started-at="2025-12-14T23:27:04 IST" name="testConfigurationHelper" finished-at="2025-12-14T23:27:04 IST" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testConfigurationHelper -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.ecommerce.api.config.ConfigurationManagerTest@4082ba93]" started-at="2025-12-14T23:27:04 IST" name="setUp" finished-at="2025-12-14T23:27:04 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.ecommerce.api.config.ConfigurationManagerTest@4082ba93]" started-at="2025-12-14T23:27:04 IST" name="setUp" finished-at="2025-12-14T23:27:04 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="testConvenienceMethods()[pri:0, instance:com.ecommerce.api.config.ConfigurationManagerTest@4082ba93]" started-at="2025-12-14T23:27:04 IST" name="testConvenienceMethods" finished-at="2025-12-14T23:27:04 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testConvenienceMethods -->
+        <test-method signature="testDefaultEnvironmentLoading()[pri:0, instance:com.ecommerce.api.config.ConfigurationManagerTest@4082ba93]" started-at="2025-12-14T23:27:04 IST" name="testDefaultEnvironmentLoading" finished-at="2025-12-14T23:27:04 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testDefaultEnvironmentLoading -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.ecommerce.api.config.ConfigurationManagerTest@4082ba93]" started-at="2025-12-14T23:27:04 IST" name="setUp" finished-at="2025-12-14T23:27:04 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.ecommerce.api.config.ConfigurationManagerTest@4082ba93]" started-at="2025-12-14T23:27:04 IST" name="setUp" finished-at="2025-12-14T23:27:04 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="testInvalidEnvironment()[pri:0, instance:com.ecommerce.api.config.ConfigurationManagerTest@4082ba93]" started-at="2025-12-14T23:27:04 IST" name="testInvalidEnvironment" finished-at="2025-12-14T23:27:04 IST" duration-ms="1" status="PASS">
+          <exception class="java.lang.IllegalArgumentException">
+            <message>
+              <![CDATA[Invalid environment: invalid_env. Valid environments are: dev, test, staging]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.IllegalArgumentException: Invalid environment: invalid_env. Valid environments are: dev, test, staging
+at com.ecommerce.api.config.ConfigurationManager.setEnvironment(ConfigurationManager.java:261)
+at com.ecommerce.api.config.ConfigurationManagerTest.testInvalidEnvironment(ConfigurationManagerTest.java:102)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+at java.base/java.lang.reflect.Method.invoke(Method.java:565)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:664)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:227)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:957)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:200)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1095)
+at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:619)
+at java.base/java.lang.Thread.run(Thread.java:1447)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.IllegalArgumentException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testInvalidEnvironment -->
+        <test-method signature="testEnvironmentValidation()[pri:0, instance:com.ecommerce.api.config.ConfigurationManagerTest@4082ba93]" started-at="2025-12-14T23:27:04 IST" name="testEnvironmentValidation" finished-at="2025-12-14T23:27:04 IST" duration-ms="13" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testEnvironmentValidation -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.ecommerce.api.config.ConfigurationManagerTest@4082ba93]" started-at="2025-12-14T23:27:04 IST" name="setUp" finished-at="2025-12-14T23:27:04 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="testPropertyAccess()[pri:0, instance:com.ecommerce.api.config.ConfigurationManagerTest@4082ba93]" started-at="2025-12-14T23:27:04 IST" name="testPropertyAccess" finished-at="2025-12-14T23:27:04 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testPropertyAccess -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.ecommerce.api.config.ConfigurationManagerTest@4082ba93]" started-at="2025-12-14T23:27:04 IST" name="setUp" finished-at="2025-12-14T23:27:04 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.ecommerce.api.config.ConfigurationManagerTest@4082ba93]" started-at="2025-12-14T23:27:04 IST" name="setUp" finished-at="2025-12-14T23:27:04 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="testPropertyWithDefaultValue()[pri:0, instance:com.ecommerce.api.config.ConfigurationManagerTest@4082ba93]" started-at="2025-12-14T23:27:04 IST" name="testPropertyWithDefaultValue" finished-at="2025-12-14T23:27:04 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testPropertyWithDefaultValue -->
+        <test-method signature="testSingletonInstance()[pri:0, instance:com.ecommerce.api.config.ConfigurationManagerTest@4082ba93]" started-at="2025-12-14T23:27:04 IST" name="testSingletonInstance" finished-at="2025-12-14T23:27:04 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testSingletonInstance -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.ecommerce.api.config.ConfigurationManagerTest@4082ba93]" started-at="2025-12-14T23:27:04 IST" name="setUp" finished-at="2025-12-14T23:27:04 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+      </class> <!-- com.ecommerce.api.config.ConfigurationManagerTest -->
+      <class name="com.ecommerce.api.client.RestApiClientTest">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.ecommerce.api.client.RestApiClientTest@7188af83]" started-at="2025-12-14T23:27:03 IST" name="setUp" finished-at="2025-12-14T23:27:04 IST" duration-ms="650" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="testExtractResponseDataWithTypeWithoutResponse()[pri:0, instance:com.ecommerce.api.client.RestApiClientTest@7188af83]" started-at="2025-12-14T23:27:04 IST" name="testExtractResponseDataWithTypeWithoutResponse" finished-at="2025-12-14T23:27:04 IST" duration-ms="13" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testExtractResponseDataWithTypeWithoutResponse -->
+        <test-method signature="testExtractResponseDataWithoutResponse()[pri:0, instance:com.ecommerce.api.client.RestApiClientTest@7188af83]" started-at="2025-12-14T23:27:04 IST" name="testExtractResponseDataWithoutResponse" finished-at="2025-12-14T23:27:04 IST" duration-ms="13" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testExtractResponseDataWithoutResponse -->
+        <test-method signature="testClientInitialization()[pri:0, instance:com.ecommerce.api.client.RestApiClientTest@7188af83]" started-at="2025-12-14T23:27:04 IST" name="testClientInitialization" finished-at="2025-12-14T23:27:04 IST" duration-ms="12" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testClientInitialization -->
+        <test-method signature="testGetLastResponseInitiallyNull()[pri:0, instance:com.ecommerce.api.client.RestApiClientTest@7188af83]" started-at="2025-12-14T23:27:04 IST" name="testGetLastResponseInitiallyNull" finished-at="2025-12-14T23:27:04 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testGetLastResponseInitiallyNull -->
+        <test-method signature="testGetResponseBodyAsWithoutResponse()[pri:0, instance:com.ecommerce.api.client.RestApiClientTest@7188af83]" started-at="2025-12-14T23:27:04 IST" name="testGetResponseBodyAsWithoutResponse" finished-at="2025-12-14T23:27:04 IST" duration-ms="3" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testGetResponseBodyAsWithoutResponse -->
+        <test-method signature="testGetResponseBodyWithoutResponse()[pri:0, instance:com.ecommerce.api.client.RestApiClientTest@7188af83]" started-at="2025-12-14T23:27:04 IST" name="testGetResponseBodyWithoutResponse" finished-at="2025-12-14T23:27:04 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testGetResponseBodyWithoutResponse -->
+        <test-method signature="testGetErrorDetailsWithoutResponse()[pri:0, instance:com.ecommerce.api.client.RestApiClientTest@7188af83]" started-at="2025-12-14T23:27:04 IST" name="testGetErrorDetailsWithoutResponse" finished-at="2025-12-14T23:27:04 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testGetErrorDetailsWithoutResponse -->
+        <test-method signature="testIsResponseSuccessfulWithoutResponse()[pri:0, instance:com.ecommerce.api.client.RestApiClientTest@7188af83]" started-at="2025-12-14T23:27:04 IST" name="testIsResponseSuccessfulWithoutResponse" finished-at="2025-12-14T23:27:04 IST" duration-ms="4" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testIsResponseSuccessfulWithoutResponse -->
+        <test-method signature="testResetFunctionality()[pri:0, instance:com.ecommerce.api.client.RestApiClientTest@7188af83]" started-at="2025-12-14T23:27:04 IST" name="testResetFunctionality" finished-at="2025-12-14T23:27:04 IST" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testResetFunctionality -->
+        <test-method signature="testValidateContentTypeWithoutResponse()[pri:0, instance:com.ecommerce.api.client.RestApiClientTest@7188af83]" started-at="2025-12-14T23:27:04 IST" name="testValidateContentTypeWithoutResponse" finished-at="2025-12-14T23:27:04 IST" duration-ms="3" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testValidateContentTypeWithoutResponse -->
+        <test-method signature="testValidateJsonResponseWithoutResponse()[pri:0, instance:com.ecommerce.api.client.RestApiClientTest@7188af83]" started-at="2025-12-14T23:27:04 IST" name="testValidateJsonResponseWithoutResponse" finished-at="2025-12-14T23:27:04 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testValidateJsonResponseWithoutResponse -->
+        <test-method signature="testValidateResponseTimeWithoutResponse()[pri:0, instance:com.ecommerce.api.client.RestApiClientTest@7188af83]" started-at="2025-12-14T23:27:04 IST" name="testValidateResponseTimeWithoutResponse" finished-at="2025-12-14T23:27:04 IST" duration-ms="29" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testValidateResponseTimeWithoutResponse -->
+        <test-method signature="testValidateStatusCodeWithoutResponse()[pri:0, instance:com.ecommerce.api.client.RestApiClientTest@7188af83]" started-at="2025-12-14T23:27:04 IST" name="testValidateStatusCodeWithoutResponse" finished-at="2025-12-14T23:27:04 IST" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testValidateStatusCodeWithoutResponse -->
+      </class> <!-- com.ecommerce.api.client.RestApiClientTest -->
+      <class name="com.ecommerce.api.utils.TestDataManagerTest">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.ecommerce.api.utils.TestDataManagerTest@17fc391b]" started-at="2025-12-14T23:27:04 IST" name="setUp" finished-at="2025-12-14T23:27:04 IST" duration-ms="15" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.ecommerce.api.utils.TestDataManagerTest@17fc391b]" started-at="2025-12-14T23:27:04 IST" name="setUp" finished-at="2025-12-14T23:27:04 IST" duration-ms="6" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.ecommerce.api.utils.TestDataManagerTest@17fc391b]" started-at="2025-12-14T23:27:04 IST" name="setUp" finished-at="2025-12-14T23:27:04 IST" duration-ms="4" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="testCreateTestUserWithSpecificUsername()[pri:0, instance:com.ecommerce.api.utils.TestDataManagerTest@17fc391b]" started-at="2025-12-14T23:27:04 IST" name="testCreateTestUserWithSpecificUsername" finished-at="2025-12-14T23:27:04 IST" duration-ms="26" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testCreateTestUserWithSpecificUsername -->
+        <test-method signature="testCreateUniqueTestUser()[pri:0, instance:com.ecommerce.api.utils.TestDataManagerTest@17fc391b]" started-at="2025-12-14T23:27:04 IST" name="testCreateUniqueTestUser" finished-at="2025-12-14T23:27:04 IST" duration-ms="12" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testCreateUniqueTestUser -->
+        <test-method signature="testCreateMultipleUniqueUsers()[pri:0, instance:com.ecommerce.api.utils.TestDataManagerTest@17fc391b]" started-at="2025-12-14T23:27:04 IST" name="testCreateMultipleUniqueUsers" finished-at="2025-12-14T23:27:04 IST" duration-ms="12" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testCreateMultipleUniqueUsers -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.ecommerce.api.utils.TestDataManagerTest@17fc391b]" started-at="2025-12-14T23:27:04 IST" name="tearDown" finished-at="2025-12-14T23:27:04 IST" duration-ms="3" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.ecommerce.api.utils.TestDataManagerTest@17fc391b]" started-at="2025-12-14T23:27:04 IST" name="setUp" finished-at="2025-12-14T23:27:04 IST" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.ecommerce.api.utils.TestDataManagerTest@17fc391b]" started-at="2025-12-14T23:27:04 IST" name="tearDown" finished-at="2025-12-14T23:27:04 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method signature="testTestDataStatistics()[pri:0, instance:com.ecommerce.api.utils.TestDataManagerTest@17fc391b]" started-at="2025-12-14T23:27:04 IST" name="testTestDataStatistics" finished-at="2025-12-14T23:27:04 IST" duration-ms="18" status="FAIL">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[Should have correct total user count expected [5] but found [3]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: Should have correct total user count expected [5] but found [3]
+at org.testng.Assert.fail(Assert.java:111)
+at org.testng.Assert.failNotEquals(Assert.java:1578)
+at org.testng.Assert.assertEqualsImpl(Assert.java:150)
+at org.testng.Assert.assertEquals(Assert.java:132)
+at org.testng.Assert.assertEquals(Assert.java:1419)
+at org.testng.Assert.assertEquals(Assert.java:1383)
+at com.ecommerce.api.utils.TestDataManagerTest.testTestDataStatistics(TestDataManagerTest.java:156)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+at java.base/java.lang.reflect.Method.invoke(Method.java:565)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:664)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:227)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:957)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:200)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1095)
+at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:619)
+at java.base/java.lang.Thread.run(Thread.java:1447)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testTestDataStatistics -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.ecommerce.api.utils.TestDataManagerTest@17fc391b]" started-at="2025-12-14T23:27:04 IST" name="setUp" finished-at="2025-12-14T23:27:04 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="testGetValidAndInvalidCredentials()[pri:0, instance:com.ecommerce.api.utils.TestDataManagerTest@17fc391b]" started-at="2025-12-14T23:27:04 IST" name="testGetValidAndInvalidCredentials" finished-at="2025-12-14T23:27:04 IST" duration-ms="6" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testGetValidAndInvalidCredentials -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.ecommerce.api.utils.TestDataManagerTest@17fc391b]" started-at="2025-12-14T23:27:04 IST" name="tearDown" finished-at="2025-12-14T23:27:04 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method signature="testTestSessionManagement()[pri:0, instance:com.ecommerce.api.utils.TestDataManagerTest@17fc391b]" started-at="2025-12-14T23:27:04 IST" name="testTestSessionManagement" finished-at="2025-12-14T23:27:04 IST" duration-ms="32" status="FAIL">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[Should retrieve correct number of users for session expected [3] but found [0]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: Should retrieve correct number of users for session expected [3] but found [0]
+at org.testng.Assert.fail(Assert.java:111)
+at org.testng.Assert.failNotEquals(Assert.java:1578)
+at org.testng.Assert.assertEqualsImpl(Assert.java:150)
+at org.testng.Assert.assertEquals(Assert.java:132)
+at org.testng.Assert.assertEquals(Assert.java:1419)
+at org.testng.Assert.assertEquals(Assert.java:1383)
+at com.ecommerce.api.utils.TestDataManagerTest.testTestSessionManagement(TestDataManagerTest.java:118)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+at java.base/java.lang.reflect.Method.invoke(Method.java:565)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:664)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:227)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:957)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:200)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1095)
+at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:619)
+at java.base/java.lang.Thread.run(Thread.java:1447)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testTestSessionManagement -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.ecommerce.api.utils.TestDataManagerTest@17fc391b]" started-at="2025-12-14T23:27:04 IST" name="setUp" finished-at="2025-12-14T23:27:04 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.ecommerce.api.utils.TestDataManagerTest@17fc391b]" started-at="2025-12-14T23:27:04 IST" name="tearDown" finished-at="2025-12-14T23:27:04 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.ecommerce.api.utils.TestDataManagerTest@17fc391b]" started-at="2025-12-14T23:27:04 IST" name="setUp" finished-at="2025-12-14T23:27:04 IST" duration-ms="8" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="testTestUserValidation()[pri:0, instance:com.ecommerce.api.utils.TestDataManagerTest@17fc391b]" started-at="2025-12-14T23:27:04 IST" name="testTestUserValidation" finished-at="2025-12-14T23:27:04 IST" duration-ms="4" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testTestUserValidation -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.ecommerce.api.utils.TestDataManagerTest@17fc391b]" started-at="2025-12-14T23:27:04 IST" name="tearDown" finished-at="2025-12-14T23:27:04 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method signature="testUserCleanup()[pri:0, instance:com.ecommerce.api.utils.TestDataManagerTest@17fc391b]" started-at="2025-12-14T23:27:04 IST" name="testUserCleanup" finished-at="2025-12-14T23:27:04 IST" duration-ms="5" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testUserCleanup -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.ecommerce.api.utils.TestDataManagerTest@17fc391b]" started-at="2025-12-14T23:27:04 IST" name="setUp" finished-at="2025-12-14T23:27:04 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.ecommerce.api.utils.TestDataManagerTest@17fc391b]" started-at="2025-12-14T23:27:04 IST" name="tearDown" finished-at="2025-12-14T23:27:04 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.ecommerce.api.utils.TestDataManagerTest@17fc391b]" started-at="2025-12-14T23:27:04 IST" name="setUp" finished-at="2025-12-14T23:27:04 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="testUserCopyMethods()[pri:0, instance:com.ecommerce.api.utils.TestDataManagerTest@17fc391b]" started-at="2025-12-14T23:27:04 IST" name="testUserCopyMethods" finished-at="2025-12-14T23:27:04 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testUserCopyMethods -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.ecommerce.api.utils.TestDataManagerTest@17fc391b]" started-at="2025-12-14T23:27:04 IST" name="tearDown" finished-at="2025-12-14T23:27:04 IST" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.ecommerce.api.utils.TestDataManagerTest@17fc391b]" started-at="2025-12-14T23:27:04 IST" name="setUp" finished-at="2025-12-14T23:27:04 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.ecommerce.api.utils.TestDataManagerTest@17fc391b]" started-at="2025-12-14T23:27:04 IST" name="tearDown" finished-at="2025-12-14T23:27:04 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method signature="testUserCredentialsCreation()[pri:0, instance:com.ecommerce.api.utils.TestDataManagerTest@17fc391b]" started-at="2025-12-14T23:27:04 IST" name="testUserCredentialsCreation" finished-at="2025-12-14T23:27:04 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testUserCredentialsCreation -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.ecommerce.api.utils.TestDataManagerTest@17fc391b]" started-at="2025-12-14T23:27:04 IST" name="tearDown" finished-at="2025-12-14T23:27:04 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.ecommerce.api.utils.TestDataManagerTest@17fc391b]" started-at="2025-12-14T23:27:04 IST" name="tearDown" finished-at="2025-12-14T23:27:04 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.ecommerce.api.utils.TestDataManagerTest -->
+    </test> <!-- Surefire test -->
+  </suite> <!-- Surefire suite -->
+</testng-results>

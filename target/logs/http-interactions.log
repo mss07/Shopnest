@@ -1,0 +1,408 @@
+2025-12-14 23:26:34.260 [TestNG-PoolService-0] INFO  [NO_ID] [NO_SCENARIO] [NO_TYPE] c.ecommerce.api.client.RestApiClient - REST Assured configured with base URI: http://localhost:8000
+2025-12-14 23:26:34.260 [TestNG-PoolService-1] INFO  [NO_ID] [NO_SCENARIO] [NO_TYPE] c.ecommerce.api.client.RestApiClient - REST Assured configured with base URI: http://localhost:8000
+2025-12-14 23:26:34.260 [TestNG-PoolService-2] INFO  [NO_ID] [NO_SCENARIO] [NO_TYPE] c.ecommerce.api.client.RestApiClient - REST Assured configured with base URI: http://localhost:8000
+2025-12-14 23:26:34.280 [TestNG-PoolService-0] INFO  [79b80eb1-c653-4c85-a245-7e1d92ee52a3] [Get all products successfully] [SCENARIO] HTTP_INTERACTIONS - 
+=== TEST SCENARIO START ===
+Scenario: Get all products successfully
+Description: Scenario execution with tags: [@product-catalog, @positive, @smoke]
+Correlation ID: 79b80eb1-c653-4c85-a245-7e1d92ee52a3
+==========================
+2025-12-14 23:26:34.279 [TestNG-PoolService-1] INFO  [6397481b-8851-4f1d-9f46-712d7e06847f] [Get product by valid ID successfully] [SCENARIO] HTTP_INTERACTIONS - 
+=== TEST SCENARIO START ===
+Scenario: Get product by valid ID successfully
+Description: Scenario execution with tags: [@product-catalog, @positive, @smoke]
+Correlation ID: 6397481b-8851-4f1d-9f46-712d7e06847f
+==========================
+2025-12-14 23:26:34.282 [TestNG-PoolService-2] INFO  [d39bfba4-84af-4d5c-9c66-41f8383ad84f] [Get product by invalid ID returns error] [SCENARIO] HTTP_INTERACTIONS - 
+=== TEST SCENARIO START ===
+Scenario: Get product by invalid ID returns error
+Description: Scenario execution with tags: [@product-catalog, @negative, @regression]
+Correlation ID: d39bfba4-84af-4d5c-9c66-41f8383ad84f
+==========================
+2025-12-14 23:26:34.304 [TestNG-PoolService-1] INFO  [6397481b-8851-4f1d-9f46-712d7e06847f] [Get product by valid ID successfully] [GET] HTTP_INTERACTIONS - 
+=== HTTP REQUEST ===
+Timestamp: 2025-12-14 23:26:34.304
+Correlation ID: 6397481b-8851-4f1d-9f46-712d7e06847f
+Method: GET
+Endpoint: /product/507f1f77bcf86cd799439011
+==================
+2025-12-14 23:26:34.305 [TestNG-PoolService-0] INFO  [79b80eb1-c653-4c85-a245-7e1d92ee52a3] [Get all products successfully] [GET] HTTP_INTERACTIONS - 
+=== HTTP REQUEST ===
+Timestamp: 2025-12-14 23:26:34.305
+Correlation ID: 79b80eb1-c653-4c85-a245-7e1d92ee52a3
+Method: GET
+Endpoint: /products
+==================
+2025-12-14 23:26:34.306 [TestNG-PoolService-2] INFO  [d39bfba4-84af-4d5c-9c66-41f8383ad84f] [Get product by invalid ID returns error] [GET] HTTP_INTERACTIONS - 
+=== HTTP REQUEST ===
+Timestamp: 2025-12-14 23:26:34.306
+Correlation ID: d39bfba4-84af-4d5c-9c66-41f8383ad84f
+Method: GET
+Endpoint: /product/invalid-product-id-123
+==================
+2025-12-14 23:26:36.054 [TestNG-PoolService-2] INFO  [d39bfba4-84af-4d5c-9c66-41f8383ad84f] [Get product by invalid ID returns error] [GET] HTTP_INTERACTIONS - 
+=== HTTP RESPONSE ===
+Timestamp: 2025-12-14 23:26:36.049
+Correlation ID: d39bfba4-84af-4d5c-9c66-41f8383ad84f
+Endpoint: /product/invalid-product-id-123
+Status Code: 200
+Status Line: HTTP/1.1 200 OK
+Response Time: 509ms
+Response Headers:
+  X-Powered-By: Express
+  Access-Control-Allow-Origin: *
+  Content-Type: application/json; charset=utf-8
+  Content-Length: 4
+  ETag: W/"4-K+iMpCQsduglOsYkdIUQZQMtaDM"
+  Date: Sun, 14 Dec 2025 17:56:35 GMT
+  Connection: keep-alive
+  Keep-Alive: timeout=5
+Response Body: null
+====================
+2025-12-14 23:26:36.053 [TestNG-PoolService-1] INFO  [6397481b-8851-4f1d-9f46-712d7e06847f] [Get product by valid ID successfully] [GET] HTTP_INTERACTIONS - 
+=== HTTP RESPONSE ===
+Timestamp: 2025-12-14 23:26:36.048
+Correlation ID: 6397481b-8851-4f1d-9f46-712d7e06847f
+Endpoint: /product/507f1f77bcf86cd799439011
+Status Code: 200
+Status Line: HTTP/1.1 200 OK
+Response Time: 506ms
+Response Headers:
+  X-Powered-By: Express
+  Access-Control-Allow-Origin: *
+  Content-Type: application/json; charset=utf-8
+  Content-Length: 4
+  ETag: W/"4-K+iMpCQsduglOsYkdIUQZQMtaDM"
+  Date: Sun, 14 Dec 2025 17:56:35 GMT
+  Connection: keep-alive
+  Keep-Alive: timeout=5
+Response Body: null
+====================
+2025-12-14 23:26:36.056 [TestNG-PoolService-0] INFO  [79b80eb1-c653-4c85-a245-7e1d92ee52a3] [Get all products successfully] [GET] HTTP_INTERACTIONS - 
+=== HTTP RESPONSE ===
+Timestamp: 2025-12-14 23:26:36.052
+Correlation ID: 79b80eb1-c653-4c85-a245-7e1d92ee52a3
+Endpoint: /products
+Status Code: 200
+Status Line: HTTP/1.1 200 OK
+Response Time: 507ms
+Response Headers:
+  X-Powered-By: Express
+  Access-Control-Allow-Origin: *
+  Content-Type: application/json; charset=utf-8
+  Content-Length: 6018
+  ETag: W/"1782-yW4I3QlI2nHkthHXmYhSTLH2wOM"
+  Date: Sun, 14 Dec 2025 17:56:35 GMT
+  Connection: keep-alive
+  Keep-Alive: timeout=5
+Response Body: [{"_id":"66f7b186b937ca7bcad6bcc1","id":"product4","url":"https://rukminim1.flixcart.com/image/300/300/kll7bm80/smartwatch/c/1/n/43-mo-sw-sense-500-android-ios-molife-original-imagyzyycnpujyjh.jpeg?q=70","title":{"shortTitle":"Smart Watches","longTitle":"Molife Sense 500 Smartwatch  (Black Strap, Freesize)"},"detailUrl":"https://rukminim1.flixcart.com/image/416/416/kll7bm80/smartwatch/c/1/n/43-mo-sw-sense-500-android-ios-molife-original-imagyzyycnpujyjh.jpeg?q=70","price":{"mrp":6999,"cost":4049,"discount":"42%"},"quantity":1,"description":"The Molife Sense 500, a brilliant smartwatch with a beautiful large display. Say hello to the infinity 1.7-inch display with 2.5D curved edges. Thanks to seamless Bluetooth 5.0 connectivity, you wont have to keep waiting. Bring a change to your outfit every day with changeable straps. A splash of color every day keeps the boredom away.","discount":"Grab Now","tagline":"Best Seller","__v":0},{"_id":"66f7b186b937ca7bcad6bcc2","id":"product5","url":"https://rukminim1.flixcart.com/image/416/416/k3uhhu80/hair-dryer/n/m/t/nova-2800-w-professional-nhp-8220-original-imafmvwfhmzsxdrw.jpeg?q=70","title":{"shortTitle":"Trimmers, Dryers & more","longTitle":"Nova Professional NHP 8220 Hair Dryer  (1800 W, Multicolor)"},"detailUrl":"https://rukminim1.flixcart.com/image/416/416/k3uhhu80/hair-dryer/n/m/t/nova-2800-w-professional-nhp-8220-original-imafmvwfhmzsxdrw.jpeg?q=70","price":{"mrp":1899,"cost":1124,"discount":"40%"},"quantity":1,"description":"","discount":"From ₹499","tagline":"Kubra, Nova & more","__v":0},{"_id":"66f7b186b937ca7bcad6bcc3","id":"product6","url":"https://rukminim1.flixcart.com/image/150/150/kk01pjk0/fan/d/d/l/tiktik-quiet-portable-table-fan-zigma-original-imafzg7ftzuckpad.jpeg?q=70","title":{"shortTitle":"Table Fans","longTitle":"Portable 300 mm Ultra High Speed 3 Blade Table Fan  (Black, Pack of 1)"},"detailUrl":"https://rukminim1.flixcart.com/image/416/416/kk01pjk0/fan/d/d/l/tiktik-quiet-portable-table-fan-zigma-original-imafzg7ftzuckpad.jpeg?q=70","price":{"mrp":2250,"cost":1199,"discount":"46%"},"quantity":1,"description":"Table Fan. Perfect size fan for use on a table, desk or in an RV. Whisper quiet, powerful airflow and reliable operation in a compact 6\" size. Two adjustable speeds to customize airflow: high or low settings. Tough break-resistant ABS plastic blades. ","discount":"Minimum 40% Off","tagline":"Top Selling","__v":0},{"_id":"66f7b186b937ca7bcad6bcbf","id":"product2","url":"https://rukminim1.flixcart.com/image/416/416/kl6wx3k0/sandwich-maker/8/r/d/sandwich-01-flipkart-smartbuy-original-imagydds4zthxt8z.jpeg?q=70","title":{"shortTitle":"Sandwich Makers","longTitle":"Flipkart SmartBuy Sandwich 01 Grill  (Black)"},"detailUrl":"https://rukminim1.flixcart.com/image/416/416/kl6wx3k0/sandwich-maker/8/r/d/sandwich-01-flipkart-smartbuy-original-imagydds4zthxt8z.jpeg?q=70","price":{"mrp":1499,"cost":899,"discount":"40%"},"quantity":1,"description":"This non-stick sandwich toaster .easy to use and very handy. Directly hold over flame to make tasty toasts and toasted sandwiches. Specially designed by keeping your needs in mind, the sandwich maker makes whatever youre doing simpler, smarter and better","discount":"From 99+5% Off","tagline":"Pestige, Nova & more","__v":0},{"_id":"66f7b186b937ca7bcad6bcc0","id":"product3","url":"https://rukminim1.flixcart.com/image/150/150/kohigsw0/resistance-tube/c/s/e/new-adjustable-single-resistance-tube-multicolor-na-ajro-deal-original-imag2xg88mhmwxz5.jpeg?q=70","title":{"shortTitle":"Fitness Gear","longTitle":"AJRO DEAL New Adjustable Single Resistance Tube (Multicolor) Resistance Tube  (Multicolor)"},"detailUrl":"https://rukminim1.flixcart.com/image/416/416/kohigsw0/resistance-tube/c/s/e/new-adjustable-single-resistance-tube-multicolor-na-ajro-deal-original-imag2xg88mhmwxz5.jpeg?q=70","price":{"mrp":499,"cost":166,"discount":"66%"},"quantity":1,"description":"This unique product can tone your back muscles, reduce belly fat, improve blood circulation and also improves your body posture. It increases the stamina, energy and vitality of the body. The elastic resistance of the rubber training rope can be used to train and exercise in whichever way you want, according to your physical needs.","discount":"Upto 70% Off","tagline":"Deal of the Day","__v":0},{"_id":"66f7b186b937ca7bcad6bcbe","id":"product1","url":"https://rukminim1.flixcart.com/image/150/150/kapoo7k0/electric-kettle/p/6/s/pigeon-favourite-original-imafs7xhj5uwgrh4.jpeg?q=70","title":{"shortTitle":"Home & Kitchen","longTitle":"Pigeon FAVOURITE Electric Kettle  (1.5 L, Silver, Black)"},"detailUrl":"https://rukminim1.flixcart.com/image/416/416/kapoo7k0/electric-kettle/p/6/s/pigeon-favourite-original-imafs7xhj5uwgrh4.jpeg?q=70","price":{"mrp":1195,"cost":625,"discount":"47%"},"quantity":1,"description":"This electric kettle from Pigeon will soon become a travelers best friend, a hostelite saviour and an answer to all the midnight cravings. With this handy appliance, you can boil water and use it to make instant noodles, packet soup, coffee and green tea.","discount":"Extra 10% Off","tagline":"Deal of the day","__v":0},{"_id":"66f7b186b937ca7bcad6bcc4","id":"product7","url":"https://rukminim1.flixcart.com/image/150/150/kcgk1ow0/headphone/n/u/a/235v2-fast-charging-boat-original-imaftk6us4af7bca.jpeg?q=70","title":{"shortTitle":"Headphones","longTitle":"boAt Rockerz 235v2 with ASAP charging Version 5.0 Bluetooth Headset "},"detailUrl":"https://rukminim1.flixcart.com/image/416/416/kcgk1ow0/headphone/n/u/a/235v2-fast-charging-boat-original-imaftk6us4af7bca.jpeg?q=70","price":{"mrp":2990,"cost":1199,"discount":"59%"},"quantity":1,"description":"Let music brighten up your mood anytime, anywhere with the boAt 235v2 Fast Charging Bluetooth Headset. This Bluetooth headset features a Call Vibration Alert, a Fast Charging Technology, and Easy Access Controls to listen to and manage your favorite music with ease.","discount":"Minimum 50% Off","tagline":"Grab Now!","__v":0}]
+====================
+2025-12-14 23:26:36.058 [TestNG-PoolService-0] INFO  [79b80eb1-c653-4c85-a245-7e1d92ee52a3] [Get all products successfully] [GET] c.ecommerce.api.client.RestApiClient - GET request completed. Status: 200, Response time: 507ms
+2025-12-14 23:26:36.060 [TestNG-PoolService-2] INFO  [d39bfba4-84af-4d5c-9c66-41f8383ad84f] [Get product by invalid ID returns error] [GET] c.ecommerce.api.client.RestApiClient - GET request completed. Status: 200, Response time: 509ms
+2025-12-14 23:26:36.071 [TestNG-PoolService-1] INFO  [6397481b-8851-4f1d-9f46-712d7e06847f] [Get product by valid ID successfully] [GET] c.ecommerce.api.client.RestApiClient - GET request completed. Status: 200, Response time: 506ms
+2025-12-14 23:26:36.087 [TestNG-PoolService-2] INFO  [d39bfba4-84af-4d5c-9c66-41f8383ad84f] [Get product by invalid ID returns error] [NO_TYPE] HTTP_INTERACTIONS - 
+=== TEST SCENARIO END ===
+Scenario: Get product by invalid ID returns error
+Status: FAILED
+Duration: 1803ms
+Correlation ID: d39bfba4-84af-4d5c-9c66-41f8383ad84f
+========================
+2025-12-14 23:26:36.088 [TestNG-PoolService-1] INFO  [6397481b-8851-4f1d-9f46-712d7e06847f] [Get product by valid ID successfully] [GET] HTTP_INTERACTIONS - 
+=== HTTP REQUEST ===
+Timestamp: 2025-12-14 23:26:36.088
+Correlation ID: 6397481b-8851-4f1d-9f46-712d7e06847f
+Method: GET
+Endpoint: /product/507f1f77bcf86cd799439011
+==================
+2025-12-14 23:26:36.133 [TestNG-PoolService-2] DEBUG [NO_ID] [NO_SCENARIO] [NO_TYPE] c.ecommerce.api.client.RestApiClient - REST API client state reset
+2025-12-14 23:26:36.135 [TestNG-PoolService-2] DEBUG [NO_ID] [NO_SCENARIO] [NO_TYPE] c.ecommerce.api.client.RestApiClient - REST API client state reset
+2025-12-14 23:26:36.147 [TestNG-PoolService-1] INFO  [6397481b-8851-4f1d-9f46-712d7e06847f] [Get product by valid ID successfully] [GET] HTTP_INTERACTIONS - 
+=== HTTP RESPONSE ===
+Timestamp: 2025-12-14 23:26:36.146
+Correlation ID: 6397481b-8851-4f1d-9f46-712d7e06847f
+Endpoint: /product/507f1f77bcf86cd799439011
+Status Code: 200
+Status Line: HTTP/1.1 200 OK
+Response Time: 38ms
+Response Headers:
+  X-Powered-By: Express
+  Access-Control-Allow-Origin: *
+  Content-Type: application/json; charset=utf-8
+  Content-Length: 4
+  ETag: W/"4-K+iMpCQsduglOsYkdIUQZQMtaDM"
+  Date: Sun, 14 Dec 2025 17:56:36 GMT
+  Connection: keep-alive
+  Keep-Alive: timeout=5
+Response Body: null
+====================
+2025-12-14 23:26:36.148 [TestNG-PoolService-1] INFO  [6397481b-8851-4f1d-9f46-712d7e06847f] [Get product by valid ID successfully] [GET] c.ecommerce.api.client.RestApiClient - GET request completed. Status: 200, Response time: 38ms
+2025-12-14 23:26:36.254 [TestNG-PoolService-1] INFO  [6397481b-8851-4f1d-9f46-712d7e06847f] [Get product by valid ID successfully] [NO_TYPE] HTTP_INTERACTIONS - 
+=== TEST SCENARIO END ===
+Scenario: Get product by valid ID successfully
+Status: FAILED
+Duration: 1979ms
+Correlation ID: 6397481b-8851-4f1d-9f46-712d7e06847f
+========================
+2025-12-14 23:26:36.256 [TestNG-PoolService-1] DEBUG [NO_ID] [NO_SCENARIO] [NO_TYPE] c.ecommerce.api.client.RestApiClient - REST API client state reset
+2025-12-14 23:26:36.258 [TestNG-PoolService-1] DEBUG [NO_ID] [NO_SCENARIO] [NO_TYPE] c.ecommerce.api.client.RestApiClient - REST API client state reset
+2025-12-14 23:26:36.320 [TestNG-PoolService-2] INFO  [47c18c6f-b18d-4422-a7db-41567fb22ebe] [Valid user registration with unique username] [SCENARIO] HTTP_INTERACTIONS - 
+=== TEST SCENARIO START ===
+Scenario: Valid user registration with unique username
+Description: Scenario execution with tags: [@user-registration, @positive, @smoke]
+Correlation ID: 47c18c6f-b18d-4422-a7db-41567fb22ebe
+==========================
+2025-12-14 23:26:36.343 [TestNG-PoolService-1] INFO  [1f546631-de88-4512-8096-6a1f628fd714] [User registration with duplicate username] [SCENARIO] HTTP_INTERACTIONS - 
+=== TEST SCENARIO START ===
+Scenario: User registration with duplicate username
+Description: Scenario execution with tags: [@user-registration, @negative, @regression]
+Correlation ID: 1f546631-de88-4512-8096-6a1f628fd714
+==========================
+2025-12-14 23:26:36.449 [TestNG-PoolService-2] INFO  [47c18c6f-b18d-4422-a7db-41567fb22ebe] [Valid user registration with unique username] [POST] HTTP_INTERACTIONS - 
+=== HTTP REQUEST ===
+Timestamp: 2025-12-14 23:26:36.449
+Correlation ID: 47c18c6f-b18d-4422-a7db-41567fb22ebe
+Method: POST
+Endpoint: /signup
+Request Body: {"testId":"TEST_1765734996332_5849","createdTimestamp":1765734996332,"valid":true,"credentials":{"username":"test_user_1_996331","password":"[MASKED]"},"cleanupRequired":true,"username":"test_user_1_996331","password":"[MASKED]","email":"test_user_1_996331@qa-testing.com","phone":"+14183281129","firstname":"Richard","lastname":"Davis"}
+==================
+2025-12-14 23:26:36.451 [TestNG-PoolService-1] INFO  [1f546631-de88-4512-8096-6a1f628fd714] [User registration with duplicate username] [POST] HTTP_INTERACTIONS - 
+=== HTTP REQUEST ===
+Timestamp: 2025-12-14 23:26:36.451
+Correlation ID: 1f546631-de88-4512-8096-6a1f628fd714
+Method: POST
+Endpoint: /signup
+Request Body: {"testId":"TEST_1765734996350_8724","createdTimestamp":1765734996350,"valid":true,"credentials":{"username":"test_testuser123","password":"[MASKED]"},"cleanupRequired":true,"username":"test_testuser123","password":"[MASKED]","email":"test_testuser123@qa-testing.com","phone":"+17346127610","firstname":"Linda","lastname":"Smith"}
+==================
+2025-12-14 23:26:36.567 [TestNG-PoolService-0] INFO  [79b80eb1-c653-4c85-a245-7e1d92ee52a3] [Get all products successfully] [NO_TYPE] HTTP_INTERACTIONS - 
+=== TEST SCENARIO END ===
+Scenario: Get all products successfully
+Status: FAILED
+Duration: 2293ms
+Correlation ID: 79b80eb1-c653-4c85-a245-7e1d92ee52a3
+========================
+2025-12-14 23:26:36.574 [TestNG-PoolService-1] INFO  [1f546631-de88-4512-8096-6a1f628fd714] [User registration with duplicate username] [POST] HTTP_INTERACTIONS - 
+=== HTTP RESPONSE ===
+Timestamp: 2025-12-14 23:26:36.573
+Correlation ID: 1f546631-de88-4512-8096-6a1f628fd714
+Endpoint: /signup
+Status Code: 401
+Status Line: HTTP/1.1 401 Unauthorized
+Response Time: 101ms
+Response Headers:
+  X-Powered-By: Express
+  Access-Control-Allow-Origin: *
+  Content-Type: application/json; charset=utf-8
+  Content-Length: 36
+  ETag: W/"24-VWWwfQVGljYgYlmoY2EG0s/DuUY"
+  Date: Sun, 14 Dec 2025 17:56:36 GMT
+  Connection: keep-alive
+  Keep-Alive: timeout=5
+Response Body: {"message":"username already exist"}
+====================
+2025-12-14 23:26:36.575 [TestNG-PoolService-1] INFO  [1f546631-de88-4512-8096-6a1f628fd714] [User registration with duplicate username] [POST] c.ecommerce.api.client.RestApiClient - POST request completed. Status: 401, Response time: 101ms
+2025-12-14 23:26:36.581 [TestNG-PoolService-1] INFO  [1f546631-de88-4512-8096-6a1f628fd714] [User registration with duplicate username] [POST] HTTP_INTERACTIONS - 
+=== HTTP REQUEST ===
+Timestamp: 2025-12-14 23:26:36.581
+Correlation ID: 1f546631-de88-4512-8096-6a1f628fd714
+Method: POST
+Endpoint: /signup
+Request Body: {"testId":"TEST_1765734996576_2375","createdTimestamp":1765734996576,"valid":true,"credentials":{"username":"test_testuser123","password":"[MASKED]"},"cleanupRequired":true,"username":"test_testuser123","password":"[MASKED]","email":"test_testuser123@test-domain.net","phone":"+14928350242","firstname":"Linda","lastname":"Brown"}
+==================
+2025-12-14 23:26:36.583 [TestNG-PoolService-0] DEBUG [NO_ID] [NO_SCENARIO] [NO_TYPE] c.ecommerce.api.client.RestApiClient - REST API client state reset
+2025-12-14 23:26:36.585 [TestNG-PoolService-0] DEBUG [NO_ID] [NO_SCENARIO] [NO_TYPE] c.ecommerce.api.client.RestApiClient - REST API client state reset
+2025-12-14 23:26:36.601 [TestNG-PoolService-2] INFO  [47c18c6f-b18d-4422-a7db-41567fb22ebe] [Valid user registration with unique username] [POST] HTTP_INTERACTIONS - 
+=== HTTP RESPONSE ===
+Timestamp: 2025-12-14 23:26:36.601
+Correlation ID: 47c18c6f-b18d-4422-a7db-41567fb22ebe
+Endpoint: /signup
+Status Code: 200
+Status Line: HTTP/1.1 200 OK
+Response Time: 132ms
+Response Headers:
+  X-Powered-By: Express
+  Access-Control-Allow-Origin: *
+  Content-Type: application/json; charset=utf-8
+  Content-Length: 357
+  ETag: W/"165-Pd+vGpAHOcKynyD6L+8B1Y0KPLA"
+  Date: Sun, 14 Dec 2025 17:56:36 GMT
+  Connection: keep-alive
+  Keep-Alive: timeout=5
+Response Body: {"message":{"testId":"TEST_1765734996332_5849","createdTimestamp":1765734996332,"valid":true,"credentials":{"username":"test_user_1_996331","password":"[MASKED]"},"cleanupRequired":true,"username":"test_user_1_996331","password":"[MASKED]","email":"test_user_1_996331@qa-testing.com","phone":"+14183281129","firstname":"Richard","lastname":"Davis"}}
+====================
+2025-12-14 23:26:36.602 [TestNG-PoolService-2] INFO  [47c18c6f-b18d-4422-a7db-41567fb22ebe] [Valid user registration with unique username] [POST] c.ecommerce.api.client.RestApiClient - POST request completed. Status: 200, Response time: 132ms
+2025-12-14 23:26:36.623 [TestNG-PoolService-1] INFO  [1f546631-de88-4512-8096-6a1f628fd714] [User registration with duplicate username] [POST] HTTP_INTERACTIONS - 
+=== HTTP RESPONSE ===
+Timestamp: 2025-12-14 23:26:36.623
+Correlation ID: 1f546631-de88-4512-8096-6a1f628fd714
+Endpoint: /signup
+Status Code: 401
+Status Line: HTTP/1.1 401 Unauthorized
+Response Time: 34ms
+Response Headers:
+  X-Powered-By: Express
+  Access-Control-Allow-Origin: *
+  Content-Type: application/json; charset=utf-8
+  Content-Length: 36
+  ETag: W/"24-VWWwfQVGljYgYlmoY2EG0s/DuUY"
+  Date: Sun, 14 Dec 2025 17:56:36 GMT
+  Connection: keep-alive
+  Keep-Alive: timeout=5
+Response Body: {"message":"username already exist"}
+====================
+2025-12-14 23:26:36.623 [TestNG-PoolService-1] INFO  [1f546631-de88-4512-8096-6a1f628fd714] [User registration with duplicate username] [POST] c.ecommerce.api.client.RestApiClient - POST request completed. Status: 401, Response time: 34ms
+2025-12-14 23:26:36.627 [TestNG-PoolService-1] INFO  [1f546631-de88-4512-8096-6a1f628fd714] [User registration with duplicate username] [NO_TYPE] HTTP_INTERACTIONS - 
+=== TEST SCENARIO END ===
+Scenario: User registration with duplicate username
+Status: PASSED
+Duration: 284ms
+Correlation ID: 1f546631-de88-4512-8096-6a1f628fd714
+========================
+2025-12-14 23:26:36.629 [TestNG-PoolService-1] DEBUG [NO_ID] [NO_SCENARIO] [NO_TYPE] c.ecommerce.api.client.RestApiClient - REST API client state reset
+2025-12-14 23:26:36.634 [TestNG-PoolService-1] DEBUG [NO_ID] [NO_SCENARIO] [NO_TYPE] c.ecommerce.api.client.RestApiClient - REST API client state reset
+2025-12-14 23:26:36.654 [TestNG-PoolService-0] INFO  [4187a3e6-3839-4277-b856-4136d7555f91] [Valid user login with correct credentials] [SCENARIO] HTTP_INTERACTIONS - 
+=== TEST SCENARIO START ===
+Scenario: Valid user login with correct credentials
+Description: Scenario execution with tags: [@user-login, @positive, @smoke]
+Correlation ID: 4187a3e6-3839-4277-b856-4136d7555f91
+==========================
+2025-12-14 23:26:36.708 [TestNG-PoolService-1] INFO  [6cf35ddd-7abf-446b-8878-ebdadaa11f04] [User login with invalid username] [SCENARIO] HTTP_INTERACTIONS - 
+=== TEST SCENARIO START ===
+Scenario: User login with invalid username
+Description: Scenario execution with tags: [@user-login, @negative, @regression]
+Correlation ID: 6cf35ddd-7abf-446b-8878-ebdadaa11f04
+==========================
+2025-12-14 23:26:36.715 [TestNG-PoolService-0] INFO  [4187a3e6-3839-4277-b856-4136d7555f91] [Valid user login with correct credentials] [POST] HTTP_INTERACTIONS - 
+=== HTTP REQUEST ===
+Timestamp: 2025-12-14 23:26:36.715
+Correlation ID: 4187a3e6-3839-4277-b856-4136d7555f91
+Method: POST
+Endpoint: /signup
+Request Body: {"testId":null,"createdTimestamp":1765734996708,"valid":true,"credentials":{"username":"validuser","password":"[MASKED]"},"cleanupRequired":true,"username":"validuser","password":"[MASKED]","email":"validuser@test.com","phone":"+1234567890","firstname":"Test","lastname":"User"}
+==================
+2025-12-14 23:26:36.720 [TestNG-PoolService-1] INFO  [6cf35ddd-7abf-446b-8878-ebdadaa11f04] [User login with invalid username] [POST] HTTP_INTERACTIONS - 
+=== HTTP REQUEST ===
+Timestamp: 2025-12-14 23:26:36.720
+Correlation ID: 6cf35ddd-7abf-446b-8878-ebdadaa11f04
+Method: POST
+Endpoint: /login
+Request Body: {"username":"nonexistentuser","password":"[MASKED]"}
+==================
+2025-12-14 23:26:36.768 [TestNG-PoolService-1] INFO  [6cf35ddd-7abf-446b-8878-ebdadaa11f04] [User login with invalid username] [POST] HTTP_INTERACTIONS - 
+=== HTTP RESPONSE ===
+Timestamp: 2025-12-14 23:26:36.767
+Correlation ID: 6cf35ddd-7abf-446b-8878-ebdadaa11f04
+Endpoint: /login
+Status Code: 401
+Status Line: HTTP/1.1 401 Unauthorized
+Response Time: 37ms
+Response Headers:
+  X-Powered-By: Express
+  Access-Control-Allow-Origin: *
+  Content-Type: application/json; charset=utf-8
+  Content-Length: 15
+  ETag: W/"f-qSSex0YZLhOKTCtuK+UY/7nNpFY"
+  Date: Sun, 14 Dec 2025 17:56:36 GMT
+  Connection: keep-alive
+  Keep-Alive: timeout=5
+Response Body: "invalid login"
+====================
+2025-12-14 23:26:36.768 [TestNG-PoolService-1] INFO  [6cf35ddd-7abf-446b-8878-ebdadaa11f04] [User login with invalid username] [POST] c.ecommerce.api.client.RestApiClient - POST request completed. Status: 401, Response time: 37ms
+2025-12-14 23:26:36.769 [TestNG-PoolService-0] INFO  [4187a3e6-3839-4277-b856-4136d7555f91] [Valid user login with correct credentials] [POST] HTTP_INTERACTIONS - 
+=== HTTP RESPONSE ===
+Timestamp: 2025-12-14 23:26:36.769
+Correlation ID: 4187a3e6-3839-4277-b856-4136d7555f91
+Endpoint: /signup
+Status Code: 401
+Status Line: HTTP/1.1 401 Unauthorized
+Response Time: 35ms
+Response Headers:
+  X-Powered-By: Express
+  Access-Control-Allow-Origin: *
+  Content-Type: application/json; charset=utf-8
+  Content-Length: 36
+  ETag: W/"24-VWWwfQVGljYgYlmoY2EG0s/DuUY"
+  Date: Sun, 14 Dec 2025 17:56:36 GMT
+  Connection: keep-alive
+  Keep-Alive: timeout=5
+Response Body: {"message":"username already exist"}
+====================
+2025-12-14 23:26:36.769 [TestNG-PoolService-0] INFO  [4187a3e6-3839-4277-b856-4136d7555f91] [Valid user login with correct credentials] [POST] c.ecommerce.api.client.RestApiClient - POST request completed. Status: 401, Response time: 35ms
+2025-12-14 23:26:36.772 [TestNG-PoolService-1] INFO  [6cf35ddd-7abf-446b-8878-ebdadaa11f04] [User login with invalid username] [NO_TYPE] HTTP_INTERACTIONS - 
+=== TEST SCENARIO END ===
+Scenario: User login with invalid username
+Status: PASSED
+Duration: 63ms
+Correlation ID: 6cf35ddd-7abf-446b-8878-ebdadaa11f04
+========================
+2025-12-14 23:26:36.772 [TestNG-PoolService-0] INFO  [4187a3e6-3839-4277-b856-4136d7555f91] [Valid user login with correct credentials] [POST] HTTP_INTERACTIONS - 
+=== HTTP REQUEST ===
+Timestamp: 2025-12-14 23:26:36.772
+Correlation ID: 4187a3e6-3839-4277-b856-4136d7555f91
+Method: POST
+Endpoint: /login
+Request Body: {"username":"validuser","password":"[MASKED]"}
+==================
+2025-12-14 23:26:36.774 [TestNG-PoolService-1] DEBUG [NO_ID] [NO_SCENARIO] [NO_TYPE] c.ecommerce.api.client.RestApiClient - REST API client state reset
+2025-12-14 23:26:36.775 [TestNG-PoolService-1] DEBUG [NO_ID] [NO_SCENARIO] [NO_TYPE] c.ecommerce.api.client.RestApiClient - REST API client state reset
+2025-12-14 23:26:36.817 [TestNG-PoolService-0] INFO  [4187a3e6-3839-4277-b856-4136d7555f91] [Valid user login with correct credentials] [POST] HTTP_INTERACTIONS - 
+=== HTTP RESPONSE ===
+Timestamp: 2025-12-14 23:26:36.817
+Correlation ID: 4187a3e6-3839-4277-b856-4136d7555f91
+Endpoint: /login
+Status Code: 200
+Status Line: HTTP/1.1 200 OK
+Response Time: 33ms
+Response Headers:
+  X-Powered-By: Express
+  Access-Control-Allow-Origin: *
+  Content-Type: application/json; charset=utf-8
+  Content-Length: 188
+  ETag: W/"bc-lum/9hW5Il9Z1/zA/t4p+ONtwYQ"
+  Date: Sun, 14 Dec 2025 17:56:36 GMT
+  Connection: keep-alive
+  Keep-Alive: timeout=5
+Response Body: {"data":{"_id":"693ef718c69e3985e576c207","firstname":"Test","lastname":"User","username":"validuser","email":"validuser@test.com","password":"[MASKED]","phone":"+1234567890","__v":0}}
+====================
+2025-12-14 23:26:36.818 [TestNG-PoolService-0] INFO  [4187a3e6-3839-4277-b856-4136d7555f91] [Valid user login with correct credentials] [POST] c.ecommerce.api.client.RestApiClient - POST request completed. Status: 200, Response time: 33ms
+2025-12-14 23:26:36.822 [TestNG-PoolService-0] INFO  [4187a3e6-3839-4277-b856-4136d7555f91] [Valid user login with correct credentials] [NO_TYPE] HTTP_INTERACTIONS - 
+=== TEST SCENARIO END ===
+Scenario: Valid user login with correct credentials
+Status: FAILED
+Duration: 167ms
+Correlation ID: 4187a3e6-3839-4277-b856-4136d7555f91
+========================
+2025-12-14 23:26:36.824 [TestNG-PoolService-0] DEBUG [NO_ID] [NO_SCENARIO] [NO_TYPE] c.ecommerce.api.client.RestApiClient - REST API client state reset
+2025-12-14 23:26:36.824 [TestNG-PoolService-0] DEBUG [NO_ID] [NO_SCENARIO] [NO_TYPE] c.ecommerce.api.client.RestApiClient - REST API client state reset
+2025-12-14 23:26:37.462 [TestNG-PoolService-2] INFO  [47c18c6f-b18d-4422-a7db-41567fb22ebe] [Valid user registration with unique username] [NO_TYPE] HTTP_INTERACTIONS - Validation FAILED - Type: JSON Path: username, Expected: test_user_1_996331, Actual: null, Correlation ID: 47c18c6f-b18d-4422-a7db-41567fb22ebe
+2025-12-14 23:26:37.462 [TestNG-PoolService-2] ERROR [47c18c6f-b18d-4422-a7db-41567fb22ebe] [Valid user registration with unique username] [NO_TYPE] c.ecommerce.api.client.RestApiClient - JSON validation failed for path 'username'. Expected: test_user_1_996331, Actual: null
+2025-12-14 23:26:37.471 [TestNG-PoolService-2] INFO  [47c18c6f-b18d-4422-a7db-41567fb22ebe] [Valid user registration with unique username] [NO_TYPE] HTTP_INTERACTIONS - 
+=== TEST SCENARIO END ===
+Scenario: Valid user registration with unique username
+Status: PASSED
+Duration: 1151ms
+Correlation ID: 47c18c6f-b18d-4422-a7db-41567fb22ebe
+========================
+2025-12-14 23:26:37.472 [TestNG-PoolService-2] DEBUG [NO_ID] [NO_SCENARIO] [NO_TYPE] c.ecommerce.api.client.RestApiClient - REST API client state reset
+2025-12-14 23:26:37.473 [TestNG-PoolService-2] DEBUG [NO_ID] [NO_SCENARIO] [NO_TYPE] c.ecommerce.api.client.RestApiClient - REST API client state reset
+2025-12-14 23:27:04.524 [TestNG-test=Surefire test-1] INFO  [NO_ID] [NO_SCENARIO] [NO_TYPE] c.ecommerce.api.client.RestApiClient - REST Assured configured with base URI: http://localhost:8000
+2025-12-14 23:27:04.544 [TestNG-test=Surefire test-3] DEBUG [NO_ID] [NO_SCENARIO] [NO_TYPE] c.ecommerce.api.client.RestApiClient - REST API client state reset
+2025-12-14 23:27:04.545 [TestNG-test=Surefire test-3] ERROR [NO_ID] [NO_SCENARIO] [NO_TYPE] c.ecommerce.api.client.RestApiClient - No response available for data extraction
+2025-12-14 23:27:04.545 [TestNG-test=Surefire test-2] DEBUG [NO_ID] [NO_SCENARIO] [NO_TYPE] c.ecommerce.api.client.RestApiClient - REST API client state reset
+2025-12-14 23:27:04.547 [TestNG-test=Surefire test-2] ERROR [NO_ID] [NO_SCENARIO] [NO_TYPE] c.ecommerce.api.client.RestApiClient - No response available for data extraction
+2025-12-14 23:27:04.556 [TestNG-test=Surefire test-3] DEBUG [NO_ID] [NO_SCENARIO] [NO_TYPE] c.ecommerce.api.client.RestApiClient - REST API client state reset
+2025-12-14 23:27:04.557 [TestNG-test=Surefire test-1] DEBUG [NO_ID] [NO_SCENARIO] [NO_TYPE] c.ecommerce.api.client.RestApiClient - REST API client state reset
+2025-12-14 23:27:04.558 [TestNG-test=Surefire test-3] DEBUG [NO_ID] [NO_SCENARIO] [NO_TYPE] c.ecommerce.api.client.RestApiClient - REST API client state reset
+2025-12-14 23:27:04.558 [TestNG-test=Surefire test-3] ERROR [NO_ID] [NO_SCENARIO] [NO_TYPE] c.ecommerce.api.client.RestApiClient - No response available to get body
+2025-12-14 23:27:04.558 [TestNG-test=Surefire test-1] ERROR [NO_ID] [NO_SCENARIO] [NO_TYPE] c.ecommerce.api.client.RestApiClient - No response available to deserialize
+2025-12-14 23:27:04.559 [TestNG-test=Surefire test-2] DEBUG [NO_ID] [NO_SCENARIO] [NO_TYPE] c.ecommerce.api.client.RestApiClient - REST API client state reset
+2025-12-14 23:27:04.560 [TestNG-test=Surefire test-3] DEBUG [NO_ID] [NO_SCENARIO] [NO_TYPE] c.ecommerce.api.client.RestApiClient - REST API client state reset
+2025-12-14 23:27:04.561 [TestNG-test=Surefire test-1] DEBUG [NO_ID] [NO_SCENARIO] [NO_TYPE] c.ecommerce.api.client.RestApiClient - REST API client state reset
+2025-12-14 23:27:04.561 [TestNG-test=Surefire test-2] DEBUG [NO_ID] [NO_SCENARIO] [NO_TYPE] c.ecommerce.api.client.RestApiClient - REST API client state reset
+2025-12-14 23:27:04.562 [TestNG-test=Surefire test-3] ERROR [NO_ID] [NO_SCENARIO] [NO_TYPE] c.ecommerce.api.client.RestApiClient - No response available to check success status
+2025-12-14 23:27:04.563 [TestNG-test=Surefire test-1] DEBUG [NO_ID] [NO_SCENARIO] [NO_TYPE] c.ecommerce.api.client.RestApiClient - REST API client state reset
+2025-12-14 23:27:04.564 [TestNG-test=Surefire test-1] ERROR [NO_ID] [NO_SCENARIO] [NO_TYPE] c.ecommerce.api.client.RestApiClient - No response available for JSON validation
+2025-12-14 23:27:04.564 [TestNG-test=Surefire test-2] ERROR [NO_ID] [NO_SCENARIO] [NO_TYPE] c.ecommerce.api.client.RestApiClient - No response available for content type validation
+2025-12-14 23:27:04.570 [TestNG-test=Surefire test-2] DEBUG [NO_ID] [NO_SCENARIO] [NO_TYPE] c.ecommerce.api.client.RestApiClient - REST API client state reset
+2025-12-14 23:27:04.570 [TestNG-test=Surefire test-2] ERROR [NO_ID] [NO_SCENARIO] [NO_TYPE] c.ecommerce.api.client.RestApiClient - No response available for status code validation
+2025-12-14 23:27:04.594 [TestNG-test=Surefire test-1] DEBUG [NO_ID] [NO_SCENARIO] [NO_TYPE] c.ecommerce.api.client.RestApiClient - REST API client state reset
+2025-12-14 23:27:04.596 [TestNG-test=Surefire test-1] ERROR [NO_ID] [NO_SCENARIO] [NO_TYPE] c.ecommerce.api.client.RestApiClient - No response available for response time validation

@@ -1,0 +1,182 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="Cucumber" time="5.015" tests="7" skipped="0" failures="4" errors="0">
+<testcase classname="Product Catalog API" name="Get product by valid ID successfully" time="2.662">
+<failure type="io.restassured.path.json.exception.JsonPathException" message="Failed to parse the JSON document">
+<![CDATA[io.restassured.path.json.exception.JsonPathException: Failed to parse the JSON document
+	at io.restassured.path.json.JsonPath$ExceptionCatcher.invoke(JsonPath.java:1002)
+	at io.restassured.path.json.JsonPath$4.doParseWith(JsonPath.java:967)
+	at io.restassured.path.json.JsonPath$JsonParser.parseWith(JsonPath.java:1047)
+	at io.restassured.path.json.JsonPath.get(JsonPath.java:202)
+	at io.restassured.path.json.JsonPath.getMap(JsonPath.java:420)
+	at com.ecommerce.api.stepdefinitions.ProductApiSteps.theResponseShouldContainExactProductJsonDetailsMatchingTheId(ProductApiSteps.java:321)
+	at ✽.the response should contain exact product JSON details matching the ID(file:///C:/Users/SIC/Desktop/Automation%20Of%20Shopnest/Shopnest/src/test/resources/features/product_catalog.feature:24)
+Caused by: groovy.json.JsonException: A JSON payload should start with an openning curly brace '{' or an openning square bracket '['.
+Instead, 'null' was found on line: 1, column: 1
+	at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:62)
+	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:483)
+	at org.codehaus.groovy.reflection.CachedConstructor.invoke(CachedConstructor.java:73)
+	at org.codehaus.groovy.runtime.callsite.ConstructorSite$ConstructorSiteNoUnwrapNoCoerce.callConstructor(ConstructorSite.java:108)
+	at org.codehaus.groovy.runtime.callsite.CallSiteArray.defaultCallConstructor(CallSiteArray.java:57)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.callConstructor(AbstractCallSite.java:263)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.callConstructor(AbstractCallSite.java:277)
+	at io.restassured.internal.path.json.ConfigurableJsonSlurper.parse(ConfigurableJsonSlurper.groovy:114)
+	at io.restassured.internal.path.json.ConfigurableJsonSlurper$parse.callCurrent(Unknown Source)
+	at org.codehaus.groovy.runtime.callsite.CallSiteArray.defaultCallCurrent(CallSiteArray.java:49)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.callCurrent(AbstractCallSite.java:171)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.callCurrent(AbstractCallSite.java:185)
+	at io.restassured.internal.path.json.ConfigurableJsonSlurper.parseText(ConfigurableJsonSlurper.groovy:83)
+	at io.restassured.path.json.JsonPath$4$1.method(JsonPath.java:965)
+	at io.restassured.path.json.JsonPath$ExceptionCatcher.invoke(JsonPath.java:1000)
+	at io.restassured.path.json.JsonPath$4.doParseWith(JsonPath.java:967)
+	at io.restassured.path.json.JsonPath$JsonParser.parseWith(JsonPath.java:1047)
+	at io.restassured.path.json.JsonPath.get(JsonPath.java:202)
+	at io.restassured.path.json.JsonPath.getMap(JsonPath.java:420)
+	at com.ecommerce.api.stepdefinitions.ProductApiSteps.theResponseShouldContainExactProductJsonDetailsMatchingTheId(ProductApiSteps.java:321)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:565)
+	at io.cucumber.java.Invoker.doInvoke(Invoker.java:66)
+	at io.cucumber.java.Invoker.invoke(Invoker.java:24)
+	at io.cucumber.java.AbstractGlueDefinition.invokeMethod(AbstractGlueDefinition.java:47)
+	at io.cucumber.java.JavaStepDefinition.execute(JavaStepDefinition.java:29)
+	at io.cucumber.core.runner.CoreStepDefinition.execute(CoreStepDefinition.java:66)
+	at io.cucumber.core.runner.PickleStepDefinitionMatch.runStep(PickleStepDefinitionMatch.java:63)
+	at io.cucumber.core.runner.ExecutionMode$1.execute(ExecutionMode.java:10)
+	at io.cucumber.core.runner.TestStep.executeStep(TestStep.java:84)
+	at io.cucumber.core.runner.TestStep.run(TestStep.java:56)
+	at io.cucumber.core.runner.PickleStepTestStep.run(PickleStepTestStep.java:51)
+	at io.cucumber.core.runner.TestCase.run(TestCase.java:84)
+	at io.cucumber.core.runner.Runner.runPickle(Runner.java:75)
+	at io.cucumber.testng.TestNGCucumberRunner.lambda$runScenario$1(TestNGCucumberRunner.java:132)
+	at io.cucumber.core.runtime.CucumberExecutionContext.lambda$runTestCase$5(CucumberExecutionContext.java:137)
+	at io.cucumber.core.runtime.RethrowingThrowableCollector.executeAndThrow(RethrowingThrowableCollector.java:23)
+	at io.cucumber.core.runtime.CucumberExecutionContext.runTestCase(CucumberExecutionContext.java:137)
+	at io.cucumber.testng.TestNGCucumberRunner.runScenario(TestNGCucumberRunner.java:129)
+	at io.cucumber.testng.AbstractTestNGCucumberTests.runScenario(AbstractTestNGCucumberTests.java:35)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:565)
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:664)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:227)
+	at org.testng.internal.invokers.TestMethodWithDataProviderMethodWorker.call(TestMethodWithDataProviderMethodWorker.java:80)
+	at org.testng.internal.invokers.TestMethodWithDataProviderMethodWorker.call(TestMethodWithDataProviderMethodWorker.java:17)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:328)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:545)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:328)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1095)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:619)
+	at java.base/java.lang.Thread.run(Thread.java:1447)
+]]>
+</failure>
+<system-out><![CDATA[
+Given the API base URL is configured........................................passed
+And the test environment is ready...........................................passed
+Given a product exists with ID "507f1f77bcf86cd799439011"...................passed
+When I send a GET request to "/product/507f1f77bcf86cd799439011"............passed
+Then the response status code should be 200.................................passed
+And the response should contain exact product JSON details matching the ID..failed
+And the response JSON should have proper structure and data types...........skipped
+And the product data should be consistent with the products list............skipped
+]]></system-out>
+</testcase>
+<testcase classname="Product Catalog API" name="Get product by invalid ID returns error" time="2.535">
+<failure type="java.lang.AssertionError" message="Expected status code 404 but got 200 expected [404] but found [200]">
+<![CDATA[java.lang.AssertionError: Expected status code 404 but got 200 expected [404] but found [200]
+	at org.testng.Assert.fail(Assert.java:111)
+	at org.testng.Assert.failNotEquals(Assert.java:1578)
+	at org.testng.Assert.assertEqualsImpl(Assert.java:150)
+	at org.testng.Assert.assertEquals(Assert.java:132)
+	at org.testng.Assert.assertEquals(Assert.java:1419)
+	at org.testng.Assert.assertEquals(Assert.java:1383)
+	at com.ecommerce.api.stepdefinitions.CommonSteps.theResponseStatusCodeShouldBe(CommonSteps.java:55)
+	at ✽.the response status code should be 404(file:///C:/Users/SIC/Desktop/Automation%20Of%20Shopnest/Shopnest/src/test/resources/features/product_catalog.feature:31)
+]]>
+</failure>
+<system-out><![CDATA[
+Given the API base URL is configured........................................passed
+And the test environment is ready...........................................passed
+When I send a GET request to "/product/invalid-product-id-123"..............passed
+Then the response status code should be 404.................................failed
+And the response should contain appropriate HTTP error status...............skipped
+And the response should contain error JSON message..........................skipped
+And the error message should indicate product not found.....................skipped
+]]></system-out>
+</testcase>
+<testcase classname="Product Catalog API" name="Get all products successfully" time="3.226">
+<failure type="java.lang.AssertionError" message="Product at index 0 missing required field: category expected [true] but found [false]">
+<![CDATA[java.lang.AssertionError: Product at index 0 missing required field: category expected [true] but found [false]
+	at org.testng.Assert.fail(Assert.java:111)
+	at org.testng.Assert.failNotEquals(Assert.java:1578)
+	at org.testng.Assert.assertTrue(Assert.java:57)
+	at com.ecommerce.api.stepdefinitions.ProductApiSteps.theResponseShouldContainCompleteProductListWithAllRequiredFields(ProductApiSteps.java:279)
+	at ✽.the response should contain complete product list with all required fields(file:///C:/Users/SIC/Desktop/Automation%20Of%20Shopnest/Shopnest/src/test/resources/features/product_catalog.feature:15)
+]]>
+</failure>
+<system-out><![CDATA[
+Given the API base URL is configured........................................passed
+And the test environment is ready...........................................passed
+When I send a GET request to "/products"....................................passed
+Then the response status code should be 200.................................passed
+And the response should be a valid JSON array...............................passed
+And the response should contain complete product list with all required fields.failed
+And the response should have proper HTTP headers and content-type...........skipped
+And each product should have id, title, description, price, and category fields.skipped
+]]></system-out>
+</testcase>
+<testcase classname="User Authentication API" name="Valid user registration with unique username" time="1.18">
+<system-out><![CDATA[
+Given the API base URL is configured........................................passed
+And the test environment is ready...........................................passed
+Given I have valid user registration data...................................passed
+When I send a POST request to "/signup" with the user data..................passed
+Then the response status code should be 200.................................passed
+And the response should contain success message.............................passed
+And the response should contain user data with proper structure.............passed
+And the user should be created successfully.................................passed
+]]></system-out>
+</testcase>
+<testcase classname="User Authentication API" name="User registration with duplicate username" time="0.295">
+<system-out><![CDATA[
+Given the API base URL is configured........................................passed
+And the test environment is ready...........................................passed
+Given a user already exists with username "testuser123".....................passed
+And I have registration data with username "testuser123"....................passed
+When I send a POST request to "/signup" with the duplicate username data....passed
+Then the response status code should be 401.................................passed
+And the response should contain error message about duplicate username......passed
+And no new user should be created...........................................passed
+]]></system-out>
+</testcase>
+<testcase classname="User Authentication API" name="Valid user login with correct credentials" time="0.173">
+<failure type="java.lang.AssertionError" message="Response does not contain authentication data: {&quot;data&quot;:{&quot;_id&quot;:&quot;693ef718c69e3985e576c207&quot;,&quot;firstname&quot;:&quot;Test&quot;,&quot;lastname&quot;:&quot;User&quot;,&quot;username&quot;:&quot;validuser&quot;,&quot;email&quot;:&quot;validuser@test.com&quot;,&quot;password&quot;:&quot;validpass123&quot;,&quot;phone&quot;:&quot;+1234567890&quot;,&quot;__v&quot;:0}} expected [true] but found [false]">
+<![CDATA[java.lang.AssertionError: Response does not contain authentication data: {"data":{"_id":"693ef718c69e3985e576c207","firstname":"Test","lastname":"User","username":"validuser","email":"validuser@test.com","password":"validpass123","phone":"+1234567890","__v":0}} expected [true] but found [false]
+	at org.testng.Assert.fail(Assert.java:111)
+	at org.testng.Assert.failNotEquals(Assert.java:1578)
+	at org.testng.Assert.assertTrue(Assert.java:57)
+	at com.ecommerce.api.stepdefinitions.UserApiSteps.theResponseShouldIncludeAuthenticationTokenOrSessionData(UserApiSteps.java:439)
+	at ✽.the response should include authentication token or session data(file:///C:/Users/SIC/Desktop/Automation%20Of%20Shopnest/Shopnest/src/test/resources/features/user_authentication.feature:58)
+]]>
+</failure>
+<system-out><![CDATA[
+Given the API base URL is configured........................................passed
+And the test environment is ready...........................................passed
+Given a user exists with username "validuser" and password "validpass123"...passed
+And I have valid login credentials for username "validuser" and password "validpass123".passed
+When I send a POST request to "/login" with the valid credentials...........passed
+Then the response status code should be 200.................................passed
+And the response should contain user data JSON..............................passed
+And the response should include authentication token or session data........failed
+]]></system-out>
+</testcase>
+<testcase classname="User Authentication API" name="User login with invalid username" time="0.075">
+<system-out><![CDATA[
+Given the API base URL is configured........................................passed
+And the test environment is ready...........................................passed
+Given I have login credentials with username "nonexistentuser" and password "anypassword".passed
+When I send a POST request to "/login" with the invalid username............passed
+Then the response status code should be 401.................................passed
+And the response should contain error message about invalid credentials.....passed
+And no authentication token should be provided..............................passed
+]]></system-out>
+</testcase>
+</testsuite>

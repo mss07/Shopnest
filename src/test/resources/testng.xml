@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="API Automation Test Suite" parallel="methods" thread-count="3" verbose="1">
+    
+    <parameter name="environment" value="dev"/>
+    <parameter name="baseUrl" value="http://localhost:8000"/>
+    
+    <!-- Listeners for enhanced reporting -->
+    <listeners>
+        <listener class-name="com.aventstack.extentreports.testng.listener.ExtentITestListenerAdapter"/>
+    </listeners>
+    
+    <!-- Test groups for different test categories -->
+    <test name="Smoke Tests" preserve-order="true">
+        <groups>
+            <run>
+                <include name="smoke"/>
+            </run>
+        </groups>
+        <classes>
+            <class name="com.ecommerce.api.runners.CucumberTestRunner"/>
+        </classes>
+    </test>
+    
+    <test name="Regression Tests" preserve-order="true">
+        <groups>
+            <run>
+                <include name="regression"/>
+            </run>
+        </groups>
+        <classes>
+            <class name="com.ecommerce.api.runners.CucumberTestRunner"/>
+        </classes>
+    </test>
+    
+    <test name="All Tests" preserve-order="true">
+        <classes>
+            <class name="com.ecommerce.api.runners.CucumberTestRunner"/>
+        </classes>
+    </test>
+    
+</suite>

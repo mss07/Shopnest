@@ -1,0 +1,326 @@
+<html>
+<head>
+<title>TestNG:  Surefire test</title>
+<link href="../testng.css" rel="stylesheet" type="text/css" />
+<link href="../my-testng.css" rel="stylesheet" type="text/css" />
+
+<style type="text/css">
+.log { display: none;} 
+.stack-trace { display: none;} 
+</style>
+<script type="text/javascript">
+<!--
+function flip(e) {
+  current = e.style.display;
+  if (current == 'block') {
+    e.style.display = 'none';
+    return 0;
+  }
+  else {
+    e.style.display = 'block';
+    return 1;
+  }
+}
+
+function toggleBox(szDivId, elem, msg1, msg2)
+{
+  var res = -1;  if (document.getElementById) {
+    res = flip(document.getElementById(szDivId));
+  }
+  else if (document.all) {
+    // this is the way old msie versions work
+    res = flip(document.all[szDivId]);
+  }
+  if(elem) {
+    if(res == 0) elem.innerHTML = msg1; else elem.innerHTML = msg2;
+  }
+
+}
+
+function toggleAllBoxes() {
+  if (document.getElementsByTagName) {
+    d = document.getElementsByTagName('div');
+    for (i = 0; i < d.length; i++) {
+      if (d[i].className == 'log') {
+        flip(d[i]);
+      }
+    }
+  }
+}
+
+// -->
+</script>
+
+</head>
+<body>
+<h2 align='center'>Surefire test</h2><table border='1' align="center">
+<tr>
+<td>Tests passed/Failed/Skipped:</td><td>30/2/0</td>
+</tr><tr>
+<td>Started on:</td><td>Sun Dec 14 23:27:03 IST 2025</td>
+</tr>
+<tr><td>Total time:</td><td>0 seconds (844 ms)</td>
+</tr><tr>
+<td>Included groups:</td><td></td>
+</tr><tr>
+<td>Excluded groups:</td><td></td>
+</tr>
+</table><p/>
+<small><i>(Hover the method name to see the test class name)</i></small><p/>
+<table width='100%' border='1' class='invocation-failed'>
+<tr><td colspan='4' align='center'><b>FAILED TESTS</b></td></tr>
+<tr><td><b>Test method</b></td>
+<td><b>Attribute(s)</b></td>
+<td width="30%"><b>Exception</b></td>
+<td width="10%"><b>Time (seconds)</b></td>
+<td><b>Instance</b></td>
+</tr>
+<tr>
+<td title='com.ecommerce.api.utils.TestDataManagerTest.testTestDataStatistics()'><b>testTestDataStatistics</b><br>Test class: com.ecommerce.api.utils.TestDataManagerTest</td>
+<td><div><pre>java.lang.AssertionError: Should have correct total user count expected [5] but found [3]
+	at com.ecommerce.api.utils.TestDataManagerTest.testTestDataStatistics(TestDataManagerTest.java:156)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1095)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:619)
+	at java.base/java.lang.Thread.run(Thread.java:1447)
+... Removed 16 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace691969054", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace691969054'><pre>java.lang.AssertionError: Should have correct total user count expected [5] but found [3]
+	at org.testng.Assert.fail(Assert.java:111)
+	at org.testng.Assert.failNotEquals(Assert.java:1578)
+	at org.testng.Assert.assertEqualsImpl(Assert.java:150)
+	at org.testng.Assert.assertEquals(Assert.java:132)
+	at org.testng.Assert.assertEquals(Assert.java:1419)
+	at org.testng.Assert.assertEquals(Assert.java:1383)
+	at com.ecommerce.api.utils.TestDataManagerTest.testTestDataStatistics(TestDataManagerTest.java:156)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:565)
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:664)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:227)
+	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
+	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:957)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:200)
+	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
+	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1095)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:619)
+	at java.base/java.lang.Thread.run(Thread.java:1447)
+</pre></div></td>
+<td>0</td>
+<td>com.ecommerce.api.utils.TestDataManagerTest@17fc391b</td></tr>
+<tr>
+<td title='com.ecommerce.api.utils.TestDataManagerTest.testTestSessionManagement()'><b>testTestSessionManagement</b><br>Test class: com.ecommerce.api.utils.TestDataManagerTest</td>
+<td><div><pre>java.lang.AssertionError: Should retrieve correct number of users for session expected [3] but found [0]
+	at com.ecommerce.api.utils.TestDataManagerTest.testTestSessionManagement(TestDataManagerTest.java:118)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1095)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:619)
+	at java.base/java.lang.Thread.run(Thread.java:1447)
+... Removed 16 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace354344662", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace354344662'><pre>java.lang.AssertionError: Should retrieve correct number of users for session expected [3] but found [0]
+	at org.testng.Assert.fail(Assert.java:111)
+	at org.testng.Assert.failNotEquals(Assert.java:1578)
+	at org.testng.Assert.assertEqualsImpl(Assert.java:150)
+	at org.testng.Assert.assertEquals(Assert.java:132)
+	at org.testng.Assert.assertEquals(Assert.java:1419)
+	at org.testng.Assert.assertEquals(Assert.java:1383)
+	at com.ecommerce.api.utils.TestDataManagerTest.testTestSessionManagement(TestDataManagerTest.java:118)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:565)
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:664)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:227)
+	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
+	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:957)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:200)
+	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
+	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1095)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:619)
+	at java.base/java.lang.Thread.run(Thread.java:1447)
+</pre></div></td>
+<td>0</td>
+<td>com.ecommerce.api.utils.TestDataManagerTest@17fc391b</td></tr>
+</table><p>
+<table width='100%' border='1' class='invocation-passed'>
+<tr><td colspan='4' align='center'><b>PASSED TESTS</b></td></tr>
+<tr><td><b>Test method</b></td>
+<td><b>Attribute(s)</b></td>
+<td width="30%"><b>Exception</b></td>
+<td width="10%"><b>Time (seconds)</b></td>
+<td><b>Instance</b></td>
+</tr>
+<tr>
+<td title='com.ecommerce.api.config.ConfigurationManagerTest.testApiEndpoints()'><b>testApiEndpoints</b><br>Test class: com.ecommerce.api.config.ConfigurationManagerTest</td>
+<td></td>
+<td>0</td>
+<td>com.ecommerce.api.config.ConfigurationManagerTest@4082ba93</td></tr>
+<tr>
+<td title='com.ecommerce.api.client.RestApiClientTest.testIsResponseSuccessfulWithoutResponse()'><b>testIsResponseSuccessfulWithoutResponse</b><br>Test class: com.ecommerce.api.client.RestApiClientTest</td>
+<td></td>
+<td>0</td>
+<td>com.ecommerce.api.client.RestApiClientTest@7188af83</td></tr>
+<tr>
+<td title='com.ecommerce.api.client.RestApiClientTest.testValidateResponseTimeWithoutResponse()'><b>testValidateResponseTimeWithoutResponse</b><br>Test class: com.ecommerce.api.client.RestApiClientTest</td>
+<td></td>
+<td>0</td>
+<td>com.ecommerce.api.client.RestApiClientTest@7188af83</td></tr>
+<tr>
+<td title='com.ecommerce.api.client.RestApiClientTest.testGetLastResponseInitiallyNull()'><b>testGetLastResponseInitiallyNull</b><br>Test class: com.ecommerce.api.client.RestApiClientTest</td>
+<td></td>
+<td>0</td>
+<td>com.ecommerce.api.client.RestApiClientTest@7188af83</td></tr>
+<tr>
+<td title='com.ecommerce.api.config.ConfigurationManagerTest.testSingletonInstance()'><b>testSingletonInstance</b><br>Test class: com.ecommerce.api.config.ConfigurationManagerTest</td>
+<td></td>
+<td>0</td>
+<td>com.ecommerce.api.config.ConfigurationManagerTest@4082ba93</td></tr>
+<tr>
+<td title='com.ecommerce.api.utils.TestDataManagerTest.testCreateTestUserWithSpecificUsername()'><b>testCreateTestUserWithSpecificUsername</b><br>Test class: com.ecommerce.api.utils.TestDataManagerTest</td>
+<td></td>
+<td>0</td>
+<td>com.ecommerce.api.utils.TestDataManagerTest@17fc391b</td></tr>
+<tr>
+<td title='com.ecommerce.api.client.RestApiClientTest.testValidateStatusCodeWithoutResponse()'><b>testValidateStatusCodeWithoutResponse</b><br>Test class: com.ecommerce.api.client.RestApiClientTest</td>
+<td></td>
+<td>0</td>
+<td>com.ecommerce.api.client.RestApiClientTest@7188af83</td></tr>
+<tr>
+<td title='com.ecommerce.api.utils.TestDataManagerTest.testCreateMultipleUniqueUsers()'><b>testCreateMultipleUniqueUsers</b><br>Test class: com.ecommerce.api.utils.TestDataManagerTest</td>
+<td></td>
+<td>0</td>
+<td>com.ecommerce.api.utils.TestDataManagerTest@17fc391b</td></tr>
+<tr>
+<td title='com.ecommerce.api.utils.TestDataManagerTest.testTestUserValidation()'><b>testTestUserValidation</b><br>Test class: com.ecommerce.api.utils.TestDataManagerTest</td>
+<td></td>
+<td>0</td>
+<td>com.ecommerce.api.utils.TestDataManagerTest@17fc391b</td></tr>
+<tr>
+<td title='com.ecommerce.api.config.ConfigurationManagerTest.testInvalidEnvironment()'><b>testInvalidEnvironment</b><br>Test class: com.ecommerce.api.config.ConfigurationManagerTest</td>
+<td><div><pre>java.lang.IllegalArgumentException: Invalid environment: invalid_env. Valid environments are: dev, test, staging
+	at com.ecommerce.api.config.ConfigurationManager.setEnvironment(ConfigurationManager.java:261)
+	at com.ecommerce.api.config.ConfigurationManagerTest.testInvalidEnvironment(ConfigurationManagerTest.java:102)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1095)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:619)
+	at java.base/java.lang.Thread.run(Thread.java:1447)
+... Removed 10 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace1979478438", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace1979478438'><pre>java.lang.IllegalArgumentException: Invalid environment: invalid_env. Valid environments are: dev, test, staging
+	at com.ecommerce.api.config.ConfigurationManager.setEnvironment(ConfigurationManager.java:261)
+	at com.ecommerce.api.config.ConfigurationManagerTest.testInvalidEnvironment(ConfigurationManagerTest.java:102)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:565)
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:664)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:227)
+	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
+	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:957)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:200)
+	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
+	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1095)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:619)
+	at java.base/java.lang.Thread.run(Thread.java:1447)
+</pre></div></td>
+<td>0</td>
+<td>com.ecommerce.api.config.ConfigurationManagerTest@4082ba93</td></tr>
+<tr>
+<td title='com.ecommerce.api.config.ConfigurationManagerTest.testEnvironmentValidation()'><b>testEnvironmentValidation</b><br>Test class: com.ecommerce.api.config.ConfigurationManagerTest</td>
+<td></td>
+<td>0</td>
+<td>com.ecommerce.api.config.ConfigurationManagerTest@4082ba93</td></tr>
+<tr>
+<td title='com.ecommerce.api.client.RestApiClientTest.testGetResponseBodyAsWithoutResponse()'><b>testGetResponseBodyAsWithoutResponse</b><br>Test class: com.ecommerce.api.client.RestApiClientTest</td>
+<td></td>
+<td>0</td>
+<td>com.ecommerce.api.client.RestApiClientTest@7188af83</td></tr>
+<tr>
+<td title='com.ecommerce.api.config.ConfigurationManagerTest.testConfigurationHelper()'><b>testConfigurationHelper</b><br>Test class: com.ecommerce.api.config.ConfigurationManagerTest</td>
+<td></td>
+<td>0</td>
+<td>com.ecommerce.api.config.ConfigurationManagerTest@4082ba93</td></tr>
+<tr>
+<td title='com.ecommerce.api.utils.TestDataManagerTest.testUserCredentialsCreation()'><b>testUserCredentialsCreation</b><br>Test class: com.ecommerce.api.utils.TestDataManagerTest</td>
+<td></td>
+<td>0</td>
+<td>com.ecommerce.api.utils.TestDataManagerTest@17fc391b</td></tr>
+<tr>
+<td title='com.ecommerce.api.utils.TestDataManagerTest.testCreateUniqueTestUser()'><b>testCreateUniqueTestUser</b><br>Test class: com.ecommerce.api.utils.TestDataManagerTest</td>
+<td></td>
+<td>0</td>
+<td>com.ecommerce.api.utils.TestDataManagerTest@17fc391b</td></tr>
+<tr>
+<td title='com.ecommerce.api.client.RestApiClientTest.testValidateContentTypeWithoutResponse()'><b>testValidateContentTypeWithoutResponse</b><br>Test class: com.ecommerce.api.client.RestApiClientTest</td>
+<td></td>
+<td>0</td>
+<td>com.ecommerce.api.client.RestApiClientTest@7188af83</td></tr>
+<tr>
+<td title='com.ecommerce.api.config.ConfigurationManagerTest.testDefaultEnvironmentLoading()'><b>testDefaultEnvironmentLoading</b><br>Test class: com.ecommerce.api.config.ConfigurationManagerTest</td>
+<td></td>
+<td>0</td>
+<td>com.ecommerce.api.config.ConfigurationManagerTest@4082ba93</td></tr>
+<tr>
+<td title='com.ecommerce.api.client.RestApiClientTest.testResetFunctionality()'><b>testResetFunctionality</b><br>Test class: com.ecommerce.api.client.RestApiClientTest</td>
+<td></td>
+<td>0</td>
+<td>com.ecommerce.api.client.RestApiClientTest@7188af83</td></tr>
+<tr>
+<td title='com.ecommerce.api.client.RestApiClientTest.testGetErrorDetailsWithoutResponse()'><b>testGetErrorDetailsWithoutResponse</b><br>Test class: com.ecommerce.api.client.RestApiClientTest</td>
+<td></td>
+<td>0</td>
+<td>com.ecommerce.api.client.RestApiClientTest@7188af83</td></tr>
+<tr>
+<td title='com.ecommerce.api.config.ConfigurationManagerTest.testPropertyWithDefaultValue()'><b>testPropertyWithDefaultValue</b><br>Test class: com.ecommerce.api.config.ConfigurationManagerTest</td>
+<td></td>
+<td>0</td>
+<td>com.ecommerce.api.config.ConfigurationManagerTest@4082ba93</td></tr>
+<tr>
+<td title='com.ecommerce.api.client.RestApiClientTest.testGetResponseBodyWithoutResponse()'><b>testGetResponseBodyWithoutResponse</b><br>Test class: com.ecommerce.api.client.RestApiClientTest</td>
+<td></td>
+<td>0</td>
+<td>com.ecommerce.api.client.RestApiClientTest@7188af83</td></tr>
+<tr>
+<td title='com.ecommerce.api.client.RestApiClientTest.testClientInitialization()'><b>testClientInitialization</b><br>Test class: com.ecommerce.api.client.RestApiClientTest</td>
+<td></td>
+<td>0</td>
+<td>com.ecommerce.api.client.RestApiClientTest@7188af83</td></tr>
+<tr>
+<td title='com.ecommerce.api.client.RestApiClientTest.testExtractResponseDataWithTypeWithoutResponse()'><b>testExtractResponseDataWithTypeWithoutResponse</b><br>Test class: com.ecommerce.api.client.RestApiClientTest</td>
+<td></td>
+<td>0</td>
+<td>com.ecommerce.api.client.RestApiClientTest@7188af83</td></tr>
+<tr>
+<td title='com.ecommerce.api.utils.TestDataManagerTest.testUserCleanup()'><b>testUserCleanup</b><br>Test class: com.ecommerce.api.utils.TestDataManagerTest</td>
+<td></td>
+<td>0</td>
+<td>com.ecommerce.api.utils.TestDataManagerTest@17fc391b</td></tr>
+<tr>
+<td title='com.ecommerce.api.config.ConfigurationManagerTest.testConvenienceMethods()'><b>testConvenienceMethods</b><br>Test class: com.ecommerce.api.config.ConfigurationManagerTest</td>
+<td></td>
+<td>0</td>
+<td>com.ecommerce.api.config.ConfigurationManagerTest@4082ba93</td></tr>
+<tr>
+<td title='com.ecommerce.api.client.RestApiClientTest.testExtractResponseDataWithoutResponse()'><b>testExtractResponseDataWithoutResponse</b><br>Test class: com.ecommerce.api.client.RestApiClientTest</td>
+<td></td>
+<td>0</td>
+<td>com.ecommerce.api.client.RestApiClientTest@7188af83</td></tr>
+<tr>
+<td title='com.ecommerce.api.client.RestApiClientTest.testValidateJsonResponseWithoutResponse()'><b>testValidateJsonResponseWithoutResponse</b><br>Test class: com.ecommerce.api.client.RestApiClientTest</td>
+<td></td>
+<td>0</td>
+<td>com.ecommerce.api.client.RestApiClientTest@7188af83</td></tr>
+<tr>
+<td title='com.ecommerce.api.utils.TestDataManagerTest.testGetValidAndInvalidCredentials()'><b>testGetValidAndInvalidCredentials</b><br>Test class: com.ecommerce.api.utils.TestDataManagerTest</td>
+<td></td>
+<td>0</td>
+<td>com.ecommerce.api.utils.TestDataManagerTest@17fc391b</td></tr>
+<tr>
+<td title='com.ecommerce.api.config.ConfigurationManagerTest.testPropertyAccess()'><b>testPropertyAccess</b><br>Test class: com.ecommerce.api.config.ConfigurationManagerTest</td>
+<td></td>
+<td>0</td>
+<td>com.ecommerce.api.config.ConfigurationManagerTest@4082ba93</td></tr>
+<tr>
+<td title='com.ecommerce.api.utils.TestDataManagerTest.testUserCopyMethods()'><b>testUserCopyMethods</b><br>Test class: com.ecommerce.api.utils.TestDataManagerTest</td>
+<td></td>
+<td>0</td>
+<td>com.ecommerce.api.utils.TestDataManagerTest@17fc391b</td></tr>
+</table><p>
+</body>
+</html>
