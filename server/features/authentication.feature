@@ -73,3 +73,25 @@ Feature: Authentication APIs
     When user submits login request with:
       | username | testuser |
     Then response status code should be 401
+
+  Scenario: User signup with invalid email format
+    When user submits signup request with:
+      | firstname | John      |
+      | lastname  | Doe       |
+      | username  | invalidemailuser |
+      | email     | plainaddress       |
+      | password  | password123 |
+      | phone     | 9876543210  |
+    Then response status code should be 500
+    And response message should contain "Please fill a valid email address"
+
+  Scenario: User signup with too short first name
+    When user submits signup request with:
+      | firstname | Jo        |
+      | lastname  | Doe       |
+      | username  | shortnameuser |
+      | email     | short@example.com |
+      | password  | password123 |
+      | phone     | 9876543210  |
+    Then response status code should be 500
+    And response message should contain "is shorter than the minimum allowed length (3)"
