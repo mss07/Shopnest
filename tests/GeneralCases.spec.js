@@ -3,10 +3,13 @@ import { test, expect } from '@playwright/test';
 import { faker } from '@faker-js/faker';
 
 
-test('check ShopNest page title', async ({ page }) => {
-  await page.goto('http://localhost:3000');
+test.beforeEach(async ({ page }) => {
+  await page.goto('http://localhost:3000/');
+});
 
-  // 2. Assert that the tab title is exactly "ShopNest"
+
+test('check ShopNest page title', async ({ page }) => {
+  // Assert that the tab title is exactly "ShopNest"
   await expect(page).toHaveTitle('ShopNest');
 });
 
@@ -18,7 +21,6 @@ const fakeEmail = faker.internet.email();
 const fakePhone = faker.string.numeric('##########'); // 10-digit number
 test('User should be able to create an account', async ({ page }) => {
 
-  await page.goto('http://localhost:3000/');
   await page.getByRole('button', { name: 'Login' }).click();
   await page.getByText('New to flipkart? create').click();
   await page.getByRole('textbox', { name: 'Enter first name' }).fill(fakeFirstName);
@@ -34,7 +36,7 @@ test('User should be able to create an account', async ({ page }) => {
 });
 
 test('User should be able to login with valid email and password', async ({ page }) => {
-  await page.goto('http://localhost:3000/');
+
   await page.getByRole('button', { name: 'Login' }).click();
   await page.getByRole('textbox', { name: 'Enter username' }).fill(`rahul22`);
   await page.getByRole('textbox', { name: 'password' }).fill('12345678');
@@ -44,7 +46,7 @@ test('User should be able to login with valid email and password', async ({ page
 });
 
 test('User should not be able to login with invalid password', async ({ page }) => {
-  await page.goto('http://localhost:3000/');
+
   await page.getByRole('button', { name: 'Login' }).click();
   await page.getByRole('textbox', { name: 'Enter username' }).fill(`rahul22`);
   await page.getByRole('textbox', { name: 'password' }).fill('123456789');
@@ -55,7 +57,6 @@ test('User should not be able to login with invalid password', async ({ page }) 
 
 
 test('User should be able to add items in the cart', async ({ page }) => {
-  await page.goto('http://localhost:3000/');
   await page.getByRole('link', { name: 'Headphones Minimum 50% Off' }).first().click();
   await page.getByRole('button', { name: 'Add to Cart' }).click();
   const itemName = page.getByText('boAt Rockerz 235v2 with ASAP');
